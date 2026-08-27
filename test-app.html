@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test App</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            background: #000; 
+            color: #fff; 
+        }
+        .status { 
+            padding: 10px; 
+            margin: 10px 0; 
+            border-radius: 5px; 
+        }
+        .success { background: #065f46; }
+        .error { background: #7f1d1d; }
+        .info { background: #1e3a8a; }
+    </style>
+</head>
+<body>
+    <h1>Weightlifting App Test</h1>
+    <div id="status"></div>
+    <div id="console"></div>
+    
+    <script>
+        const statusDiv = document.getElementById('status');
+        const consoleDiv = document.getElementById('console');
+        
+        function log(message, type = 'info') {
+            const div = document.createElement('div');
+            div.className = `status ${type}`;
+            div.textContent = message;
+            consoleDiv.appendChild(div);
+            console.log(message);
+        }
+        
+        // Test if the app is accessible
+        fetch('http://localhost:5175/')
+            .then(response => {
+                if (response.ok) {
+                    log('✅ App server is running on localhost:5175', 'success');
+                    return response.text();
+                } else {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+            })
+            .then(html => {
+                if (html.includes('root')) {
+                    log('✅ HTML structure looks correct', 'success');
+                } else {
+                    log('❌ HTML structure issue', 'error');
+                }
+            })
+            .catch(error => {
+                log(`❌ Server error: ${error.message}`, 'error');
+            });
+            
+        // Instructions
+        log('📋 Instructions:', 'info');
+        log('1. Open http://localhost:5175/ in your browser', 'info');
+        log('2. Open browser console (F12)', 'info');
+        log('3. Look for debug messages starting with 🔧, 🔄, ✅, etc.', 'info');
+        log('4. You should see the weightlifting app with dark theme', 'info');
+    </script>
+</body>
+</html>
+
