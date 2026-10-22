@@ -91,6 +91,17 @@ input[type=search] { flex: 1 1 220px; }
 .rec-strip { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 8px 14px 4px; font-size: 13px; color: var(--ink-2); }
 .rec-strip b { color: var(--ink); }
 
+.calbox { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin: 6px 0 12px; }
+.calbox > summary { cursor: pointer; padding: 11px 14px; font-weight: 650; }
+.calbody { padding: 0 14px 12px; }
+.calbody p { margin: 4px 0 10px; }
+.calactions { display: flex; flex-wrap: wrap; gap: 8px; }
+.steps { margin: 12px 0 6px; padding-left: 20px; color: var(--ink-2); font-size: 14px; }
+.steps li { margin-bottom: 4px; }
+.btn { display: inline-block; font: inherit; font-size: 14px; font-weight: 600; text-decoration: none; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.session-cal { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 10px 14px 2px; }
+
 /* tables */
 .table-scroll { overflow-x: auto; }
 table.data { width: 100%; border-collapse: collapse; background: var(--surface); }

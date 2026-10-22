@@ -9,4 +9,6 @@ A readable, searchable version of the official
 - `tools/startbook.txt` — `pdftotext -layout` output of the PDF
 - `tools/parse.py` — regenerates the JSON: `python3 tools/parse.py tools/startbook.txt public/data.json`
 
+- `/calendar.ics` — every session as a calendar event (UTC times); optional filters `sex=Women|Men`, `a=1` (A groups), `nation=USA`, `download=1`
+
 Run: `bun server.ts` (port 4321, override with `PORT`).

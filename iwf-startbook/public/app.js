@@ -100,6 +100,33 @@ function route() {
 
 const natTag = c => `<button class="nat" data-nat="${c}" title="${esc(natName(c))}">${c}</button>`;
 
+// Ningbo is UTC+8 with no DST; Google Calendar links take UTC times and show them in the viewer's zone
+const SESSION_HOURS = 2;
+function sessionUTC(g) {
+  const [d, m, y] = g.date.split(".").map(Number), [hh, mm] = g.time.split(":").map(Number);
+  return new Date(Date.UTC(y, m - 1, d, hh - 8, mm));
+}
+const gcalStamp = t => t.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+function gcalLink(g) {
+  const start = sessionUTC(g), end = new Date(start.getTime() + SESSION_HOURS * 3600e3);
+  const details = [`Start ${g.time} local (UTC+8) · Weigh-in ${g.weighin}`, "",
+    ...g.athletes.map(a => `${a.lot} · ${a.name} · ${a.nation} · ${a.entry} kg`)].join("\n");
+  const q = new URLSearchParams({ action: "TEMPLATE", text: `${g.sex} ${g.label} · IWF Worlds`,
+    dates: `${gcalStamp(start)}/${gcalStamp(end)}`, details, location: "Ningbo, China" });
+  return `https://calendar.google.com/calendar/render?${q}`;
+}
+const yourTime = g => sessionUTC(g).toLocaleString([], { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZoneName: "short" });
+
+function updateCalBox(count) {
+  const q = new URLSearchParams({ download: "1" });
+  if (state.sex !== "all") q.set("sex", state.sex);
+  if (state.aOnly) q.set("a", "1");
+  if (state.hlNat) q.set("nation", state.hlNat);
+  $("#calDownload").href = `calendar.ics?${q}`;
+  const parts = [state.sex !== "all" ? state.sex.toLowerCase() + "'s" : "", state.aOnly ? "A-group" : ""].filter(Boolean).join(" ");
+  $("#calSummary").innerHTML = `<b>${[count, parts].filter(Boolean).join(" ")} session${count === 1 ? "" : "s"}</b>${state.hlNat ? ` with ${esc(natName(state.hlNat))} athletes (their names go in the event titles)` : ""} will be added.`;
+}
+
 function startList(g) {
   const max = Math.max(...g.athletes.map(a => a.entry));
   const rows = g.athletes.map(a => {
@@ -120,7 +147,9 @@ function startList(g) {
     const fmt = l => `${l === "C&J" ? "C&amp;J" : l} <b>${r[l].result}</b>`;
     return `<span>Senior WR ${g.parts.length > 1 ? p.cat + " kg: " : ""}${["Snatch", "C&J", "Total"].map(fmt).join(" · ")}</span>`;
   }).join("");
-  return `<div class="rec-strip">${recs}</div>
+  return `<div class="session-cal"><a class="btn" href="${esc(gcalLink(g))}" target="_blank" rel="noopener">📅 Add to Google Calendar</a>
+      <span class="meta">Your time: ${esc(yourTime(g))}</span></div>
+    <div class="rec-strip">${recs}</div>
     <div class="table-scroll"><table class="data">
       <thead><tr><th class="num">Lot</th><th>Athlete</th><th>Nation</th>${g.parts.length > 1 ? "<th>Cat.</th>" : ""}<th class="num">Age</th><th class="num">Entry total</th></tr></thead>
       <tbody>${rows}</tbody></table></div>`;
@@ -129,6 +158,7 @@ function startList(g) {
 function renderSchedule(keepOpen) {
   const open = keepOpen ? new Set([...document.querySelectorAll(".session[open]")].map(d => d.dataset.id)) : new Set();
   const gs = D.groups.filter(g => (state.sex === "all" || g.sex === state.sex) && (!state.aOnly || g.parts.some(p => p.grp === "A")));
+  updateCalBox(state.hlNat ? gs.filter(g => g.athletes.some(a => a.nation === state.hlNat)).length : gs.length);
   const days = {};
   for (const g of gs) (days[g.date] ||= []).push(g);
   const dayKeys = Object.keys(D.groups.reduce((o, g) => (o[g.date] = 1, o), {}));
