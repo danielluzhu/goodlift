@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ningbo 2026 · IWF Worlds Start Book</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <p class="eyebrow">International Weightlifting Federation · Start Book</p>
+    <h1>2026 IWF World Championships</h1>
+    <p class="sub">Ningbo, China · 27 Oct – 8 Nov 2026</p>
+    <div class="kpis" id="kpis"></div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Sections">
+  <div class="wrap tabs-inner">
+    <a href="#schedule" data-tab="schedule">Schedule</a>
+    <a href="#athletes" data-tab="athletes">Athletes</a>
+    <a href="#nations" data-tab="nations">Nations</a>
+    <a href="#records" data-tab="records">World Records</a>
+  </div>
+</nav>
+
+<main class="wrap">
+  <section id="view-schedule" hidden>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Filter by sex">
+        <button data-sex="all" class="on">All</button>
+        <button data-sex="Women">Women</button>
+        <button data-sex="Men">Men</button>
+      </div>
+      <label class="check"><input type="checkbox" id="aOnly"> A groups only</label>
+      <select id="schedNation" aria-label="Highlight a nation"><option value="">Highlight a nation…</option></select>
+    </div>
+    <p class="hint">Times are local (China Standard Time, UTC+8). Tap a session to see its start list. Weigh-in is 3 hours before each session.</p>
+    <div id="days"></div>
+  </section>
+
+  <section id="view-athletes" hidden>
+    <div class="toolbar">
+      <input type="search" id="q" placeholder="Search name or nation code…" aria-label="Search athletes">
+      <select id="fSex" aria-label="Sex"><option value="">Women &amp; Men</option><option>Women</option><option>Men</option></select>
+      <select id="fCat" aria-label="Category"><option value="">All categories</option></select>
+      <select id="fNat" aria-label="Nation"><option value="">All nations</option></select>
+    </div>
+    <p class="hint" id="athCount"></p>
+    <div class="table-scroll"><table class="data" id="athTable">
+      <thead><tr>
+        <th data-sort="name">Athlete</th><th data-sort="nation">Nation</th><th data-sort="cat">Category</th>
+        <th data-sort="group">Group</th><th data-sort="when">Session</th><th data-sort="age" class="num">Age</th><th data-sort="entry" class="num">Entry total</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </section>
+
+  <section id="view-nations" hidden>
+    <div class="toolbar">
+      <input type="search" id="nq" placeholder="Filter nations…" aria-label="Filter nations">
+    </div>
+    <p class="hint">Click a nation to see its team. Maximum team size is 8 women and 8 men.</p>
+    <div class="nations" id="nationGrid"></div>
+    <div id="nationDetail"></div>
+  </section>
+
+  <section id="view-records" hidden>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Sex" id="recSex">
+        <button data-v="Women" class="on">Women</button><button data-v="Men">Men</button>
+      </div>
+      <div class="seg" role="group" aria-label="Age group" id="recAge">
+        <button data-v="Senior" class="on">Senior</button><button data-v="Junior">Junior</button><button data-v="Youth">Youth</button>
+      </div>
+    </div>
+    <p class="hint">"World Standard" means the record has not yet been set above the IWF's minimum standard for the new bodyweight categories.</p>
+    <div class="records" id="recGrid"></div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  Unofficial, reformatted view of the
+  <a href="https://iwf.sport/wp-content/uploads/downloads/2026/10/2026-IWF-WCH_START-BOOK.pdf">official IWF start book</a>
+  (produced by IWF TIS, 16 Oct 2026). Entry totals are declared entries, not results. Check iwf.sport for any late changes.
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

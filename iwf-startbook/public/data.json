@@ -1,0 +1,6920 @@
+{
+ "groups": [
+  {
+   "sex": "Women",
+   "label": "49kg B",
+   "date": "27.10.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 46,
+     "name": "HENRY Irene Jane",
+     "dob": "28.06.2005",
+     "nation": "MAS",
+     "category": "49",
+     "entry": 175
+    },
+    {
+     "no": 2,
+     "lot": 70,
+     "name": "TIAVINA ANDRIAMINTATSOA Fabia",
+     "dob": "11.04.2005",
+     "nation": "MAD",
+     "category": "49",
+     "entry": 151
+    },
+    {
+     "no": 3,
+     "lot": 87,
+     "name": "ARVA Cintia Andrea",
+     "dob": "31.12.2002",
+     "nation": "HUN",
+     "category": "49",
+     "entry": 177
+    },
+    {
+     "no": 4,
+     "lot": 210,
+     "name": "ROSA FIGUEIREDO Emily",
+     "dob": "18.03.1998",
+     "nation": "BRA",
+     "category": "49",
+     "entry": 175
+    },
+    {
+     "no": 5,
+     "lot": 224,
+     "name": "RAKOTONOELY TEendry Tsiky Mahay Tia",
+     "dob": "01.02.2010",
+     "nation": "MAD",
+     "category": "49",
+     "entry": 150
+    },
+    {
+     "no": 6,
+     "lot": 232,
+     "name": "GARCIA SUAREZ Macarena",
+     "dob": "09.02.2001",
+     "nation": "CHI",
+     "category": "49",
+     "entry": 165
+    },
+    {
+     "no": 7,
+     "lot": 307,
+     "name": "KOPONEN Sonja",
+     "dob": "18.12.1989",
+     "nation": "FIN",
+     "category": "49",
+     "entry": 165
+    },
+    {
+     "no": 8,
+     "lot": 354,
+     "name": "FANG Wan-Ling",
+     "dob": "01.12.1999",
+     "nation": "TPE",
+     "category": "49",
+     "entry": 170
+    },
+    {
+     "no": 9,
+     "lot": 444,
+     "name": "STRZYKALA Mara",
+     "dob": "13.03.1992",
+     "nation": "LUX",
+     "category": "49",
+     "entry": 168
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "60kg B",
+   "date": "27.10.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 293,
+     "name": "HIRAI Kaito",
+     "dob": "16.09.1998",
+     "nation": "JPN",
+     "category": "60",
+     "entry": 260
+    },
+    {
+     "no": 2,
+     "lot": 356,
+     "name": "MOYENGWA Jomson",
+     "dob": "28.01.2007",
+     "nation": "BOT",
+     "category": "60",
+     "entry": 160
+    },
+    {
+     "no": 3,
+     "lot": 387,
+     "name": "YODAGE Dilanka Isuru Kumara",
+     "dob": "21.04.1996",
+     "nation": "SRI",
+     "category": "60",
+     "entry": 240
+    },
+    {
+     "no": 4,
+     "lot": 411,
+     "name": "RAKOTOMANDIMBY Havotriniaina Joseph",
+     "dob": "25.06.2004",
+     "nation": "MAD",
+     "category": "60",
+     "entry": 255
+    },
+    {
+     "no": 5,
+     "lot": 424,
+     "name": "ODIKADZE Giga",
+     "dob": "20.02.2005",
+     "nation": "GEO",
+     "category": "60",
+     "entry": 275
+    },
+    {
+     "no": 6,
+     "lot": 465,
+     "name": "ONATE ARAUJO Otto Felix",
+     "dob": "23.01.2000",
+     "nation": "CUB",
+     "category": "60",
+     "entry": 280
+    },
+    {
+     "no": 7,
+     "lot": 490,
+     "name": "CHHUM Gabriel John",
+     "dob": "31.01.2004",
+     "nation": "USA",
+     "category": "60",
+     "entry": 281
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "60kg A",
+   "date": "27.10.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 10,
+     "name": "PANG Un Chol",
+     "dob": "19.01.2001",
+     "nation": "PRK",
+     "category": "60",
+     "entry": 300
+    },
+    {
+     "no": 2,
+     "lot": 44,
+     "name": "ERDOGAN Yigit",
+     "dob": "17.07.2008",
+     "nation": "TUR",
+     "category": "60",
+     "entry": 282
+    },
+    {
+     "no": 3,
+     "lot": 52,
+     "name": "PAK In Song",
+     "dob": "19.03.2004",
+     "nation": "PRK",
+     "category": "60",
+     "entry": 290
+    },
+    {
+     "no": 4,
+     "lot": 111,
+     "name": "DANEV Deniz Gretov",
+     "dob": "26.06.2003",
+     "nation": "BUL",
+     "category": "60",
+     "entry": 283
+    },
+    {
+     "no": 5,
+     "lot": 119,
+     "name": "YANG Yang",
+     "dob": "23.07.2002",
+     "nation": "CHN",
+     "category": "60",
+     "entry": 300
+    },
+    {
+     "no": 6,
+     "lot": 165,
+     "name": "K Duong",
+     "dob": "03.07.2007",
+     "nation": "VIE",
+     "category": "60",
+     "entry": 295
+    },
+    {
+     "no": 7,
+     "lot": 175,
+     "name": "AYKUN Burak",
+     "dob": "22.09.2006",
+     "nation": "TUR",
+     "category": "60",
+     "entry": 282
+    },
+    {
+     "no": 8,
+     "lot": 332,
+     "name": "ALJASIM AQEEL Abdullah A",
+     "dob": "22.09.2004",
+     "nation": "KSA",
+     "category": "60",
+     "entry": 290
+    },
+    {
+     "no": 9,
+     "lot": 363,
+     "name": "RUSEV Angel Hriskov",
+     "dob": "13.07.2001",
+     "nation": "BUL",
+     "category": "60",
+     "entry": 283
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "49kg A",
+   "date": "27.10.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 22,
+     "name": "RI Song Gum",
+     "dob": "17.10.1997",
+     "nation": "PRK",
+     "category": "49",
+     "entry": 210
+    },
+    {
+     "no": 2,
+     "lot": 148,
+     "name": "ALTUN Gamze",
+     "dob": "29.07.2003",
+     "nation": "TUR",
+     "category": "49",
+     "entry": 186
+    },
+    {
+     "no": 3,
+     "lot": 264,
+     "name": "HUANG Yi-Chen",
+     "dob": "25.10.2005",
+     "nation": "TPE",
+     "category": "49",
+     "entry": 185
+    },
+    {
+     "no": 4,
+     "lot": 266,
+     "name": "RAMOS Rose Jean",
+     "dob": "06.11.2005",
+     "nation": "PHI",
+     "category": "49",
+     "entry": 192
+    },
+    {
+     "no": 5,
+     "lot": 278,
+     "name": "GARCIA RINCON Marta",
+     "dob": "28.06.2003",
+     "nation": "ESP",
+     "category": "49",
+     "entry": 181
+    },
+    {
+     "no": 6,
+     "lot": 370,
+     "name": "ZHAO Jinhong",
+     "dob": "26.05.2001",
+     "nation": "CHN",
+     "category": "49",
+     "entry": 205
+    },
+    {
+     "no": 7,
+     "lot": 385,
+     "name": "VONGHAJAK Naruemol",
+     "dob": "19.04.2006",
+     "nation": "THA",
+     "category": "49",
+     "entry": 180
+    },
+    {
+     "no": 8,
+     "lot": 420,
+     "name": "ZHATKINA Elizaveta",
+     "dob": "10.09.2002",
+     "nation": "RUS",
+     "category": "49",
+     "entry": 181
+    },
+    {
+     "no": 9,
+     "lot": 481,
+     "name": "KAMNOEDSRI Khemika",
+     "dob": "20.01.2005",
+     "nation": "THA",
+     "category": "49",
+     "entry": 180
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "65kg D",
+   "date": "28.10.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 36,
+     "name": "MBOYA Joshua Amunga",
+     "dob": "11.05.2005",
+     "nation": "KEN",
+     "category": "65",
+     "entry": 240
+    },
+    {
+     "no": 2,
+     "lot": 73,
+     "name": "WAKANIBUA Apakuki Tabuwaiwai",
+     "dob": "12.03.2002",
+     "nation": "FIJ",
+     "category": "65",
+     "entry": 220
+    },
+    {
+     "no": 3,
+     "lot": 152,
+     "name": "KONDEH Francis",
+     "dob": "09.02.2009",
+     "nation": "SLE",
+     "category": "65",
+     "entry": 200
+    },
+    {
+     "no": 4,
+     "lot": 189,
+     "name": "CRISTOBAL Leowell Ladringan",
+     "dob": "25.09.1998",
+     "nation": "NMI",
+     "category": "65",
+     "entry": 240
+    },
+    {
+     "no": 5,
+     "lot": 334,
+     "name": "KAMARA Lamin",
+     "dob": "29.09.2001",
+     "nation": "SLE",
+     "category": "65",
+     "entry": 210
+    },
+    {
+     "no": 6,
+     "lot": 382,
+     "name": "ALOTAIBI Fahad H T H",
+     "dob": "20.06.2008",
+     "nation": "KUW",
+     "category": "65",
+     "entry": 210
+    },
+    {
+     "no": 7,
+     "lot": 423,
+     "name": "RAMIARIMANANA Jean Elariont Ricardo",
+     "dob": "22.07.1999",
+     "nation": "MAD",
+     "category": "65",
+     "entry": 255
+    },
+    {
+     "no": 8,
+     "lot": 469,
+     "name": "DIMOV Ivan Petkov",
+     "dob": "04.12.2002",
+     "nation": "BUL",
+     "category": "65",
+     "entry": 230
+    },
+    {
+     "no": 9,
+     "lot": 474,
+     "name": "ADONGO Ian Okinyi",
+     "dob": "01.01.2009",
+     "nation": "KEN",
+     "category": "65",
+     "entry": 210
+    },
+    {
+     "no": 10,
+     "lot": 488,
+     "name": "ALOTAIBI Mohammad H",
+     "dob": "26.11.2010",
+     "nation": "KUW",
+     "category": "65",
+     "entry": 190
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "65kg C",
+   "date": "28.10.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 32,
+     "name": "SHARKOV Albert",
+     "dob": "28.01.2002",
+     "nation": "RUS",
+     "category": "65",
+     "entry": 285
+    },
+    {
+     "no": 2,
+     "lot": 34,
+     "name": "BARU Morea",
+     "dob": "15.04.1990",
+     "nation": "PNG",
+     "category": "65",
+     "entry": 280
+    },
+    {
+     "no": 3,
+     "lot": 122,
+     "name": "CARRAZCO CETZ Herseleid Antonio",
+     "dob": "10.06.2004",
+     "nation": "MEX",
+     "category": "65",
+     "entry": 286
+    },
+    {
+     "no": 4,
+     "lot": 205,
+     "name": "LUGO RODRIGUEZ Wilkeinner Nahun",
+     "dob": "25.03.1997",
+     "nation": "VEN",
+     "category": "65",
+     "entry": 295
+    },
+    {
+     "no": 5,
+     "lot": 206,
+     "name": "VASQUEZ MORALES Orlando Antonio",
+     "dob": "28.10.1997",
+     "nation": "NCA",
+     "category": "65",
+     "entry": 285
+    },
+    {
+     "no": 6,
+     "lot": 408,
+     "name": "KAO Chan-Hung",
+     "dob": "03.10.1993",
+     "nation": "TPE",
+     "category": "65",
+     "entry": 275
+    },
+    {
+     "no": 7,
+     "lot": 413,
+     "name": "SATO Kotaro",
+     "dob": "07.05.2000",
+     "nation": "JPN",
+     "category": "65",
+     "entry": 291
+    },
+    {
+     "no": 8,
+     "lot": 489,
+     "name": "GARCIA BRITO Luis Alberto",
+     "dob": "19.04.1995",
+     "nation": "DOM",
+     "category": "65",
+     "entry": 280
+    },
+    {
+     "no": 9,
+     "lot": 506,
+     "name": "YAMASHITA Tatsuma",
+     "dob": "28.06.2002",
+     "nation": "JPN",
+     "category": "65",
+     "entry": 285
+    },
+    {
+     "no": 10,
+     "lot": 527,
+     "name": "KALITIT Ali Majeed M",
+     "dob": "19.11.2005",
+     "nation": "KSA",
+     "category": "65",
+     "entry": 295
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "65kg B",
+   "date": "28.10.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 18,
+     "name": "NGUYEN Thanh Duy",
+     "dob": "26.02.2009",
+     "nation": "VIE",
+     "category": "65",
+     "entry": 300
+    },
+    {
+     "no": 2,
+     "lot": 115,
+     "name": "MASSIDDA Sergio",
+     "dob": "26.01.2002",
+     "nation": "ITA",
+     "category": "65",
+     "entry": 310
+    },
+    {
+     "no": 3,
+     "lot": 170,
+     "name": "CHARU Pesi",
+     "dob": "30.09.2002",
+     "nation": "IND",
+     "category": "65",
+     "entry": 300
+    },
+    {
+     "no": 4,
+     "lot": 269,
+     "name": "CHEN Wang-Heng",
+     "dob": "05.08.2001",
+     "nation": "TPE",
+     "category": "65",
+     "entry": 310
+    },
+    {
+     "no": 5,
+     "lot": 287,
+     "name": "ALSALEEM Seraj Abdulrahim M",
+     "dob": "10.02.1996",
+     "nation": "KSA",
+     "category": "65",
+     "entry": 307
+    },
+    {
+     "no": 6,
+     "lot": 326,
+     "name": "MUNOZ MARTINEZ Jonathan Antonio",
+     "dob": "10.11.1995",
+     "nation": "MEX",
+     "category": "65",
+     "entry": 305
+    },
+    {
+     "no": 7,
+     "lot": 351,
+     "name": "SAPUTRA Ricko",
+     "dob": "21.01.2000",
+     "nation": "INA",
+     "category": "65",
+     "entry": 310
+    },
+    {
+     "no": 8,
+     "lot": 390,
+     "name": "YOUN Yeowon",
+     "dob": "12.08.1995",
+     "nation": "KOR",
+     "category": "65",
+     "entry": 300
+    },
+    {
+     "no": 9,
+     "lot": 402,
+     "name": "HARDAL Ferdi",
+     "dob": "31.12.1996",
+     "nation": "TUR",
+     "category": "65",
+     "entry": 302
+    },
+    {
+     "no": 10,
+     "lot": 464,
+     "name": "CHOLAKYAN Garnik",
+     "dob": "21.12.2002",
+     "nation": "ARM",
+     "category": "65",
+     "entry": 300
+    },
+    {
+     "no": 11,
+     "lot": 491,
+     "name": "IRAWAN Eko Yuli",
+     "dob": "24.07.1989",
+     "nation": "INA",
+     "category": "65",
+     "entry": 300
+    },
+    {
+     "no": 12,
+     "lot": 502,
+     "name": "KINGUE MATAM Bernardin Ledoux",
+     "dob": "20.05.1990",
+     "nation": "FRA",
+     "category": "65",
+     "entry": 305
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "65kg A",
+   "date": "28.10.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 54,
+     "name": "PAK Myong Jin",
+     "dob": "02.04.2003",
+     "nation": "PRK",
+     "category": "65",
+     "entry": 320
+    },
+    {
+     "no": 2,
+     "lot": 128,
+     "name": "FELIX DA SILVA Thiago",
+     "dob": "26.12.2000",
+     "nation": "BRA",
+     "category": "65",
+     "entry": 311
+    },
+    {
+     "no": 3,
+     "lot": 141,
+     "name": "MOSQUERA VALENCIA Francisco Antonio",
+     "dob": "01.04.1992",
+     "nation": "COL",
+     "category": "65",
+     "entry": 315
+    },
+    {
+     "no": 4,
+     "lot": 169,
+     "name": "HE Yueji",
+     "dob": "11.07.2002",
+     "nation": "CHN",
+     "category": "65",
+     "entry": 329
+    },
+    {
+     "no": 5,
+     "lot": 221,
+     "name": "ERGASHEV Adkhamjon",
+     "dob": "12.03.1999",
+     "nation": "UZB",
+     "category": "65",
+     "entry": 316
+    },
+    {
+     "no": 6,
+     "lot": 235,
+     "name": "BARDALEZ David",
+     "dob": "30.07.1993",
+     "nation": "PER",
+     "category": "65",
+     "entry": 312
+    },
+    {
+     "no": 7,
+     "lot": 270,
+     "name": "TRAN Minh Tri",
+     "dob": "13.10.2004",
+     "nation": "VIE",
+     "category": "65",
+     "entry": 315
+    },
+    {
+     "no": 8,
+     "lot": 372,
+     "name": "DING Hongjie",
+     "dob": "30.01.2002",
+     "nation": "CHN",
+     "category": "65",
+     "entry": 325
+    },
+    {
+     "no": 9,
+     "lot": 478,
+     "name": "MORRIS Hampton Miller",
+     "dob": "17.02.2004",
+     "nation": "USA",
+     "category": "65",
+     "entry": 318
+    },
+    {
+     "no": 10,
+     "lot": 482,
+     "name": "OZBEK Muhammed Furkan",
+     "dob": "24.01.2001",
+     "nation": "TUR",
+     "category": "65",
+     "entry": 320
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "53kg D, 57kg B",
+   "date": "29.10.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 72,
+     "name": "ALHASHMI Zahra Faisal Hisain Yahya",
+     "dob": "26.02.1994",
+     "nation": "UAE",
+     "category": "53",
+     "entry": 120
+    },
+    {
+     "no": 2,
+     "lot": 86,
+     "name": "ALANEZI H Nourah",
+     "dob": "02.02.1999",
+     "nation": "KUW",
+     "category": "53",
+     "entry": 80
+    },
+    {
+     "no": 3,
+     "lot": 186,
+     "name": "GONZALEZ Asia Chanel",
+     "dob": "18.09.1996",
+     "nation": "PUR",
+     "category": "53",
+     "entry": 180
+    },
+    {
+     "no": 4,
+     "lot": 218,
+     "name": "EKRA Marjia Akter",
+     "dob": "06.05.2003",
+     "nation": "BAN",
+     "category": "53",
+     "entry": 170
+    },
+    {
+     "no": 5,
+     "lot": 229,
+     "name": "DEIRERAGEA Jo-Beth",
+     "dob": "25.12.2007",
+     "nation": "NRU",
+     "category": "53",
+     "entry": 160
+    },
+    {
+     "no": 6,
+     "lot": 261,
+     "name": "ZAGORAC Radmila",
+     "dob": "24.01.2001",
+     "nation": "SRB",
+     "category": "53",
+     "entry": 180
+    },
+    {
+     "no": 7,
+     "lot": 282,
+     "name": "ODUOR Janet Atieno",
+     "dob": "23.12.1993",
+     "nation": "KEN",
+     "category": "53",
+     "entry": 130
+    },
+    {
+     "no": 8,
+     "lot": 405,
+     "name": "TOUA Loa Dika",
+     "dob": "23.06.1984",
+     "nation": "PNG",
+     "category": "53",
+     "entry": 170
+    },
+    {
+     "no": 9,
+     "lot": 428,
+     "name": "ALSHAREEFI Amal J",
+     "dob": "05.08.1993",
+     "nation": "KUW",
+     "category": "53",
+     "entry": 120
+    },
+    {
+     "no": 10,
+     "lot": 485,
+     "name": "RANDAFIARISON Rosina",
+     "dob": "29.12.1999",
+     "nation": "MAD",
+     "category": "53",
+     "entry": 150
+    },
+    {
+     "no": 11,
+     "lot": 458,
+     "name": "BOGHAITH Danah J",
+     "dob": "04.11.1999",
+     "nation": "KUW",
+     "category": "57",
+     "entry": 100
+    },
+    {
+     "no": 12,
+     "lot": 529,
+     "name": "ALKANDARI Anwar S",
+     "dob": "25.09.2001",
+     "nation": "KUW",
+     "category": "57",
+     "entry": 100
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "53kg C",
+   "date": "29.10.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 55,
+     "name": "SANCHEZ FERRER Alba",
+     "dob": "10.01.1998",
+     "nation": "ESP",
+     "category": "53",
+     "entry": 186
+    },
+    {
+     "no": 2,
+     "lot": 82,
+     "name": "NOVITSKAIA Kristina",
+     "dob": "22.09.1999",
+     "nation": "RUS",
+     "category": "53",
+     "entry": 191
+    },
+    {
+     "no": 3,
+     "lot": 84,
+     "name": "JACOBSEN Rebekka Tao",
+     "dob": "12.09.1996",
+     "nation": "NOR",
+     "category": "53",
+     "entry": 191
+    },
+    {
+     "no": 4,
+     "lot": 263,
+     "name": "KLARISA Juliana",
+     "dob": "29.07.2002",
+     "nation": "INA",
+     "category": "53",
+     "entry": 195
+    },
+    {
+     "no": 5,
+     "lot": 277,
+     "name": "NGUYEN Hoai Huong",
+     "dob": "20.04.2003",
+     "nation": "VIE",
+     "category": "53",
+     "entry": 190
+    },
+    {
+     "no": 6,
+     "lot": 296,
+     "name": "YADAV Gyaneshwari",
+     "dob": "08.03.2003",
+     "nation": "IND",
+     "category": "53",
+     "entry": 195
+    },
+    {
+     "no": 7,
+     "lot": 383,
+     "name": "SUZUKI Rira",
+     "dob": "06.09.1998",
+     "nation": "JPN",
+     "category": "53",
+     "entry": 198
+    },
+    {
+     "no": 8,
+     "lot": 504,
+     "name": "MYJAK Malgorzata Katarzyna",
+     "dob": "25.09.2004",
+     "nation": "POL",
+     "category": "53",
+     "entry": 191
+    },
+    {
+     "no": 9,
+     "lot": 519,
+     "name": "MONASTERIO URBITARTE Malen",
+     "dob": "02.06.2006",
+     "nation": "ESP",
+     "category": "53",
+     "entry": 190
+    },
+    {
+     "no": 10,
+     "lot": 523,
+     "name": "ABE Nozomi",
+     "dob": "01.08.2003",
+     "nation": "JPN",
+     "category": "53",
+     "entry": 196
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "53kg B",
+   "date": "29.10.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 49,
+     "name": "RIGAUD Garance",
+     "dob": "11.12.1999",
+     "nation": "FRA",
+     "category": "53",
+     "entry": 200
+    },
+    {
+     "no": 2,
+     "lot": 126,
+     "name": "STRATOUDAKI Maria",
+     "dob": "05.06.2008",
+     "nation": "GRE",
+     "category": "53",
+     "entry": 205
+    },
+    {
+     "no": 3,
+     "lot": 132,
+     "name": "KIM So Hyon",
+     "dob": "14.07.2005",
+     "nation": "PRK",
+     "category": "53",
+     "entry": 205
+    },
+    {
+     "no": 4,
+     "lot": 147,
+     "name": "KAEWNOI Natcha",
+     "dob": "26.03.2006",
+     "nation": "THA",
+     "category": "53",
+     "entry": 200
+    },
+    {
+     "no": 5,
+     "lot": 171,
+     "name": "MIRABAI Chanu Saikhom",
+     "dob": "08.08.1994",
+     "nation": "IND",
+     "category": "53",
+     "entry": 200
+    },
+    {
+     "no": 6,
+     "lot": 194,
+     "name": "KATSIANIOVA Yuliya",
+     "dob": "13.08.2007",
+     "nation": "BLR",
+     "category": "53",
+     "entry": 204
+    },
+    {
+     "no": 7,
+     "lot": 214,
+     "name": "ECHANDIA ZARATE Katherin Oriana",
+     "dob": "14.08.2001",
+     "nation": "VEN",
+     "category": "53",
+     "entry": 200
+    },
+    {
+     "no": 8,
+     "lot": 311,
+     "name": "WIJAYANA Luluk Diana Tri",
+     "dob": "09.08.2005",
+     "nation": "INA",
+     "category": "53",
+     "entry": 205
+    },
+    {
+     "no": 9,
+     "lot": 315,
+     "name": "DE LA HERRAN MARTINEZ Andrea",
+     "dob": "12.09.1996",
+     "nation": "MEX",
+     "category": "53",
+     "entry": 201
+    },
+    {
+     "no": 10,
+     "lot": 337,
+     "name": "ORTIZ Dahiana",
+     "dob": "27.11.2001",
+     "nation": "DOM",
+     "category": "53",
+     "entry": 202
+    },
+    {
+     "no": 11,
+     "lot": 439,
+     "name": "ROSA FIGUEIREDO Nathasha",
+     "dob": "16.01.1996",
+     "nation": "BRA",
+     "category": "53",
+     "entry": 205
+    },
+    {
+     "no": 12,
+     "lot": 452,
+     "name": "AMANOVA Ogulshat",
+     "dob": "29.11.2009",
+     "nation": "TKM",
+     "category": "53",
+     "entry": 200
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "53kg A",
+   "date": "29.10.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 5,
+     "name": "STERCKX Nina",
+     "dob": "26.07.2002",
+     "nation": "BEL",
+     "category": "53",
+     "entry": 213
+    },
+    {
+     "no": 2,
+     "lot": 216,
+     "name": "RAMOS Rosegie",
+     "dob": "15.12.2003",
+     "nation": "PHI",
+     "category": "53",
+     "entry": 215
+    },
+    {
+     "no": 3,
+     "lot": 242,
+     "name": "CAMBEI Mihaela-Valentina",
+     "dob": "18.11.2002",
+     "nation": "ROU",
+     "category": "53",
+     "entry": 212
+    },
+    {
+     "no": 4,
+     "lot": 291,
+     "name": "ZHANG Haiqin",
+     "dob": "06.01.2005",
+     "nation": "CHN",
+     "category": "53",
+     "entry": 216
+    },
+    {
+     "no": 5,
+     "lot": 318,
+     "name": "LIN Cheng Jing",
+     "dob": "20.01.2000",
+     "nation": "TPE",
+     "category": "53",
+     "entry": 208
+    },
+    {
+     "no": 6,
+     "lot": 321,
+     "name": "ULREY Miranda Eleanor",
+     "dob": "23.09.2004",
+     "nation": "USA",
+     "category": "53",
+     "entry": 216
+    },
+    {
+     "no": 7,
+     "lot": 325,
+     "name": "KHAMBAO Surodchana",
+     "dob": "23.12.1999",
+     "nation": "THA",
+     "category": "53",
+     "entry": 210
+    },
+    {
+     "no": 8,
+     "lot": 399,
+     "name": "OZKAN Cansel",
+     "dob": "26.02.2002",
+     "nation": "TUR",
+     "category": "53",
+     "entry": 207
+    },
+    {
+     "no": 9,
+     "lot": 510,
+     "name": "ABDULLAEVA Nigora",
+     "dob": "13.05.2004",
+     "nation": "UZB",
+     "category": "53",
+     "entry": 210
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "75kg D",
+   "date": "30.10.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 38,
+     "name": "CARES VALDES Sergio Andres",
+     "dob": "07.01.2002",
+     "nation": "CHI",
+     "category": "75",
+     "entry": 305
+    },
+    {
+     "no": 2,
+     "lot": 41,
+     "name": "PETROV Sergei",
+     "dob": "17.02.1994",
+     "nation": "RUS",
+     "category": "75",
+     "entry": 330
+    },
+    {
+     "no": 3,
+     "lot": 174,
+     "name": "ALJARLLAH W Hamad",
+     "dob": "15.10.1995",
+     "nation": "KUW",
+     "category": "75",
+     "entry": 200
+    },
+    {
+     "no": 4,
+     "lot": 247,
+     "name": "MCGROGAN Harrison",
+     "dob": "12.02.2008",
+     "nation": "IRL",
+     "category": "75",
+     "entry": 300
+    },
+    {
+     "no": 5,
+     "lot": 313,
+     "name": "ANDRIATSITOHAINA Tojonirina Alain",
+     "dob": "26.02.1995",
+     "nation": "MAD",
+     "category": "75",
+     "entry": 330
+    },
+    {
+     "no": 6,
+     "lot": 323,
+     "name": "TODOROVIC Nikola",
+     "dob": "26.04.2005",
+     "nation": "CRO",
+     "category": "75",
+     "entry": 280
+    },
+    {
+     "no": 7,
+     "lot": 352,
+     "name": "MURRAY Christopher John",
+     "dob": "05.02.1999",
+     "nation": "GBR",
+     "category": "75",
+     "entry": 310
+    },
+    {
+     "no": 8,
+     "lot": 467,
+     "name": "CEDENO MEJIA Julio Cesar",
+     "dob": "16.10.1992",
+     "nation": "DOM",
+     "category": "75",
+     "entry": 330
+    },
+    {
+     "no": 9,
+     "lot": 477,
+     "name": "MOSES Ezekiel",
+     "dob": "02.07.2001",
+     "nation": "NRU",
+     "category": "75",
+     "entry": 310
+    },
+    {
+     "no": 10,
+     "lot": 530,
+     "name": "KAMARA Ishmail",
+     "dob": "25.04.2007",
+     "nation": "SLE",
+     "category": "75",
+     "entry": 215
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "57kg A",
+   "date": "30.10.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 24,
+     "name": "VANDENABEELE Annelien",
+     "dob": "26.11.2004",
+     "nation": "BEL",
+     "category": "57",
+     "entry": 190
+    },
+    {
+     "no": 2,
+     "lot": 53,
+     "name": "SATO Waka",
+     "dob": "22.04.2007",
+     "nation": "JPN",
+     "category": "57",
+     "entry": 201
+    },
+    {
+     "no": 3,
+     "lot": 57,
+     "name": "KERIMBAYEVA Shabnam",
+     "dob": "26.12.2009",
+     "nation": "TKM",
+     "category": "57",
+     "entry": 202
+    },
+    {
+     "no": 4,
+     "lot": 61,
+     "name": "GRIGORYAN Aleksandra",
+     "dob": "01.08.2005",
+     "nation": "ARM",
+     "category": "57",
+     "entry": 215
+    },
+    {
+     "no": 5,
+     "lot": 62,
+     "name": "MEGO CONTRERAS Shoely Mabel",
+     "dob": "12.08.1999",
+     "nation": "PER",
+     "category": "57",
+     "entry": 206
+    },
+    {
+     "no": 6,
+     "lot": 92,
+     "name": "IVZHENKO Olha",
+     "dob": "06.10.2003",
+     "nation": "UKR",
+     "category": "57",
+     "entry": 210
+    },
+    {
+     "no": 7,
+     "lot": 203,
+     "name": "CHEN Guan-Ling",
+     "dob": "29.01.2005",
+     "nation": "TPE",
+     "category": "57",
+     "entry": 220
+    },
+    {
+     "no": 8,
+     "lot": 211,
+     "name": "ILINA Natalia",
+     "dob": "27.08.2001",
+     "nation": "RUS",
+     "category": "57",
+     "entry": 198
+    },
+    {
+     "no": 9,
+     "lot": 240,
+     "name": "BERGLUND Irma Donna Wiktoria",
+     "dob": "28.11.1997",
+     "nation": "SWE",
+     "category": "57",
+     "entry": 187
+    },
+    {
+     "no": 10,
+     "lot": 292,
+     "name": "OH Kwang Ok",
+     "dob": "02.01.2002",
+     "nation": "PRK",
+     "category": "57",
+     "entry": 240
+    },
+    {
+     "no": 11,
+     "lot": 294,
+     "name": "HARVEY Rose",
+     "dob": "21.08.1998",
+     "nation": "CAN",
+     "category": "57",
+     "entry": 195
+    },
+    {
+     "no": 12,
+     "lot": 431,
+     "name": "SCHUILWERVE Marlous",
+     "dob": "15.01.1995",
+     "nation": "NED",
+     "category": "57",
+     "entry": 197
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "70kg A",
+   "date": "30.10.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 30,
+     "name": "CANDRA Roy Joydev",
+     "dob": "01.10.2004",
+     "nation": "BAN",
+     "category": "70",
+     "entry": 245
+    },
+    {
+     "no": 2,
+     "lot": 91,
+     "name": "RUSTAMOV Isa",
+     "dob": "06.11.1999",
+     "nation": "AZE",
+     "category": "70",
+     "entry": 325
+    },
+    {
+     "no": 3,
+     "lot": 123,
+     "name": "DANILCHYK ARTSEM",
+     "dob": "28.03.2000",
+     "nation": "BLR",
+     "category": "70",
+     "entry": 326
+    },
+    {
+     "no": 4,
+     "lot": 133,
+     "name": "LEE Sangyeon",
+     "dob": "06.03.1995",
+     "nation": "KOR",
+     "category": "70",
+     "entry": 330
+    },
+    {
+     "no": 5,
+     "lot": 137,
+     "name": "NOVKO Ivan",
+     "dob": "08.03.1999",
+     "nation": "CRO",
+     "category": "70",
+     "entry": 260
+    },
+    {
+     "no": 6,
+     "lot": 191,
+     "name": "CARDENAS ESTRADA Jorge Adan",
+     "dob": "21.04.1997",
+     "nation": "MEX",
+     "category": "70",
+     "entry": 316
+    },
+    {
+     "no": 7,
+     "lot": 377,
+     "name": "KARA Engin",
+     "dob": "01.01.2005",
+     "nation": "TUR",
+     "category": "70",
+     "entry": 316
+    },
+    {
+     "no": 8,
+     "lot": 443,
+     "name": "DELOS SANTOS Albert Ian",
+     "dob": "12.08.2006",
+     "nation": "PHI",
+     "category": "70",
+     "entry": 320
+    },
+    {
+     "no": 9,
+     "lot": 447,
+     "name": "RI Won Ju",
+     "dob": "17.09.2002",
+     "nation": "PRK",
+     "category": "70",
+     "entry": 350
+    },
+    {
+     "no": 10,
+     "lot": 492,
+     "name": "PAK Pyol",
+     "dob": "03.09.2003",
+     "nation": "PRK",
+     "category": "70",
+     "entry": 340
+    },
+    {
+     "no": 11,
+     "lot": 493,
+     "name": "HE Baozhen",
+     "dob": "15.03.2004",
+     "nation": "CHN",
+     "category": "70",
+     "entry": 336
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "75kg C",
+   "date": "31.10.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 151,
+     "name": "KHREBTOV Petr",
+     "dob": "30.09.2003",
+     "nation": "KAZ",
+     "category": "75",
+     "entry": 340
+    },
+    {
+     "no": 2,
+     "lot": 157,
+     "name": "ARANGO MENDEZ Reinner Josue",
+     "dob": "01.01.1999",
+     "nation": "VEN",
+     "category": "75",
+     "entry": 340
+    },
+    {
+     "no": 3,
+     "lot": 198,
+     "name": "CHIANG Tsung-Han",
+     "dob": "27.07.1996",
+     "nation": "TPE",
+     "category": "75",
+     "entry": 335
+    },
+    {
+     "no": 4,
+     "lot": 226,
+     "name": "REYES VIDAL Jair Abimelet",
+     "dob": "07.11.2000",
+     "nation": "ECU",
+     "category": "75",
+     "entry": 335
+    },
+    {
+     "no": 5,
+     "lot": 285,
+     "name": "CALJA Briken",
+     "dob": "19.02.1990",
+     "nation": "ALB",
+     "category": "75",
+     "entry": 340
+    },
+    {
+     "no": 6,
+     "lot": 289,
+     "name": "GARAEV Zulfat",
+     "dob": "12.01.2000",
+     "nation": "RUS",
+     "category": "75",
+     "entry": 338
+    },
+    {
+     "no": 7,
+     "lot": 360,
+     "name": "LAZUGA Konrad",
+     "dob": "03.02.2003",
+     "nation": "POL",
+     "category": "75",
+     "entry": 340
+    },
+    {
+     "no": 8,
+     "lot": 479,
+     "name": "KARAPETYAN Tigran",
+     "dob": "18.07.2005",
+     "nation": "ARM",
+     "category": "75",
+     "entry": 340
+    },
+    {
+     "no": 9,
+     "lot": 511,
+     "name": "MOUSTAFA Wahid Shaaban Ibrahim",
+     "dob": "01.12.1996",
+     "nation": "UAE",
+     "category": "75",
+     "entry": 340
+    },
+    {
+     "no": 10,
+     "lot": 520,
+     "name": "REYIMOV Bektimur",
+     "dob": "12.04.2002",
+     "nation": "TKM",
+     "category": "75",
+     "entry": 340
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "75kg B",
+   "date": "31.10.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 159,
+     "name": "MONTES HURTADO Hugo Fernando",
+     "dob": "29.01.1990",
+     "nation": "COL",
+     "category": "75",
+     "entry": 345
+    },
+    {
+     "no": 2,
+     "lot": 231,
+     "name": "GUTU Roberto",
+     "dob": "27.07.2000",
+     "nation": "GER",
+     "category": "75",
+     "entry": 342
+    },
+    {
+     "no": 3,
+     "lot": 246,
+     "name": "GINNAN Edward James",
+     "dob": "27.06.1997",
+     "nation": "USA",
+     "category": "75",
+     "entry": 343
+    },
+    {
+     "no": 4,
+     "lot": 267,
+     "name": "GRIMSLAND Ryan Henry",
+     "dob": "03.04.2002",
+     "nation": "USA",
+     "category": "75",
+     "entry": 342
+    },
+    {
+     "no": 5,
+     "lot": 324,
+     "name": "MIYAMOTO Masanori",
+     "dob": "03.02.1997",
+     "nation": "JPN",
+     "category": "75",
+     "entry": 342
+    },
+    {
+     "no": 6,
+     "lot": 342,
+     "name": "MAYORA PERNA Julio Ruben",
+     "dob": "02.09.1996",
+     "nation": "VEN",
+     "category": "75",
+     "entry": 345
+    },
+    {
+     "no": 7,
+     "lot": 359,
+     "name": "NASAR Ahmed",
+     "dob": "01.01.2000",
+     "nation": "EGY",
+     "category": "75",
+     "entry": 345
+    },
+    {
+     "no": 8,
+     "lot": 445,
+     "name": "QERIMAJ Erkand",
+     "dob": "10.08.1988",
+     "nation": "ALB",
+     "category": "75",
+     "entry": 341
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "75kg A",
+   "date": "31.10.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 136,
+     "name": "SAHAKYAN Gor",
+     "dob": "01.09.2003",
+     "nation": "ARM",
+     "category": "75",
+     "entry": 350
+    },
+    {
+     "no": 2,
+     "lot": 181,
+     "name": "GENC Yusuf Fehmi",
+     "dob": "23.05.2002",
+     "nation": "TUR",
+     "category": "75",
+     "entry": 350
+    },
+    {
+     "no": 3,
+     "lot": 319,
+     "name": "KAHRIMAN Kaan",
+     "dob": "12.09.2004",
+     "nation": "TUR",
+     "category": "75",
+     "entry": 350
+    },
+    {
+     "no": 4,
+     "lot": 345,
+     "name": "PAPOU Yahor",
+     "dob": "15.09.2003",
+     "nation": "BLR",
+     "category": "75",
+     "entry": 346
+    },
+    {
+     "no": 5,
+     "lot": 369,
+     "name": "ABDULLAH Rahmat Erwin",
+     "dob": "13.10.2000",
+     "nation": "INA",
+     "category": "75",
+     "entry": 355
+    },
+    {
+     "no": 6,
+     "lot": 389,
+     "name": "SON Hyeonho",
+     "dob": "21.06.2000",
+     "nation": "KOR",
+     "category": "75",
+     "entry": 350
+    },
+    {
+     "no": 7,
+     "lot": 392,
+     "name": "RI Ryong Hyon",
+     "dob": "25.01.2001",
+     "nation": "PRK",
+     "category": "75",
+     "entry": 355
+    },
+    {
+     "no": 8,
+     "lot": 427,
+     "name": "DONOSE Tiberiu Ionut",
+     "dob": "12.05.2005",
+     "nation": "ROU",
+     "category": "75",
+     "entry": 347
+    },
+    {
+     "no": 9,
+     "lot": 449,
+     "name": "WICHUMA Weeraphon",
+     "dob": "10.08.2004",
+     "nation": "THA",
+     "category": "75",
+     "entry": 352
+    },
+    {
+     "no": 10,
+     "lot": 509,
+     "name": "JUMABAYEV Didarbek",
+     "dob": "26.05.2008",
+     "nation": "TKM",
+     "category": "75",
+     "entry": 346
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "61kg D",
+   "date": "01.11.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 12,
+     "name": "CHENG Ching To",
+     "dob": "09.07.1990",
+     "nation": "HKG",
+     "category": "61",
+     "entry": 150
+    },
+    {
+     "no": 2,
+     "lot": 20,
+     "name": "ISRAT Sumaiya Akter",
+     "dob": "24.06.2005",
+     "nation": "BAN",
+     "category": "61",
+     "entry": 170
+    },
+    {
+     "no": 3,
+     "lot": 25,
+     "name": "KETILSDOTTIR Katla Bjoerk",
+     "dob": "08.11.2000",
+     "nation": "ISL",
+     "category": "61",
+     "entry": 200
+    },
+    {
+     "no": 4,
+     "lot": 63,
+     "name": "KAMSHAD Alzahraa M N A",
+     "dob": "24.08.1991",
+     "nation": "KUW",
+     "category": "61",
+     "entry": 120
+    },
+    {
+     "no": 5,
+     "lot": 77,
+     "name": "COFFEY O CONNOR Molly",
+     "dob": "24.01.2005",
+     "nation": "IRL",
+     "category": "61",
+     "entry": 180
+    },
+    {
+     "no": 6,
+     "lot": 93,
+     "name": "ALMADANI Mai Ahmad Essa Ahmad",
+     "dob": "26.07.2001",
+     "nation": "UAE",
+     "category": "61",
+     "entry": 160
+    },
+    {
+     "no": 7,
+     "lot": 154,
+     "name": "HONCHAROVA Veronika",
+     "dob": "30.01.2008",
+     "nation": "AUT",
+     "category": "61",
+     "entry": 205
+    },
+    {
+     "no": 8,
+     "lot": 162,
+     "name": "KUSTERER Sabine Beate",
+     "dob": "04.01.1991",
+     "nation": "LUX",
+     "category": "61",
+     "entry": 197
+    },
+    {
+     "no": 9,
+     "lot": 255,
+     "name": "AGRAIT CALO Issi Massei",
+     "dob": "21.12.2004",
+     "nation": "PUR",
+     "category": "61",
+     "entry": 195
+    },
+    {
+     "no": 10,
+     "lot": 260,
+     "name": "USHA Usha",
+     "dob": "02.09.2003",
+     "nation": "IND",
+     "category": "61",
+     "entry": 196
+    },
+    {
+     "no": 11,
+     "lot": 434,
+     "name": "FAJRESLAM Maha",
+     "dob": "07.04.2003",
+     "nation": "MAR",
+     "category": "61",
+     "entry": 170
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "61kg C",
+   "date": "01.11.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 65,
+     "name": "WOLK Wiktoria Krystyna",
+     "dob": "10.03.2001",
+     "nation": "POL",
+     "category": "61",
+     "entry": 210
+    },
+    {
+     "no": 2,
+     "lot": 78,
+     "name": "ZIKOWSKY Paula",
+     "dob": "11.12.1995",
+     "nation": "AUT",
+     "category": "61",
+     "entry": 210
+    },
+    {
+     "no": 3,
+     "lot": 94,
+     "name": "TASCHEREAU Ann Sophie",
+     "dob": "16.03.2002",
+     "nation": "CAN",
+     "category": "61",
+     "entry": 217
+    },
+    {
+     "no": 4,
+     "lot": 103,
+     "name": "LOPEZ GONZALEZ Joseline",
+     "dob": "08.11.2006",
+     "nation": "MEX",
+     "category": "61",
+     "entry": 216
+    },
+    {
+     "no": 5,
+     "lot": 183,
+     "name": "SERAM Nirupama Devi",
+     "dob": "05.10.2000",
+     "nation": "IND",
+     "category": "61",
+     "entry": 211
+    },
+    {
+     "no": 6,
+     "lot": 227,
+     "name": "TE Olga",
+     "dob": "05.03.1996",
+     "nation": "RUS",
+     "category": "61",
+     "entry": 218
+    },
+    {
+     "no": 7,
+     "lot": 279,
+     "name": "FEMLIY Crystie Notte",
+     "dob": "25.04.2009",
+     "nation": "NRU",
+     "category": "61",
+     "entry": 220
+    },
+    {
+     "no": 8,
+     "lot": 312,
+     "name": "OLALLA MUNOZ Maria",
+     "dob": "01.07.2005",
+     "nation": "ESP",
+     "category": "61",
+     "entry": 211
+    },
+    {
+     "no": 9,
+     "lot": 333,
+     "name": "FELIZ VASQUEZ Alicia",
+     "dob": "01.10.2003",
+     "nation": "DOM",
+     "category": "61",
+     "entry": 215
+    },
+    {
+     "no": 10,
+     "lot": 346,
+     "name": "QUANG Thi Tam",
+     "dob": "25.03.2003",
+     "nation": "VIE",
+     "category": "61",
+     "entry": 220
+    },
+    {
+     "no": 11,
+     "lot": 480,
+     "name": "ENDO Riri",
+     "dob": "11.02.2002",
+     "nation": "JPN",
+     "category": "61",
+     "entry": 219
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "61kg B",
+   "date": "01.11.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 31,
+     "name": "BETEYOB Natasya",
+     "dob": "10.09.2000",
+     "nation": "INA",
+     "category": "61",
+     "entry": 225
+    },
+    {
+     "no": 2,
+     "lot": 37,
+     "name": "COTRUTA Andreea",
+     "dob": "11.11.2003",
+     "nation": "ROU",
+     "category": "61",
+     "entry": 227
+    },
+    {
+     "no": 3,
+     "lot": 114,
+     "name": "MICHEL Maelyn Delia Angeline",
+     "dob": "25.02.2004",
+     "nation": "FRA",
+     "category": "61",
+     "entry": 225
+    },
+    {
+     "no": 4,
+     "lot": 120,
+     "name": "IBRAHIMA Rebeka",
+     "dob": "19.05.1998",
+     "nation": "LAT",
+     "category": "61",
+     "entry": 231
+    },
+    {
+     "no": 5,
+     "lot": 129,
+     "name": "MAGISTRIS Lucrezia",
+     "dob": "21.04.1999",
+     "nation": "ITA",
+     "category": "61",
+     "entry": 222
+    },
+    {
+     "no": 6,
+     "lot": 207,
+     "name": "SHCHAPANAVA Alina",
+     "dob": "12.04.2000",
+     "nation": "BLR",
+     "category": "61",
+     "entry": 226
+    },
+    {
+     "no": 7,
+     "lot": 450,
+     "name": "BECERRA ROMERO Jenifer Samanta",
+     "dob": "31.12.2002",
+     "nation": "ECU",
+     "category": "61",
+     "entry": 226
+    },
+    {
+     "no": 8,
+     "lot": 462,
+     "name": "SAETIA Thanaporn",
+     "dob": "20.03.2006",
+     "nation": "THA",
+     "category": "61",
+     "entry": 225
+    },
+    {
+     "no": 9,
+     "lot": 484,
+     "name": "OZKAN Aysel",
+     "dob": "26.02.2002",
+     "nation": "TUR",
+     "category": "61",
+     "entry": 227
+    },
+    {
+     "no": 10,
+     "lot": 521,
+     "name": "YODSARN Suratwadee",
+     "dob": "15.07.2003",
+     "nation": "THA",
+     "category": "61",
+     "entry": 230
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "61kg A",
+   "date": "01.11.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 105,
+     "name": "PAK Jin Hae",
+     "dob": "08.11.2003",
+     "nation": "PRK",
+     "category": "61",
+     "entry": 240
+    },
+    {
+     "no": 2,
+     "lot": 187,
+     "name": "KONOTOP Kamila",
+     "dob": "23.03.2001",
+     "nation": "UKR",
+     "category": "61",
+     "entry": 240
+    },
+    {
+     "no": 3,
+     "lot": 228,
+     "name": "KUO Hsing-Chun",
+     "dob": "26.11.1993",
+     "nation": "TPE",
+     "category": "61",
+     "entry": 235
+    },
+    {
+     "no": 4,
+     "lot": 234,
+     "name": "CHARRON Maude G",
+     "dob": "28.04.1993",
+     "nation": "CAN",
+     "category": "61",
+     "entry": 240
+    },
+    {
+     "no": 5,
+     "lot": 275,
+     "name": "MOSQUERA CACERES Karen Tatiana",
+     "dob": "27.12.2003",
+     "nation": "COL",
+     "category": "61",
+     "entry": 235
+    },
+    {
+     "no": 6,
+     "lot": 283,
+     "name": "SHAFT Sophia Plum",
+     "dob": "10.02.2005",
+     "nation": "USA",
+     "category": "61",
+     "entry": 244
+    },
+    {
+     "no": 7,
+     "lot": 336,
+     "name": "YANG Liuyue",
+     "dob": "10.12.2006",
+     "nation": "CHN",
+     "category": "61",
+     "entry": 245
+    },
+    {
+     "no": 8,
+     "lot": 386,
+     "name": "ESTEP Katharine Emily",
+     "dob": "18.08.2004",
+     "nation": "USA",
+     "category": "61",
+     "entry": 236
+    },
+    {
+     "no": 9,
+     "lot": 401,
+     "name": "ANDO Elreen Ann",
+     "dob": "01.11.1998",
+     "nation": "PHI",
+     "category": "61",
+     "entry": 236
+    },
+    {
+     "no": 10,
+     "lot": 415,
+     "name": "PEI Xinyi",
+     "dob": "10.01.2005",
+     "nation": "CHN",
+     "category": "61",
+     "entry": 240
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "85kg D",
+   "date": "02.11.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 85,
+     "name": "BALUSHI Issa Rajab Mohammed Al Balushi",
+     "dob": "27.06.2001",
+     "nation": "UAE",
+     "category": "85",
+     "entry": 280
+    },
+    {
+     "no": 2,
+     "lot": 176,
+     "name": "SVERRISSON Bergur",
+     "dob": "16.12.1994",
+     "nation": "ISL",
+     "category": "85",
+     "entry": 303
+    },
+    {
+     "no": 3,
+     "lot": 192,
+     "name": "LOH Yuan Yee",
+     "dob": "22.10.1998",
+     "nation": "SGP",
+     "category": "85",
+     "entry": 300
+    },
+    {
+     "no": 4,
+     "lot": 195,
+     "name": "AlTHAFIRI Falah A H M",
+     "dob": "30.03.2002",
+     "nation": "KUW",
+     "category": "85",
+     "entry": 180
+    },
+    {
+     "no": 5,
+     "lot": 238,
+     "name": "SUHAREVS Ritvars",
+     "dob": "11.01.1999",
+     "nation": "LAT",
+     "category": "85",
+     "entry": 300
+    },
+    {
+     "no": 6,
+     "lot": 265,
+     "name": "FUNAKI Uaealesi",
+     "dob": "04.11.1998",
+     "nation": "TGA",
+     "category": "85",
+     "entry": 275
+    },
+    {
+     "no": 7,
+     "lot": 343,
+     "name": "ALOTAIBI Khallaf B",
+     "dob": "24.05.2010",
+     "nation": "KUW",
+     "category": "85",
+     "entry": 180
+    },
+    {
+     "no": 8,
+     "lot": 388,
+     "name": "RAHIM Md",
+     "dob": "06.07.2008",
+     "nation": "BAN",
+     "category": "85",
+     "entry": 280
+    },
+    {
+     "no": 9,
+     "lot": 395,
+     "name": "RAMADANI Kristi",
+     "dob": "29.10.2000",
+     "nation": "ALB",
+     "category": "85",
+     "entry": 320
+    },
+    {
+     "no": 10,
+     "lot": 429,
+     "name": "ATETE Franklin",
+     "dob": "19.07.2005",
+     "nation": "KEN",
+     "category": "85",
+     "entry": 245
+    },
+    {
+     "no": 11,
+     "lot": 432,
+     "name": "SHAW Daniel Zackariah Anthony",
+     "dob": "18.06.2005",
+     "nation": "FIJ",
+     "category": "85",
+     "entry": 280
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "85kg C",
+   "date": "02.11.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 35,
+     "name": "IBANEZ Brayan",
+     "dob": "18.09.2006",
+     "nation": "KOS",
+     "category": "85",
+     "entry": 350
+    },
+    {
+     "no": 2,
+     "lot": 45,
+     "name": "GREFA VARGAS Neiser Javier",
+     "dob": "24.02.2001",
+     "nation": "ECU",
+     "category": "85",
+     "entry": 345
+    },
+    {
+     "no": 3,
+     "lot": 131,
+     "name": "SEROBIAN Gevorg",
+     "dob": "09.11.2002",
+     "nation": "RUS",
+     "category": "85",
+     "entry": 347
+    },
+    {
+     "no": 4,
+     "lot": 164,
+     "name": "GONZALEZ AYUSO Javier",
+     "dob": "31.03.1993",
+     "nation": "ESP",
+     "category": "85",
+     "entry": 337
+    },
+    {
+     "no": 5,
+     "lot": 223,
+     "name": "DARSIGNY Shad",
+     "dob": "20.04.2003",
+     "nation": "CAN",
+     "category": "85",
+     "entry": 326
+    },
+    {
+     "no": 6,
+     "lot": 305,
+     "name": "MARECEK Petr",
+     "dob": "12.07.1998",
+     "nation": "CZE",
+     "category": "85",
+     "entry": 327
+    },
+    {
+     "no": 7,
+     "lot": 396,
+     "name": "MCTAGGART Cameron David",
+     "dob": "30.09.1997",
+     "nation": "NZL",
+     "category": "85",
+     "entry": 330
+    },
+    {
+     "no": 8,
+     "lot": 410,
+     "name": "SUEPSUAN Natthawut",
+     "dob": "02.07.1997",
+     "nation": "THA",
+     "category": "85",
+     "entry": 335
+    },
+    {
+     "no": 9,
+     "lot": 451,
+     "name": "POGHOSYAN Martin",
+     "dob": "30.07.2005",
+     "nation": "ARM",
+     "category": "85",
+     "entry": 350
+    },
+    {
+     "no": 10,
+     "lot": 466,
+     "name": "KACINSKAS Irmantas",
+     "dob": "23.02.1992",
+     "nation": "LTU",
+     "category": "85",
+     "entry": 330
+    },
+    {
+     "no": 11,
+     "lot": 531,
+     "name": "MUHAMMAD Erry Hidayat",
+     "dob": "24.11.1999",
+     "nation": "MAS",
+     "category": "85",
+     "entry": 340
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "85kg B",
+   "date": "02.11.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 43,
+     "name": "MSKHALADZE Zurab",
+     "dob": "28.06.2003",
+     "nation": "GEO",
+     "category": "85",
+     "entry": 368
+    },
+    {
+     "no": 2,
+     "lot": 59,
+     "name": "ALMAMMADOV Ravin",
+     "dob": "15.02.2006",
+     "nation": "AZE",
+     "category": "85",
+     "entry": 365
+    },
+    {
+     "no": 3,
+     "lot": 67,
+     "name": "AZUMA Rakuei",
+     "dob": "17.06.2005",
+     "nation": "JPN",
+     "category": "85",
+     "entry": 360
+    },
+    {
+     "no": 4,
+     "lot": 80,
+     "name": "HARUTYUNYAN Rafik",
+     "dob": "17.05.2000",
+     "nation": "ARM",
+     "category": "85",
+     "entry": 355
+    },
+    {
+     "no": 5,
+     "lot": 108,
+     "name": "TORAYEV Gaygysyz",
+     "dob": "11.04.2003",
+     "nation": "TKM",
+     "category": "85",
+     "entry": 362
+    },
+    {
+     "no": 6,
+     "lot": 112,
+     "name": "CAHOY Caden Taiyo",
+     "dob": "31.01.2004",
+     "nation": "USA",
+     "category": "85",
+     "entry": 357
+    },
+    {
+     "no": 7,
+     "lot": 177,
+     "name": "KIM Sungmin",
+     "dob": "25.02.1997",
+     "nation": "KOR",
+     "category": "85",
+     "entry": 360
+    },
+    {
+     "no": 8,
+     "lot": 190,
+     "name": "KARAPETYAN Andranik",
+     "dob": "15.12.1995",
+     "nation": "BIH",
+     "category": "85",
+     "entry": 366
+    },
+    {
+     "no": 9,
+     "lot": 253,
+     "name": "MUELLER Lucas",
+     "dob": "31.07.2003",
+     "nation": "GER",
+     "category": "85",
+     "entry": 362
+    },
+    {
+     "no": 10,
+     "lot": 295,
+     "name": "HSIEH Meng-En",
+     "dob": "31.05.2001",
+     "nation": "TPE",
+     "category": "85",
+     "entry": 356
+    },
+    {
+     "no": 11,
+     "lot": 526,
+     "name": "RODRIGUEZ Angel",
+     "dob": "24.08.2006",
+     "nation": "VEN",
+     "category": "85",
+     "entry": 360
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "85kg A",
+   "date": "02.11.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 19,
+     "name": "YEMBERDI Yedige",
+     "dob": "06.05.2005",
+     "nation": "KAZ",
+     "category": "85",
+     "entry": 371
+    },
+    {
+     "no": 2,
+     "lot": 193,
+     "name": "CHEN Shunnan",
+     "dob": "24.08.2005",
+     "nation": "CHN",
+     "category": "85",
+     "entry": 380
+    },
+    {
+     "no": 3,
+     "lot": 217,
+     "name": "ROBU Marin",
+     "dob": "19.03.2000",
+     "nation": "MDA",
+     "category": "85",
+     "entry": 380
+    },
+    {
+     "no": 4,
+     "lot": 251,
+     "name": "ELSAYED ABDELRAHMAN Mohamed Younes",
+     "dob": "14.11.2004",
+     "nation": "EGY",
+     "category": "85",
+     "entry": 385
+    },
+    {
+     "no": 5,
+     "lot": 271,
+     "name": "RO Kwang Ryol",
+     "dob": "30.04.2001",
+     "nation": "PRK",
+     "category": "85",
+     "entry": 380
+    },
+    {
+     "no": 6,
+     "lot": 288,
+     "name": "JAVADI ALIABADI Mir Mostafa",
+     "dob": "22.06.2000",
+     "nation": "IRI",
+     "category": "85",
+     "entry": 375
+    },
+    {
+     "no": 7,
+     "lot": 327,
+     "name": "ZAFARJONOV Sarvarbek",
+     "dob": "26.07.2000",
+     "nation": "UZB",
+     "category": "85",
+     "entry": 372
+    },
+    {
+     "no": 8,
+     "lot": 373,
+     "name": "BEIRANVAND Abdollah",
+     "dob": "05.05.2003",
+     "nation": "IRI",
+     "category": "85",
+     "entry": 375
+    },
+    {
+     "no": 9,
+     "lot": 457,
+     "name": "LOPEZ LOPEZ Yeison",
+     "dob": "09.01.1999",
+     "nation": "COL",
+     "category": "85",
+     "entry": 390
+    },
+    {
+     "no": 10,
+     "lot": 513,
+     "name": "LEI Jiangqing",
+     "dob": "13.08.2003",
+     "nation": "CHN",
+     "category": "85",
+     "entry": 380
+    },
+    {
+     "no": 11,
+     "lot": 516,
+     "name": "CHURKIN Alexey",
+     "dob": "19.03.2004",
+     "nation": "KAZ",
+     "category": "85",
+     "entry": 380
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "69kg D",
+   "date": "03.11.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 21,
+     "name": "KERUBO Mercy",
+     "dob": "01.01.2009",
+     "nation": "KEN",
+     "category": "69",
+     "entry": 160
+    },
+    {
+     "no": 2,
+     "lot": 40,
+     "name": "CELIS GUTIERREZ Constanza",
+     "dob": "08.02.2004",
+     "nation": "CHI",
+     "category": "69",
+     "entry": 215
+    },
+    {
+     "no": 3,
+     "lot": 144,
+     "name": "VECEROVA Bibiana",
+     "dob": "26.08.1993",
+     "nation": "SVK",
+     "category": "69",
+     "entry": 200
+    },
+    {
+     "no": 4,
+     "lot": 215,
+     "name": "KESHAVARZ Fatemeh",
+     "dob": "28.10.2004",
+     "nation": "WRT",
+     "category": "69",
+     "entry": 200
+    },
+    {
+     "no": 5,
+     "lot": 220,
+     "name": "CRYMBLE Hannah",
+     "dob": "28.10.1995",
+     "nation": "IRL",
+     "category": "69",
+     "entry": 200
+    },
+    {
+     "no": 6,
+     "lot": 273,
+     "name": "FESOLAI Sienna Taema",
+     "dob": "14.08.2005",
+     "nation": "NZL",
+     "category": "69",
+     "entry": 210
+    },
+    {
+     "no": 7,
+     "lot": 331,
+     "name": "TALIE CLARIS TURANIVALU",
+     "dob": "03.12.2009",
+     "nation": "FIJ",
+     "category": "69",
+     "entry": 180
+    },
+    {
+     "no": 8,
+     "lot": 393,
+     "name": "SIM Rachelle",
+     "dob": "15.08.2000",
+     "nation": "SGP",
+     "category": "69",
+     "entry": 180
+    },
+    {
+     "no": 9,
+     "lot": 422,
+     "name": "ECH-CHACHOUIY Ech-Chaibia",
+     "dob": "10.03.2006",
+     "nation": "MAR",
+     "category": "69",
+     "entry": 200
+    },
+    {
+     "no": 10,
+     "lot": 483,
+     "name": "MCMONAGLE Gina",
+     "dob": "26.08.2000",
+     "nation": "IRL",
+     "category": "69",
+     "entry": 206
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "69kg C",
+   "date": "03.11.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 76,
+     "name": "ENKILEDA Carja",
+     "dob": "23.01.2008",
+     "nation": "ALB",
+     "category": "69",
+     "entry": 225
+    },
+    {
+     "no": 2,
+     "lot": 145,
+     "name": "JAKAITE Lijana",
+     "dob": "02.08.1998",
+     "nation": "LTU",
+     "category": "69",
+     "entry": 220
+    },
+    {
+     "no": 3,
+     "lot": 179,
+     "name": "MARTINEZ ANASAGASTI Garoa",
+     "dob": "24.09.1997",
+     "nation": "ESP",
+     "category": "69",
+     "entry": 228
+    },
+    {
+     "no": 4,
+     "lot": 208,
+     "name": "MIYAGOE Yui",
+     "dob": "09.12.2001",
+     "nation": "JPN",
+     "category": "69",
+     "entry": 225
+    },
+    {
+     "no": 5,
+     "lot": 299,
+     "name": "TIMMERMANS Myrthe",
+     "dob": "05.01.1997",
+     "nation": "NED",
+     "category": "69",
+     "entry": 220
+    },
+    {
+     "no": 6,
+     "lot": 310,
+     "name": "ASHWORTH Alexis",
+     "dob": "24.01.1999",
+     "nation": "CAN",
+     "category": "69",
+     "entry": 224
+    },
+    {
+     "no": 7,
+     "lot": 407,
+     "name": "AMANOVA Medine",
+     "dob": "05.03.2006",
+     "nation": "TKM",
+     "category": "69",
+     "entry": 225
+    },
+    {
+     "no": 8,
+     "lot": 412,
+     "name": "GOMEZ VALDIVIA Janeth",
+     "dob": "26.10.1997",
+     "nation": "MEX",
+     "category": "69",
+     "entry": 222
+    },
+    {
+     "no": 9,
+     "lot": 437,
+     "name": "ROSHER Madeline",
+     "dob": "18.01.2007",
+     "nation": "GBR",
+     "category": "69",
+     "entry": 220
+    },
+    {
+     "no": 10,
+     "lot": 476,
+     "name": "HAYMAN Nya Phebe",
+     "dob": "14.05.2005",
+     "nation": "AUS",
+     "category": "69",
+     "entry": 220
+    },
+    {
+     "no": 11,
+     "lot": 497,
+     "name": "ARRASATE YARNOZ Naroa",
+     "dob": "11.02.2003",
+     "nation": "ESP",
+     "category": "69",
+     "entry": 224
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "69kg B",
+   "date": "03.11.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 4,
+     "name": "CHEN Wen-Huei",
+     "dob": "23.02.1997",
+     "nation": "TPE",
+     "category": "69",
+     "entry": 236
+    },
+    {
+     "no": 2,
+     "lot": 134,
+     "name": "BOLDBAATAR Khongorzul",
+     "dob": "17.07.2002",
+     "nation": "MGL",
+     "category": "69",
+     "entry": 230
+    },
+    {
+     "no": 3,
+     "lot": 156,
+     "name": "IBANEZ Emily",
+     "dob": "27.12.2010",
+     "nation": "KOS",
+     "category": "69",
+     "entry": 237
+    },
+    {
+     "no": 4,
+     "lot": 254,
+     "name": "DAVIES Sarah",
+     "dob": "19.08.1992",
+     "nation": "GBR",
+     "category": "69",
+     "entry": 231
+    },
+    {
+     "no": 5,
+     "lot": 257,
+     "name": "SEGURA GRUESO Ingrid Vanesa",
+     "dob": "29.06.2006",
+     "nation": "BRN",
+     "category": "69",
+     "entry": 235
+    },
+    {
+     "no": 6,
+     "lot": 306,
+     "name": "SEGAWA Runa",
+     "dob": "17.11.2003",
+     "nation": "JPN",
+     "category": "69",
+     "entry": 231
+    },
+    {
+     "no": 7,
+     "lot": 322,
+     "name": "PAREDES ARREAGA Bella Nancy",
+     "dob": "25.02.2002",
+     "nation": "ECU",
+     "category": "69",
+     "entry": 240
+    },
+    {
+     "no": 8,
+     "lot": 344,
+     "name": "MAISEYEVICH Dziyana",
+     "dob": "22.04.2002",
+     "nation": "BLR",
+     "category": "69",
+     "entry": 233
+    },
+    {
+     "no": 9,
+     "lot": 349,
+     "name": "MACROHON Kristel",
+     "dob": "02.09.1996",
+     "nation": "PHI",
+     "category": "69",
+     "entry": 240
+    },
+    {
+     "no": 10,
+     "lot": 367,
+     "name": "SINISTERRA TORRES Yenny",
+     "dob": "04.05.2000",
+     "nation": "COL",
+     "category": "69",
+     "entry": 235
+    },
+    {
+     "no": 11,
+     "lot": 394,
+     "name": "SIMONEAU Charlotte",
+     "dob": "30.05.2005",
+     "nation": "CAN",
+     "category": "69",
+     "entry": 235
+    },
+    {
+     "no": 12,
+     "lot": 398,
+     "name": "SELEMAIA Olivia Shalom",
+     "dob": "26.02.2006",
+     "nation": "NZL",
+     "category": "69",
+     "entry": 230
+    },
+    {
+     "no": 13,
+     "lot": 416,
+     "name": "AFRIZA Indah",
+     "dob": "17.04.2004",
+     "nation": "INA",
+     "category": "69",
+     "entry": 230
+    },
+    {
+     "no": 14,
+     "lot": 448,
+     "name": "GHERMAN Daniela Mariana",
+     "dob": "23.09.1997",
+     "nation": "ROU",
+     "category": "69",
+     "entry": 232
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "69kg A",
+   "date": "03.11.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 1,
+     "name": "RENGIFO CHIRINOS Claudia Alejandra",
+     "dob": "01.12.2007",
+     "nation": "VEN",
+     "category": "69",
+     "entry": 245
+    },
+    {
+     "no": 2,
+     "lot": 26,
+     "name": "TOKO KEGNE Genna Romida",
+     "dob": "10.11.2002",
+     "nation": "ITA",
+     "category": "69",
+     "entry": 247
+    },
+    {
+     "no": 3,
+     "lot": 116,
+     "name": "GUSALOVA Zarina",
+     "dob": "01.09.2004",
+     "nation": "RUS",
+     "category": "69",
+     "entry": 242
+    },
+    {
+     "no": 4,
+     "lot": 124,
+     "name": "RI Suk",
+     "dob": "15.03.2003",
+     "nation": "PRK",
+     "category": "69",
+     "entry": 260
+    },
+    {
+     "no": 5,
+     "lot": 225,
+     "name": "SONG Kuk Hyang",
+     "dob": "01.02.2001",
+     "nation": "PRK",
+     "category": "69",
+     "entry": 270
+    },
+    {
+     "no": 6,
+     "lot": 302,
+     "name": "ABDELTAWWAB Roufida Fathi Taha",
+     "dob": "01.10.2003",
+     "nation": "EGY",
+     "category": "69",
+     "entry": 245
+    },
+    {
+     "no": 7,
+     "lot": 328,
+     "name": "KARIMI Reihaneh",
+     "dob": "11.12.2005",
+     "nation": "IRI",
+     "category": "69",
+     "entry": 247
+    },
+    {
+     "no": 8,
+     "lot": 340,
+     "name": "MATIAS MARCIAL Fransheska Mari",
+     "dob": "21.12.1998",
+     "nation": "DOM",
+     "category": "69",
+     "entry": 242
+    },
+    {
+     "no": 9,
+     "lot": 368,
+     "name": "DOLEGA Martyna",
+     "dob": "13.05.2005",
+     "nation": "POL",
+     "category": "69",
+     "entry": 242
+    },
+    {
+     "no": 10,
+     "lot": 455,
+     "name": "RODRIGUEZ QUINTERO Julieth Alejandra",
+     "dob": "20.02.2002",
+     "nation": "COL",
+     "category": "69",
+     "entry": 250
+    },
+    {
+     "no": 11,
+     "lot": 461,
+     "name": "SCHWEIZER Lisa Marie",
+     "dob": "18.07.1995",
+     "nation": "GER",
+     "category": "69",
+     "entry": 242
+    },
+    {
+     "no": 12,
+     "lot": 503,
+     "name": "VALODZKA Siuzanna",
+     "dob": "17.08.2000",
+     "nation": "BLR",
+     "category": "69",
+     "entry": 245
+    },
+    {
+     "no": 13,
+     "lot": 524,
+     "name": "GUNGOR Nuray",
+     "dob": "08.05.2000",
+     "nation": "TUR",
+     "category": "69",
+     "entry": 243
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "95kg D",
+   "date": "04.11.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 23,
+     "name": "FEKECS Szilard",
+     "dob": "05.02.2004",
+     "nation": "HUN",
+     "category": "95",
+     "entry": 325
+    },
+    {
+     "no": 2,
+     "lot": 69,
+     "name": "RAMOS CHAIRES Jonathan David",
+     "dob": "24.09.2003",
+     "nation": "MEX",
+     "category": "95",
+     "entry": 340
+    },
+    {
+     "no": 3,
+     "lot": 149,
+     "name": "OSEI Forrester Christopher",
+     "dob": "12.09.1989",
+     "nation": "GHA",
+     "category": "95",
+     "entry": 340
+    },
+    {
+     "no": 4,
+     "lot": 158,
+     "name": "SAID WILL MURAT",
+     "dob": "13.07.1999",
+     "nation": "AFG",
+     "category": "95",
+     "entry": 250
+    },
+    {
+     "no": 5,
+     "lot": 160,
+     "name": "WASHINGTON Norwin",
+     "dob": "16.11.2002",
+     "nation": "NCA",
+     "category": "95",
+     "entry": 340
+    },
+    {
+     "no": 6,
+     "lot": 167,
+     "name": "VASILONOKS Arturs",
+     "dob": "16.04.1998",
+     "nation": "LAT",
+     "category": "95",
+     "entry": 350
+    },
+    {
+     "no": 7,
+     "lot": 172,
+     "name": "SAXTON Oliver Riley",
+     "dob": "16.02.2003",
+     "nation": "AUS",
+     "category": "95",
+     "entry": 345
+    },
+    {
+     "no": 8,
+     "lot": 397,
+     "name": "GUADAMUD PICO Erik Ismael",
+     "dob": "17.04.2010",
+     "nation": "ESP",
+     "category": "95",
+     "entry": 349
+    },
+    {
+     "no": 9,
+     "lot": 403,
+     "name": "ITSIMAERA Kyle Franklin",
+     "dob": "01.10.2008",
+     "nation": "NRU",
+     "category": "95",
+     "entry": 310
+    },
+    {
+     "no": 10,
+     "lot": 409,
+     "name": "KORDUSAS Lukas",
+     "dob": "14.07.1999",
+     "nation": "LTU",
+     "category": "95",
+     "entry": 345
+    },
+    {
+     "no": 11,
+     "lot": 459,
+     "name": "GORDON Adam",
+     "dob": "05.09.1996",
+     "nation": "JAM",
+     "category": "95",
+     "entry": 285
+    },
+    {
+     "no": 12,
+     "lot": 522,
+     "name": "HUANG Pin-Hsun",
+     "dob": "23.04.1998",
+     "nation": "TPE",
+     "category": "95",
+     "entry": 346
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "95kg C",
+   "date": "04.11.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 58,
+     "name": "BELLEMARRE Alex",
+     "dob": "22.06.1998",
+     "nation": "CAN",
+     "category": "95",
+     "entry": 360
+    },
+    {
+     "no": 2,
+     "lot": 81,
+     "name": "GOVEA SANDOVAL Antonio Jose",
+     "dob": "17.11.2001",
+     "nation": "MEX",
+     "category": "95",
+     "entry": 355
+    },
+    {
+     "no": 3,
+     "lot": 89,
+     "name": "DZHANKHOTOV Ramazan",
+     "dob": "28.11.2002",
+     "nation": "RUS",
+     "category": "95",
+     "entry": 362
+    },
+    {
+     "no": 4,
+     "lot": 101,
+     "name": "EZZEDDIN Alghafeer",
+     "dob": "03.07.2000",
+     "nation": "UAE",
+     "category": "95",
+     "entry": 370
+    },
+    {
+     "no": 5,
+     "lot": 121,
+     "name": "SANTAVY Bradyn James",
+     "dob": "12.05.2003",
+     "nation": "CAN",
+     "category": "95",
+     "entry": 360
+    },
+    {
+     "no": 6,
+     "lot": 209,
+     "name": "ALOTHMAN Ali Yousef A",
+     "dob": "16.06.2002",
+     "nation": "KSA",
+     "category": "95",
+     "entry": 360
+    },
+    {
+     "no": 7,
+     "lot": 290,
+     "name": "ERTJAN Kofsha",
+     "dob": "09.04.2005",
+     "nation": "ALB",
+     "category": "95",
+     "entry": 360
+    },
+    {
+     "no": 8,
+     "lot": 338,
+     "name": "MEZINSKIS Armands",
+     "dob": "08.09.2000",
+     "nation": "LAT",
+     "category": "95",
+     "entry": 365
+    },
+    {
+     "no": 9,
+     "lot": 361,
+     "name": "ASANIDZE Saba",
+     "dob": "07.04.2003",
+     "nation": "GEO",
+     "category": "95",
+     "entry": 360
+    },
+    {
+     "no": 10,
+     "lot": 374,
+     "name": "IUDIN Ilia",
+     "dob": "25.09.2002",
+     "nation": "RUS",
+     "category": "95",
+     "entry": 360
+    },
+    {
+     "no": 11,
+     "lot": 375,
+     "name": "ROSTAMI Kianoush",
+     "dob": "23.07.1991",
+     "nation": "KOS",
+     "category": "95",
+     "entry": 370
+    },
+    {
+     "no": 12,
+     "lot": 436,
+     "name": "GARCES FRANCO Oscar Andres",
+     "dob": "22.09.1998",
+     "nation": "COL",
+     "category": "95",
+     "entry": 370
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "95kg B",
+   "date": "04.11.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 9,
+     "name": "TOSHTEMIROV Mukhammadkodir",
+     "dob": "17.09.2001",
+     "nation": "UZB",
+     "category": "95",
+     "entry": 380
+    },
+    {
+     "no": 2,
+     "lot": 33,
+     "name": "MORA ROMERO Ramiro",
+     "dob": "29.09.1997",
+     "nation": "WRT",
+     "category": "95",
+     "entry": 380
+    },
+    {
+     "no": 3,
+     "lot": 42,
+     "name": "WON Jongbeom",
+     "dob": "11.07.1996",
+     "nation": "KOR",
+     "category": "95",
+     "entry": 380
+    },
+    {
+     "no": 4,
+     "lot": 48,
+     "name": "JAWORSKI Michal",
+     "dob": "24.04.2004",
+     "nation": "POL",
+     "category": "95",
+     "entry": 375
+    },
+    {
+     "no": 5,
+     "lot": 99,
+     "name": "ANNABERDIYEV Rustem",
+     "dob": "18.04.1999",
+     "nation": "TKM",
+     "category": "95",
+     "entry": 372
+    },
+    {
+     "no": 6,
+     "lot": 143,
+     "name": "ZAREI Hamidreza",
+     "dob": "19.07.2007",
+     "nation": "IRI",
+     "category": "95",
+     "entry": 380
+    },
+    {
+     "no": 7,
+     "lot": 166,
+     "name": "HOVHANNISYAN Davit",
+     "dob": "14.01.1997",
+     "nation": "ARM",
+     "category": "95",
+     "entry": 380
+    },
+    {
+     "no": 8,
+     "lot": 182,
+     "name": "ALBORNOZ QUINTO Jokser Manuel",
+     "dob": "30.04.2004",
+     "nation": "BRN",
+     "category": "95",
+     "entry": 380
+    },
+    {
+     "no": 9,
+     "lot": 233,
+     "name": "GUADAMUD PICO Juan David",
+     "dob": "24.06.2004",
+     "nation": "ECU",
+     "category": "95",
+     "entry": 380
+    },
+    {
+     "no": 10,
+     "lot": 258,
+     "name": "NISHIKAWA Masashi",
+     "dob": "15.02.2004",
+     "nation": "JPN",
+     "category": "95",
+     "entry": 380
+    },
+    {
+     "no": 11,
+     "lot": 404,
+     "name": "DOMBROVSKYI Maksym",
+     "dob": "20.04.2002",
+     "nation": "UKR",
+     "category": "95",
+     "entry": 373
+    },
+    {
+     "no": 12,
+     "lot": 463,
+     "name": "KOLECKI Daniel Szymon",
+     "dob": "01.12.2001",
+     "nation": "POL",
+     "category": "95",
+     "entry": 380
+    },
+    {
+     "no": 13,
+     "lot": 494,
+     "name": "LOAIZA MEDINA Mauricio Osvaldo",
+     "dob": "15.12.2006",
+     "nation": "VEN",
+     "category": "95",
+     "entry": 380
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "95kg A",
+   "date": "04.11.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 29,
+     "name": "VALLENILLA SANCHEZ Keydomar Giovanni",
+     "dob": "08.10.1999",
+     "nation": "VEN",
+     "category": "95",
+     "entry": 390
+    },
+    {
+     "no": 2,
+     "lot": 117,
+     "name": "JAJVANI Goga",
+     "dob": "07.01.2006",
+     "nation": "GEO",
+     "category": "95",
+     "entry": 383
+    },
+    {
+     "no": 3,
+     "lot": 139,
+     "name": "LOZKA Ihar",
+     "dob": "02.12.1999",
+     "nation": "BLR",
+     "category": "95",
+     "entry": 387
+    },
+    {
+     "no": 4,
+     "lot": 199,
+     "name": "NASAR Karlos May",
+     "dob": "05.12.2004",
+     "nation": "BUL",
+     "category": "95",
+     "entry": 390
+    },
+    {
+     "no": 5,
+     "lot": 298,
+     "name": "SALEM Yasser",
+     "dob": "09.06.2002",
+     "nation": "BIH",
+     "category": "95",
+     "entry": 390
+    },
+    {
+     "no": 6,
+     "lot": 406,
+     "name": "ELBAKH Fares Ibrahim E H",
+     "dob": "04.06.1998",
+     "nation": "QAT",
+     "category": "95",
+     "entry": 385
+    },
+    {
+     "no": 7,
+     "lot": 433,
+     "name": "LEE Seongwon",
+     "dob": "25.07.2001",
+     "nation": "KOR",
+     "category": "95",
+     "entry": 385
+    },
+    {
+     "no": 8,
+     "lot": 442,
+     "name": "IMADOUCHENE Romain Jordan Sebastien",
+     "dob": "05.09.1995",
+     "nation": "FRA",
+     "category": "95",
+     "entry": 385
+    },
+    {
+     "no": 9,
+     "lot": 471,
+     "name": "ADILETULY Nurgissa",
+     "dob": "09.10.2000",
+     "nation": "KAZ",
+     "category": "95",
+     "entry": 395
+    },
+    {
+     "no": 10,
+     "lot": 498,
+     "name": "ALIPOUR Ali",
+     "dob": "26.11.2003",
+     "nation": "IRI",
+     "category": "95",
+     "entry": 400
+    },
+    {
+     "no": 11,
+     "lot": 508,
+     "name": "QIAN Feixiang",
+     "dob": "10.05.2003",
+     "nation": "CHN",
+     "category": "95",
+     "entry": 395
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "77kg D",
+   "date": "05.11.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 11,
+     "name": "ALAMEER Hanan Y M A H",
+     "dob": "29.10.1993",
+     "nation": "KUW",
+     "category": "77",
+     "entry": 120
+    },
+    {
+     "no": 2,
+     "lot": 15,
+     "name": "TOLSTRUP Laura Vest",
+     "dob": "12.09.1997",
+     "nation": "DEN",
+     "category": "77",
+     "entry": 225
+    },
+    {
+     "no": 3,
+     "lot": 188,
+     "name": "NOVAKOVA Eliska",
+     "dob": "21.04.2001",
+     "nation": "CZE",
+     "category": "77",
+     "entry": 210
+    },
+    {
+     "no": 4,
+     "lot": 300,
+     "name": "BEAUDOIN Rose",
+     "dob": "26.08.2006",
+     "nation": "CAN",
+     "category": "77",
+     "entry": 215
+    },
+    {
+     "no": 5,
+     "lot": 316,
+     "name": "SAUNDERS Kaitlin",
+     "dob": "30.07.1994",
+     "nation": "IRL",
+     "category": "77",
+     "entry": 190
+    },
+    {
+     "no": 6,
+     "lot": 350,
+     "name": "JERABKOVA Simona",
+     "dob": "29.09.2000",
+     "nation": "CZE",
+     "category": "77",
+     "entry": 225
+    },
+    {
+     "no": 7,
+     "lot": 358,
+     "name": "GERNSOE Caroline",
+     "dob": "06.05.1999",
+     "nation": "DEN",
+     "category": "77",
+     "entry": 211
+    },
+    {
+     "no": 8,
+     "lot": 362,
+     "name": "GAVRAN Ivona",
+     "dob": "03.04.1999",
+     "nation": "CRO",
+     "category": "77",
+     "entry": 190
+    },
+    {
+     "no": 9,
+     "lot": 391,
+     "name": "THOMAS Kia T Nique",
+     "dob": "18.07.1991",
+     "nation": "ISV",
+     "category": "77",
+     "entry": 161
+    },
+    {
+     "no": 10,
+     "lot": 515,
+     "name": "BOJUBARAH J Maryam",
+     "dob": "18.06.1993",
+     "nation": "KUW",
+     "category": "77",
+     "entry": 90
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "77kg C",
+   "date": "05.11.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 13,
+     "name": "KAKAMYRADOVA Gulalek",
+     "dob": "15.01.2006",
+     "nation": "TKM",
+     "category": "77",
+     "entry": 232
+    },
+    {
+     "no": 2,
+     "lot": 51,
+     "name": "STEFANSDOTTIR Gudny Bjork",
+     "dob": "08.08.2001",
+     "nation": "ISL",
+     "category": "77",
+     "entry": 226
+    },
+    {
+     "no": 3,
+     "lot": 75,
+     "name": "GHASEMI Nasim",
+     "dob": "01.08.2009",
+     "nation": "IRI",
+     "category": "77",
+     "entry": 237
+    },
+    {
+     "no": 4,
+     "lot": 83,
+     "name": "LOWIK Nikki Merel Elisabeth",
+     "dob": "30.01.2001",
+     "nation": "NED",
+     "category": "77",
+     "entry": 238
+    },
+    {
+     "no": 5,
+     "lot": 107,
+     "name": "ZIELINSKA Weronika",
+     "dob": "16.05.1997",
+     "nation": "POL",
+     "category": "77",
+     "entry": 236
+    },
+    {
+     "no": 6,
+     "lot": 135,
+     "name": "BRAZAITE Gintare",
+     "dob": "19.08.1992",
+     "nation": "LTU",
+     "category": "77",
+     "entry": 230
+    },
+    {
+     "no": 7,
+     "lot": 184,
+     "name": "GOLD Celia Henna",
+     "dob": "10.02.1998",
+     "nation": "ISR",
+     "category": "77",
+     "entry": 230
+    },
+    {
+     "no": 8,
+     "lot": 262,
+     "name": "SUKIASYAN Alina",
+     "dob": "04.01.2006",
+     "nation": "ARM",
+     "category": "77",
+     "entry": 235
+    },
+    {
+     "no": 9,
+     "lot": 304,
+     "name": "BROWN Isabella Beatrice",
+     "dob": "02.08.2004",
+     "nation": "GBR",
+     "category": "77",
+     "entry": 231
+    },
+    {
+     "no": 10,
+     "lot": 341,
+     "name": "COLEMAN GOOCH Keilin",
+     "dob": "08.03.2000",
+     "nation": "IRL",
+     "category": "77",
+     "entry": 228
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "77kg B",
+   "date": "05.11.2026",
+   "time": "16:00",
+   "weighin": "13:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 39,
+     "name": "ZHUMAGALI Ayanat",
+     "dob": "11.02.2007",
+     "nation": "KAZ",
+     "category": "77",
+     "entry": 240
+    },
+    {
+     "no": 2,
+     "lot": 97,
+     "name": "GONZALEZ VELAZQUEZ Emmy Lizette",
+     "dob": "01.10.2002",
+     "nation": "MEX",
+     "category": "77",
+     "entry": 240
+    },
+    {
+     "no": 3,
+     "lot": 98,
+     "name": "AMROYAN Anna",
+     "dob": "05.06.2006",
+     "nation": "ARM",
+     "category": "77",
+     "entry": 245
+    },
+    {
+     "no": 4,
+     "lot": 142,
+     "name": "FUENTES ZAVALA Aremi",
+     "dob": "23.05.1993",
+     "nation": "MEX",
+     "category": "77",
+     "entry": 250
+    },
+    {
+     "no": 5,
+     "lot": 146,
+     "name": "NAUMAVA Darya",
+     "dob": "26.08.1995",
+     "nation": "BLR",
+     "category": "77",
+     "entry": 251
+    },
+    {
+     "no": 6,
+     "lot": 163,
+     "name": "KIM Iseul",
+     "dob": "25.02.2000",
+     "nation": "KOR",
+     "category": "77",
+     "entry": 251
+    },
+    {
+     "no": 7,
+     "lot": 274,
+     "name": "ROMANOVA Anastasiia",
+     "dob": "02.10.1991",
+     "nation": "RUS",
+     "category": "77",
+     "entry": 246
+    },
+    {
+     "no": 8,
+     "lot": 330,
+     "name": "SERRANO Daiana",
+     "dob": "22.03.1999",
+     "nation": "DOM",
+     "category": "77",
+     "entry": 240
+    },
+    {
+     "no": 9,
+     "lot": 456,
+     "name": "KHORAVA Nana",
+     "dob": "12.08.2006",
+     "nation": "GEO",
+     "category": "77",
+     "entry": 242
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "77kg A",
+   "date": "05.11.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 27,
+     "name": "KUZMINOVA Varvara",
+     "dob": "08.07.2008",
+     "nation": "RUS",
+     "category": "77",
+     "entry": 253
+    },
+    {
+     "no": 2,
+     "lot": 102,
+     "name": "PENG Cuiting",
+     "dob": "31.07.2001",
+     "nation": "CHN",
+     "category": "77",
+     "entry": 270
+    },
+    {
+     "no": 3,
+     "lot": 140,
+     "name": "SANCHEZ PERINAN Mari Leivis",
+     "dob": "08.10.1991",
+     "nation": "COL",
+     "category": "77",
+     "entry": 255
+    },
+    {
+     "no": 4,
+     "lot": 197,
+     "name": "ROGERS Martha Ann",
+     "dob": "23.08.1995",
+     "nation": "USA",
+     "category": "77",
+     "entry": 256
+    },
+    {
+     "no": 5,
+     "lot": 237,
+     "name": "AHMED Sara Samir Elsayed Mohamed",
+     "dob": "01.01.1998",
+     "nation": "EGY",
+     "category": "77",
+     "entry": 265
+    },
+    {
+     "no": 6,
+     "lot": 301,
+     "name": "MENA MOSQUERA Maria Fernanda",
+     "dob": "25.02.2005",
+     "nation": "COL",
+     "category": "77",
+     "entry": 258
+    },
+    {
+     "no": 7,
+     "lot": 320,
+     "name": "YANG Qiuxia",
+     "dob": "29.07.2002",
+     "nation": "CHN",
+     "category": "77",
+     "entry": 270
+    },
+    {
+     "no": 8,
+     "lot": 335,
+     "name": "YLISOINI Anna Janette Tellervo",
+     "dob": "06.04.2006",
+     "nation": "FIN",
+     "category": "77",
+     "entry": 257
+    },
+    {
+     "no": 9,
+     "lot": 378,
+     "name": "NASCIMENTO AMARO Laura",
+     "dob": "27.10.2000",
+     "nation": "BRA",
+     "category": "77",
+     "entry": 255
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "110kg C",
+   "date": "06.11.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 17,
+     "name": "KOLAR Josef",
+     "dob": "01.10.1997",
+     "nation": "CZE",
+     "category": "110",
+     "entry": 370
+    },
+    {
+     "no": 2,
+     "lot": 50,
+     "name": "LUSIGNAN Xavier",
+     "dob": "21.07.2003",
+     "nation": "CAN",
+     "category": "110",
+     "entry": 368
+    },
+    {
+     "no": 3,
+     "lot": 96,
+     "name": "SUNDH Victor Arvid",
+     "dob": "23.04.2003",
+     "nation": "SWE",
+     "category": "110",
+     "entry": 355
+    },
+    {
+     "no": 4,
+     "lot": 173,
+     "name": "HLYNSSON Thorbergur Ernir",
+     "dob": "12.04.2005",
+     "nation": "ISL",
+     "category": "110",
+     "entry": 330
+    },
+    {
+     "no": 5,
+     "lot": 280,
+     "name": "CHEUNG Ka Lok",
+     "dob": "18.12.1997",
+     "nation": "HKG",
+     "category": "110",
+     "entry": 280
+    },
+    {
+     "no": 6,
+     "lot": 329,
+     "name": "NGADJA NYABEYEU Junior Periclex",
+     "dob": "16.06.1993",
+     "nation": "CMR",
+     "category": "110",
+     "entry": 345
+    },
+    {
+     "no": 7,
+     "lot": 364,
+     "name": "GINEIKIS Neilas",
+     "dob": "13.10.2005",
+     "nation": "LTU",
+     "category": "110",
+     "entry": 355
+    },
+    {
+     "no": 8,
+     "lot": 384,
+     "name": "MUGURDUMOV Artur",
+     "dob": "06.06.1988",
+     "nation": "ISR",
+     "category": "110",
+     "entry": 371
+    },
+    {
+     "no": 9,
+     "lot": 438,
+     "name": "VIERA ESPINOZA Hernan Moises",
+     "dob": "16.01.1993",
+     "nation": "PER",
+     "category": "110",
+     "entry": 340
+    },
+    {
+     "no": 10,
+     "lot": 454,
+     "name": "TCHATCHET II Cyrille Fagat",
+     "dob": "01.08.1995",
+     "nation": "GBR",
+     "category": "110",
+     "entry": 370
+    },
+    {
+     "no": 11,
+     "lot": 501,
+     "name": "O CONCHUBHAIR Seamus",
+     "dob": "27.06.1993",
+     "nation": "IRL",
+     "category": "110",
+     "entry": 335
+    },
+    {
+     "no": 12,
+     "lot": 517,
+     "name": "KAMANDE Eric",
+     "dob": "10.10.1996",
+     "nation": "KEN",
+     "category": "110",
+     "entry": 260
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "86kg C",
+   "date": "06.11.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 28,
+     "name": "GRUZDOVA Mariia",
+     "dob": "01.05.2005",
+     "nation": "RUS",
+     "category": "86",
+     "entry": 242
+    },
+    {
+     "no": 2,
+     "lot": 66,
+     "name": "SMIGOVA Eliska",
+     "dob": "04.01.1995",
+     "nation": "CZE",
+     "category": "86",
+     "entry": 230
+    },
+    {
+     "no": 3,
+     "lot": 185,
+     "name": "NACAGILEVU Litia Sipola",
+     "dob": "27.09.2007",
+     "nation": "NZL",
+     "category": "86",
+     "entry": 243
+    },
+    {
+     "no": 4,
+     "lot": 200,
+     "name": "SENICOVA Nikola",
+     "dob": "27.05.2000",
+     "nation": "SVK",
+     "category": "86",
+     "entry": 215
+    },
+    {
+     "no": 5,
+     "lot": 213,
+     "name": "MITYKO Veronika",
+     "dob": "26.07.2000",
+     "nation": "HUN",
+     "category": "86",
+     "entry": 230
+    },
+    {
+     "no": 6,
+     "lot": 239,
+     "name": "NGAKE Madias Dodo Nzesso",
+     "dob": "20.04.1992",
+     "nation": "GBR",
+     "category": "86",
+     "entry": 244
+    },
+    {
+     "no": 7,
+     "lot": 243,
+     "name": "PRITCHARD LOLO Ajah",
+     "dob": "10.08.2002",
+     "nation": "VAN",
+     "category": "86",
+     "entry": 210
+    },
+    {
+     "no": 8,
+     "lot": 309,
+     "name": "LO Ying-Yuan",
+     "dob": "07.05.1996",
+     "nation": "TPE",
+     "category": "86",
+     "entry": 235
+    },
+    {
+     "no": 9,
+     "lot": 355,
+     "name": "RODRIGUES Ana Rita",
+     "dob": "15.01.2001",
+     "nation": "POR",
+     "category": "86",
+     "entry": 198
+    },
+    {
+     "no": 10,
+     "lot": 453,
+     "name": "ENOCK Rachel Achieng",
+     "dob": "12.09.2004",
+     "nation": "KEN",
+     "category": "86",
+     "entry": 170
+    },
+    {
+     "no": 11,
+     "lot": 475,
+     "name": "NOUMBISSI Clementine Meukeugni",
+     "dob": "01.10.1990",
+     "nation": "WRT",
+     "category": "86",
+     "entry": 225
+    },
+    {
+     "no": 12,
+     "lot": 487,
+     "name": "JENSEN Anne Sofie Vejsgaard",
+     "dob": "16.07.1998",
+     "nation": "DEN",
+     "category": "86",
+     "entry": 235
+    },
+    {
+     "no": 13,
+     "lot": 495,
+     "name": "LKHAGVAJAV Bolortuya",
+     "dob": "22.02.2007",
+     "nation": "MGL",
+     "category": "86",
+     "entry": 230
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "110kg B",
+   "date": "06.11.2026",
+   "time": "16:30",
+   "weighin": "13:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 8,
+     "name": "RAINIBOGI Taniela Tuisuva",
+     "dob": "19.04.1998",
+     "nation": "FIJ",
+     "category": "110",
+     "entry": 380
+    },
+    {
+     "no": 2,
+     "lot": 68,
+     "name": "LIU Huanhua",
+     "dob": "20.08.2001",
+     "nation": "CHN",
+     "category": "110",
+     "entry": 380
+    },
+    {
+     "no": 3,
+     "lot": 90,
+     "name": "MOEINI SEDEH Alireza",
+     "dob": "28.02.2002",
+     "nation": "IRI",
+     "category": "110",
+     "entry": 397
+    },
+    {
+     "no": 4,
+     "lot": 100,
+     "name": "ALSALLAJ Asem Mousa Husam",
+     "dob": "10.06.2004",
+     "nation": "JOR",
+     "category": "110",
+     "entry": 380
+    },
+    {
+     "no": 5,
+     "lot": 104,
+     "name": "ALKHAZAL Ali Ahmed A",
+     "dob": "21.08.1998",
+     "nation": "KSA",
+     "category": "110",
+     "entry": 380
+    },
+    {
+     "no": 6,
+     "lot": 127,
+     "name": "VEKUA Gurami",
+     "dob": "05.01.2004",
+     "nation": "GEO",
+     "category": "110",
+     "entry": 385
+    },
+    {
+     "no": 7,
+     "lot": 250,
+     "name": "ZIOLKOWSKI Marcin",
+     "dob": "27.10.2006",
+     "nation": "POL",
+     "category": "110",
+     "entry": 390
+    },
+    {
+     "no": 8,
+     "lot": 371,
+     "name": "MOCHIDA Ryunosuke",
+     "dob": "18.06.1993",
+     "nation": "JPN",
+     "category": "110",
+     "entry": 381
+    },
+    {
+     "no": 9,
+     "lot": 446,
+     "name": "VIKINGSSON SJOEBLOM Joen Carl Erik",
+     "dob": "02.05.2003",
+     "nation": "SWE",
+     "category": "110",
+     "entry": 380
+    },
+    {
+     "no": 10,
+     "lot": 500,
+     "name": "MEDINA ANDUEZA Josue Said",
+     "dob": "15.06.1998",
+     "nation": "MEX",
+     "category": "110",
+     "entry": 381
+    },
+    {
+     "no": 11,
+     "lot": 525,
+     "name": "CHEN Po-Jen",
+     "dob": "05.07.1994",
+     "nation": "TPE",
+     "category": "110",
+     "entry": 396
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "110kg A",
+   "date": "06.11.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 110,
+     "name": "KARAPETYAN Garik",
+     "dob": "11.06.2003",
+     "nation": "ARM",
+     "category": "110",
+     "entry": 420
+    },
+    {
+     "no": 2,
+     "lot": 155,
+     "name": "NASIRI Alireza",
+     "dob": "14.12.2005",
+     "nation": "IRI",
+     "category": "110",
+     "entry": 420
+    },
+    {
+     "no": 3,
+     "lot": 168,
+     "name": "MATYAKUBOV Shahzadbek",
+     "dob": "01.03.2004",
+     "nation": "TKM",
+     "category": "110",
+     "entry": 410
+    },
+    {
+     "no": 4,
+     "lot": 286,
+     "name": "HRISTOV Hristo Dimitrov",
+     "dob": "27.04.2001",
+     "nation": "BUL",
+     "category": "110",
+     "entry": 410
+    },
+    {
+     "no": 5,
+     "lot": 303,
+     "name": "LAURET RODRIGUEZ Luis Manuel",
+     "dob": "20.01.1997",
+     "nation": "ROU",
+     "category": "110",
+     "entry": 415
+    },
+    {
+     "no": 6,
+     "lot": 308,
+     "name": "FERGUSON Kolbi Malik Kwame",
+     "dob": "01.12.2001",
+     "nation": "USA",
+     "category": "110",
+     "entry": 406
+    },
+    {
+     "no": 7,
+     "lot": 317,
+     "name": "DJURAEV Akbar",
+     "dob": "08.10.1999",
+     "nation": "UZB",
+     "category": "110",
+     "entry": 425
+    },
+    {
+     "no": 8,
+     "lot": 348,
+     "name": "ANTROPOV Artyom",
+     "dob": "23.01.2000",
+     "nation": "KAZ",
+     "category": "110",
+     "entry": 406
+    },
+    {
+     "no": 9,
+     "lot": 376,
+     "name": "TEBLOEV Sarmat",
+     "dob": "29.11.2003",
+     "nation": "RUS",
+     "category": "110",
+     "entry": 401
+    },
+    {
+     "no": 10,
+     "lot": 518,
+     "name": "ELBASYOUNI AHMED Gamal Mohamed Elmetwall",
+     "dob": "04.03.2005",
+     "nation": "EGY",
+     "category": "110",
+     "entry": 405
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "+110kg C",
+   "date": "07.11.2026",
+   "time": "11:00",
+   "weighin": "08:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 3,
+     "name": "KESKITALO Hanno Matias",
+     "dob": "01.07.2003",
+     "nation": "FIN",
+     "category": "+110",
+     "entry": 365
+    },
+    {
+     "no": 2,
+     "lot": 56,
+     "name": "BOUAMR Bilal",
+     "dob": "03.03.2004",
+     "nation": "MAR",
+     "category": "+110",
+     "entry": 370
+    },
+    {
+     "no": 3,
+     "lot": 64,
+     "name": "NOWLAN Rooney Cian",
+     "dob": "05.02.2003",
+     "nation": "IRL",
+     "category": "+110",
+     "entry": 330
+    },
+    {
+     "no": 4,
+     "lot": 153,
+     "name": "ALRABAH H Saud",
+     "dob": "14.07.2007",
+     "nation": "KUW",
+     "category": "+110",
+     "entry": 160
+    },
+    {
+     "no": 5,
+     "lot": 212,
+     "name": "STONKUS Karolis",
+     "dob": "12.04.2001",
+     "nation": "LTU",
+     "category": "+110",
+     "entry": 380
+    },
+    {
+     "no": 6,
+     "lot": 219,
+     "name": "MANUMUA JR Sikoti",
+     "dob": "07.11.2002",
+     "nation": "TGA",
+     "category": "+110",
+     "entry": 320
+    },
+    {
+     "no": 7,
+     "lot": 236,
+     "name": "SAADI MONROY Karim Alejandro",
+     "dob": "14.07.2000",
+     "nation": "MEX",
+     "category": "+110",
+     "entry": 370
+    },
+    {
+     "no": 8,
+     "lot": 252,
+     "name": "OTTOSSON Hugo Harald",
+     "dob": "03.10.2001",
+     "nation": "SWE",
+     "category": "+110",
+     "entry": 360
+    },
+    {
+     "no": 9,
+     "lot": 256,
+     "name": "JIN Cheng",
+     "dob": "22.08.1995",
+     "nation": "TPE",
+     "category": "+110",
+     "entry": 360
+    },
+    {
+     "no": 10,
+     "lot": 499,
+     "name": "BIZAMA CONEJERO Alonso Javier",
+     "dob": "10.11.2004",
+     "nation": "CHI",
+     "category": "+110",
+     "entry": 375
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "86kg B",
+   "date": "07.11.2026",
+   "time": "13:30",
+   "weighin": "10:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 14,
+     "name": "LAGROU Ilke",
+     "dob": "27.01.1998",
+     "nation": "BEL",
+     "category": "86",
+     "entry": 250
+    },
+    {
+     "no": 2,
+     "lot": 130,
+     "name": "JANG Hyeonju",
+     "dob": "26.11.1999",
+     "nation": "KOR",
+     "category": "86",
+     "entry": 251
+    },
+    {
+     "no": 3,
+     "lot": 161,
+     "name": "MURGVLIANI Mariam",
+     "dob": "05.12.2006",
+     "nation": "GEO",
+     "category": "86",
+     "entry": 247
+    },
+    {
+     "no": 4,
+     "lot": 178,
+     "name": "HERNANDEZ LIZARRAGA Mairyn Vanessa",
+     "dob": "30.07.2005",
+     "nation": "MEX",
+     "category": "86",
+     "entry": 251
+    },
+    {
+     "no": 5,
+     "lot": 222,
+     "name": "SUVONOVA Nigora",
+     "dob": "10.05.2005",
+     "nation": "UZB",
+     "category": "86",
+     "entry": 250
+    },
+    {
+     "no": 6,
+     "lot": 268,
+     "name": "JAMALI GALEH Yekta",
+     "dob": "16.12.2004",
+     "nation": "GER",
+     "category": "86",
+     "entry": 252
+    },
+    {
+     "no": 7,
+     "lot": 366,
+     "name": "NAKAJIMA Motoka",
+     "dob": "02.03.2002",
+     "nation": "JPN",
+     "category": "86",
+     "entry": 252
+    },
+    {
+     "no": 8,
+     "lot": 381,
+     "name": "HORMAVIRTA Minni Maria Alexandra",
+     "dob": "08.09.2008",
+     "nation": "FIN",
+     "category": "86",
+     "entry": 247
+    },
+    {
+     "no": 9,
+     "lot": 417,
+     "name": "WITTE Katelyn Ann",
+     "dob": "21.08.2004",
+     "nation": "USA",
+     "category": "86",
+     "entry": 250
+    },
+    {
+     "no": 10,
+     "lot": 425,
+     "name": "CAN Busra",
+     "dob": "04.05.2006",
+     "nation": "TUR",
+     "category": "86",
+     "entry": 246
+    },
+    {
+     "no": 11,
+     "lot": 473,
+     "name": "GADELIA Natia",
+     "dob": "07.06.2004",
+     "nation": "GEO",
+     "category": "86",
+     "entry": 247
+    },
+    {
+     "no": 12,
+     "lot": 505,
+     "name": "JIMENEZ QUINONEZ Kelin Juliana",
+     "dob": "04.02.2003",
+     "nation": "ECU",
+     "category": "86",
+     "entry": 245
+    },
+    {
+     "no": 13,
+     "lot": 528,
+     "name": "FEGUE Marie Josephe",
+     "dob": "28.05.1991",
+     "nation": "FRA",
+     "category": "86",
+     "entry": 246
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "+110kg B",
+   "date": "07.11.2026",
+   "time": "16:30",
+   "weighin": "13:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 71,
+     "name": "TALAKHADZE Lasha",
+     "dob": "02.10.1993",
+     "nation": "GEO",
+     "category": "+110",
+     "entry": 400
+    },
+    {
+     "no": 2,
+     "lot": 95,
+     "name": "SONG Yeonghwan",
+     "dob": "04.12.2001",
+     "nation": "KOR",
+     "category": "+110",
+     "entry": 410
+    },
+    {
+     "no": 3,
+     "lot": 106,
+     "name": "LITI David Andrew",
+     "dob": "11.07.1996",
+     "nation": "NZL",
+     "category": "+110",
+     "entry": 393
+    },
+    {
+     "no": 4,
+     "lot": 125,
+     "name": "KUCERA Kamil",
+     "dob": "19.03.1985",
+     "nation": "CZE",
+     "category": "+110",
+     "entry": 395
+    },
+    {
+     "no": 5,
+     "lot": 138,
+     "name": "WITTE Keiser Andrew",
+     "dob": "15.03.1995",
+     "nation": "USA",
+     "category": "+110",
+     "entry": 405
+    },
+    {
+     "no": 6,
+     "lot": 204,
+     "name": "SAWANOBORI Kentaro",
+     "dob": "28.04.1999",
+     "nation": "JPN",
+     "category": "+110",
+     "entry": 395
+    },
+    {
+     "no": 7,
+     "lot": 244,
+     "name": "PRYLYPKO Vladyslav",
+     "dob": "06.11.2000",
+     "nation": "UKR",
+     "category": "+110",
+     "entry": 410
+    },
+    {
+     "no": 8,
+     "lot": 276,
+     "name": "DONG Bing-Cheng",
+     "dob": "20.03.2000",
+     "nation": "TPE",
+     "category": "+110",
+     "entry": 405
+    },
+    {
+     "no": 9,
+     "lot": 440,
+     "name": "ALNAJJAR M Moayad M",
+     "dob": "22.02.2000",
+     "nation": "UAE",
+     "category": "+110",
+     "entry": 405
+    },
+    {
+     "no": 10,
+     "lot": 472,
+     "name": "LOVEPREET Singh",
+     "dob": "06.09.1997",
+     "nation": "IND",
+     "category": "+110",
+     "entry": 395
+    },
+    {
+     "no": 11,
+     "lot": 507,
+     "name": "HWANG Wooman",
+     "dob": "12.07.1995",
+     "nation": "KOR",
+     "category": "+110",
+     "entry": 410
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "86kg A",
+   "date": "07.11.2026",
+   "time": "19:00",
+   "weighin": "16:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 47,
+     "name": "ADASHBAEVA Rigina",
+     "dob": "29.10.2001",
+     "nation": "UZB",
+     "category": "86",
+     "entry": 260
+    },
+    {
+     "no": 2,
+     "lot": 118,
+     "name": "DOMBROVSKA Iryna",
+     "dob": "16.05.2004",
+     "nation": "UKR",
+     "category": "86",
+     "entry": 260
+    },
+    {
+     "no": 3,
+     "lot": 202,
+     "name": "GYURJYAN Liana",
+     "dob": "13.06.2002",
+     "nation": "ARM",
+     "category": "86",
+     "entry": 257
+    },
+    {
+     "no": 4,
+     "lot": 281,
+     "name": "LIAO Guifang",
+     "dob": "05.10.2001",
+     "nation": "CHN",
+     "category": "86",
+     "entry": 280
+    },
+    {
+     "no": 5,
+     "lot": 339,
+     "name": "KIM Suhyeon",
+     "dob": "06.02.1995",
+     "nation": "KOR",
+     "category": "86",
+     "entry": 257
+    },
+    {
+     "no": 6,
+     "lot": 353,
+     "name": "POGHOSYAN Emma",
+     "dob": "26.08.2006",
+     "nation": "ARM",
+     "category": "86",
+     "entry": 261
+    },
+    {
+     "no": 7,
+     "lot": 400,
+     "name": "MEJIA PEGUERO Yudelina",
+     "dob": "04.06.1997",
+     "nation": "DOM",
+     "category": "86",
+     "entry": 260
+    },
+    {
+     "no": 8,
+     "lot": 418,
+     "name": "MARUSHCHAK Alina",
+     "dob": "06.03.1997",
+     "nation": "BRN",
+     "category": "86",
+     "entry": 265
+    },
+    {
+     "no": 9,
+     "lot": 421,
+     "name": "RIVAS MOSQUERA Valeria",
+     "dob": "23.04.2000",
+     "nation": "COL",
+     "category": "86",
+     "entry": 258
+    },
+    {
+     "no": 10,
+     "lot": 430,
+     "name": "RUSTAMOVA Anamjan",
+     "dob": "08.05.2006",
+     "nation": "TKM",
+     "category": "86",
+     "entry": 262
+    },
+    {
+     "no": 11,
+     "lot": 441,
+     "name": "NAGASHIMA Wakana",
+     "dob": "11.02.2006",
+     "nation": "JPN",
+     "category": "86",
+     "entry": 260
+    },
+    {
+     "no": 12,
+     "lot": 514,
+     "name": "NICHOLSON Ella",
+     "dob": "07.07.2006",
+     "nation": "USA",
+     "category": "86",
+     "entry": 266
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "+86kg C",
+   "date": "08.11.2026",
+   "time": "09:00",
+   "weighin": "06:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 60,
+     "name": "PEDERSEN Aurelia Rebekka",
+     "dob": "30.01.2004",
+     "nation": "DEN",
+     "category": "+86",
+     "entry": 246
+    },
+    {
+     "no": 2,
+     "lot": 150,
+     "name": "ONGONGA Juliana Anyango",
+     "dob": "17.05.2004",
+     "nation": "KEN",
+     "category": "+86",
+     "entry": 170
+    },
+    {
+     "no": 3,
+     "lot": 284,
+     "name": "SEDA Pavlina",
+     "dob": "11.02.2002",
+     "nation": "CZE",
+     "category": "+86",
+     "entry": 216
+    },
+    {
+     "no": 4,
+     "lot": 297,
+     "name": "JONSDOTTIR Fridny Fjola",
+     "dob": "10.05.1997",
+     "nation": "ISL",
+     "category": "+86",
+     "entry": 229
+    },
+    {
+     "no": 5,
+     "lot": 365,
+     "name": "ZEMBOVA Lenka",
+     "dob": "18.01.2002",
+     "nation": "SVK",
+     "category": "+86",
+     "entry": 240
+    },
+    {
+     "no": 6,
+     "lot": 379,
+     "name": "FISCHER Sarah",
+     "dob": "09.11.2000",
+     "nation": "AUT",
+     "category": "+86",
+     "entry": 241
+    },
+    {
+     "no": 7,
+     "lot": 419,
+     "name": "BATBAYAR Enkhjin",
+     "dob": "13.01.2006",
+     "nation": "MGL",
+     "category": "+86",
+     "entry": 230
+    },
+    {
+     "no": 8,
+     "lot": 426,
+     "name": "GENDENDAMBA Chinbolor",
+     "dob": "13.11.2008",
+     "nation": "MGL",
+     "category": "+86",
+     "entry": 222
+    },
+    {
+     "no": 9,
+     "lot": 470,
+     "name": "DOMONATANI Leyna-May T R",
+     "dob": "01.01.2005",
+     "nation": "FIJ",
+     "category": "+86",
+     "entry": 210
+    },
+    {
+     "no": 10,
+     "lot": 486,
+     "name": "AGUSTSDOTTIR Erla",
+     "dob": "22.05.2001",
+     "nation": "ISL",
+     "category": "+86",
+     "entry": 230
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "+86kg B",
+   "date": "08.11.2026",
+   "time": "11:30",
+   "weighin": "08:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 79,
+     "name": "ELSAYED Rahma Ahmed Abdelrazek Hassan",
+     "dob": "04.01.2006",
+     "nation": "EGY",
+     "category": "+86",
+     "entry": 265
+    },
+    {
+     "no": 2,
+     "lot": 230,
+     "name": "LOVE Etta Mae",
+     "dob": "28.08.2007",
+     "nation": "CAN",
+     "category": "+86",
+     "entry": 250
+    },
+    {
+     "no": 3,
+     "lot": 241,
+     "name": "JUSTINO DE LIMA Taiane",
+     "dob": "16.02.2004",
+     "nation": "BRA",
+     "category": "+86",
+     "entry": 261
+    },
+    {
+     "no": 4,
+     "lot": 245,
+     "name": "THILGES Caitlin",
+     "dob": "13.01.2000",
+     "nation": "USA",
+     "category": "+86",
+     "entry": 256
+    },
+    {
+     "no": 5,
+     "lot": 314,
+     "name": "SANTANA PEGUERO Crismery Dominga",
+     "dob": "20.04.1995",
+     "nation": "DOM",
+     "category": "+86",
+     "entry": 260
+    },
+    {
+     "no": 6,
+     "lot": 347,
+     "name": "SITI AQILAH Farhana Binti Draman",
+     "dob": "09.07.2006",
+     "nation": "MAS",
+     "category": "+86",
+     "entry": 250
+    },
+    {
+     "no": 7,
+     "lot": 357,
+     "name": "KISIL Valentyna",
+     "dob": "05.07.1998",
+     "nation": "UKR",
+     "category": "+86",
+     "entry": 261
+    },
+    {
+     "no": 8,
+     "lot": 380,
+     "name": "SUREN Tuana",
+     "dob": "01.05.2006",
+     "nation": "TUR",
+     "category": "+86",
+     "entry": 265
+    },
+    {
+     "no": 9,
+     "lot": 460,
+     "name": "JIMENEZ CAZARES Laura Anahi",
+     "dob": "07.09.1998",
+     "nation": "MEX",
+     "category": "+86",
+     "entry": 255
+    },
+    {
+     "no": 10,
+     "lot": 496,
+     "name": "RODRIGUEZ LUGO Adbeel Noemi",
+     "dob": "23.05.2002",
+     "nation": "MEX",
+     "category": "+86",
+     "entry": 260
+    }
+   ]
+  },
+  {
+   "sex": "Men",
+   "label": "+110kg A",
+   "date": "08.11.2026",
+   "time": "14:00",
+   "weighin": "11:00",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 2,
+     "name": "WILLIAMS Aaron",
+     "dob": "01.06.1995",
+     "nation": "USA",
+     "category": "+110",
+     "entry": 418
+    },
+    {
+     "no": 2,
+     "lot": 88,
+     "name": "AMRIDDINOV Sharofiddin",
+     "dob": "28.06.2002",
+     "nation": "UZB",
+     "category": "+110",
+     "entry": 425
+    },
+    {
+     "no": 3,
+     "lot": 109,
+     "name": "LALAYAN Varazdat",
+     "dob": "01.05.1999",
+     "nation": "ARM",
+     "category": "+110",
+     "entry": 460
+    },
+    {
+     "no": 4,
+     "lot": 113,
+     "name": "CERRO CASTILLO Rafael De Jesus",
+     "dob": "16.05.1997",
+     "nation": "COL",
+     "category": "+110",
+     "entry": 420
+    },
+    {
+     "no": 5,
+     "lot": 201,
+     "name": "YOUSEFI Alireza",
+     "dob": "27.08.2003",
+     "nation": "IRI",
+     "category": "+110",
+     "entry": 455
+    },
+    {
+     "no": 6,
+     "lot": 248,
+     "name": "DAVOUDI Ali",
+     "dob": "22.03.1999",
+     "nation": "IRI",
+     "category": "+110",
+     "entry": 455
+    },
+    {
+     "no": 7,
+     "lot": 272,
+     "name": "TARANENKO Bohdan",
+     "dob": "14.03.2002",
+     "nation": "UKR",
+     "category": "+110",
+     "entry": 425
+    },
+    {
+     "no": 8,
+     "lot": 414,
+     "name": "HOLME Ragnar Gamlestoel",
+     "dob": "19.06.2001",
+     "nation": "NOR",
+     "category": "+110",
+     "entry": 413
+    },
+    {
+     "no": 9,
+     "lot": 435,
+     "name": "VAGAITSEV Daniil",
+     "dob": "13.11.2001",
+     "nation": "RUS",
+     "category": "+110",
+     "entry": 430
+    },
+    {
+     "no": 10,
+     "lot": 468,
+     "name": "RUBAIAWI Ali Ammar Yusur",
+     "dob": "02.08.2004",
+     "nation": "IRQ",
+     "category": "+110",
+     "entry": 440
+    }
+   ]
+  },
+  {
+   "sex": "Women",
+   "label": "+86kg A",
+   "date": "08.11.2026",
+   "time": "16:30",
+   "weighin": "13:30",
+   "athletes": [
+    {
+     "no": 1,
+     "lot": 6,
+     "name": "PARK Hyejeong",
+     "dob": "12.03.2003",
+     "nation": "KOR",
+     "category": "+86",
+     "entry": 290
+    },
+    {
+     "no": 2,
+     "lot": 7,
+     "name": "KIM Hyoeon",
+     "dob": "30.05.2003",
+     "nation": "KOR",
+     "category": "+86",
+     "entry": 275
+    },
+    {
+     "no": 3,
+     "lot": 16,
+     "name": "KOVALCHUK Lyubov",
+     "dob": "10.05.2001",
+     "nation": "KAZ",
+     "category": "+86",
+     "entry": 270
+    },
+    {
+     "no": 4,
+     "lot": 74,
+     "name": "PEREZ REVERON Naryury Alexandra",
+     "dob": "29.09.1992",
+     "nation": "VEN",
+     "category": "+86",
+     "entry": 280
+    },
+    {
+     "no": 5,
+     "lot": 180,
+     "name": "OUISAL Ikhlef",
+     "dob": "03.09.2003",
+     "nation": "QAT",
+     "category": "+86",
+     "entry": 280
+    },
+    {
+     "no": 6,
+     "lot": 196,
+     "name": "WANG Ling-Chen",
+     "dob": "19.06.2003",
+     "nation": "TPE",
+     "category": "+86",
+     "entry": 270
+    },
+    {
+     "no": 7,
+     "lot": 249,
+     "name": "THEISEN LAPPEN Mary Anne",
+     "dob": "03.11.1990",
+     "nation": "USA",
+     "category": "+86",
+     "entry": 276
+    },
+    {
+     "no": 8,
+     "lot": 259,
+     "name": "SARRIA RUIZ Marifelix",
+     "dob": "25.08.2004",
+     "nation": "CUB",
+     "category": "+86",
+     "entry": 280
+    },
+    {
+     "no": 9,
+     "lot": 512,
+     "name": "LI Yan",
+     "dob": "01.09.2004",
+     "nation": "CHN",
+     "category": "+86",
+     "entry": 315
+    }
+   ]
+  }
+ ],
+ "records": {
+  "Women": {
+   "Senior": [
+    {
+     "category": "49",
+     "lift": "Snatch",
+     "result": 94,
+     "holder": "RI Song Gum",
+     "dob": "17.10.1997",
+     "nation": "PRK",
+     "date": "23.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "49",
+     "lift": "C&J",
+     "result": 121,
+     "holder": "RI Song Gum",
+     "dob": "17.10.1997",
+     "nation": "PRK",
+     "date": "23.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "49",
+     "lift": "Total",
+     "result": 215,
+     "holder": "RI Song Gum",
+     "dob": "17.10.1997",
+     "nation": "PRK",
+     "date": "23.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "53",
+     "lift": "Snatch",
+     "result": 99,
+     "holder": null
+    },
+    {
+     "category": "53",
+     "lift": "C&J",
+     "result": 126,
+     "holder": null
+    },
+    {
+     "category": "53",
+     "lift": "Total",
+     "result": 223,
+     "holder": null
+    },
+    {
+     "category": "57",
+     "lift": "Snatch",
+     "result": 104,
+     "holder": "OH Kwang Ok",
+     "dob": "02.01.2002",
+     "nation": "PRK",
+     "date": "25.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "57",
+     "lift": "C&J",
+     "result": 134,
+     "holder": "OH Kwang Ok",
+     "dob": "02.01.2002",
+     "nation": "PRK",
+     "date": "25.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "57",
+     "lift": "Total",
+     "result": 238,
+     "holder": "OH Kwang Ok",
+     "dob": "02.01.2002",
+     "nation": "PRK",
+     "date": "25.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "61",
+     "lift": "Snatch",
+     "result": 112,
+     "holder": "YANG Liuyue",
+     "dob": "10.12.2006",
+     "nation": "CHN",
+     "date": "25.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "61",
+     "lift": "C&J",
+     "result": 139,
+     "holder": "PAK Jin Hae",
+     "dob": "08.11.2003",
+     "nation": "PRK",
+     "date": "25.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "61",
+     "lift": "Total",
+     "result": 251,
+     "holder": "YANG Liuyue",
+     "dob": "10.12.2006",
+     "nation": "CHN",
+     "date": "25.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "69",
+     "lift": "Snatch",
+     "result": 121,
+     "holder": "SONG Kuk Hyang",
+     "dob": "01.02.2001",
+     "nation": "PRK",
+     "date": "27.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "69",
+     "lift": "C&J",
+     "result": 152,
+     "holder": "SONG Kuk Hyang",
+     "dob": "01.02.2001",
+     "nation": "PRK",
+     "date": "27.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "69",
+     "lift": "Total",
+     "result": 273,
+     "holder": "SONG Kuk Hyang",
+     "dob": "01.02.2001",
+     "nation": "PRK",
+     "date": "27.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "77",
+     "lift": "Snatch",
+     "result": 123,
+     "holder": "REEVES Lynn Olivia",
+     "dob": "19.04.2003",
+     "nation": "USA",
+     "date": "08.10.2025",
+     "place": "Forde"
+    },
+    {
+     "category": "77",
+     "lift": "C&J",
+     "result": 155,
+     "holder": "REEVES Lynn Olivia",
+     "dob": "19.04.2003",
+     "nation": "USA",
+     "date": "08.10.2025",
+     "place": "Forde"
+    },
+    {
+     "category": "77",
+     "lift": "Total",
+     "result": 278,
+     "holder": "REEVES Lynn Olivia",
+     "dob": "19.04.2003",
+     "nation": "USA",
+     "date": "08.10.2025",
+     "place": "Forde"
+    },
+    {
+     "category": "86",
+     "lift": "Snatch",
+     "result": 129,
+     "holder": null
+    },
+    {
+     "category": "86",
+     "lift": "C&J",
+     "result": 162,
+     "holder": null
+    },
+    {
+     "category": "86",
+     "lift": "Total",
+     "result": 289,
+     "holder": null
+    },
+    {
+     "category": "+86",
+     "lift": "Snatch",
+     "result": 145,
+     "holder": "LI Yan",
+     "dob": "01.09.2004",
+     "nation": "CHN",
+     "date": "17.05.2026",
+     "place": "Gandhinagar"
+    },
+    {
+     "category": "+86",
+     "lift": "C&J",
+     "result": 181,
+     "holder": null
+    },
+    {
+     "category": "+86",
+     "lift": "Total",
+     "result": 325,
+     "holder": null
+    }
+   ],
+   "Junior": [
+    {
+     "category": "49",
+     "lift": "Snatch",
+     "result": 88,
+     "holder": null
+    },
+    {
+     "category": "49",
+     "lift": "C&J",
+     "result": 114,
+     "holder": null
+    },
+    {
+     "category": "49",
+     "lift": "Total",
+     "result": 202,
+     "holder": null
+    },
+    {
+     "category": "53",
+     "lift": "Snatch",
+     "result": 93,
+     "holder": null
+    },
+    {
+     "category": "53",
+     "lift": "C&J",
+     "result": 120,
+     "holder": null
+    },
+    {
+     "category": "53",
+     "lift": "Total",
+     "result": 212,
+     "holder": null
+    },
+    {
+     "category": "57",
+     "lift": "Snatch",
+     "result": 97,
+     "holder": null
+    },
+    {
+     "category": "57",
+     "lift": "C&J",
+     "result": 123,
+     "holder": null
+    },
+    {
+     "category": "57",
+     "lift": "Total",
+     "result": 219,
+     "holder": null
+    },
+    {
+     "category": "61",
+     "lift": "Snatch",
+     "result": 112,
+     "holder": "YANG Liuyue",
+     "dob": "10.12.2006",
+     "nation": "CHN",
+     "date": "25.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "61",
+     "lift": "C&J",
+     "result": 139,
+     "holder": "YANG Liuyue",
+     "dob": "10.12.2006",
+     "nation": "CHN",
+     "date": "25.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "61",
+     "lift": "Total",
+     "result": 251,
+     "holder": "YANG Liuyue",
+     "dob": "10.12.2006",
+     "nation": "CHN",
+     "date": "25.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "69",
+     "lift": "Snatch",
+     "result": 110,
+     "holder": "SIMONEAU Charlotte",
+     "dob": "30.05.2005",
+     "nation": "CAN",
+     "date": "22.08.2025",
+     "place": "Asuncion"
+    },
+    {
+     "category": "69",
+     "lift": "C&J",
+     "result": 138,
+     "holder": "LIN Jingwei",
+     "dob": "25.01.2008",
+     "nation": "CHN",
+     "date": "05.05.2026",
+     "place": "Ismailia"
+    },
+    {
+     "category": "69",
+     "lift": "Total",
+     "result": 245,
+     "holder": "LIN Jingwei",
+     "dob": "25.01.2008",
+     "nation": "CHN",
+     "date": "05.05.2026",
+     "place": "Ismailia"
+    },
+    {
+     "category": "77",
+     "lift": "Snatch",
+     "result": 116,
+     "holder": null
+    },
+    {
+     "category": "77",
+     "lift": "C&J",
+     "result": 144,
+     "holder": null
+    },
+    {
+     "category": "77",
+     "lift": "Total",
+     "result": 257,
+     "holder": null
+    },
+    {
+     "category": "86",
+     "lift": "Snatch",
+     "result": 123,
+     "holder": null
+    },
+    {
+     "category": "86",
+     "lift": "C&J",
+     "result": 152,
+     "holder": null
+    },
+    {
+     "category": "86",
+     "lift": "Total",
+     "result": 271,
+     "holder": null
+    },
+    {
+     "category": "+86",
+     "lift": "Snatch",
+     "result": 143,
+     "holder": null
+    },
+    {
+     "category": "+86",
+     "lift": "C&J",
+     "result": 180,
+     "holder": null
+    },
+    {
+     "category": "+86",
+     "lift": "Total",
+     "result": 320,
+     "holder": null
+    }
+   ],
+   "Youth": [
+    {
+     "category": "45",
+     "lift": "Snatch",
+     "result": 74,
+     "holder": null
+    },
+    {
+     "category": "45",
+     "lift": "C&J",
+     "result": 94,
+     "holder": "VAN ULFT Aurora",
+     "dob": "05.02.2013",
+     "nation": "ARU",
+     "date": "26.08.2026",
+     "place": "Guayaquil"
+    },
+    {
+     "category": "45",
+     "lift": "Total",
+     "result": 166,
+     "holder": "VAN ULFT Aurora",
+     "dob": "05.02.2013",
+     "nation": "ARU",
+     "date": "26.08.2026",
+     "place": "Guayaquil"
+    },
+    {
+     "category": "49",
+     "lift": "Snatch",
+     "result": 81,
+     "holder": "ULACIO Enderlin",
+     "dob": "27.08.2009",
+     "nation": "VEN",
+     "date": "04.10.2026",
+     "place": "Tepic"
+    },
+    {
+     "category": "49",
+     "lift": "C&J",
+     "result": 100,
+     "holder": "ULACIO Enderlin",
+     "dob": "27.08.2009",
+     "nation": "VEN",
+     "date": "04.10.2026",
+     "place": "Tepic"
+    },
+    {
+     "category": "49",
+     "lift": "Total",
+     "result": 181,
+     "holder": "ULACIO Enderlin",
+     "dob": "27.08.2009",
+     "nation": "VEN",
+     "date": "04.10.2026",
+     "place": "Tepic"
+    },
+    {
+     "category": "53",
+     "lift": "Snatch",
+     "result": 88,
+     "holder": "PAK Hae Yon",
+     "dob": "03.08.2009",
+     "nation": "PRK",
+     "date": "28.10.2025",
+     "place": "Manama"
+    },
+    {
+     "category": "53",
+     "lift": "C&J",
+     "result": 107,
+     "holder": "PAK Hae Yon",
+     "dob": "03.08.2009",
+     "nation": "PRK",
+     "date": "28.10.2025",
+     "place": "Manama"
+    },
+    {
+     "category": "53",
+     "lift": "Total",
+     "result": 195,
+     "holder": "PAK Hae Yon",
+     "dob": "03.08.2009",
+     "nation": "PRK",
+     "date": "28.10.2025",
+     "place": "Manama"
+    },
+    {
+     "category": "57",
+     "lift": "Snatch",
+     "result": 88,
+     "holder": null
+    },
+    {
+     "category": "57",
+     "lift": "C&J",
+     "result": 112,
+     "holder": "KASHKAROVA Snezhana",
+     "dob": "02.08.2011",
+     "nation": "KAZ",
+     "date": "10.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "57",
+     "lift": "Total",
+     "result": 200,
+     "holder": "KASHKAROVA Snezhana",
+     "dob": "02.08.2011",
+     "nation": "KAZ",
+     "date": "10.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "61",
+     "lift": "Snatch",
+     "result": 94,
+     "holder": "PROZOROVA Xeniya",
+     "dob": "12.03.2010",
+     "nation": "KAZ",
+     "date": "10.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "61",
+     "lift": "C&J",
+     "result": 115,
+     "holder": null
+    },
+    {
+     "category": "61",
+     "lift": "Total",
+     "result": 206,
+     "holder": null
+    },
+    {
+     "category": "69",
+     "lift": "Snatch",
+     "result": 101,
+     "holder": null
+    },
+    {
+     "category": "69",
+     "lift": "C&J",
+     "result": 127,
+     "holder": "RI Sae Byol",
+     "dob": "01.06.2008",
+     "nation": "PRK",
+     "date": "29.10.2025",
+     "place": "Manama"
+    },
+    {
+     "category": "69",
+     "lift": "Total",
+     "result": 225,
+     "holder": null
+    },
+    {
+     "category": "77",
+     "lift": "Snatch",
+     "result": 106,
+     "holder": null
+    },
+    {
+     "category": "77",
+     "lift": "C&J",
+     "result": 133,
+     "holder": null
+    },
+    {
+     "category": "77",
+     "lift": "Total",
+     "result": 237,
+     "holder": null
+    },
+    {
+     "category": "+77",
+     "lift": "Snatch",
+     "result": 125,
+     "holder": "HU Wenxun",
+     "dob": "23.10.2010",
+     "nation": "CHN",
+     "date": "08.05.2026",
+     "place": "Ismailia"
+    },
+    {
+     "category": "+77",
+     "lift": "C&J",
+     "result": 163,
+     "holder": "HU Wenxun",
+     "dob": "23.10.2010",
+     "nation": "CHN",
+     "date": "08.05.2026",
+     "place": "Ismailia"
+    },
+    {
+     "category": "+77",
+     "lift": "Total",
+     "result": 288,
+     "holder": "HU Wenxun",
+     "dob": "23.10.2010",
+     "nation": "CHN",
+     "date": "08.05.2026",
+     "place": "Ismailia"
+    }
+   ]
+  },
+  "Men": {
+   "Senior": [
+    {
+     "category": "60",
+     "lift": "Snatch",
+     "result": 141,
+     "holder": null
+    },
+    {
+     "category": "60",
+     "lift": "C&J",
+     "result": 174,
+     "holder": "PANG Un Chol",
+     "dob": "19.01.2001",
+     "nation": "PRK",
+     "date": "11.05.2026",
+     "place": "Gandhinagar"
+    },
+    {
+     "category": "60",
+     "lift": "Total",
+     "result": 307,
+     "holder": null
+    },
+    {
+     "category": "65",
+     "lift": "Snatch",
+     "result": 152,
+     "holder": "HE Yueji",
+     "dob": "11.07.2002",
+     "nation": "CHN",
+     "date": "24.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "65",
+     "lift": "C&J",
+     "result": 183,
+     "holder": "HE Yueji",
+     "dob": "11.07.2002",
+     "nation": "CHN",
+     "date": "13.05.2026",
+     "place": "Gandhinagar"
+    },
+    {
+     "category": "65",
+     "lift": "Total",
+     "result": 329,
+     "holder": "HE Yueji",
+     "dob": "11.07.2002",
+     "nation": "CHN",
+     "date": "13.05.2026",
+     "place": "Gandhinagar"
+    },
+    {
+     "category": "70",
+     "lift": "Snatch",
+     "result": 154,
+     "holder": "MIYAMOTO Masanori",
+     "dob": "03.02.1997",
+     "nation": "JPN",
+     "date": "26.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "70",
+     "lift": "C&J",
+     "result": 198,
+     "holder": "RI Won Ju",
+     "dob": "17.09.2002",
+     "nation": "PRK",
+     "date": "26.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "70",
+     "lift": "Total",
+     "result": 349,
+     "holder": "RI Won Ju",
+     "dob": "17.09.2002",
+     "nation": "PRK",
+     "date": "26.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "75",
+     "lift": "Snatch",
+     "result": 162,
+     "holder": "RI Chong Song",
+     "dob": "31.05.1997",
+     "nation": "PRK",
+     "date": "26.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "75",
+     "lift": "C&J",
+     "result": 206,
+     "holder": "ABDULLAH Rahmat Erwin",
+     "dob": "13.10.2000",
+     "nation": "INA",
+     "date": "26.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "75",
+     "lift": "Total",
+     "result": 366,
+     "holder": "ABDULLAH Rahmat Erwin",
+     "dob": "13.10.2000",
+     "nation": "INA",
+     "date": "26.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "85",
+     "lift": "Snatch",
+     "result": 173,
+     "holder": "CHURKIN Alexey",
+     "dob": "19.03.2004",
+     "nation": "KAZ",
+     "date": "28.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "85",
+     "lift": "C&J",
+     "result": 214,
+     "holder": "RO Kwang Ryol",
+     "dob": "30.04.2001",
+     "nation": "PRK",
+     "date": "28.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "85",
+     "lift": "Total",
+     "result": 379,
+     "holder": "RO Kwang Ryol",
+     "dob": "30.04.2001",
+     "nation": "PRK",
+     "date": "28.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "95",
+     "lift": "Snatch",
+     "result": 181,
+     "holder": null
+    },
+    {
+     "category": "95",
+     "lift": "C&J",
+     "result": 220,
+     "holder": null
+    },
+    {
+     "category": "95",
+     "lift": "Total",
+     "result": 398,
+     "holder": "ALIPOUR Ali",
+     "dob": "26.11.2003",
+     "nation": "IRI",
+     "date": "28.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "110",
+     "lift": "Snatch",
+     "result": 197,
+     "holder": "DJURAEV Akbar",
+     "dob": "08.10.1999",
+     "nation": "UZB",
+     "date": "29.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "110",
+     "lift": "C&J",
+     "result": 237,
+     "holder": null
+    },
+    {
+     "category": "110",
+     "lift": "Total",
+     "result": 428,
+     "holder": "DJURAEV Akbar",
+     "dob": "08.10.1999",
+     "nation": "UZB",
+     "date": "10.10.2025",
+     "place": "Forde"
+    },
+    {
+     "category": "+110",
+     "lift": "Snatch",
+     "result": 219,
+     "holder": "RUBAIAWI Ali Ammar Yusur",
+     "dob": "02.08.2004",
+     "nation": "IRQ",
+     "date": "29.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "+110",
+     "lift": "C&J",
+     "result": 261,
+     "holder": "YOUSEFI Alireza",
+     "dob": "27.08.2003",
+     "nation": "IRI",
+     "date": "17.05.2026",
+     "place": "Gandhinagar"
+    },
+    {
+     "category": "+110",
+     "lift": "Total",
+     "result": 477,
+     "holder": null
+    }
+   ],
+   "Junior": [
+    {
+     "category": "60",
+     "lift": "Snatch",
+     "result": 132,
+     "holder": "YUAN Hao",
+     "dob": "21.06.2006",
+     "nation": "CHN",
+     "date": "03.10.2025",
+     "place": "Forde"
+    },
+    {
+     "category": "60",
+     "lift": "C&J",
+     "result": 164,
+     "holder": "K Duong",
+     "dob": "03.07.2007",
+     "nation": "VIE",
+     "date": "13.12.2025",
+     "place": "Chonburi"
+    },
+    {
+     "category": "60",
+     "lift": "Total",
+     "result": 290,
+     "holder": null
+    },
+    {
+     "category": "65",
+     "lift": "Snatch",
+     "result": 139,
+     "holder": null
+    },
+    {
+     "category": "65",
+     "lift": "C&J",
+     "result": 174,
+     "holder": "ELARABY Elsayed Aly E A",
+     "dob": "02.01.2006",
+     "nation": "EGY",
+     "date": "09.10.2026",
+     "place": "Mostaganem"
+    },
+    {
+     "category": "65",
+     "lift": "Total",
+     "result": 308,
+     "holder": null
+    },
+    {
+     "category": "70",
+     "lift": "Snatch",
+     "result": 144,
+     "holder": null
+    },
+    {
+     "category": "70",
+     "lift": "C&J",
+     "result": 183,
+     "holder": "DELOS SANTOS Albert Ian",
+     "dob": "12.08.2006",
+     "nation": "PHI",
+     "date": "26.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "70",
+     "lift": "Total",
+     "result": 324,
+     "holder": "DELOS SANTOS Albert Ian",
+     "dob": "12.08.2006",
+     "nation": "PHI",
+     "date": "26.09.2026",
+     "place": "Aichi Nagoya"
+    },
+    {
+     "category": "75",
+     "lift": "Snatch",
+     "result": 151,
+     "holder": null
+    },
+    {
+     "category": "75",
+     "lift": "C&J",
+     "result": 187,
+     "holder": null
+    },
+    {
+     "category": "75",
+     "lift": "Total",
+     "result": 333,
+     "holder": null
+    },
+    {
+     "category": "85",
+     "lift": "Snatch",
+     "result": 165,
+     "holder": "RODRIGUEZ M Angel I",
+     "dob": "24.08.2006",
+     "nation": "VEN",
+     "date": "06.10.2026",
+     "place": "Tepic"
+    },
+    {
+     "category": "85",
+     "lift": "C&J",
+     "result": 203,
+     "holder": "RODRIGUEZ M Angel I",
+     "dob": "24.08.2006",
+     "nation": "VEN",
+     "date": "16.09.2026",
+     "place": "Santa Fe"
+    },
+    {
+     "category": "85",
+     "lift": "Total",
+     "result": 367,
+     "holder": "RODRIGUEZ M Angel I",
+     "dob": "24.08.2006",
+     "nation": "VEN",
+     "date": "16.09.2026",
+     "place": "Santa Fe"
+    },
+    {
+     "category": "95",
+     "lift": "Snatch",
+     "result": 174,
+     "holder": null
+    },
+    {
+     "category": "95",
+     "lift": "C&J",
+     "result": 214,
+     "holder": "ZAREI Hamidreza",
+     "dob": "19.07.2007",
+     "nation": "IRI",
+     "date": "13.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "95",
+     "lift": "Total",
+     "result": 382,
+     "holder": null
+    },
+    {
+     "category": "110",
+     "lift": "Snatch",
+     "result": 189,
+     "holder": null
+    },
+    {
+     "category": "110",
+     "lift": "C&J",
+     "result": 231,
+     "holder": "NASIRI Alireza",
+     "dob": "14.12.2005",
+     "nation": "IRI",
+     "date": "10.10.2025",
+     "place": "Forde"
+    },
+    {
+     "category": "110",
+     "lift": "Total",
+     "result": 415,
+     "holder": "NASIRI Alireza",
+     "dob": "14.12.2005",
+     "nation": "IRI",
+     "date": "10.10.2025",
+     "place": "Forde"
+    },
+    {
+     "category": "+110",
+     "lift": "Snatch",
+     "result": 197,
+     "holder": null
+    },
+    {
+     "category": "+110",
+     "lift": "C&J",
+     "result": 235,
+     "holder": null
+    },
+    {
+     "category": "+110",
+     "lift": "Total",
+     "result": 431,
+     "holder": null
+    }
+   ],
+   "Youth": [
+    {
+     "category": null,
+     "lift": "Snatch",
+     "result": 110,
+     "holder": null
+    },
+    {
+     "category": null,
+     "lift": "C&J",
+     "result": 138,
+     "holder": "AL OJAIAN Mohammed",
+     "dob": "20.06.2009",
+     "nation": "KSA",
+     "date": "07.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": null,
+     "lift": "Total",
+     "result": 247,
+     "holder": "AL OJAIAN Mohammed",
+     "dob": "20.06.2009",
+     "nation": "KSA",
+     "date": "07.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "60",
+     "lift": "Snatch",
+     "result": 121,
+     "holder": null
+    },
+    {
+     "category": "60",
+     "lift": "C&J",
+     "result": 149,
+     "holder": null
+    },
+    {
+     "category": "60",
+     "lift": "Total",
+     "result": 267,
+     "holder": null
+    },
+    {
+     "category": "65",
+     "lift": "Snatch",
+     "result": 131,
+     "holder": "YERSEIT Beibarys",
+     "dob": "26.02.2009",
+     "nation": "KAZ",
+     "date": "03.05.2026",
+     "place": "Ismailia"
+    },
+    {
+     "category": "65",
+     "lift": "C&J",
+     "result": 158,
+     "holder": null
+    },
+    {
+     "category": "65",
+     "lift": "Total",
+     "result": 285,
+     "holder": null
+    },
+    {
+     "category": "70",
+     "lift": "Snatch",
+     "result": 137,
+     "holder": null
+    },
+    {
+     "category": "70",
+     "lift": "C&J",
+     "result": 164,
+     "holder": null
+    },
+    {
+     "category": "70",
+     "lift": "Total",
+     "result": 298,
+     "holder": null
+    },
+    {
+     "category": "70",
+     "lift": "Snatch",
+     "result": 145,
+     "holder": "BEYRALVAND Mohammad",
+     "dob": "26.10.2009",
+     "nation": "IRI",
+     "date": "11.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "70",
+     "lift": "C&J",
+     "result": 180,
+     "holder": "BEYRALVAND Mohammad",
+     "dob": "26.10.2009",
+     "nation": "IRI",
+     "date": "11.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "70",
+     "lift": "Total",
+     "result": 325,
+     "holder": "BEYRALVAND Mohammad",
+     "dob": "26.10.2009",
+     "nation": "IRI",
+     "date": "11.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "70",
+     "lift": "Snatch",
+     "result": 155,
+     "holder": null
+    },
+    {
+     "category": "70",
+     "lift": "C&J",
+     "result": 187,
+     "holder": "ABDELRADI Mohamed M Ali",
+     "dob": "12.02.2009",
+     "nation": "EGY",
+     "date": "11.10.2026",
+     "place": "Mostaganem"
+    },
+    {
+     "category": "70",
+     "lift": "Total",
+     "result": 339,
+     "holder": "ABDELRADI Mohamed M Ali",
+     "dob": "12.02.2009",
+     "nation": "EGY",
+     "date": "11.10.2026",
+     "place": "Mostaganem"
+    },
+    {
+     "category": "95",
+     "lift": "Snatch",
+     "result": 162,
+     "holder": null
+    },
+    {
+     "category": "95",
+     "lift": "C&J",
+     "result": 197,
+     "holder": null
+    },
+    {
+     "category": "95",
+     "lift": "Total",
+     "result": 359,
+     "holder": null
+    },
+    {
+     "category": "+95",
+     "lift": "Snatch",
+     "result": 176,
+     "holder": "NOJAVAN KHIARAK Taha",
+     "dob": "19.05.2010",
+     "nation": "IRI",
+     "date": "13.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "+95",
+     "lift": "C&J",
+     "result": 215,
+     "holder": "NOJAVAN KHIARAK Taha",
+     "dob": "19.05.2010",
+     "nation": "IRI",
+     "date": "13.08.2026",
+     "place": "Tashkent"
+    },
+    {
+     "category": "+95",
+     "lift": "Total",
+     "result": 391,
+     "holder": "NOJAVAN KHIARAK Taha",
+     "dob": "19.05.2010",
+     "nation": "IRI",
+     "date": "13.08.2026",
+     "place": "Tashkent"
+    }
+   ]
+  }
+ },
+ "nations": {
+  "AFG": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "ALB": {
+   "women": 1,
+   "men": 4,
+   "total": 5
+  },
+  "ARM": {
+   "women": 5,
+   "men": 8,
+   "total": 13
+  },
+  "AUS": {
+   "women": 1,
+   "men": 1,
+   "total": 2
+  },
+  "AUT": {
+   "women": 3,
+   "men": 0,
+   "total": 3
+  },
+  "AZE": {
+   "women": 0,
+   "men": 2,
+   "total": 2
+  },
+  "BAN": {
+   "women": 2,
+   "men": 2,
+   "total": 4
+  },
+  "BEL": {
+   "women": 3,
+   "men": 0,
+   "total": 3
+  },
+  "BIH": {
+   "women": 0,
+   "men": 2,
+   "total": 2
+  },
+  "BLR": {
+   "women": 5,
+   "men": 3,
+   "total": 8
+  },
+  "BOT": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "BRA": {
+   "women": 4,
+   "men": 1,
+   "total": 5
+  },
+  "BRN": {
+   "women": 2,
+   "men": 1,
+   "total": 3
+  },
+  "BUL": {
+   "women": 0,
+   "men": 5,
+   "total": 5
+  },
+  "CAN": {
+   "women": 7,
+   "men": 4,
+   "total": 11
+  },
+  "CHI": {
+   "women": 2,
+   "men": 2,
+   "total": 4
+  },
+  "CHN": {
+   "women": 8,
+   "men": 8,
+   "total": 16
+  },
+  "CMR": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "COL": {
+   "women": 6,
+   "men": 5,
+   "total": 11
+  },
+  "CRO": {
+   "women": 1,
+   "men": 2,
+   "total": 3
+  },
+  "CUB": {
+   "women": 1,
+   "men": 1,
+   "total": 2
+  },
+  "CZE": {
+   "women": 4,
+   "men": 3,
+   "total": 7
+  },
+  "DEN": {
+   "women": 4,
+   "men": 0,
+   "total": 4
+  },
+  "DOM": {
+   "women": 6,
+   "men": 2,
+   "total": 8
+  },
+  "ECU": {
+   "women": 3,
+   "men": 3,
+   "total": 6
+  },
+  "EGY": {
+   "women": 3,
+   "men": 3,
+   "total": 6
+  },
+  "ESP": {
+   "women": 6,
+   "men": 2,
+   "total": 8
+  },
+  "FIJ": {
+   "women": 2,
+   "men": 3,
+   "total": 5
+  },
+  "FIN": {
+   "women": 3,
+   "men": 1,
+   "total": 4
+  },
+  "FRA": {
+   "women": 3,
+   "men": 2,
+   "total": 5
+  },
+  "GBR": {
+   "women": 4,
+   "men": 2,
+   "total": 6
+  },
+  "GEO": {
+   "women": 3,
+   "men": 6,
+   "total": 9
+  },
+  "GER": {
+   "women": 2,
+   "men": 2,
+   "total": 4
+  },
+  "GHA": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "GRE": {
+   "women": 1,
+   "men": 0,
+   "total": 1
+  },
+  "HKG": {
+   "women": 1,
+   "men": 1,
+   "total": 2
+  },
+  "HUN": {
+   "women": 2,
+   "men": 1,
+   "total": 3
+  },
+  "INA": {
+   "women": 4,
+   "men": 3,
+   "total": 7
+  },
+  "IND": {
+   "women": 4,
+   "men": 2,
+   "total": 6
+  },
+  "IRI": {
+   "women": 2,
+   "men": 8,
+   "total": 10
+  },
+  "IRL": {
+   "women": 5,
+   "men": 3,
+   "total": 8
+  },
+  "IRQ": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "ISL": {
+   "women": 4,
+   "men": 2,
+   "total": 6
+  },
+  "ISR": {
+   "women": 1,
+   "men": 1,
+   "total": 2
+  },
+  "ISV": {
+   "women": 1,
+   "men": 0,
+   "total": 1
+  },
+  "ITA": {
+   "women": 2,
+   "men": 1,
+   "total": 3
+  },
+  "JAM": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "JOR": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "JPN": {
+   "women": 8,
+   "men": 8,
+   "total": 16
+  },
+  "KAZ": {
+   "women": 2,
+   "men": 5,
+   "total": 7
+  },
+  "KEN": {
+   "women": 4,
+   "men": 4,
+   "total": 8
+  },
+  "KOR": {
+   "women": 5,
+   "men": 8,
+   "total": 13
+  },
+  "KOS": {
+   "women": 1,
+   "men": 2,
+   "total": 3
+  },
+  "KSA": {
+   "women": 0,
+   "men": 5,
+   "total": 5
+  },
+  "KUW": {
+   "women": 7,
+   "men": 6,
+   "total": 13
+  },
+  "LAT": {
+   "women": 1,
+   "men": 3,
+   "total": 4
+  },
+  "LTU": {
+   "women": 2,
+   "men": 4,
+   "total": 6
+  },
+  "LUX": {
+   "women": 2,
+   "men": 0,
+   "total": 2
+  },
+  "MAD": {
+   "women": 3,
+   "men": 3,
+   "total": 6
+  },
+  "MAR": {
+   "women": 2,
+   "men": 1,
+   "total": 3
+  },
+  "MAS": {
+   "women": 2,
+   "men": 1,
+   "total": 3
+  },
+  "MDA": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "MEX": {
+   "women": 8,
+   "men": 7,
+   "total": 15
+  },
+  "MGL": {
+   "women": 4,
+   "men": 0,
+   "total": 4
+  },
+  "NCA": {
+   "women": 0,
+   "men": 2,
+   "total": 2
+  },
+  "NED": {
+   "women": 3,
+   "men": 0,
+   "total": 3
+  },
+  "NMI": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "NOR": {
+   "women": 1,
+   "men": 1,
+   "total": 2
+  },
+  "NRU": {
+   "women": 2,
+   "men": 2,
+   "total": 4
+  },
+  "NZL": {
+   "women": 3,
+   "men": 2,
+   "total": 5
+  },
+  "PER": {
+   "women": 1,
+   "men": 2,
+   "total": 3
+  },
+  "PHI": {
+   "women": 4,
+   "men": 1,
+   "total": 5
+  },
+  "PNG": {
+   "women": 1,
+   "men": 1,
+   "total": 2
+  },
+  "POL": {
+   "women": 4,
+   "men": 4,
+   "total": 8
+  },
+  "POR": {
+   "women": 1,
+   "men": 0,
+   "total": 1
+  },
+  "PRK": {
+   "women": 6,
+   "men": 7,
+   "total": 13
+  },
+  "PUR": {
+   "women": 2,
+   "men": 0,
+   "total": 2
+  },
+  "QAT": {
+   "women": 1,
+   "men": 1,
+   "total": 2
+  },
+  "ROU": {
+   "women": 3,
+   "men": 2,
+   "total": 5
+  },
+  "RUS": {
+   "women": 8,
+   "men": 8,
+   "total": 16
+  },
+  "SGP": {
+   "women": 1,
+   "men": 1,
+   "total": 2
+  },
+  "SLE": {
+   "women": 0,
+   "men": 3,
+   "total": 3
+  },
+  "SRB": {
+   "women": 1,
+   "men": 0,
+   "total": 1
+  },
+  "SRI": {
+   "women": 0,
+   "men": 1,
+   "total": 1
+  },
+  "SVK": {
+   "women": 3,
+   "men": 0,
+   "total": 3
+  },
+  "SWE": {
+   "women": 1,
+   "men": 3,
+   "total": 4
+  },
+  "TGA": {
+   "women": 0,
+   "men": 2,
+   "total": 2
+  },
+  "THA": {
+   "women": 6,
+   "men": 2,
+   "total": 8
+  },
+  "TKM": {
+   "women": 5,
+   "men": 5,
+   "total": 10
+  },
+  "TPE": {
+   "women": 8,
+   "men": 8,
+   "total": 16
+  },
+  "TUR": {
+   "women": 6,
+   "men": 7,
+   "total": 13
+  },
+  "UAE": {
+   "women": 2,
+   "men": 4,
+   "total": 6
+  },
+  "UKR": {
+   "women": 4,
+   "men": 3,
+   "total": 7
+  },
+  "USA": {
+   "women": 8,
+   "men": 8,
+   "total": 16
+  },
+  "UZB": {
+   "women": 3,
+   "men": 5,
+   "total": 8
+  },
+  "VAN": {
+   "women": 1,
+   "men": 0,
+   "total": 1
+  },
+  "VEN": {
+   "women": 3,
+   "men": 6,
+   "total": 9
+  },
+  "VIE": {
+   "women": 2,
+   "men": 3,
+   "total": 5
+  },
+  "WRT": {
+   "women": 2,
+   "men": 1,
+   "total": 3
+  }
+ }
+}
