@@ -1,0 +1,15 @@
+[Unit]
+Description=IWF Start Book viewer (bun, port 4321)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/workspace/iwf-startbook
+Environment=PORT=4321
+ExecStart=/home/ubuntu/.bun/bin/bun server.ts
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

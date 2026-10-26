@@ -12,3 +12,7 @@ A readable, searchable version of the official
 - `/calendar.ics` — every session as a calendar event (UTC times); optional filters `sex=Women|Men`, `a=1` (A groups), `nation=USA`, `download=1`
 
 Run: `bun server.ts` (port 4321, override with `PORT`).
+
+Always-on hosting: `iwf-startbook.service` is installed as a systemd unit
+(`sudo cp iwf-startbook.service /etc/systemd/system/ && sudo systemctl enable --now iwf-startbook`).
+It restarts on crash and starts on boot. Logs: `journalctl -u iwf-startbook -f`.
