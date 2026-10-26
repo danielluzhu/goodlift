@@ -79,7 +79,7 @@ function init(data) {
 
   bind();
   renderAccount(); renderFavorites();
-  renderSchedule(); renderAthletes(); renderNations(); renderRecords(); renderWatch();
+  renderSchedule(); renderAthletes(); renderNations(); renderRecords(); renderWatch(); renderTickets();
   route();
 }
 
@@ -143,7 +143,7 @@ const segOn = b => { b.parentElement.querySelectorAll("button").forEach(x => x.c
 
 function route() {
   const tab = (location.hash.slice(1) || "schedule");
-  const valid = ["schedule", "athletes", "nations", "records", "watch", "favorites"].includes(tab) ? tab : "schedule";
+  const valid = ["schedule", "athletes", "nations", "records", "watch", "favorites", "tickets"].includes(tab) ? tab : "schedule";
   document.querySelectorAll("main > section").forEach(s => s.hidden = s.id !== "view-" + valid);
   document.querySelectorAll(".tabs a").forEach(a => a.classList.toggle("on", a.dataset.tab === valid));
   if (valid === "nations") { renderNationDetail(); if (state.nation) $("#nationDetail").scrollIntoView({ block: "start" }); }
@@ -519,4 +519,22 @@ function renderWatch() {
       <td class="num">${prCell(a)}</td>
       <td class="num gap ${h.tier}" title="${esc(watchWhy(h))}">${h.gap <= 0 ? `+${-h.gap}` : `−${h.gap}`} kg</td></tr>`;
     }).join("")}</tbody></table></div>` : `<p class="hint">No athletes are within ${WATCH_PCT}% of these records.</p>`;
+}
+
+// Tickets: vendor links live in tickets.json so they can be updated without touching code
+async function renderTickets() {
+  const el = $("#ticketView");
+  const t = await fetch("tickets.json").then(r => r.json()).catch(() => null);
+  if (!t) { el.innerHTML = `<p class="hint">Ticket information couldn't be loaded.</p>`; return; }
+  const link = s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a>`;
+  el.innerHTML = `<h2>Tickets</h2>
+    ${t.vendors.length ? `<div class="vendors">${t.vendors.map(v => `<a class="vendor" href="${esc(v.url)}" target="_blank" rel="noopener">
+        <b>${esc(v.name)} ↗</b>${v.note ? `<span>${esc(v.note)}</span>` : ""}<small>${esc(new URL(v.url).hostname)}</small></a>`).join("")}</div>`
+      : `<div class="empty"><p><b>Ticket sellers not confirmed yet.</b> ${esc(t.status)}</p></div>`}
+    <p class="hint">Last checked ${esc(t.checked)}. Only buy through channels named by the organisers or the IWF: resale and look-alike ticket sites are common for big events.</p>
+    <div class="ticket-grid">
+      <div class="rcard"><h3>Venue</h3><p><b>${esc(t.venue.name)}</b><br>${esc(t.venue.city)}<br><span class="meta">${esc(t.venue.capacity)}</span></p>
+        <p class="meta">Sessions run 27 Oct – 8 Nov. See the <a href="#schedule">Schedule</a> for start times (Ningbo local time).</p></div>
+      <div class="rcard"><h3>Where to check for official sales</h3><ul class="srcs">${t.sources.map(s => `<li>${link(s)}</li>`).join("")}</ul></div>
+    </div>`;
 }

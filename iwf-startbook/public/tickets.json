@@ -1,0 +1,12 @@
+{
+  "checked": "26 Oct 2026",
+  "status": "No official ticket seller has been announced in any source we could find. In July 2026 the organisers said ticket sales were \"expected to begin soon through official channels\".",
+  "vendors": [],
+  "_vendors_example": [{ "name": "Vendor name", "url": "https://…", "note": "What it sells, language, how to pay" }],
+  "venue": { "name": "Ningbo Olympic Sports Center", "city": "Ningbo, Zhejiang, China", "capacity": "about 10,000 seats" },
+  "sources": [
+    { "name": "IWF website: news and announcements", "url": "https://iwf.sport/" },
+    { "name": "IWF 2026 event calendar", "url": "https://iwf.sport/events/calendar-2026/" },
+    { "name": "China Daily Ningbo, 17 Jul 2026: \"Ticket sales are expected to begin soon\"", "url": "https://ningbo.chinadaily.com.cn/2026-07/17/c_1198382.htm" }
+  ]
+}

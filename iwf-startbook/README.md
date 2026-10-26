@@ -34,3 +34,6 @@ Refresh: `python3 tools/enrich.py <OpenWeightlifting checkout> public/data.json`
 Accounts & favorites: `auth.ts` adds username/password accounts (argon2 hashes, 30-day HttpOnly session cookie)
 and per-user favorite athletes (keyed by lot number). Data lives in `data/app.sqlite` (git-ignored; back it up).
 API: `GET /api/me`, `POST /api/signup|login|logout`, `PUT|DELETE /api/favorites/<lot>`.
+
+Tickets tab: reads `public/tickets.json`. Add confirmed sellers to `vendors` as `{ "name", "url", "note" }` (see `_vendors_example`)
+and update `checked`; no restart needed. Only add channels named by the organisers or the IWF.
