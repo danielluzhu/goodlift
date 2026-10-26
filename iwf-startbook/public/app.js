@@ -521,20 +521,35 @@ function renderWatch() {
     }).join("")}</tbody></table></div>` : `<p class="hint">No athletes are within ${WATCH_PCT}% of these records.</p>`;
 }
 
-// Tickets: vendor links live in tickets.json so they can be updated without touching code
+// Tickets: vendors, prices, seating and venue live in tickets.json so they can be updated without touching code
 async function renderTickets() {
   const el = $("#ticketView");
   const t = await fetch("tickets.json").then(r => r.json()).catch(() => null);
   if (!t) { el.innerHTML = `<p class="hint">Ticket information couldn't be loaded.</p>`; return; }
   const link = s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)} ↗</a>`;
+  const v = t.venue;
+  const sessions = dates => D.groups.filter(g => dates.includes(g.date)).length;
   el.innerHTML = `<h2>Tickets</h2>
-    ${t.vendors.length ? `<div class="vendors">${t.vendors.map(v => `<a class="vendor" href="${esc(v.url)}" target="_blank" rel="noopener">
-        <b>${esc(v.name)} ↗</b>${v.note ? `<span>${esc(v.note)}</span>` : ""}<small>${esc(new URL(v.url).hostname)}</small></a>`).join("")}</div>`
-      : `<div class="empty"><p><b>Ticket sellers not confirmed yet.</b> ${esc(t.status)}</p></div>`}
-    <p class="hint">Last checked ${esc(t.checked)}. Only buy through channels named by the organisers or the IWF: resale and look-alike ticket sites are common for big events.</p>
+    <p class="lede">${esc(t.status)}</p>
+    ${t.vendors.length ? `<div class="vendors">${t.vendors.map(x => x.url
+      ? `<a class="vendor" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.name)} ↗</b><span>${esc(x.note)}</span><small>${esc(new URL(x.url).hostname)}</small></a>`
+      : `<div class="vendor"><b>${esc(x.name)}</b><span>${esc(x.note)}</span></div>`).join("")}</div>
+      <p class="hint">${esc(t.vendorNote)} Only buy through these official channels: resale and look-alike ticket sites are common for big events.</p>`
+      : `<div class="empty"><p><b>Ticket sellers not confirmed yet.</b></p></div>`}
+    ${t.prices ? `<h3 class="tsub">Prices (per session, in yuan)</h3><div class="ticket-grid">${t.prices.map(p => `<div class="rcard"><h4>${esc(p.days)}</h4>
+        <p class="meta">${sessions(p.dates)} sessions</p>
+        <table class="data prices"><tbody>${p.tiers.map(([n, y]) => `<tr><td>${esc(n)}</td><td class="num"><b>¥${y}</b></td></tr>`).join("")}</tbody></table></div>`).join("")}</div>` : ""}
+    ${t.seating ? `<h3 class="tsub">Seating zones</h3><div class="table-scroll"><table class="data"><tbody>${t.seating.map(([z, d]) => `<tr><td class="zone"><b>${esc(z)}</b></td><td>${esc(d)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="hint">${esc(t.seatingNote)}</p>` : ""}
+    <h3 class="tsub">Venue</h3>
     <div class="ticket-grid">
-      <div class="rcard"><h3>Venue</h3><p><b>${esc(t.venue.name)}</b><br>${esc(t.venue.city)}<br><span class="meta">${esc(t.venue.capacity)}</span></p>
-        <p class="meta">Sessions run 27 Oct – 8 Nov. See the <a href="#schedule">Schedule</a> for start times (Ningbo local time).</p></div>
-      <div class="rcard"><h3>Where to check for official sales</h3><ul class="srcs">${t.sources.map(s => `<li>${link(s)}</li>`).join("")}</ul></div>
-    </div>`;
+      <div class="rcard"><h4>${esc(v.name)} <span class="meta">${esc(v.nameZh)}</span></h4>
+        <p>${esc(v.address)}<br><span class="zh">${esc(v.addressZh)}</span></p>
+        <p class="meta">Opened ${esc(v.opened)} · ${esc(v.capacity)}</p>
+        <p class="meta">Sessions run 27 Oct – 8 Nov. See the <a href="#schedule">Schedule</a> for start times (Ningbo local time, UTC+8); athletes weigh in 3 hours before each session.</p></div>
+      <div class="rcard"><h4>Getting there</h4><p><b>Metro:</b> ${esc(v.metro)}</p>
+        <p><b>Maps:</b> ${v.maps.map(link).join(" · ")}</p><p class="meta">${esc(v.mapsNote)}</p></div>
+    </div>
+    <h3 class="tsub">Sources</h3><ul class="srcs">${t.sources.map(s => `<li>${link(s)}</li>`).join("")}</ul>
+    <p class="hint">Last checked ${esc(t.checked)}.</p>`;
 }

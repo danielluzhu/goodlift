@@ -242,3 +242,9 @@ table.watch tr.first td { border-top: 2px solid var(--line); }
 .ticket-grid p { margin: 6px 0; }
 .srcs { margin: 6px 0 0; padding-left: 18px; }
 .srcs li { margin-bottom: 6px; }
+#view-tickets .lede { font-size: 15px; margin: 0 0 12px; }
+.tsub { font-size: 15px; margin: 22px 0 8px; }
+.rcard h4 { margin: 0 0 6px; font-size: 15px; }
+.prices td { padding: 6px 4px; }
+td.zone { white-space: nowrap; }
+div.vendor { cursor: default; }

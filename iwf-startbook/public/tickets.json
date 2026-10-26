@@ -1,12 +1,45 @@
 {
   "checked": "26 Oct 2026",
-  "status": "No official ticket seller has been announced in any source we could find. In July 2026 the organisers said ticket sales were \"expected to begin soon through official channels\".",
-  "vendors": [],
-  "_vendors_example": [{ "name": "Vendor name", "url": "https://…", "note": "What it sells, language, how to pay" }],
-  "venue": { "name": "Ningbo Olympic Sports Center", "city": "Ningbo, Zhejiang, China", "capacity": "about 10,000 seats" },
+  "status": "On sale since 20 Sep 2026, 13:18 (Beijing time), on four official platforms. Damai is the general agent.",
+  "vendors": [
+    { "name": "Damai 大麦", "url": "https://piao.cn/m/2o9T8eb", "note": "General ticket agent (总代). Website and app." },
+    { "name": "Maoyan 猫眼", "url": "", "note": "WeChat mini-program only: open WeChat, search 猫眼, then search 世界举重锦标赛." },
+    { "name": "Piaoxingqiu 票星球", "url": "https://m.piaoxingqiu.com?lssId=c10c96339b25d572", "note": "Website and app." },
+    { "name": "Jiushi Sports 久事体育", "url": "https://jsapp-oss.jussyun.com/packageTicket/?showId=6aa798d4cd01f000015bdc8f&channel=JUZHONG2026", "note": "Jiushi Sports app (久事体育APP)." }
+  ],
+  "vendorNote": "Links are decoded from the QR codes on the organisers' ticket graphic. All four platforms are in Chinese; if you are buying from outside China, check that the platform accepts your passport and phone number before counting on it.",
+  "prices": [
+    { "days": "Weekdays: 27–30 Oct, 2–6 Nov", "dates": ["27.10.2026", "28.10.2026", "29.10.2026", "30.10.2026", "02.11.2026", "03.11.2026", "04.11.2026", "05.11.2026", "06.11.2026"],
+      "tiers": [["Pair package (2 × Supreme) 双人套票", 198], ["Supreme 至尊票", 128], ["Tier A (A档)", 68]] },
+    { "days": "Weekends: 31 Oct, 1 Nov, 7–8 Nov", "dates": ["31.10.2026", "01.11.2026", "07.11.2026", "08.11.2026"],
+      "tiers": [["Pair package (2 × Supreme) 双人套票", 398], ["Supreme 至尊票", 258], ["Tier A (A档)", 168], ["Tier B (B档)", 98]] }
+  ],
+  "seating": [
+    ["Supreme (至尊)", "Sections 205, 206, 210, 214, 215 and parts of 209 and 211, the ones nearest the competition platform"],
+    ["Tier A (A档)", "Sections 207, 213 and the rest of 209 and 211; on weekdays also 208 and 212"],
+    ["Tier B (B档, weekends only)", "Sections 208 and 212"]
+  ],
+  "seatingNote": "From the organisers' seating plan. Zones may change; the organisers point to the Ningbo Olympic Sports Center WeChat account (宁波奥体中心公众号) for updates.",
+  "venue": {
+    "name": "Ningbo Olympic Sports Center",
+    "nameZh": "宁波奥体中心",
+    "address": "1280 Yunfei Road, Jiangbei District, Ningbo, Zhejiang",
+    "addressZh": "浙江省宁波市江北区云飞路1280号",
+    "opened": "2019",
+    "capacity": "10,000 seats (China Daily)",
+    "metro": "Olympic Sports Center station 奥体中心站, Metro Line 4 (Beihuan West Road × Kaiyuan Road). Not to be confused with Sports Center station on Lines 3 and 7, which is elsewhere in the city.",
+    "maps": [
+      { "name": "Amap 高德地图", "url": "https://uri.amap.com/search?keyword=%E5%AE%81%E6%B3%A2%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83&city=%E5%AE%81%E6%B3%A2" },
+      { "name": "Baidu Maps 百度地图", "url": "https://map.baidu.com/search/%E5%AE%81%E6%B3%A2%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83" },
+      { "name": "Google Maps", "url": "https://www.google.com/maps/search/?api=1&query=29.93342%2C121.48594" }
+    ],
+    "mapsNote": "Google Maps doesn't work in mainland China without a VPN; Amap and Baidu do."
+  },
   "sources": [
-    { "name": "IWF website: news and announcements", "url": "https://iwf.sport/" },
-    { "name": "IWF 2026 event calendar", "url": "https://iwf.sport/events/calendar-2026/" },
-    { "name": "China Daily Ningbo, 17 Jul 2026: \"Ticket sales are expected to begin soon\"", "url": "https://ningbo.chinadaily.com.cn/2026-07/17/c_1198382.htm" }
+    { "name": "Ticket links, prices and seating plan (organiser graphics, posted 18 Sep 2026 by @squat_jerk_journalist)", "url": "https://www.instagram.com/p/Dda9iyLiSNL/" },
+    { "name": "Venue address, opening and metro: Chinese Wikipedia, 宁波奥体中心", "url": "https://zh.wikipedia.org/wiki/%E5%AE%81%E6%B3%A2%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83" },
+    { "name": "Metro station: Olympic Sports Center station (Ningbo Rail Transit)", "url": "https://en.wikipedia.org/wiki/Olympic_Sports_Center_station_(Ningbo_Rail_Transit)" },
+    { "name": "Venue and capacity: China Daily Ningbo, 29 Apr 2024", "url": "https://ningbo.chinadaily.com.cn/2024-04/29/c_983693.htm" },
+    { "name": "IWF website: news and announcements", "url": "https://iwf.sport/" }
   ]
 }
