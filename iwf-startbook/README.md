@@ -9,7 +9,12 @@ A readable, searchable version of the official
 - `tools/startbook.txt` — `pdftotext -layout` output of the PDF
 - `tools/parse.py` — regenerates the JSON: `python3 tools/parse.py tools/startbook.txt public/data.json`
 
-- `/calendar.ics` — every session as a calendar event (UTC times); optional filters `sex=Women|Men`, `a=1` (A groups), `nation=USA`, `download=1`
+- `/calendar.ics` — every session as a calendar event (UTC times); optional filters `sex=Women|Men`, `a=1` (A groups), `nation=USA`,
+  `day=27.10.2026`, `cat=49` (weight class, use with `sex`), `session=<index into data.json groups>`, `lots=46,70` (sessions with
+  these athletes, e.g. favorites; their names go in the titles), `download=1`. The site has download buttons per day, per session,
+  for the schedule filters, and for your favorites.
+- Record Watch tab: athletes whose entry total or historic PR (same or lighter class) is within 3% of a senior, junior (≤20) or
+  youth (≤17) Total world record. Totals only — the start book has no snatch/C&J entries. Marked 🎯 across the site.
 
 Run: `bun server.ts` (port 4321, override with `PORT`).
 

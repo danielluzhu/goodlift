@@ -23,6 +23,7 @@
     <a href="#athletes" data-tab="athletes">Athletes</a>
     <a href="#nations" data-tab="nations">Nations</a>
     <a href="#records" data-tab="records">World Records</a>
+    <a href="#watch" data-tab="watch">Record Watch</a>
     <a href="#favorites" data-tab="favorites">★ Favorites</a>
     <div class="account" id="account"></div>
   </div>
@@ -38,9 +39,12 @@
       </div>
       <label class="check"><input type="checkbox" id="aOnly"> A groups only</label>
       <select id="schedNation" aria-label="Highlight a nation"><option value="">Highlight a nation…</option></select>
+      <select id="schedDay" aria-label="Day"><option value="">All days</option></select>
+      <select id="schedCat" aria-label="Weight class"><option value="">All weight classes</option></select>
+      <label class="check"><input type="checkbox" id="favOnly"> ★ My favorites only</label>
     </div>
     <details class="calbox" id="calbox">
-      <summary>📅 Add these sessions to Google Calendar</summary>
+      <summary>📅 Download these sessions / add them to Google Calendar</summary>
       <div class="calbody">
         <p id="calSummary"></p>
         <div class="calactions">
@@ -48,7 +52,7 @@
           <a class="btn" href="https://calendar.google.com/calendar/u/0/r/settings/export" target="_blank" rel="noopener">Open Google Calendar import page ↗</a>
         </div>
         <ol class="steps">
-          <li>Download the file using the button above. It follows the filters above it (women/men, A groups only, nation).</li>
+          <li>Download the file using the button above. It follows the filters above it (women/men, A groups, nation, day, weight class, favorites). To grab just one day or one session, use the ⬇ buttons next to it instead.</li>
           <li>In Google Calendar, go to <b>Settings → Import &amp; export → Import</b>, pick the file, and choose which calendar it goes into. Tip: make a new calendar called "IWF Worlds" first so you can hide or delete them all at once.</li>
           <li>Each session becomes its own event with its start list in the description. Times are stored in UTC, so Google shows them in your own time zone (Ningbo is UTC+8).</li>
         </ol>
@@ -87,6 +91,16 @@
 
   <section id="view-favorites" hidden>
     <div id="favView"></div>
+  </section>
+
+  <section id="view-watch" hidden>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Record" id="watchAge">
+        <button data-v="all" class="on">All records</button><button data-v="Senior">Senior</button><button data-v="Junior">Junior</button><button data-v="Youth">Youth</button>
+      </div>
+    </div>
+    <p class="hint" id="watchHint"></p>
+    <div id="watchList"></div>
   </section>
 
   <section id="view-records" hidden>

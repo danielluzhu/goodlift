@@ -117,7 +117,6 @@ table.data { width: 100%; border-collapse: collapse; background: var(--surface);
 .natname { color: var(--ink-2); font-size: 13px; margin-left: 6px; }
 .bar { position: relative; display: inline-block; width: 70px; height: 6px; background: var(--surface-2); border-radius: 3px; vertical-align: middle; margin-right: 8px; }
 .bar i { position: absolute; inset: 0 auto 0 0; background: var(--ink-2); border-radius: 3px; }
-.wrhint { color: var(--gold); font-weight: 700; font-size: 12px; margin-left: 4px; }
 #athTable { border: 1px solid var(--line); border-radius: 10px; }
 
 /* nations */
@@ -201,3 +200,21 @@ dialog.auth input { display: block; width: 100%; margin-top: 4px; font: inherit;
 /* keep the detail panel in view when the table scrolls sideways on narrow screens */
 .ath-detail .cd { position: sticky; left: 14px; max-width: calc(100vw - 62px); }
 .cgrid li .pt { flex: 0 0 30px; }
+
+/* Downloads */
+.daydl { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--ink-2); text-decoration: none; }
+.daydl:hover { color: var(--accent); }
+.btn.disabled { opacity: .5; pointer-events: none; }
+.fav-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.fav-head .hint { margin: 0; }
+
+/* Record Watch */
+.watchbadge { display: inline-block; margin-left: 6px; padding: 0 5px; border-radius: 4px; font-size: 11px; font-weight: 800;
+  text-decoration: none; white-space: nowrap; color: var(--gold); border: 1px solid var(--gold); }
+.watchbadge.at { background: var(--gold); color: var(--surface); }
+.watchcount { color: var(--gold); font-weight: 700; }
+.tier { font-weight: 700; white-space: nowrap; }
+table.watch tr.first td { border-top: 2px solid var(--line); }
+.gap { font-weight: 700; white-space: nowrap; }
+.gap.at { color: var(--gold); }
+.gap.reach { color: var(--ink-2); }

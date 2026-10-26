@@ -29,17 +29,38 @@ const fold = (line: string) => {
   return out.join("\r\n ");
 };
 
-function buildCalendar(groups: Group[], params: URLSearchParams) {
+// Filters: sex, a=1 (A groups), nation, day (dd.mm.yyyy), cat (e.g. 49 or +86, with sex), session (index into groups),
+// lots=1,2,3 (sessions with these athletes, e.g. favorites). Named athletes (nation or lots) go in the event titles.
+function calendarFilter(params: URLSearchParams) {
   const sex = params.get("sex"), nation = params.get("nation")?.toUpperCase(), aOnly = params.get("a") === "1";
-  const now = icsStamp(new Date());
-  const events = groups.filter(g =>
+  const day = params.get("day"), cat = params.get("cat"), session = params.get("session");
+  const lots = params.has("lots") ? new Set(params.get("lots")!.split(",").filter(Boolean).map(Number)) : null;
+  const cats = (g: Group) => [...g.label.matchAll(/(\+?\d+)kg/g)].map(m => m[1]);
+  const named = (g: Group) => g.athletes.filter(a => a.nation === nation || lots?.has(a.lot));
+  const keep = (g: Group, i: number) =>
+    (session == null || String(i) === session) &&
     (!sex || g.sex === sex) &&
     (!aOnly || / A\b/.test(g.label)) &&
-    (!nation || g.athletes.some(a => a.nation === nation)),
-  ).map(g => {
+    (!day || g.date === day) &&
+    (!cat || cats(g).includes(cat)) &&
+    (!nation || g.athletes.some(a => a.nation === nation)) &&
+    (!lots || g.athletes.some(a => lots.has(a.lot)));
+  const name = ["IWF Worlds 2026", sex, cat && `${cat}kg`, day, nation, lots && "favorites", aOnly ? "A groups" : ""].filter(Boolean).join(" · ");
+  return { keep, named, name };
+}
+const fileName = (groups: Group[], params: URLSearchParams) => {
+  const s = params.get("session"), g = s != null ? groups[Number(s)] : null;
+  const base = g ? `${g.sex} ${g.label} ${g.date}` : calendarFilter(params).name.replace(/^IWF Worlds 2026/, "");
+  return ("iwf-worlds-2026 " + base).toLowerCase().replace(/\+/g, "plus").replace(/[^a-z0-9.]+/g, "-").replace(/-+$/, "") + ".ics";
+};
+
+function buildCalendar(groups: Group[], params: URLSearchParams) {
+  const { keep, named, name } = calendarFilter(params);
+  const now = icsStamp(new Date());
+  const events = groups.filter(keep).map(g => {
     const start = toUTC(g.date, g.time);
     const end = new Date(start.getTime() + SESSION_HOURS * 3600e3);
-    const mine = nation ? g.athletes.filter(a => a.nation === nation) : [];
+    const mine = named(g);
     const title = `${g.sex} ${g.label}${mine.length ? ` (${mine.map(a => a.name).join(", ")})` : ""} · IWF Worlds`;
     const desc = [
       `2026 IWF World Championships, Ningbo`,
@@ -60,7 +81,6 @@ function buildCalendar(groups: Group[], params: URLSearchParams) {
       "END:VEVENT",
     ];
   });
-  const name = ["IWF Worlds 2026", sex, nation, aOnly ? "A groups" : ""].filter(Boolean).join(" · ");
   return [
     "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//IWF Start Book Viewer//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
     `X-WR-CALNAME:${icsText(name)}`,
@@ -85,7 +105,7 @@ Bun.serve({
       return new Response(buildCalendar(groups, url.searchParams), {
         headers: {
           "Content-Type": "text/calendar; charset=utf-8",
-          ...(download ? { "Content-Disposition": 'attachment; filename="iwf-worlds-2026.ics"' } : {}),
+          ...(download ? { "Content-Disposition": `attachment; filename="${fileName(groups, url.searchParams)}"` } : {}),
         },
       });
     }
