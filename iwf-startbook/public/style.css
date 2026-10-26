@@ -218,3 +218,14 @@ table.watch tr.first td { border-top: 2px solid var(--line); }
 .gap { font-weight: 700; white-space: nowrap; }
 .gap.at { color: var(--gold); }
 .gap.reach { color: var(--ink-2); }
+
+/* Add to Google Calendar one by one */
+.onebyone { border-top: 1px solid var(--line); margin-top: 12px; padding-top: 10px; }
+.onebyone h3 { font-size: 14px; margin: 0 0 4px; }
+.onebyone .hint { margin-bottom: 8px; }
+.gcal-progress { font-weight: 700; color: var(--ink); }
+.gcal-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; max-height: 360px; overflow-y: auto; }
+.gcal-list li { display: flex; gap: 10px; align-items: center; font-size: 14px; }
+.gcal-list li .btn { min-width: 86px; text-align: center; flex: none; }
+.gcal-list li.done > span { color: var(--ink-2); }
+#favGcal .onebyone { border-top: 0; margin-top: 0; padding-top: 0; }

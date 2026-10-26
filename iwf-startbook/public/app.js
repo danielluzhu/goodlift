@@ -111,6 +111,9 @@ function bind() {
       state.openAth.has(lot) ? state.openAth.delete(lot) : state.openAth.add(lot);
       renderAthletes(); return;
     }
+    const gc = e.target.closest("[data-gcal]");
+    if (gc) { markGcal(gc.dataset.gcal); return; }
+    if (e.target.closest("[data-gcal-reset]")) { gcalOpened.clear(); saveGcal(); renderSchedule(true); renderFavorites(); return; }
     const st = e.target.closest("[data-fav]");
     if (st) { e.preventDefault(); e.stopPropagation(); toggleFav(+st.dataset.fav); return; }
     const ls = e.target.closest("[data-listsort]");
@@ -249,6 +252,7 @@ function bindAuth() {
   };
 }
 
+let favGcalOpen = false;
 function renderFavorites() {
   const el = $("#favView");
   if (!el) return;
@@ -263,12 +267,15 @@ function renderFavorites() {
   const nSess = new Set(list.map(a => a.gid)).size;
   el.innerHTML = `<div class="fav-head"><p class="hint">${list.length} favorite athlete${list.length === 1 ? "" : "s"} in ${nSess} session${nSess === 1 ? "" : "s"}. Click a column to sort. Times are Ningbo local (UTC+8).</p>
     <a class="btn primary" href="${calURL({ lots: [...state.favs].join(",") })}" title="One calendar event per session, with your favorites' names in the titles">⬇ Download their sessions (.ics)</a></div>
+    <details class="calbox" ${favGcalOpen ? "open" : ""} id="favGcal"><summary>📅 Add their sessions to Google Calendar one by one (no download)</summary><div class="calbody">${
+      oneByOne(D.groups.filter(g => g.athletes.some(a => state.favs.has(a.lot))), g => g.athletes.filter(a => state.favs.has(a.lot)))}</div></details>
     <div class="table-scroll"><table class="data" id="favTable">
       <thead><tr><th></th><th data-sort="when">Session</th><th data-sort="name">Athlete</th><th data-sort="nation">Nation</th><th data-sort="cat">Category</th><th data-sort="group">Group</th><th data-sort="lot" class="num">Lot</th><th data-sort="age" class="num">Age</th><th data-sort="entry" class="num">Entry total</th><th data-sort="prTotal" class="num">Historic PR</th></tr></thead>
       <tbody>${list.map(a => `<tr><td>${starBtn(a)}</td><td>${dayLabel(a.date)} · ${a.time}</td><td class="name">${esc(a.name)}${watchBadge(a)}</td><td>${natTag(a.nation)}</td>
         <td>${a.sex === "Women" ? "W" : "M"} ${a.category} kg</td><td><span class="grp ${a.group}">${a.group}</span></td>
         <td class="num">${a.lot}</td><td class="num">${a.age}</td><td class="num"><b>${a.entry}</b></td><td class="num">${prCell(a)}</td></tr>`).join("")}</tbody></table></div>`;
   markSorted("#favTable", state.favSort);
+  $("#favGcal").ontoggle = e => favGcalOpen = e.target.open;
   el.querySelectorAll("th[data-sort]").forEach(th => th.onclick = () => { state.favSort = nextSort(state.favSort, th.dataset.sort); renderFavorites(); });
 }
 
@@ -281,20 +288,45 @@ function sessionUTC(g) {
   return new Date(Date.UTC(y, m - 1, d, hh - 8, mm));
 }
 const gcalStamp = t => t.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
-function gcalLink(g) {
+function gcalLink(g, names = []) {
   const start = sessionUTC(g), end = new Date(start.getTime() + SESSION_HOURS * 3600e3);
   const details = [`Start ${g.time} local (UTC+8) · Weigh-in ${g.weighin}`, "",
     ...g.athletes.map(a => `${a.lot} · ${a.name} · ${a.nation} · ${a.entry} kg`)].join("\n");
-  const q = new URLSearchParams({ action: "TEMPLATE", text: `${g.sex} ${g.label} · IWF Worlds`,
+  const q = new URLSearchParams({ action: "TEMPLATE", text: `${g.sex} ${g.label}${names.length ? ` (${names.join(", ")})` : ""} · IWF Worlds`,
     dates: `${gcalStamp(start)}/${gcalStamp(end)}`, details, location: "Ningbo, China" });
   return `https://calendar.google.com/calendar/render?${q}`;
 }
 const yourTime = g => sessionUTC(g).toLocaleString([], { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZoneName: "short" });
 
+// No-download option: one Google Calendar link per session. Browsers block opening many tabs from one click,
+// so it's a checklist; sessions already opened are remembered in this browser.
+const GCAL_KEY = "gcalOpened";
+const gcalOpened = new Set((() => { try { return JSON.parse(localStorage.getItem(GCAL_KEY)) || []; } catch { return []; } })());
+const saveGcal = () => { try { localStorage.setItem(GCAL_KEY, JSON.stringify([...gcalOpened])); } catch {} };
+const gcalId = g => `${g.date} ${g.time} ${g.label}`;
+function oneByOne(gs, named) {
+  if (!gs.length) return "";
+  const done = gs.filter(g => gcalOpened.has(gcalId(g))).length;
+  return `<div class="onebyone"><h3>Or skip the download: add them one by one</h3>
+    <p class="hint">Each button opens Google Calendar with that session filled in (start list included). Click <b>Save</b> there, come back, and do the next one.
+      <span class="gcal-progress">${done} of ${gs.length} opened</span>${done ? ` · <button class="linkbtn" data-gcal-reset>Clear ticks</button>` : ""}</p>
+    <ol class="gcal-list">${gs.map(g => {
+      const names = named(g).map(a => a.name), on = gcalOpened.has(gcalId(g));
+      return `<li class="${on ? "done" : ""}"><a class="btn small ${on ? "" : "primary"}" data-gcal="${esc(gcalId(g))}" href="${esc(gcalLink(g, names))}" target="_blank" rel="noopener">${on ? "✓ Opened" : "Add ↗"}</a>
+        <span><b>${dayLabel(g.date)} · ${g.time}</b> ${g.sex} ${esc(g.label)}${names.length ? ` <small class="meta">${esc(names.join(", "))}</small>` : ""}</span></li>`;
+    }).join("")}</ol></div>`;
+}
+function markGcal(id) {
+  gcalOpened.add(id); saveGcal();
+  // Let the link open first, then refresh the ticks
+  setTimeout(() => { renderSchedule(true); renderFavorites(); });
+}
+
 // calendar.ics filters (see server.ts): sex, a, nation, day, cat, session, lots
 const calURL = params => `calendar.ics?${new URLSearchParams({ download: "1", ...params })}`;
 const dayKeys = () => [...new Set(D.groups.map(g => g.date))];
-function updateCalBox(count) {
+function updateCalBox(gs) {
+  const count = gs.length;
   const [catSex, cat] = state.cat ? state.cat.split("|") : [];
   const p = {};
   if (state.sex !== "all") p.sex = state.sex;
@@ -307,6 +339,7 @@ function updateCalBox(count) {
   $("#calDownload").classList.toggle("disabled", !count);
   const parts = [state.sex !== "all" && !catSex ? state.sex.toLowerCase() + "'s" : "", cat ? `${catSex.toLowerCase()}'s ${cat} kg` : "", state.aOnly ? "A-group" : ""].filter(Boolean).join(" ");
   const named = [state.hlNat && `${esc(natName(state.hlNat))} athletes`, state.favOnly && "your favorites"].filter(Boolean).join(" or ");
+  $("#calOneByOne").innerHTML = oneByOne(gs, g => g.athletes.filter(a => a.nation === state.hlNat || (state.favOnly && state.favs.has(a.lot))));
   $("#calSummary").innerHTML = `<b>${[count, parts].filter(Boolean).join(" ")} session${count === 1 ? "" : "s"}</b>${state.day ? ` on ${dayLabel(state.day)}` : ""}${named ? ` with ${named} (their names go in the event titles)` : ""} will be added.`;
 }
 
@@ -346,7 +379,7 @@ function renderSchedule(keepOpen) {
   const gs = D.groups.filter(g => (state.sex === "all" || g.sex === state.sex) && (!state.aOnly || g.parts.some(p => p.grp === "A")) &&
     (!state.day || g.date === state.day) && (!cat || (g.sex === catSex && g.parts.some(p => p.cat === cat))) &&
     (!state.favOnly || g.athletes.some(a => state.favs.has(a.lot))));
-  updateCalBox(state.hlNat ? gs.filter(g => g.athletes.some(a => a.nation === state.hlNat)).length : gs.length);
+  updateCalBox(state.hlNat ? gs.filter(g => g.athletes.some(a => a.nation === state.hlNat)) : gs);
   const days = {};
   for (const g of gs) (days[g.date] ||= []).push(g);
   const allDays = dayKeys();
