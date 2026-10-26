@@ -27,9 +27,19 @@ const dayLabel = s => { const d = parseDate(s); return `${DOW[d.getUTCDay()]} ${
 const shortDate = s => { const d = parseDate(s); return `${d.getUTCDate()} ${MON[d.getUTCMonth()]}`; };
 
 let D, athletes = [], senior = {};
-const state = { listSort: "lot", sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "" };
+const state = { user: null, favs: new Set(), authMode: "login", listSort: "lot", sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "" };
 
-fetch("data.json").then(r => r.json()).then(init);
+Promise.all([fetch("data.json").then(r => r.json()), api("GET", "me").catch(() => ({ user: null, favorites: [] }))])
+  .then(([data, me]) => { setMe(me); init(data); });
+
+async function api(method, path, body) {
+  const r = await fetch("api/" + path, { method, headers: body || method !== "GET" ? { "Content-Type": "application/json" } : {},
+    body: body ? JSON.stringify(body) : method !== "GET" ? "{}" : undefined });
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) throw Object.assign(new Error(j.error || "Something went wrong"), { status: r.status });
+  return j;
+}
+function setMe(me) { state.user = me.user; state.favs = new Set(me.favorites); }
 
 function init(data) {
   D = data;
@@ -62,6 +72,7 @@ function init(data) {
   ].map(([n, l]) => `<div class="kpi"><b>${n}</b><span>${l}</span></div>`).join("");
 
   bind();
+  renderAccount(); renderFavorites();
   renderSchedule(); renderAthletes(); renderNations(); renderRecords();
   route();
 }
@@ -80,10 +91,13 @@ function bind() {
     renderAthletes();
   });
   $("#nq").oninput = renderNations;
+  bindAuth();
   for (const id of ["recSex", "recAge"]) $("#" + id).querySelectorAll("button").forEach(b => b.onclick = () => {
     state[id] = b.dataset.v; segOn(b); renderRecords();
   });
   document.addEventListener("click", e => {
+    const st = e.target.closest("[data-fav]");
+    if (st) { e.preventDefault(); e.stopPropagation(); toggleFav(+st.dataset.fav); return; }
     const ls = e.target.closest("[data-listsort]");
     if (ls) {
       state.listSort = ls.dataset.listsort;
@@ -98,7 +112,7 @@ const segOn = b => { b.parentElement.querySelectorAll("button").forEach(x => x.c
 
 function route() {
   const tab = (location.hash.slice(1) || "schedule");
-  const valid = ["schedule", "athletes", "nations", "records"].includes(tab) ? tab : "schedule";
+  const valid = ["schedule", "athletes", "nations", "records", "favorites"].includes(tab) ? tab : "schedule";
   document.querySelectorAll("main > section").forEach(s => s.hidden = s.id !== "view-" + valid);
   document.querySelectorAll(".tabs a").forEach(a => a.classList.toggle("on", a.dataset.tab === valid));
   if (valid === "nations") { renderNationDetail(); if (state.nation) $("#nationDetail").scrollIntoView({ block: "start" }); }
@@ -110,6 +124,87 @@ const prCell = a => a.pr
   : `<span class="std" title="No result found in the IWF results data">–</span>`;
 const LIST_SORTS = { lot: (a, b) => a.lot - b.lot, entry: (a, b) => b.entry - a.entry || a.lot - b.lot,
   pr: (a, b) => (b.pr?.total ?? -1) - (a.pr?.total ?? -1) || a.lot - b.lot };
+
+// Favorites: athletes are keyed by lot number (unique across the start book)
+const starBtn = a => {
+  const on = state.favs.has(a.lot);
+  return `<button class="star ${on ? "on" : ""}" data-fav="${a.lot}" aria-pressed="${on}" title="${on ? "Remove from" : "Add to"} favorites" aria-label="Favorite ${esc(a.name)}">${on ? "★" : "☆"}</button>`;
+};
+async function toggleFav(lot) {
+  if (!state.user) return openAuth("login", "Sign in to save your favorite athletes.");
+  const on = state.favs.has(lot);
+  on ? state.favs.delete(lot) : state.favs.add(lot); // optimistic
+  syncFavs();
+  try { setMe(await api(on ? "DELETE" : "PUT", "favorites/" + lot)); }
+  catch (e) { on ? state.favs.add(lot) : state.favs.delete(lot); if (e.status === 401) { setMe({ user: null, favorites: [] }); renderAccount(); } alert(e.message); }
+  syncFavs();
+}
+function syncFavs() {
+  document.querySelectorAll("[data-fav]").forEach(b => {
+    const on = state.favs.has(+b.dataset.fav);
+    b.classList.toggle("on", on); b.textContent = on ? "★" : "☆"; b.setAttribute("aria-pressed", on);
+    b.title = `${on ? "Remove from" : "Add to"} favorites`;
+  });
+  document.querySelectorAll(".session").forEach(el => {
+    const n = D.groups[+el.dataset.id].athletes.filter(a => state.favs.has(a.lot)).length;
+    el.querySelector(".favcount").textContent = n ? `★ ${n}` : "";
+  });
+  renderFavorites();
+}
+
+function renderAccount() {
+  $("#account").innerHTML = state.user
+    ? `<span class="who">Signed in as <b>${esc(state.user.username)}</b></span><button class="linkbtn" id="logoutBtn">Sign out</button>`
+    : `<button class="btn small" id="loginBtn">Sign in</button>`;
+  $("#loginBtn")?.addEventListener("click", () => openAuth("login"));
+  $("#logoutBtn")?.addEventListener("click", async () => { setMe(await api("POST", "logout")); renderAccount(); syncFavs(); });
+}
+function openAuth(mode, why) {
+  state.authMode = mode;
+  const signup = mode === "signup";
+  $("#authTitle").textContent = signup ? "Create an account" : "Sign in";
+  $("#authSubmit").textContent = signup ? "Create account" : "Sign in";
+  $("#authSwitchText").textContent = signup ? "Already have an account?" : "No account yet?";
+  $("#authSwitch").textContent = signup ? "Sign in" : "Create one";
+  $("#authPass").autocomplete = signup ? "new-password" : "current-password";
+  $("#authWhy").textContent = why || (signup ? "Pick a username and a password of at least 8 characters." : "Sign in to save your favorite athletes.");
+  $("#authErr").textContent = "";
+  if (!$("#authDlg").open) $("#authDlg").showModal();
+  $("#authUser").focus();
+}
+function bindAuth() {
+  $("#authSwitch").onclick = () => openAuth(state.authMode === "login" ? "signup" : "login");
+  $("#authCancel").onclick = () => $("#authDlg").close();
+  $("#authForm").onsubmit = async e => {
+    e.preventDefault();
+    $("#authSubmit").disabled = true;
+    try {
+      setMe(await api("POST", state.authMode, { username: $("#authUser").value, password: $("#authPass").value }));
+      $("#authDlg").close(); $("#authPass").value = "";
+      renderAccount(); syncFavs();
+    } catch (err) { $("#authErr").textContent = err.message; }
+    $("#authSubmit").disabled = false;
+  };
+}
+
+function renderFavorites() {
+  const el = $("#favView");
+  if (!el) return;
+  if (!state.user) {
+    el.innerHTML = `<div class="empty"><p>Sign in to pick favorite athletes. Tap the ☆ next to any athlete, and they'll all show up here in competition order.</p>
+      <button class="btn primary" data-auth="signup">Create an account</button> <button class="btn" data-auth="login">Sign in</button></div>`;
+    el.querySelectorAll("[data-auth]").forEach(b => b.onclick = () => openAuth(b.dataset.auth));
+    return;
+  }
+  const list = athletes.filter(a => state.favs.has(a.lot)).sort((a, b) => a.when - b.when || a.lot - b.lot);
+  if (!list.length) { el.innerHTML = `<div class="empty"><p>No favorites yet. Tap the ☆ next to an athlete in the Schedule, Athletes or Nations tabs.</p></div>`; return; }
+  el.innerHTML = `<p class="hint">${list.length} favorite athlete${list.length === 1 ? "" : "s"}, in competition order. Times are Ningbo local (UTC+8).</p>
+    <div class="table-scroll"><table class="data">
+      <thead><tr><th></th><th>Session</th><th>Athlete</th><th>Nation</th><th>Category</th><th>Group</th><th class="num">Lot</th><th class="num">Entry total</th><th class="num">Historic PR</th></tr></thead>
+      <tbody>${list.map(a => `<tr><td>${starBtn(a)}</td><td>${dayLabel(a.date)} · ${a.time}</td><td class="name">${esc(a.name)}</td><td>${natTag(a.nation)}</td>
+        <td>${a.sex === "Women" ? "W" : "M"} ${a.category} kg</td><td><span class="grp ${a.group}">${a.group}</span></td>
+        <td class="num">${a.lot}</td><td class="num"><b>${a.entry}</b></td><td class="num">${prCell(a)}</td></tr>`).join("")}</tbody></table></div>`;
+}
 
 const natTag = c => `<button class="nat" data-nat="${c}" title="${esc(natName(c))}">${c}</button>`;
 
@@ -147,7 +242,7 @@ function startList(g) {
     const atWR = wr && a.entry >= wr.result;
     return `<tr class="${state.hlNat && a.nation === state.hlNat ? "hl" : ""}">
       <td class="num">${a.lot}</td>
-      <td class="name">${esc(a.name)}</td>
+      <td class="name">${starBtn(a)}${esc(a.name)}</td>
       <td>${natTag(a.nation)}<span class="natname">${esc(natName(a.nation))}</span></td>
       ${g.parts.length > 1 ? `<td>${a.category} kg</td>` : ""}
       <td class="num">${2026 - +a.dob.slice(6)}</td>
@@ -191,7 +286,7 @@ function renderSchedule(keepOpen) {
           <div class="time">${g.time}<small>weigh-in ${wi}</small></div>
           <div><div class="title"><span class="sex ${g.sex}">${g.sex}</span>${cats}</div>
             <div class="meta">Top entry: ${esc(top.name)} (${top.nation}) · ${top.entry} kg</div></div>
-          <div class="count">${g.athletes.length} athletes${hits ? `<br><span class="flagged">${hits} × ${state.hlNat}</span>` : ""}</div>
+          <div class="count">${g.athletes.length} athletes<br><span class="favcount">${(n => n ? `★ ${n}` : "")(g.athletes.filter(a => state.favs.has(a.lot)).length)}</span>${hits ? `<br><span class="flagged">${hits} × ${state.hlNat}</span>` : ""}</div>
         </summary>
         <div class="session-body">${isOpen ? startList(g) : ""}</div>
       </details>`;
@@ -222,7 +317,7 @@ function renderAthletes() {
   });
   $("#athCount").textContent = `${list.length} of ${athletes.length} athletes. Click a column to sort.`;
   $("#athTable tbody").innerHTML = list.map(a => `<tr>
-    <td class="name">${esc(a.name)}</td>
+    <td class="name">${starBtn(a)}${esc(a.name)}</td>
     <td>${natTag(a.nation)}</td>
     <td>${a.sex === "Women" ? "W" : "M"} ${a.category} kg</td>
     <td><span class="grp ${a.group}">${a.group}</span></td>
@@ -254,7 +349,7 @@ function renderNationDetail() {
       <button class="linkbtn" id="closeNat">Close</button></div>
     <div class="table-scroll"><table class="data">
       <thead><tr><th>Session</th><th>Athlete</th><th>Category</th><th>Group</th><th class="num">Age</th><th class="num">Entry total</th><th class="num">Historic PR</th></tr></thead>
-      <tbody>${team.map(a => `<tr><td>${dayLabel(a.date)} · ${a.time}</td><td class="name">${esc(a.name)}</td>
+      <tbody>${team.map(a => `<tr><td>${dayLabel(a.date)} · ${a.time}</td><td class="name">${starBtn(a)}${esc(a.name)}</td>
         <td>${a.sex === "Women" ? "W" : "M"} ${a.category} kg</td><td><span class="grp ${a.group}">${a.group}</span></td>
         <td class="num">${a.age}</td><td class="num"><b>${a.entry}</b></td><td class="num">${prCell(a)}</td></tr>`).join("")}</tbody></table></div>`;
   $("#closeNat").onclick = () => { state.nation = ""; renderNations(); renderNationDetail(); };

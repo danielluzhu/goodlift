@@ -22,6 +22,8 @@
     <a href="#athletes" data-tab="athletes">Athletes</a>
     <a href="#nations" data-tab="nations">Nations</a>
     <a href="#records" data-tab="records">World Records</a>
+    <a href="#favorites" data-tab="favorites">★ Favorites</a>
+    <div class="account" id="account"></div>
   </div>
 </nav>
 
@@ -82,6 +84,10 @@
     <div id="nationDetail"></div>
   </section>
 
+  <section id="view-favorites" hidden>
+    <div id="favView"></div>
+  </section>
+
   <section id="view-records" hidden>
     <div class="toolbar">
       <div class="seg" role="group" aria-label="Sex" id="recSex">
@@ -103,6 +109,21 @@
   Historic PR = best total at an IWF event, with the bodyweight category it was lifted in, from
   <a href="https://github.com/euanwm/OpenWeightlifting">OpenWeightlifting</a> IWF results (to Jul 2026; matched by name, national meets not included). Check iwf.sport for any late changes.
 </footer>
+
+<dialog id="authDlg" class="auth">
+  <form id="authForm" method="dialog">
+    <h2 id="authTitle">Sign in</h2>
+    <p class="hint" id="authWhy">Sign in to save your favorite athletes.</p>
+    <label>Username <input name="username" id="authUser" autocomplete="username" required minlength="3" maxlength="30" pattern="[A-Za-z0-9_.\-]+"></label>
+    <label>Password <input name="password" id="authPass" type="password" autocomplete="current-password" required minlength="8"></label>
+    <p class="auth-err" id="authErr" role="alert"></p>
+    <div class="auth-actions">
+      <button class="btn primary" id="authSubmit" type="submit">Sign in</button>
+      <button class="btn" type="button" id="authCancel">Cancel</button>
+    </div>
+    <p class="auth-switch"><span id="authSwitchText">No account yet?</span> <button type="button" class="linkbtn" id="authSwitch">Create one</button></p>
+  </form>
+</dialog>
 
 <script src="app.js"></script>
 </body>

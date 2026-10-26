@@ -1,4 +1,5 @@
 // Static server for the start book site: bun server.ts
+import { handleApi } from "./auth";
 const root = new URL("./public/", import.meta.url).pathname;
 const port = Number(process.env.PORT ?? 4321);
 
@@ -68,11 +69,16 @@ function buildCalendar(groups: Group[], params: URLSearchParams) {
   ].map(fold).join("\r\n") + "\r\n";
 }
 
+// Athletes are identified by their start book lot number (unique across the competition)
+const validLots = new Set<number>((await Bun.file(root + "data.json").json()).groups.flatMap((g: Group) => g.athletes.map(a => a.lot)));
+
 Bun.serve({
   port,
   async fetch(req) {
     const url = new URL(req.url);
     let path = decodeURIComponent(url.pathname);
+    const api = await handleApi(req, path, validLots);
+    if (api) return api;
     if (path === "/calendar.ics") {
       const { groups } = await Bun.file(root + "data.json").json();
       const download = url.searchParams.get("download") === "1";

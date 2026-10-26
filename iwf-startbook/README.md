@@ -20,3 +20,7 @@ It restarts on crash and starts on boot. Logs: `journalctl -u iwf-startbook -f`.
 Historic PRs: best total at any IWF event plus the category it was lifted in, from
 [OpenWeightlifting](https://github.com/euanwm/OpenWeightlifting) `event_data/IWF`, matched by name.
 Refresh: `python3 tools/add_prs.py <OpenWeightlifting checkout> public/data.json` (re-run after `parse.py`).
+
+Accounts & favorites: `auth.ts` adds username/password accounts (argon2 hashes, 30-day HttpOnly session cookie)
+and per-user favorite athletes (keyed by lot number). Data lives in `data/app.sqlite` (git-ignored; back it up).
+API: `GET /api/me`, `POST /api/signup|login|logout`, `PUT|DELETE /api/favorites/<lot>`.

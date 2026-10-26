@@ -155,3 +155,23 @@ table.data { width: 100%; border-collapse: collapse; background: var(--surface);
 .list-sort { display: flex; align-items: center; gap: 8px; padding: 8px 14px 4px; font-size: 13px; color: var(--ink-2); }
 .list-sort .seg button { padding: 4px 10px; font-size: 13px; }
 .prcat { color: var(--ink-2); font-weight: 400; white-space: nowrap; }
+
+/* Accounts & favorites */
+.btn { cursor: pointer; }
+.btn.small { padding: 4px 10px; font-size: 13px; }
+.account { margin-left: auto; display: flex; align-items: center; gap: 10px; padding-left: 12px; white-space: nowrap; font-size: 13px; color: var(--ink-2); }
+.star { font: inherit; font-size: 17px; line-height: 1; background: none; border: 0; padding: 0 6px 0 0; color: var(--ink-2); cursor: pointer; vertical-align: -1px; }
+.star.on { color: var(--gold); }
+.star:hover { color: var(--gold); }
+.favcount { color: var(--gold); font-weight: 700; }
+.empty { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px; max-width: 560px; }
+.empty p { margin: 0 0 14px; }
+dialog.auth { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); padding: 22px; width: min(380px, calc(100vw - 32px)); }
+dialog.auth::backdrop { background: rgb(0 0 0 / .45); }
+dialog.auth h2 { margin: 0 0 4px; font-size: 20px; }
+dialog.auth label { display: block; font-size: 13px; font-weight: 600; margin-top: 12px; }
+dialog.auth input { display: block; width: 100%; margin-top: 4px; font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); }
+.auth-err { color: var(--accent); font-size: 13px; min-height: 1.2em; margin: 10px 0 0; }
+.auth-actions { display: flex; gap: 8px; margin-top: 8px; }
+.auth-switch { font-size: 13px; color: var(--ink-2); margin: 14px 0 0; }
+@media (max-width: 640px) { .account .who { display: none; } }
