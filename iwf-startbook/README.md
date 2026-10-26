@@ -17,9 +17,14 @@ Always-on hosting: `iwf-startbook.service` is installed as a systemd unit
 (`sudo cp iwf-startbook.service /etc/systemd/system/ && sudo systemctl enable --now iwf-startbook`).
 It restarts on crash and starts on boot. Logs: `journalctl -u iwf-startbook -f`.
 
-Historic PRs: best total at any IWF event plus the category it was lifted in, from
-[OpenWeightlifting](https://github.com/euanwm/OpenWeightlifting) `event_data/IWF`, matched by name.
-Refresh: `python3 tools/add_prs.py <OpenWeightlifting checkout> public/data.json` (re-run after `parse.py`).
+Historic PRs and career summaries come from [OpenWeightlifting](https://github.com/euanwm/OpenWeightlifting)
+results, matched by name:
+- PR: best total at any IWF event, plus the category it was lifted in
+- Career: senior Olympics, World Championships and continental/regional championships & games (IWF data), and national
+  senior championships for USA, GBR, AUS, FRA, NOR, IRL (the federations OpenWeightlifting covers). Placings are
+  computed from totals (ties broken by bodyweight), so medals are total medals only.
+
+Refresh: `python3 tools/enrich.py <OpenWeightlifting checkout> public/data.json` (re-run after `parse.py`).
 
 Accounts & favorites: `auth.ts` adds username/password accounts (argon2 hashes, 30-day HttpOnly session cookie)
 and per-user favorite athletes (keyed by lot number). Data lives in `data/app.sqlite` (git-ignored; back it up).

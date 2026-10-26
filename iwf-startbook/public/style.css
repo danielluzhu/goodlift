@@ -175,3 +175,29 @@ dialog.auth input { display: block; width: 100%; margin-top: 4px; font: inherit;
 .auth-actions { display: flex; gap: 8px; margin-top: 8px; }
 .auth-switch { font-size: 13px; color: var(--ink-2); margin: 14px 0 0; }
 @media (max-width: 640px) { .account .who { display: none; } }
+
+/* Career summary */
+.ath-row { cursor: pointer; }
+.ath-row:hover td { background: var(--surface-2); }
+.caret::after { content: "▸"; color: var(--ink-2); font-size: 11px; margin-left: 6px; }
+.ath-row.open .caret::after { content: "▾"; }
+.career { display: flex; flex-wrap: wrap; gap: 4px; }
+.cv { display: inline-flex; align-items: center; gap: 3px; white-space: nowrap; font-size: 12px; color: var(--ink-2); background: var(--surface-2); border-radius: 6px; padding: 2px 6px; }
+.cv b { color: var(--ink); font-weight: 600; }
+.medal { display: inline-grid; place-items: center; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 9px; font-size: 11px; font-weight: 700; color: #1b1d22; }
+.medal.m1 { background: #e6c04a; } .medal.m2 { background: #c5c9d0; } .medal.m3 { background: #d39a6a; }
+.place { display: inline-block; min-width: 30px; font-size: 12px; color: var(--ink-2); }
+.place.none { text-align: center; }
+.ath-detail td { background: var(--surface-2); padding: 12px 14px 14px; }
+.ath-detail p { margin: 0 0 8px; }
+.cgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px 20px; }
+.cgrid h4 { margin: 0 0 6px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+.cgrid h4 small { color: var(--ink-2); font-weight: 400; }
+.cgrid ul { list-style: none; margin: 0; padding: 0; max-height: 220px; overflow-y: auto; }
+.cgrid li { display: flex; gap: 8px; align-items: baseline; font-size: 13px; padding: 2px 0; }
+.cgrid li .medal { flex: none; }
+.cgrid .hint { margin: 0; }
+.ath-detail td { white-space: normal; }
+/* keep the detail panel in view when the table scrolls sideways on narrow screens */
+.ath-detail .cd { position: sticky; left: 14px; max-width: calc(100vw - 62px); }
+.cgrid li .pt { flex: 0 0 30px; }

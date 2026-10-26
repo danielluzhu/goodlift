@@ -27,7 +27,7 @@ const dayLabel = s => { const d = parseDate(s); return `${DOW[d.getUTCDay()]} ${
 const shortDate = s => { const d = parseDate(s); return `${d.getUTCDate()} ${MON[d.getUTCMonth()]}`; };
 
 let D, athletes = [], senior = {};
-const state = { user: null, favs: new Set(), authMode: "login", listSort: "lot", sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "" };
+const state = { openAth: new Set(), user: null, favs: new Set(), authMode: "login", listSort: "lot", sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "" };
 
 Promise.all([fetch("data.json").then(r => r.json()), api("GET", "me").catch(() => ({ user: null, favorites: [] }))])
   .then(([data, me]) => { setMe(me); init(data); });
@@ -53,7 +53,7 @@ function init(data) {
     for (const a of g.athletes) {
       const grp = g.parts.find(p => p.cat === a.category)?.grp || g.parts[0].grp;
       athletes.push({ ...a, sex: g.sex, group: grp, gid: gi, date: g.date, time: g.time,
-        age: 2026 - +a.dob.slice(6), when: g.sortKey, prTotal: a.pr?.total ?? -1, cat: parseInt(a.category) + (a.category.startsWith("+") ? 1000 : 0) });
+        age: 2026 - +a.dob.slice(6), when: g.sortKey, prTotal: a.pr?.total ?? -1, careerScore: careerScore(a.career), cat: parseInt(a.category) + (a.category.startsWith("+") ? 1000 : 0) });
     }
   });
 
@@ -87,7 +87,7 @@ function bind() {
   ["#q", "#fSex", "#fCat", "#fNat"].forEach(s => $(s).addEventListener("input", renderAthletes));
   document.querySelectorAll("#athTable th[data-sort]").forEach(th => th.onclick = () => {
     const k = th.dataset.sort;
-    state.sort = { key: k, asc: state.sort.key === k ? !state.sort.asc : !["entry", "prTotal"].includes(k) };
+    state.sort = { key: k, asc: state.sort.key === k ? !state.sort.asc : !["entry", "prTotal", "careerScore"].includes(k) };
     renderAthletes();
   });
   $("#nq").oninput = renderNations;
@@ -96,6 +96,12 @@ function bind() {
     state[id] = b.dataset.v; segOn(b); renderRecords();
   });
   document.addEventListener("click", e => {
+    const row = e.target.closest("tr[data-ath]");
+    if (row && !e.target.closest("button, a")) {
+      const lot = +row.dataset.ath;
+      state.openAth.has(lot) ? state.openAth.delete(lot) : state.openAth.add(lot);
+      renderAthletes(); return;
+    }
     const st = e.target.closest("[data-fav]");
     if (st) { e.preventDefault(); e.stopPropagation(); toggleFav(+st.dataset.fav); return; }
     const ls = e.target.closest("[data-listsort]");
@@ -124,6 +130,37 @@ const prCell = a => a.pr
   : `<span class="std" title="No result found in the IWF results data">–</span>`;
 const LIST_SORTS = { lot: (a, b) => a.lot - b.lot, entry: (a, b) => b.entry - a.entry || a.lot - b.lot,
   pr: (a, b) => (b.pr?.total ?? -1) - (a.pr?.total ?? -1) || a.lot - b.lot };
+
+// Career summary (senior results from OpenWeightlifting): placings on total at each level
+const LEVELS = [["olympics", "Olympics", "OG"], ["worlds", "World Championships", "Worlds"],
+  ["regional", "Continental & regional", "Regional"], ["national", "National championships", "National"]];
+const LEVEL_WEIGHT = { olympics: 1e6, worlds: 1e4, regional: 100, national: 1 };
+const medals = list => [1, 2, 3].map(p => list.filter(e => e.place === p).length);
+function careerScore(c) {
+  if (!c) return -1;
+  return LEVELS.reduce((s, [k]) => { const [g, si, b] = medals(c[k]); return s + LEVEL_WEIGHT[k] * (g * 9 + si * 3 + b) + LEVEL_WEIGHT[k] * c[k].length / 100; }, 0);
+}
+const ordinal = n => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : ["th", "st", "nd", "rd"][n % 10] || "th");
+const placeTag = p => p == null ? `<span class="place none" title="No total">–</span>`
+  : p <= 3 ? `<span class="medal m${p}" title="${["Gold", "Silver", "Bronze"][p - 1]}">${p}</span>` : `<span class="place">${ordinal(p)}</span>`;
+const medalCounts = list => medals(list).map((n, i) => n ? `<span class="medal m${i + 1}" title="${n} ${["gold", "silver", "bronze"][i]}">${n}</span>` : "").join("");
+function careerCell(a) {
+  const c = a.career;
+  if (!c) return `<span class="std">–</span>`;
+  return `<span class="career">${LEVELS.filter(([k]) => c[k].length).map(([k, , short]) =>
+    `<span class="cv" title="${c[k].length} ${short} appearance${c[k].length === 1 ? "" : "s"}"><b>${short}</b> ${c[k].length}×${medalCounts(c[k])}</span>`).join("")}</span>`;
+}
+// "2025 IWF World Championships" / "British Senior Championships 2025" -> drop the year, it's shown separately
+const eventName = s => s.replace(/^(the\s+)?(nike\s+)?\d{4}\s+|\s+\d{4}\s*$/gi, (m, the, nike) => (the || "") + (nike || "")).trim();
+function careerDetail(a) {
+  const c = a.career;
+  const pr = a.pr ? `<p><b>Historic PR:</b> ${a.pr.total} kg in the ${a.pr.category} kg class at ${esc(a.pr.event)} (${esc(a.pr.date)})</p>` : "";
+  if (!c) return `${pr}<p class="hint">No senior international or national results found for this athlete in the OpenWeightlifting data.</p>`;
+  const nationalNote = ["USA", "GBR", "AUS", "FRA", "NOR", "IRL"].includes(a.nation) ? "" : `<p class="hint">National championship results aren't available for ${esc(natName(a.nation))}.</p>`;
+  return `${pr}<div class="cgrid">${LEVELS.map(([k, label]) => `<div><h4>${label}${c[k].length ? ` <small>${c[k].length}×</small>` : ""}</h4>${c[k].length
+      ? `<ul>${c[k].map(e => `<li><span class="pt">${placeTag(e.place)}</span><span><b>${e.year}</b> ${esc(k === "olympics" ? e.event : eventName(e.event))}${e.category ? ` · ${e.category} kg` : ""}${e.total ? ` · ${e.total} kg` : ""}</span></li>`).join("")}</ul>`
+      : `<p class="hint">None</p>`}</div>`).join("")}</div>${nationalNote}`;
+}
 
 // Favorites: athletes are keyed by lot number (unique across the start book)
 const starBtn = a => {
@@ -315,9 +352,9 @@ function renderAthletes() {
     th.classList.toggle("sorted", th.dataset.sort === key);
     th.classList.toggle("asc", th.dataset.sort === key && asc);
   });
-  $("#athCount").textContent = `${list.length} of ${athletes.length} athletes. Click a column to sort.`;
-  $("#athTable tbody").innerHTML = list.map(a => `<tr>
-    <td class="name">${starBtn(a)}${esc(a.name)}</td>
+  $("#athCount").textContent = `${list.length} of ${athletes.length} athletes. Click a column to sort, or an athlete for their career summary.`;
+  $("#athTable tbody").innerHTML = list.map(a => `<tr data-ath="${a.lot}" class="ath-row ${state.openAth.has(a.lot) ? "open" : ""}">
+    <td class="name">${starBtn(a)}${esc(a.name)}<span class="caret" aria-hidden="true"></span></td>
     <td>${natTag(a.nation)}</td>
     <td>${a.sex === "Women" ? "W" : "M"} ${a.category} kg</td>
     <td><span class="grp ${a.group}">${a.group}</span></td>
@@ -325,7 +362,8 @@ function renderAthletes() {
     <td class="num">${a.age}</td>
     <td class="num"><b>${a.entry}</b></td>
     <td class="num">${prCell(a)}</td>
-  </tr>`).join("");
+    <td>${careerCell(a)}</td>
+  </tr>${state.openAth.has(a.lot) ? `<tr class="ath-detail"><td colspan="9"><div class="cd">${careerDetail(a)}</div></td></tr>` : ""}`).join("");
 }
 
 function renderNations() {
