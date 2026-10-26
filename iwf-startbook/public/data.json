@@ -14,7 +14,13 @@
      "dob": "28.06.2005",
      "nation": "MAS",
      "category": "49",
-     "entry": 175
+     "entry": 175,
+     "pr": {
+      "total": 167,
+      "category": "48",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 2,
@@ -23,7 +29,13 @@
      "dob": "11.04.2005",
      "nation": "MAD",
      "category": "49",
-     "entry": 151
+     "entry": 151,
+     "pr": {
+      "total": 131,
+      "category": "48",
+      "date": "2025-08-15",
+      "event": "African Junior Championships"
+     }
     },
     {
      "no": 3,
@@ -32,7 +44,13 @@
      "dob": "31.12.2002",
      "nation": "HUN",
      "category": "49",
-     "entry": 177
+     "entry": 177,
+     "pr": {
+      "total": 177,
+      "category": "59",
+      "date": "2023-04-15",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -41,7 +59,13 @@
      "dob": "18.03.1998",
      "nation": "BRA",
      "category": "49",
-     "entry": 175
+     "entry": 175,
+     "pr": {
+      "total": 177,
+      "category": "48",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 5,
@@ -59,7 +83,13 @@
      "dob": "09.02.2001",
      "nation": "CHI",
      "category": "49",
-     "entry": 165
+     "entry": 165,
+     "pr": {
+      "total": 165,
+      "category": "48",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 7,
@@ -68,7 +98,13 @@
      "dob": "18.12.1989",
      "nation": "FIN",
      "category": "49",
-     "entry": 165
+     "entry": 165,
+     "pr": {
+      "total": 157,
+      "category": "48",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -77,7 +113,13 @@
      "dob": "01.12.1999",
      "nation": "TPE",
      "category": "49",
-     "entry": 170
+     "entry": 170,
+     "pr": {
+      "total": 193,
+      "category": "49",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 9,
@@ -86,7 +128,13 @@
      "dob": "13.03.1992",
      "nation": "LUX",
      "category": "49",
-     "entry": 168
+     "entry": 168,
+     "pr": {
+      "total": 162,
+      "category": "48",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -104,7 +152,13 @@
      "dob": "16.09.1998",
      "nation": "JPN",
      "category": "60",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 275,
+      "category": "60",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 2,
@@ -113,7 +167,13 @@
      "dob": "28.01.2007",
      "nation": "BOT",
      "category": "60",
-     "entry": 160
+     "entry": 160,
+     "pr": {
+      "total": 170,
+      "category": "60",
+      "date": "2025-08-15",
+      "event": "African Junior Championships"
+     }
     },
     {
      "no": 3,
@@ -122,7 +182,13 @@
      "dob": "21.04.1996",
      "nation": "SRI",
      "category": "60",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 254,
+      "category": "60",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 4,
@@ -131,7 +197,13 @@
      "dob": "25.06.2004",
      "nation": "MAD",
      "category": "60",
-     "entry": 255
+     "entry": 255,
+     "pr": {
+      "total": 244,
+      "category": "60",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     },
     {
      "no": 5,
@@ -140,7 +212,13 @@
      "dob": "20.02.2005",
      "nation": "GEO",
      "category": "60",
-     "entry": 275
+     "entry": 275,
+     "pr": {
+      "total": 270,
+      "category": "61",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 6,
@@ -149,7 +227,13 @@
      "dob": "23.01.2000",
      "nation": "CUB",
      "category": "60",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 277,
+      "category": "60",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 7,
@@ -158,7 +242,13 @@
      "dob": "31.01.2004",
      "nation": "USA",
      "category": "60",
-     "entry": 281
+     "entry": 281,
+     "pr": {
+      "total": 281,
+      "category": "60",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     }
    ]
   },
@@ -176,7 +266,13 @@
      "dob": "19.01.2001",
      "nation": "PRK",
      "category": "60",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 304,
+      "category": "60",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 2,
@@ -185,7 +281,13 @@
      "dob": "17.07.2008",
      "nation": "TUR",
      "category": "60",
-     "entry": 282
+     "entry": 282,
+     "pr": {
+      "total": 269,
+      "category": "60",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -203,7 +305,13 @@
      "dob": "26.06.2003",
      "nation": "BUL",
      "category": "60",
-     "entry": 283
+     "entry": 283,
+     "pr": {
+      "total": 266,
+      "category": "60",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -212,7 +320,13 @@
      "dob": "23.07.2002",
      "nation": "CHN",
      "category": "60",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 260,
+      "category": "55",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -221,7 +335,13 @@
      "dob": "03.07.2007",
      "nation": "VIE",
      "category": "60",
-     "entry": 295
+     "entry": 295,
+     "pr": {
+      "total": 282,
+      "category": "60",
+      "date": "2025-07-04",
+      "event": "Asian Junior Championships"
+     }
     },
     {
      "no": 7,
@@ -230,7 +350,13 @@
      "dob": "22.09.2006",
      "nation": "TUR",
      "category": "60",
-     "entry": 282
+     "entry": 282,
+     "pr": {
+      "total": 273,
+      "category": "60",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 8,
@@ -239,7 +365,13 @@
      "dob": "22.09.2004",
      "nation": "KSA",
      "category": "60",
-     "entry": 290
+     "entry": 290,
+     "pr": {
+      "total": 268,
+      "category": "61",
+      "date": "2024-12-19",
+      "event": "Asian Junior Championships"
+     }
     },
     {
      "no": 9,
@@ -248,7 +380,13 @@
      "dob": "13.07.2001",
      "nation": "BUL",
      "category": "60",
-     "entry": 283
+     "entry": 283,
+     "pr": {
+      "total": 275,
+      "category": "60",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -266,7 +404,13 @@
      "dob": "17.10.1997",
      "nation": "PRK",
      "category": "49",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 221,
+      "category": "49",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 2,
@@ -275,7 +419,13 @@
      "dob": "29.07.2003",
      "nation": "TUR",
      "category": "49",
-     "entry": 186
+     "entry": 186,
+     "pr": {
+      "total": 167,
+      "category": "48",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -284,7 +434,13 @@
      "dob": "25.10.2005",
      "nation": "TPE",
      "category": "49",
-     "entry": 185
+     "entry": 185,
+     "pr": {
+      "total": 193,
+      "category": "48",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 4,
@@ -293,7 +449,13 @@
      "dob": "06.11.2005",
      "nation": "PHI",
      "category": "49",
-     "entry": 192
+     "entry": 192,
+     "pr": {
+      "total": 157,
+      "category": "45",
+      "date": "2023-07-28",
+      "event": "2023 Asian Junior Championships"
+     }
     },
     {
      "no": 5,
@@ -302,7 +464,13 @@
      "dob": "28.06.2003",
      "nation": "ESP",
      "category": "49",
-     "entry": 181
+     "entry": 181,
+     "pr": {
+      "total": 167,
+      "category": "48",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 6,
@@ -311,7 +479,13 @@
      "dob": "26.05.2001",
      "nation": "CHN",
      "category": "49",
-     "entry": 205
+     "entry": 205,
+     "pr": {
+      "total": 200,
+      "category": "45",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -320,7 +494,13 @@
      "dob": "19.04.2006",
      "nation": "THA",
      "category": "49",
-     "entry": 180
+     "entry": 180,
+     "pr": {
+      "total": 171,
+      "category": "49",
+      "date": "2024-12-19",
+      "event": "Asian Junior Championships"
+     }
     },
     {
      "no": 8,
@@ -329,7 +509,13 @@
      "dob": "10.09.2002",
      "nation": "RUS",
      "category": "49",
-     "entry": 181
+     "entry": 181,
+     "pr": {
+      "total": 167,
+      "category": "48",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 9,
@@ -338,7 +524,13 @@
      "dob": "20.01.2005",
      "nation": "THA",
      "category": "49",
-     "entry": 180
+     "entry": 180,
+     "pr": {
+      "total": 167,
+      "category": "48",
+      "date": "2025-07-04",
+      "event": "Asian Junior Championships"
+     }
     }
    ]
   },
@@ -356,7 +548,13 @@
      "dob": "11.05.2005",
      "nation": "KEN",
      "category": "65",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 260,
+      "category": "60",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 2,
@@ -365,7 +563,13 @@
      "dob": "12.03.2002",
      "nation": "FIJ",
      "category": "65",
-     "entry": 220
+     "entry": 220,
+     "pr": {
+      "total": 215,
+      "category": "65",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 3,
@@ -374,7 +578,13 @@
      "dob": "09.02.2009",
      "nation": "SLE",
      "category": "65",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 185,
+      "category": "60",
+      "date": "2025-08-15",
+      "event": "African Youth Championships"
+     }
     },
     {
      "no": 4,
@@ -383,7 +593,13 @@
      "dob": "25.09.1998",
      "nation": "NMI",
      "category": "65",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 253,
+      "category": "65",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -392,7 +608,13 @@
      "dob": "29.09.2001",
      "nation": "SLE",
      "category": "65",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 195,
+      "category": "61",
+      "date": "2024-02-05",
+      "event": "African Championships"
+     }
     },
     {
      "no": 6,
@@ -401,7 +623,13 @@
      "dob": "20.06.2008",
      "nation": "KUW",
      "category": "65",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 213,
+      "category": "60",
+      "date": "2025-07-04",
+      "event": "Asian Youth Championships"
+     }
     },
     {
      "no": 7,
@@ -410,7 +638,13 @@
      "dob": "22.07.1999",
      "nation": "MAD",
      "category": "65",
-     "entry": 255
+     "entry": 255,
+     "pr": {
+      "total": 250,
+      "category": "60",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     },
     {
      "no": 8,
@@ -419,7 +653,13 @@
      "dob": "04.12.2002",
      "nation": "BUL",
      "category": "65",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 317,
+      "category": "65",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 9,
@@ -428,7 +668,13 @@
      "dob": "01.01.2009",
      "nation": "KEN",
      "category": "65",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 200,
+      "category": "60",
+      "date": "2025-08-15",
+      "event": "African Youth Championships"
+     }
     },
     {
      "no": 10,
@@ -437,7 +683,13 @@
      "dob": "26.11.2010",
      "nation": "KUW",
      "category": "65",
-     "entry": 190
+     "entry": 190,
+     "pr": {
+      "total": 190,
+      "category": "60",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     }
    ]
   },
@@ -455,7 +707,13 @@
      "dob": "28.01.2002",
      "nation": "RUS",
      "category": "65",
-     "entry": 285
+     "entry": 285,
+     "pr": {
+      "total": 287,
+      "category": "67",
+      "date": "2021-09-24",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 2,
@@ -464,7 +722,13 @@
      "dob": "15.04.1990",
      "nation": "PNG",
      "category": "65",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 292,
+      "category": "65",
+      "date": "2025-08-24",
+      "event": "Commonwealth Championships"
+     }
     },
     {
      "no": 3,
@@ -473,7 +737,13 @@
      "dob": "10.06.2004",
      "nation": "MEX",
      "category": "65",
-     "entry": 286
+     "entry": 286,
+     "pr": {
+      "total": 292,
+      "category": "67",
+      "date": "2023-11-15",
+      "event": "2023 IWF World Junior Championships"
+     }
     },
     {
      "no": 4,
@@ -482,7 +752,13 @@
      "dob": "25.03.1997",
      "nation": "VEN",
      "category": "65",
-     "entry": 295
+     "entry": 295,
+     "pr": {
+      "total": 295,
+      "category": "65",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 5,
@@ -491,7 +767,13 @@
      "dob": "28.10.1997",
      "nation": "NCA",
      "category": "65",
-     "entry": 285
+     "entry": 285,
+     "pr": {
+      "total": 287,
+      "category": "73",
+      "date": "2023-06-08",
+      "event": "IWF Grand Prix I"
+     }
     },
     {
      "no": 6,
@@ -500,7 +782,13 @@
      "dob": "03.10.1993",
      "nation": "TPE",
      "category": "65",
-     "entry": 275
+     "entry": 275,
+     "pr": {
+      "total": 291,
+      "category": "67",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 7,
@@ -509,7 +797,13 @@
      "dob": "07.05.2000",
      "nation": "JPN",
      "category": "65",
-     "entry": 291
+     "entry": 291,
+     "pr": {
+      "total": 312,
+      "category": "71",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 8,
@@ -518,7 +812,13 @@
      "dob": "19.04.1995",
      "nation": "DOM",
      "category": "65",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 281,
+      "category": "61",
+      "date": "2019-04-21",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 9,
@@ -527,7 +827,13 @@
      "dob": "28.06.2002",
      "nation": "JPN",
      "category": "65",
-     "entry": 285
+     "entry": 285,
+     "pr": {
+      "total": 247,
+      "category": "67",
+      "date": "2019-03-08",
+      "event": "2019 IWF Youth World Championships"
+     }
     },
     {
      "no": 10,
@@ -536,7 +842,13 @@
      "dob": "19.11.2005",
      "nation": "KSA",
      "category": "65",
-     "entry": 295
+     "entry": 295,
+     "pr": {
+      "total": 292,
+      "category": "65",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     }
    ]
   },
@@ -554,7 +866,13 @@
      "dob": "26.02.2009",
      "nation": "VIE",
      "category": "65",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 276,
+      "category": "65",
+      "date": "2025-10-26",
+      "event": "3rd Asian Youth Games"
+     }
     },
     {
      "no": 2,
@@ -563,7 +881,13 @@
      "dob": "26.01.2002",
      "nation": "ITA",
      "category": "65",
-     "entry": 310
+     "entry": 310,
+     "pr": {
+      "total": 317,
+      "category": "67",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 3,
@@ -572,7 +896,13 @@
      "dob": "30.09.2002",
      "nation": "IND",
      "category": "65",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 289,
+      "category": "65",
+      "date": "2026-04-27",
+      "event": "Universal Weightlifting Cup"
+     }
     },
     {
      "no": 4,
@@ -581,7 +911,13 @@
      "dob": "05.08.2001",
      "nation": "TPE",
      "category": "65",
-     "entry": 310
+     "entry": 310,
+     "pr": {
+      "total": 310,
+      "category": "71",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -590,7 +926,13 @@
      "dob": "10.02.1996",
      "nation": "KSA",
      "category": "65",
-     "entry": 307
+     "entry": 307,
+     "pr": {
+      "total": 304,
+      "category": "67",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -599,7 +941,13 @@
      "dob": "10.11.1995",
      "nation": "MEX",
      "category": "65",
-     "entry": 305
+     "entry": 305,
+     "pr": {
+      "total": 314,
+      "category": "69",
+      "date": "2017-09-17",
+      "event": "CENTRAL AMERICAN AND CARIBBEAN CHAMPIONSHIPS"
+     }
     },
     {
      "no": 7,
@@ -608,7 +956,13 @@
      "dob": "21.01.2000",
      "nation": "INA",
      "category": "65",
-     "entry": 310
+     "entry": 310,
+     "pr": {
+      "total": 298,
+      "category": "61",
+      "date": "2023-05-05",
+      "event": "2023 Asian Championships"
+     }
     },
     {
      "no": 8,
@@ -617,7 +971,13 @@
      "dob": "12.08.1995",
      "nation": "KOR",
      "category": "65",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 286,
+      "category": "69",
+      "date": "2014-03-04",
+      "event": "2014 ASIAN JUNIOR CHAMPIONSHIP"
+     }
     },
     {
      "no": 9,
@@ -626,7 +986,13 @@
      "dob": "31.12.1996",
      "nation": "TUR",
      "category": "65",
-     "entry": 302
+     "entry": 302,
+     "pr": {
+      "total": 305,
+      "category": "67\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -635,7 +1001,13 @@
      "dob": "21.12.2002",
      "nation": "ARM",
      "category": "65",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 280,
+      "category": "61",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 11,
@@ -644,7 +1016,13 @@
      "dob": "24.07.1989",
      "nation": "INA",
      "category": "65",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 321,
+      "category": "67",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 12,
@@ -653,7 +1031,13 @@
      "dob": "20.05.1990",
      "nation": "FRA",
      "category": "65",
-     "entry": 305
+     "entry": 305,
+     "pr": {
+      "total": 324,
+      "category": "73",
+      "date": "2024-02-12",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -671,7 +1055,13 @@
      "dob": "02.04.2003",
      "nation": "PRK",
      "category": "65",
-     "entry": 320
+     "entry": 320,
+     "pr": {
+      "total": 321,
+      "category": "65",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 2,
@@ -680,7 +1070,13 @@
      "dob": "26.12.2000",
      "nation": "BRA",
      "category": "65",
-     "entry": 311
+     "entry": 311,
+     "pr": {
+      "total": 302,
+      "category": "65",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 3,
@@ -689,7 +1085,13 @@
      "dob": "01.04.1992",
      "nation": "COL",
      "category": "65",
-     "entry": 315
+     "entry": 315,
+     "pr": {
+      "total": 325,
+      "category": "67",
+      "date": "2022-12-05",
+      "event": "2022 IWF World Championships"
+     }
     },
     {
      "no": 4,
@@ -698,7 +1100,13 @@
      "dob": "11.07.2002",
      "nation": "CHN",
      "category": "65",
-     "entry": 329
+     "entry": 329,
+     "pr": {
+      "total": 344,
+      "category": "71",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -707,7 +1115,13 @@
      "dob": "12.03.1999",
      "nation": "UZB",
      "category": "65",
-     "entry": 316
+     "entry": 316,
+     "pr": {
+      "total": 328,
+      "category": "67",
+      "date": "2019-09-18",
+      "event": "2019 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -716,7 +1130,13 @@
      "dob": "30.07.1993",
      "nation": "PER",
      "category": "65",
-     "entry": 312
+     "entry": 312,
+     "pr": {
+      "total": 294,
+      "category": "67",
+      "date": "2022-10-02",
+      "event": "XII South American Games"
+     }
     },
     {
      "no": 7,
@@ -725,7 +1145,13 @@
      "dob": "13.10.2004",
      "nation": "VIE",
      "category": "65",
-     "entry": 315
+     "entry": 315,
+     "pr": {
+      "total": 318,
+      "category": "67",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 8,
@@ -734,7 +1160,13 @@
      "dob": "30.01.2002",
      "nation": "CHN",
      "category": "65",
-     "entry": 325
+     "entry": 325,
+     "pr": {
+      "total": 319,
+      "category": "65",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 9,
@@ -743,7 +1175,13 @@
      "dob": "17.02.2004",
      "nation": "USA",
      "category": "65",
-     "entry": 318
+     "entry": 318,
+     "pr": {
+      "total": 318,
+      "category": "65",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 10,
@@ -752,7 +1190,13 @@
      "dob": "24.01.2001",
      "nation": "TUR",
      "category": "65",
-     "entry": 320
+     "entry": 320,
+     "pr": {
+      "total": 341,
+      "category": "73",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     }
    ]
   },
@@ -770,7 +1214,13 @@
      "dob": "26.02.1994",
      "nation": "UAE",
      "category": "53",
-     "entry": 120
+     "entry": 120,
+     "pr": {
+      "total": 115,
+      "category": "53",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 2,
@@ -788,7 +1238,13 @@
      "dob": "18.09.1996",
      "nation": "PUR",
      "category": "53",
-     "entry": 180
+     "entry": 180,
+     "pr": {
+      "total": 188,
+      "category": "55",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 4,
@@ -797,7 +1253,13 @@
      "dob": "06.05.2003",
      "nation": "BAN",
      "category": "53",
-     "entry": 170
+     "entry": 170,
+     "pr": {
+      "total": 169,
+      "category": "55",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -806,7 +1268,13 @@
      "dob": "25.12.2007",
      "nation": "NRU",
      "category": "53",
-     "entry": 160
+     "entry": 160,
+     "pr": {
+      "total": 161,
+      "category": "48",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 6,
@@ -815,7 +1283,13 @@
      "dob": "24.01.2001",
      "nation": "SRB",
      "category": "53",
-     "entry": 180
+     "entry": 180,
+     "pr": {
+      "total": 169,
+      "category": "49\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 7,
@@ -824,7 +1298,13 @@
      "dob": "23.12.1993",
      "nation": "KEN",
      "category": "53",
-     "entry": 130
+     "entry": 130,
+     "pr": {
+      "total": 133,
+      "category": "48",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 8,
@@ -833,7 +1313,13 @@
      "dob": "23.06.1984",
      "nation": "PNG",
      "category": "53",
-     "entry": 170
+     "entry": 170,
+     "pr": {
+      "total": 193,
+      "category": "53",
+      "date": "2014-07-23",
+      "event": "2014 COMMONWEALTH GAMES"
+     }
     },
     {
      "no": 9,
@@ -842,7 +1328,13 @@
      "dob": "05.08.1993",
      "nation": "KUW",
      "category": "53",
-     "entry": 120
+     "entry": 120,
+     "pr": {
+      "total": 128,
+      "category": "53",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 10,
@@ -851,7 +1343,13 @@
      "dob": "29.12.1999",
      "nation": "MAD",
      "category": "53",
-     "entry": 150
+     "entry": 150,
+     "pr": {
+      "total": 180,
+      "category": "49",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 11,
@@ -860,7 +1358,13 @@
      "dob": "04.11.1999",
      "nation": "KUW",
      "category": "57",
-     "entry": 100
+     "entry": 100,
+     "pr": {
+      "total": 112,
+      "category": "58",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 12,
@@ -869,7 +1373,13 @@
      "dob": "25.09.2001",
      "nation": "KUW",
      "category": "57",
-     "entry": 100
+     "entry": 100,
+     "pr": {
+      "total": 120,
+      "category": "58",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     }
    ]
   },
@@ -887,7 +1397,13 @@
      "dob": "10.01.1998",
      "nation": "ESP",
      "category": "53",
-     "entry": 186
+     "entry": 186,
+     "pr": {
+      "total": 202,
+      "category": "58",
+      "date": "2017-04-01",
+      "event": "EUROPEAN CHAMPIONSHIPS"
+     }
     },
     {
      "no": 2,
@@ -896,7 +1412,13 @@
      "dob": "22.09.1999",
      "nation": "RUS",
      "category": "53",
-     "entry": 191
+     "entry": 191,
+     "pr": {
+      "total": 197,
+      "category": "55",
+      "date": "2019-06-01",
+      "event": "2019 IWF Junior World Championships"
+     }
     },
     {
      "no": 3,
@@ -905,7 +1427,13 @@
      "dob": "12.09.1996",
      "nation": "NOR",
      "category": "53",
-     "entry": 191
+     "entry": 191,
+     "pr": {
+      "total": 187,
+      "category": "55",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 4,
@@ -914,7 +1442,13 @@
      "dob": "29.07.2002",
      "nation": "INA",
      "category": "53",
-     "entry": 195
+     "entry": 195,
+     "pr": {
+      "total": 189,
+      "category": "55",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 5,
@@ -923,7 +1457,13 @@
      "dob": "20.04.2003",
      "nation": "VIE",
      "category": "53",
-     "entry": 190
+     "entry": 190,
+     "pr": {
+      "total": 195,
+      "category": "53",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -932,7 +1472,13 @@
      "dob": "08.03.2003",
      "nation": "IND",
      "category": "53",
-     "entry": 195
+     "entry": 195,
+     "pr": {
+      "total": 199,
+      "category": "53",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 7,
@@ -941,7 +1487,13 @@
      "dob": "06.09.1998",
      "nation": "JPN",
      "category": "53",
-     "entry": 198
+     "entry": 198,
+     "pr": {
+      "total": 197,
+      "category": "49",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 8,
@@ -950,7 +1502,13 @@
      "dob": "25.09.2004",
      "nation": "POL",
      "category": "53",
-     "entry": 191
+     "entry": 191,
+     "pr": {
+      "total": 188,
+      "category": "55",
+      "date": "2024-10-26",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 9,
@@ -959,7 +1517,13 @@
      "dob": "02.06.2006",
      "nation": "ESP",
      "category": "53",
-     "entry": 190
+     "entry": 190,
+     "pr": {
+      "total": 185,
+      "category": "53",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 10,
@@ -968,7 +1532,13 @@
      "dob": "01.08.2003",
      "nation": "JPN",
      "category": "53",
-     "entry": 196
+     "entry": 196,
+     "pr": {
+      "total": 170,
+      "category": "49",
+      "date": "2023-11-15",
+      "event": "2023 IWF World Junior Championships"
+     }
     }
    ]
   },
@@ -986,7 +1556,13 @@
      "dob": "11.12.1999",
      "nation": "FRA",
      "category": "53",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 211,
+      "category": "58",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 2,
@@ -995,7 +1571,13 @@
      "dob": "05.06.2008",
      "nation": "GRE",
      "category": "53",
-     "entry": 205
+     "entry": 205,
+     "pr": {
+      "total": 188,
+      "category": "53",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 3,
@@ -1013,7 +1595,13 @@
      "dob": "26.03.2006",
      "nation": "THA",
      "category": "53",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 195,
+      "category": "53",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 5,
@@ -1022,7 +1610,13 @@
      "dob": "08.08.1994",
      "nation": "IND",
      "category": "53",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 205,
+      "category": "49",
+      "date": "2021-04-17",
+      "event": "2020 Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -1031,7 +1625,13 @@
      "dob": "13.08.2007",
      "nation": "BLR",
      "category": "53",
-     "entry": 204
+     "entry": 204,
+     "pr": {
+      "total": 185,
+      "category": "55\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 7,
@@ -1040,7 +1640,13 @@
      "dob": "14.08.2001",
      "nation": "VEN",
      "category": "53",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 199,
+      "category": "53",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 8,
@@ -1049,7 +1655,13 @@
      "dob": "09.08.2005",
      "nation": "INA",
      "category": "53",
-     "entry": 205
+     "entry": 205,
+     "pr": {
+      "total": 173,
+      "category": "49",
+      "date": "2023-05-13",
+      "event": "32nd SEA Games"
+     }
     },
     {
      "no": 9,
@@ -1058,7 +1670,13 @@
      "dob": "12.09.1996",
      "nation": "MEX",
      "category": "53",
-     "entry": 201
+     "entry": 201,
+     "pr": {
+      "total": 185,
+      "category": "49",
+      "date": "2022-07-24",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 10,
@@ -1067,7 +1685,13 @@
      "dob": "27.11.2001",
      "nation": "DOM",
      "category": "53",
-     "entry": 202
+     "entry": 202,
+     "pr": {
+      "total": 190,
+      "category": "49",
+      "date": "2023-12-04",
+      "event": "2023 IWF Grand Prix II"
+     }
     },
     {
      "no": 11,
@@ -1076,7 +1700,13 @@
      "dob": "16.01.1996",
      "nation": "BRA",
      "category": "53",
-     "entry": 205
+     "entry": 205,
+     "pr": {
+      "total": 198,
+      "category": "53",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 12,
@@ -1085,7 +1715,13 @@
      "dob": "29.11.2009",
      "nation": "TKM",
      "category": "53",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 191,
+      "category": "53",
+      "date": "2026-07-05",
+      "event": "2026 IWF World Youth Championships"
+     }
     }
    ]
   },
@@ -1103,7 +1739,13 @@
      "dob": "26.07.2002",
      "nation": "BEL",
      "category": "53",
-     "entry": 213
+     "entry": 213,
+     "pr": {
+      "total": 220,
+      "category": "59",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 2,
@@ -1112,7 +1754,13 @@
      "dob": "15.12.2003",
      "nation": "PHI",
      "category": "53",
-     "entry": 215
+     "entry": 215,
+     "pr": {
+      "total": 197,
+      "category": "49",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 3,
@@ -1121,7 +1769,13 @@
      "dob": "18.11.2002",
      "nation": "ROU",
      "category": "53",
-     "entry": 212
+     "entry": 212,
+     "pr": {
+      "total": 209,
+      "category": "53",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -1130,7 +1784,13 @@
      "dob": "06.01.2005",
      "nation": "CHN",
      "category": "53",
-     "entry": 216
+     "entry": 216,
+     "pr": {
+      "total": 225,
+      "category": "55",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 5,
@@ -1139,7 +1799,13 @@
      "dob": "20.01.2000",
      "nation": "TPE",
      "category": "53",
-     "entry": 208
+     "entry": 208,
+     "pr": {
+      "total": 190,
+      "category": "49",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -1148,7 +1814,13 @@
      "dob": "23.09.2004",
      "nation": "USA",
      "category": "53",
-     "entry": 216
+     "entry": 216,
+     "pr": {
+      "total": 217,
+      "category": "58",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 7,
@@ -1157,7 +1829,13 @@
      "dob": "23.12.1999",
      "nation": "THA",
      "category": "53",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 201,
+      "category": "53",
+      "date": "2018-08-20",
+      "event": "18th ASIAN GAMES"
+     }
     },
     {
      "no": 8,
@@ -1166,7 +1844,13 @@
      "dob": "26.02.2002",
      "nation": "TUR",
      "category": "53",
-     "entry": 207
+     "entry": 207,
+     "pr": {
+      "total": 202,
+      "category": "59",
+      "date": "2021-09-24",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 9,
@@ -1175,7 +1859,13 @@
      "dob": "13.05.2004",
      "nation": "UZB",
      "category": "53",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 212,
+      "category": "59",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     }
    ]
   },
@@ -1193,7 +1883,13 @@
      "dob": "07.01.2002",
      "nation": "CHI",
      "category": "75",
-     "entry": 305
+     "entry": 305,
+     "pr": {
+      "total": 301,
+      "category": "73",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 2,
@@ -1202,7 +1898,13 @@
      "dob": "17.02.1994",
      "nation": "RUS",
      "category": "75",
-     "entry": 330
+     "entry": 330,
+     "pr": {
+      "total": 333,
+      "category": "73",
+      "date": "2018-11-01",
+      "event": "2018 IWF World Championships"
+     }
     },
     {
      "no": 3,
@@ -1220,7 +1922,13 @@
      "dob": "12.02.2008",
      "nation": "IRL",
      "category": "75",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 298,
+      "category": "71",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -1229,7 +1937,13 @@
      "dob": "26.02.1995",
      "nation": "MAD",
      "category": "75",
-     "entry": 330
+     "entry": 330,
+     "pr": {
+      "total": 331,
+      "category": "73",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -1238,7 +1952,13 @@
      "dob": "26.04.2005",
      "nation": "CRO",
      "category": "75",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 289,
+      "category": "79",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 7,
@@ -1247,7 +1967,13 @@
      "dob": "05.02.1999",
      "nation": "GBR",
      "category": "75",
-     "entry": 310
+     "entry": 310,
+     "pr": {
+      "total": 325,
+      "category": "81",
+      "date": "2023-04-15",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -1256,7 +1982,13 @@
      "dob": "16.10.1992",
      "nation": "DOM",
      "category": "75",
-     "entry": 330
+     "entry": 330,
+     "pr": {
+      "total": 333,
+      "category": "79",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 9,
@@ -1265,7 +1997,13 @@
      "dob": "02.07.2001",
      "nation": "NRU",
      "category": "75",
-     "entry": 310
+     "entry": 310,
+     "pr": {
+      "total": 310,
+      "category": "71",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 10,
@@ -1292,7 +2030,13 @@
      "dob": "26.11.2004",
      "nation": "BEL",
      "category": "57",
-     "entry": 190
+     "entry": 190,
+     "pr": {
+      "total": 190,
+      "category": "58",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -1301,7 +2045,13 @@
      "dob": "22.04.2007",
      "nation": "JPN",
      "category": "57",
-     "entry": 201
+     "entry": 201,
+     "pr": {
+      "total": 193,
+      "category": "55",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 3,
@@ -1310,7 +2060,13 @@
      "dob": "26.12.2009",
      "nation": "TKM",
      "category": "57",
-     "entry": 202
+     "entry": 202,
+     "pr": {
+      "total": 188,
+      "category": "53",
+      "date": "2026-07-05",
+      "event": "2026 IWF World Youth Championships"
+     }
     },
     {
      "no": 4,
@@ -1319,7 +2075,13 @@
      "dob": "01.08.2005",
      "nation": "ARM",
      "category": "57",
-     "entry": 215
+     "entry": 215,
+     "pr": {
+      "total": 214,
+      "category": "58",
+      "date": "2025-10-28",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 5,
@@ -1328,7 +2090,13 @@
      "dob": "12.08.1999",
      "nation": "PER",
      "category": "57",
-     "entry": 206
+     "entry": 206,
+     "pr": {
+      "total": 195,
+      "category": "55",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -1337,7 +2105,13 @@
      "dob": "06.10.2003",
      "nation": "UKR",
      "category": "57",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 210,
+      "category": "71",
+      "date": "2024-02-12",
+      "event": "European Championships"
+     }
     },
     {
      "no": 7,
@@ -1346,7 +2120,13 @@
      "dob": "29.01.2005",
      "nation": "TPE",
      "category": "57",
-     "entry": 220
+     "entry": 220,
+     "pr": {
+      "total": 217,
+      "category": "55",
+      "date": "2024-09-19",
+      "event": "2024 IWF World Junior Championships"
+     }
     },
     {
      "no": 8,
@@ -1364,7 +2144,13 @@
      "dob": "28.11.1997",
      "nation": "SWE",
      "category": "57",
-     "entry": 187
+     "entry": 187,
+     "pr": {
+      "total": 158,
+      "category": "59",
+      "date": "2019-10-12",
+      "event": "Nordic Senior Championships"
+     }
     },
     {
      "no": 10,
@@ -1382,7 +2168,13 @@
      "dob": "21.08.1998",
      "nation": "CAN",
      "category": "57",
-     "entry": 195
+     "entry": 195,
+     "pr": {
+      "total": 194,
+      "category": "58",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 12,
@@ -1391,7 +2183,13 @@
      "dob": "15.01.1995",
      "nation": "NED",
      "category": "57",
-     "entry": 197
+     "entry": 197,
+     "pr": {
+      "total": 184,
+      "category": "58",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     }
    ]
   },
@@ -1418,7 +2216,13 @@
      "dob": "06.11.1999",
      "nation": "AZE",
      "category": "70",
-     "entry": 325
+     "entry": 325,
+     "pr": {
+      "total": 328,
+      "category": "71",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 3,
@@ -1427,7 +2231,13 @@
      "dob": "28.03.2000",
      "nation": "BLR",
      "category": "70",
-     "entry": 326
+     "entry": 326,
+     "pr": {
+      "total": 222,
+      "category": "56",
+      "date": "2016-12-02",
+      "event": "2016 EUROPEAN JUNIOR CHAMPIONSHIPS"
+     }
     },
     {
      "no": 4,
@@ -1436,7 +2246,13 @@
      "dob": "06.03.1995",
      "nation": "KOR",
      "category": "70",
-     "entry": 330
+     "entry": 330,
+     "pr": {
+      "total": 331,
+      "category": "73",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -1445,7 +2261,13 @@
      "dob": "08.03.1999",
      "nation": "CRO",
      "category": "70",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 262,
+      "category": "73\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 6,
@@ -1454,7 +2276,13 @@
      "dob": "21.04.1997",
      "nation": "MEX",
      "category": "70",
-     "entry": 316
+     "entry": 316,
+     "pr": {
+      "total": 323,
+      "category": "73",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -1463,7 +2291,13 @@
      "dob": "01.01.2005",
      "nation": "TUR",
      "category": "70",
-     "entry": 316
+     "entry": 316,
+     "pr": {
+      "total": 307,
+      "category": "71",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -1472,7 +2306,13 @@
      "dob": "12.08.2006",
      "nation": "PHI",
      "category": "70",
-     "entry": 320
+     "entry": 320,
+     "pr": {
+      "total": 326,
+      "category": "71",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 9,
@@ -1481,7 +2321,13 @@
      "dob": "17.09.2002",
      "nation": "PRK",
      "category": "70",
-     "entry": 350
+     "entry": 350,
+     "pr": {
+      "total": 351,
+      "category": "71",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 10,
@@ -1490,7 +2336,13 @@
      "dob": "03.09.2003",
      "nation": "PRK",
      "category": "70",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 332,
+      "category": "67",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 11,
@@ -1517,7 +2369,13 @@
      "dob": "30.09.2003",
      "nation": "KAZ",
      "category": "75",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 335,
+      "category": "79",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 2,
@@ -1526,7 +2384,13 @@
      "dob": "01.01.1999",
      "nation": "VEN",
      "category": "75",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 321,
+      "category": "73",
+      "date": "2024-11-29",
+      "event": "Bolivarian Games / Bicentennial"
+     }
     },
     {
      "no": 3,
@@ -1535,7 +2399,13 @@
      "dob": "27.07.1996",
      "nation": "TPE",
      "category": "75",
-     "entry": 335
+     "entry": 335,
+     "pr": {
+      "total": 333,
+      "category": "79",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 4,
@@ -1544,7 +2414,13 @@
      "dob": "07.11.2000",
      "nation": "ECU",
      "category": "75",
-     "entry": 335
+     "entry": 335,
+     "pr": {
+      "total": 321,
+      "category": "73",
+      "date": "2023-12-04",
+      "event": "2023 IWF Grand Prix II"
+     }
     },
     {
      "no": 5,
@@ -1553,7 +2429,13 @@
      "dob": "19.02.1990",
      "nation": "ALB",
      "category": "75",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 342,
+      "category": "73",
+      "date": "2021-12-07",
+      "event": "2021 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -1562,7 +2444,13 @@
      "dob": "12.01.2000",
      "nation": "RUS",
      "category": "75",
-     "entry": 338
+     "entry": 338,
+     "pr": {
+      "total": 315,
+      "category": "67",
+      "date": "2021-12-07",
+      "event": "2021 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -1571,7 +2459,13 @@
      "dob": "03.02.2003",
      "nation": "POL",
      "category": "75",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 317,
+      "category": "79",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -1580,7 +2474,13 @@
      "dob": "18.07.2005",
      "nation": "ARM",
      "category": "75",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 321,
+      "category": "71",
+      "date": "2025-10-28",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 9,
@@ -1589,7 +2489,13 @@
      "dob": "01.12.1996",
      "nation": "UAE",
      "category": "75",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 330,
+      "category": "73",
+      "date": "2019-04-23",
+      "event": "African Championships"
+     }
     },
     {
      "no": 10,
@@ -1598,7 +2504,13 @@
      "dob": "12.04.2002",
      "nation": "TKM",
      "category": "75",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 333,
+      "category": "73",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     }
    ]
   },
@@ -1616,7 +2528,13 @@
      "dob": "29.01.1990",
      "nation": "COL",
      "category": "75",
-     "entry": 345
+     "entry": 345,
+     "pr": {
+      "total": 347,
+      "category": "79",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 2,
@@ -1625,7 +2543,13 @@
      "dob": "27.07.2000",
      "nation": "GER",
      "category": "75",
-     "entry": 342
+     "entry": 342,
+     "pr": {
+      "total": 335,
+      "category": "73\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -1634,7 +2558,13 @@
      "dob": "27.06.1997",
      "nation": "USA",
      "category": "75",
-     "entry": 343
+     "entry": 343,
+     "pr": {
+      "total": 335,
+      "category": "79",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 4,
@@ -1643,7 +2573,13 @@
      "dob": "03.04.2002",
      "nation": "USA",
      "category": "75",
-     "entry": 342
+     "entry": 342,
+     "pr": {
+      "total": 342,
+      "category": "79",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -1652,7 +2588,13 @@
      "dob": "03.02.1997",
      "nation": "JPN",
      "category": "75",
-     "entry": 342
+     "entry": 342,
+     "pr": {
+      "total": 350,
+      "category": "73",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 6,
@@ -1661,7 +2603,13 @@
      "dob": "02.09.1996",
      "nation": "VEN",
      "category": "75",
-     "entry": 345
+     "entry": 345,
+     "pr": {
+      "total": 357,
+      "category": "79",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 7,
@@ -1670,7 +2618,13 @@
      "dob": "01.01.2000",
      "nation": "EGY",
      "category": "75",
-     "entry": 345
+     "entry": 345,
+     "pr": {
+      "total": 278,
+      "category": "67",
+      "date": "2022-10-26",
+      "event": "African Championships"
+     }
     },
     {
      "no": 8,
@@ -1679,7 +2633,13 @@
      "dob": "10.08.1988",
      "nation": "ALB",
      "category": "75",
-     "entry": 341
+     "entry": 341,
+     "pr": {
+      "total": 351,
+      "category": "81",
+      "date": "2019-11-11",
+      "event": "International Naim Suleymanoglu Tournament"
+     }
     }
    ]
   },
@@ -1697,7 +2657,13 @@
      "dob": "01.09.2003",
      "nation": "ARM",
      "category": "75",
-     "entry": 350
+     "entry": 350,
+     "pr": {
+      "total": 338,
+      "category": "73\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -1706,7 +2672,13 @@
      "dob": "23.05.2002",
      "nation": "TUR",
      "category": "75",
-     "entry": 350
+     "entry": 350,
+     "pr": {
+      "total": 348,
+      "category": "73\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -1715,7 +2687,13 @@
      "dob": "12.09.2004",
      "nation": "TUR",
      "category": "75",
-     "entry": 350
+     "entry": 350,
+     "pr": {
+      "total": 337,
+      "category": "79",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -1724,7 +2702,13 @@
      "dob": "15.09.2003",
      "nation": "BLR",
      "category": "75",
-     "entry": 346
+     "entry": 346,
+     "pr": {
+      "total": 328,
+      "category": "71",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -1733,7 +2717,13 @@
      "dob": "13.10.2000",
      "nation": "INA",
      "category": "75",
-     "entry": 355
+     "entry": 355,
+     "pr": {
+      "total": 363,
+      "category": "73",
+      "date": "2024-02-03",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -1742,7 +2732,13 @@
      "dob": "21.06.2000",
      "nation": "KOR",
      "category": "75",
-     "entry": 350
+     "entry": 350,
+     "pr": {
+      "total": 357,
+      "category": "81",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 7,
@@ -1751,7 +2747,13 @@
      "dob": "25.01.2001",
      "nation": "PRK",
      "category": "75",
-     "entry": 355
+     "entry": 355,
+     "pr": {
+      "total": 364,
+      "category": "79",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 8,
@@ -1760,7 +2762,13 @@
      "dob": "12.05.2005",
      "nation": "ROU",
      "category": "75",
-     "entry": 347
+     "entry": 347,
+     "pr": {
+      "total": 335,
+      "category": "79",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 9,
@@ -1769,7 +2777,13 @@
      "dob": "10.08.2004",
      "nation": "THA",
      "category": "75",
-     "entry": 352
+     "entry": 352,
+     "pr": {
+      "total": 351,
+      "category": "73",
+      "date": "2023-09-30",
+      "event": "19th Asian Games"
+     }
     },
     {
      "no": 10,
@@ -1778,7 +2792,13 @@
      "dob": "26.05.2008",
      "nation": "TKM",
      "category": "75",
-     "entry": 346
+     "entry": 346,
+     "pr": {
+      "total": 335,
+      "category": "79",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     }
    ]
   },
@@ -1796,7 +2816,13 @@
      "dob": "09.07.1990",
      "nation": "HKG",
      "category": "61",
-     "entry": 150
+     "entry": 150,
+     "pr": {
+      "total": 153,
+      "category": "64",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 2,
@@ -1805,7 +2831,13 @@
      "dob": "24.06.2005",
      "nation": "BAN",
      "category": "61",
-     "entry": 170
+     "entry": 170,
+     "pr": {
+      "total": 162,
+      "category": "63",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 3,
@@ -1814,7 +2846,13 @@
      "dob": "08.11.2000",
      "nation": "ISL",
      "category": "61",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 195,
+      "category": "63",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -1823,7 +2861,13 @@
      "dob": "24.08.1991",
      "nation": "KUW",
      "category": "61",
-     "entry": 120
+     "entry": 120,
+     "pr": {
+      "total": 151,
+      "category": "69",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 5,
@@ -1841,7 +2885,13 @@
      "dob": "26.07.2001",
      "nation": "UAE",
      "category": "61",
-     "entry": 160
+     "entry": 160,
+     "pr": {
+      "total": 167,
+      "category": "63",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -1850,7 +2900,13 @@
      "dob": "30.01.2008",
      "nation": "AUT",
      "category": "61",
-     "entry": 205
+     "entry": 205,
+     "pr": {
+      "total": 190,
+      "category": "58",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 8,
@@ -1859,7 +2915,13 @@
      "dob": "04.01.1991",
      "nation": "LUX",
      "category": "61",
-     "entry": 197
+     "entry": 197,
+     "pr": {
+      "total": 213,
+      "category": "64",
+      "date": "2019-10-04",
+      "event": "12th Mediterranean Cup"
+     }
     },
     {
      "no": 9,
@@ -1868,7 +2930,13 @@
      "dob": "21.12.2004",
      "nation": "PUR",
      "category": "61",
-     "entry": 195
+     "entry": 195,
+     "pr": {
+      "total": 189,
+      "category": "58",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 10,
@@ -1877,7 +2945,13 @@
      "dob": "02.09.2003",
      "nation": "IND",
      "category": "61",
-     "entry": 196
+     "entry": 196,
+     "pr": {
+      "total": 176,
+      "category": "55",
+      "date": "2023-07-28",
+      "event": "2023 Asian Junior Championships"
+     }
     },
     {
      "no": 11,
@@ -1886,7 +2960,13 @@
      "dob": "07.04.2003",
      "nation": "MAR",
      "category": "61",
-     "entry": 170
+     "entry": 170,
+     "pr": {
+      "total": 166,
+      "category": "58",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     }
    ]
   },
@@ -1904,7 +2984,13 @@
      "dob": "10.03.2001",
      "nation": "POL",
      "category": "61",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 215,
+      "category": "64",
+      "date": "2024-02-12",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -1913,7 +2999,13 @@
      "dob": "11.12.1995",
      "nation": "AUT",
      "category": "61",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 196,
+      "category": "64\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -1922,7 +3014,13 @@
      "dob": "16.03.2002",
      "nation": "CAN",
      "category": "61",
-     "entry": 217
+     "entry": 217,
+     "pr": {
+      "total": 215,
+      "category": "58",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 4,
@@ -1931,7 +3029,13 @@
      "dob": "08.11.2006",
      "nation": "MEX",
      "category": "61",
-     "entry": 216
+     "entry": 216,
+     "pr": {
+      "total": 213,
+      "category": "58",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 5,
@@ -1940,7 +3044,13 @@
      "dob": "05.10.2000",
      "nation": "IND",
      "category": "61",
-     "entry": 211
+     "entry": 211,
+     "pr": {
+      "total": 217,
+      "category": "63",
+      "date": "2025-08-24",
+      "event": "Commonwealth Championships"
+     }
     },
     {
      "no": 6,
@@ -1949,7 +3059,13 @@
      "dob": "05.03.1996",
      "nation": "RUS",
      "category": "61",
-     "entry": 218
+     "entry": 218,
+     "pr": {
+      "total": 218,
+      "category": "59",
+      "date": "2021-12-07",
+      "event": "2021 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -1958,7 +3074,13 @@
      "dob": "25.04.2009",
      "nation": "NRU",
      "category": "61",
-     "entry": 220
+     "entry": 220,
+     "pr": {
+      "total": 202,
+      "category": "64",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Youth Championships"
+     }
     },
     {
      "no": 8,
@@ -1967,7 +3089,13 @@
      "dob": "01.07.2005",
      "nation": "ESP",
      "category": "61",
-     "entry": 211
+     "entry": 211,
+     "pr": {
+      "total": 211,
+      "category": "63",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 9,
@@ -1976,7 +3104,13 @@
      "dob": "01.10.2003",
      "nation": "DOM",
      "category": "61",
-     "entry": 215
+     "entry": 215,
+     "pr": {
+      "total": 202,
+      "category": "58",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 10,
@@ -1985,7 +3119,13 @@
      "dob": "25.03.2003",
      "nation": "VIE",
      "category": "61",
-     "entry": 220
+     "entry": 220,
+     "pr": {
+      "total": 221,
+      "category": "58",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 11,
@@ -1994,7 +3134,13 @@
      "dob": "11.02.2002",
      "nation": "JPN",
      "category": "61",
-     "entry": 219
+     "entry": 219,
+     "pr": {
+      "total": 205,
+      "category": "59",
+      "date": "2022-12-05",
+      "event": "2022 IWF World Championships"
+     }
     }
    ]
   },
@@ -2012,7 +3158,13 @@
      "dob": "10.09.2000",
      "nation": "INA",
      "category": "61",
-     "entry": 225
+     "entry": 225,
+     "pr": {
+      "total": 214,
+      "category": "58",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 2,
@@ -2021,7 +3173,13 @@
      "dob": "11.11.2003",
      "nation": "ROU",
      "category": "61",
-     "entry": 227
+     "entry": 227,
+     "pr": {
+      "total": 214,
+      "category": "63",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -2030,7 +3188,13 @@
      "dob": "25.02.2004",
      "nation": "FRA",
      "category": "61",
-     "entry": 225
+     "entry": 225,
+     "pr": {
+      "total": 215,
+      "category": "63",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -2039,7 +3203,13 @@
      "dob": "19.05.1998",
      "nation": "LAT",
      "category": "61",
-     "entry": 231
+     "entry": 231,
+     "pr": {
+      "total": 206,
+      "category": "59\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -2048,7 +3218,13 @@
      "dob": "21.04.1999",
      "nation": "ITA",
      "category": "61",
-     "entry": 222
+     "entry": 222,
+     "pr": {
+      "total": 217,
+      "category": "59",
+      "date": "2023-12-04",
+      "event": "2023 IWF Grand Prix II"
+     }
     },
     {
      "no": 6,
@@ -2057,7 +3233,13 @@
      "dob": "12.04.2000",
      "nation": "BLR",
      "category": "61",
-     "entry": 226
+     "entry": 226,
+     "pr": {
+      "total": 218,
+      "category": "63",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 7,
@@ -2066,7 +3248,13 @@
      "dob": "31.12.2002",
      "nation": "ECU",
      "category": "61",
-     "entry": 226
+     "entry": 226,
+     "pr": {
+      "total": 218,
+      "category": "59",
+      "date": "2024-11-29",
+      "event": "Bolivarian Games / Bicentennial"
+     }
     },
     {
      "no": 8,
@@ -2075,7 +3263,13 @@
      "dob": "20.03.2006",
      "nation": "THA",
      "category": "61",
-     "entry": 225
+     "entry": 225,
+     "pr": {
+      "total": 225,
+      "category": "63",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 9,
@@ -2084,7 +3278,13 @@
      "dob": "26.02.2002",
      "nation": "TUR",
      "category": "61",
-     "entry": 227
+     "entry": 227,
+     "pr": {
+      "total": 222,
+      "category": "64\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -2093,7 +3293,13 @@
      "dob": "15.07.2003",
      "nation": "THA",
      "category": "61",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 225,
+      "category": "59",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     }
    ]
   },
@@ -2111,7 +3317,13 @@
      "dob": "08.11.2003",
      "nation": "PRK",
      "category": "61",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 197,
+      "category": "55",
+      "date": "2019-10-19",
+      "event": "Asian Youth Championships"
+     }
     },
     {
      "no": 2,
@@ -2120,7 +3332,13 @@
      "dob": "23.03.2001",
      "nation": "UKR",
      "category": "61",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 236,
+      "category": "59",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 3,
@@ -2129,7 +3347,13 @@
      "dob": "26.11.1993",
      "nation": "TPE",
      "category": "61",
-     "entry": 235
+     "entry": 235,
+     "pr": {
+      "total": 249,
+      "category": "58",
+      "date": "2017-08-19",
+      "event": "29th SUMMER UNIVERSIADE"
+     }
     },
     {
      "no": 4,
@@ -2138,7 +3362,13 @@
      "dob": "28.04.1993",
      "nation": "CAN",
      "category": "61",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 240,
+      "category": "64",
+      "date": "2021-04-18",
+      "event": "2020 Pan-American Championships"
+     }
     },
     {
      "no": 5,
@@ -2147,7 +3377,13 @@
      "dob": "27.12.2003",
      "nation": "COL",
      "category": "61",
-     "entry": 235
+     "entry": 235,
+     "pr": {
+      "total": 231,
+      "category": "63",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 6,
@@ -2156,7 +3392,13 @@
      "dob": "10.02.2005",
      "nation": "USA",
      "category": "61",
-     "entry": 244
+     "entry": 244,
+     "pr": {
+      "total": 237,
+      "category": "63",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 7,
@@ -2165,7 +3407,13 @@
      "dob": "10.12.2006",
      "nation": "CHN",
      "category": "61",
-     "entry": 245
+     "entry": 245,
+     "pr": {
+      "total": 251,
+      "category": "63",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 8,
@@ -2174,7 +3422,13 @@
      "dob": "18.08.2004",
      "nation": "USA",
      "category": "61",
-     "entry": 236
+     "entry": 236,
+     "pr": {
+      "total": 228,
+      "category": "63",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 9,
@@ -2183,7 +3437,13 @@
      "dob": "01.11.1998",
      "nation": "PHI",
      "category": "61",
-     "entry": 236
+     "entry": 236,
+     "pr": {
+      "total": 232,
+      "category": "64",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 10,
@@ -2192,7 +3452,13 @@
      "dob": "10.01.2005",
      "nation": "CHN",
      "category": "61",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 237,
+      "category": "59",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     }
    ]
   },
@@ -2210,7 +3476,13 @@
      "dob": "27.06.2001",
      "nation": "UAE",
      "category": "85",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 290,
+      "category": "89",
+      "date": "2023-12-04",
+      "event": "2023 IWF Grand Prix II"
+     }
     },
     {
      "no": 2,
@@ -2219,7 +3491,13 @@
      "dob": "16.12.1994",
      "nation": "ISL",
      "category": "85",
-     "entry": 303
+     "entry": 303,
+     "pr": {
+      "total": 302,
+      "category": "89\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -2228,7 +3506,13 @@
      "dob": "22.10.1998",
      "nation": "SGP",
      "category": "85",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 311,
+      "category": "81",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 4,
@@ -2237,7 +3521,13 @@
      "dob": "30.03.2002",
      "nation": "KUW",
      "category": "85",
-     "entry": 180
+     "entry": 180,
+     "pr": {
+      "total": 206,
+      "category": "81",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 5,
@@ -2246,7 +3536,13 @@
      "dob": "11.01.1999",
      "nation": "LAT",
      "category": "85",
-     "entry": 300
+     "entry": 300,
+     "pr": {
+      "total": 360,
+      "category": "85",
+      "date": "2018-10-20",
+      "event": "2018 EUROPEAN JUNIOR CHAMPIONSHIPS"
+     }
     },
     {
      "no": 6,
@@ -2255,7 +3551,13 @@
      "dob": "04.11.1998",
      "nation": "TGA",
      "category": "85",
-     "entry": 275
+     "entry": 275,
+     "pr": {
+      "total": 296,
+      "category": "96",
+      "date": "2023-11-20",
+      "event": "PACIFIC GAMES + OCEANIA CHAMPIONSHIPS"
+     }
     },
     {
      "no": 7,
@@ -2264,7 +3566,13 @@
      "dob": "24.05.2010",
      "nation": "KUW",
      "category": "85",
-     "entry": 180
+     "entry": 180,
+     "pr": {
+      "total": 180,
+      "category": "79",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 8,
@@ -2273,7 +3581,13 @@
      "dob": "06.07.2008",
      "nation": "BAN",
      "category": "85",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 242,
+      "category": "81",
+      "date": "2024-12-19",
+      "event": "Asian Youth Championships"
+     }
     },
     {
      "no": 9,
@@ -2282,7 +3596,13 @@
      "dob": "29.10.2000",
      "nation": "ALB",
      "category": "85",
-     "entry": 320
+     "entry": 320,
+     "pr": {
+      "total": 341,
+      "category": "81",
+      "date": "2024-02-12",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -2291,7 +3611,13 @@
      "dob": "19.07.2005",
      "nation": "KEN",
      "category": "85",
-     "entry": 245
+     "entry": 245,
+     "pr": {
+      "total": 242,
+      "category": "88",
+      "date": "2025-08-24",
+      "event": "Commonwealth Championships"
+     }
     },
     {
      "no": 11,
@@ -2300,7 +3626,13 @@
      "dob": "18.06.2005",
      "nation": "FIJ",
      "category": "85",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 270,
+      "category": "79",
+      "date": "2025-07-01",
+      "event": "Pacific Mini Games + Oceania Senior Championships"
+     }
     }
    ]
   },
@@ -2318,7 +3650,13 @@
      "dob": "18.09.2006",
      "nation": "KOS",
      "category": "85",
-     "entry": 350
+     "entry": 350,
+     "pr": {
+      "total": 306,
+      "category": "81",
+      "date": "2023-06-08",
+      "event": "IWF Grand Prix I"
+     }
     },
     {
      "no": 2,
@@ -2327,7 +3665,13 @@
      "dob": "24.02.2001",
      "nation": "ECU",
      "category": "85",
-     "entry": 345
+     "entry": 345,
+     "pr": {
+      "total": 345,
+      "category": "88",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 3,
@@ -2336,7 +3680,13 @@
      "dob": "09.11.2002",
      "nation": "RUS",
      "category": "85",
-     "entry": 347
+     "entry": 347,
+     "pr": {
+      "total": 341,
+      "category": "79",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -2345,7 +3695,13 @@
      "dob": "31.03.1993",
      "nation": "ESP",
      "category": "85",
-     "entry": 337
+     "entry": 337,
+     "pr": {
+      "total": 335,
+      "category": "88",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -2354,7 +3710,13 @@
      "dob": "20.04.2003",
      "nation": "CAN",
      "category": "85",
-     "entry": 326
+     "entry": 326,
+     "pr": {
+      "total": 315,
+      "category": "79",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 6,
@@ -2363,7 +3725,13 @@
      "dob": "12.07.1998",
      "nation": "CZE",
      "category": "85",
-     "entry": 327
+     "entry": 327,
+     "pr": {
+      "total": 330,
+      "category": "81",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -2372,7 +3740,13 @@
      "dob": "30.09.1997",
      "nation": "NZL",
      "category": "85",
-     "entry": 330
+     "entry": 330,
+     "pr": {
+      "total": 339,
+      "category": "88",
+      "date": "2026-04-27",
+      "event": "Universal Weightlifting Cup"
+     }
     },
     {
      "no": 8,
@@ -2381,7 +3755,13 @@
      "dob": "02.07.1997",
      "nation": "THA",
      "category": "85",
-     "entry": 335
+     "entry": 335,
+     "pr": {
+      "total": 355,
+      "category": "81",
+      "date": "2022-05-19",
+      "event": "31st SEA Games"
+     }
     },
     {
      "no": 9,
@@ -2390,7 +3770,13 @@
      "dob": "30.07.2005",
      "nation": "ARM",
      "category": "85",
-     "entry": 350
+     "entry": 350,
+     "pr": {
+      "total": 338,
+      "category": "79",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -2399,7 +3785,13 @@
      "dob": "23.02.1992",
      "nation": "LTU",
      "category": "85",
-     "entry": 330
+     "entry": 330,
+     "pr": {
+      "total": 339,
+      "category": "102",
+      "date": "2023-04-15",
+      "event": "European Championships"
+     }
     },
     {
      "no": 11,
@@ -2408,7 +3800,13 @@
      "dob": "24.11.1999",
      "nation": "MAS",
      "category": "85",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 333,
+      "category": "79",
+      "date": "2025-08-24",
+      "event": "Commonwealth Championships"
+     }
     }
    ]
   },
@@ -2426,7 +3824,13 @@
      "dob": "28.06.2003",
      "nation": "GEO",
      "category": "85",
-     "entry": 368
+     "entry": 368,
+     "pr": {
+      "total": 363,
+      "category": "88",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -2435,7 +3839,13 @@
      "dob": "15.02.2006",
      "nation": "AZE",
      "category": "85",
-     "entry": 365
+     "entry": 365,
+     "pr": {
+      "total": 340,
+      "category": "79",
+      "date": "2025-10-28",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 3,
@@ -2444,7 +3854,13 @@
      "dob": "17.06.2005",
      "nation": "JPN",
      "category": "85",
-     "entry": 360
+     "entry": 360,
+     "pr": {
+      "total": 340,
+      "category": "81",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 4,
@@ -2453,7 +3869,13 @@
      "dob": "17.05.2000",
      "nation": "ARM",
      "category": "85",
-     "entry": 355
+     "entry": 355,
+     "pr": {
+      "total": 355,
+      "category": "88",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -2462,7 +3884,13 @@
      "dob": "11.04.2003",
      "nation": "TKM",
      "category": "85",
-     "entry": 362
+     "entry": 362,
+     "pr": {
+      "total": 350,
+      "category": "88",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -2471,7 +3899,13 @@
      "dob": "31.01.2004",
      "nation": "USA",
      "category": "85",
-     "entry": 357
+     "entry": 357,
+     "pr": {
+      "total": 354,
+      "category": "79",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 7,
@@ -2480,7 +3914,13 @@
      "dob": "25.02.1997",
      "nation": "KOR",
      "category": "85",
-     "entry": 360
+     "entry": 360,
+     "pr": {
+      "total": 332,
+      "category": "77",
+      "date": "2017-06-15",
+      "event": "2017 IWF JUNIOR WORLD CHAMPIONSHIPS"
+     }
     },
     {
      "no": 8,
@@ -2489,7 +3929,13 @@
      "dob": "15.12.1995",
      "nation": "BIH",
      "category": "85",
-     "entry": 366
+     "entry": 366,
+     "pr": {
+      "total": 377,
+      "category": "89",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 9,
@@ -2498,7 +3944,13 @@
      "dob": "31.07.2003",
      "nation": "GER",
      "category": "85",
-     "entry": 362
+     "entry": 362,
+     "pr": {
+      "total": 351,
+      "category": "89\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -2507,7 +3959,13 @@
      "dob": "31.05.2001",
      "nation": "TPE",
      "category": "85",
-     "entry": 356
+     "entry": 356,
+     "pr": {
+      "total": 355,
+      "category": "89",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 11,
@@ -2516,7 +3974,13 @@
      "dob": "24.08.2006",
      "nation": "VEN",
      "category": "85",
-     "entry": 360
+     "entry": 360,
+     "pr": {
+      "total": 316,
+      "category": "81",
+      "date": "2024-06-19",
+      "event": "Pan-American Junior Championships"
+     }
     }
    ]
   },
@@ -2534,7 +3998,13 @@
      "dob": "06.05.2005",
      "nation": "KAZ",
      "category": "85",
-     "entry": 371
+     "entry": 371,
+     "pr": {
+      "total": 352,
+      "category": "89",
+      "date": "2024-09-19",
+      "event": "2024 IWF World Junior Championships"
+     }
     },
     {
      "no": 2,
@@ -2543,7 +4013,13 @@
      "dob": "24.08.2005",
      "nation": "CHN",
      "category": "85",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 346,
+      "category": "81",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 3,
@@ -2552,7 +4028,13 @@
      "dob": "19.03.2000",
      "nation": "MDA",
      "category": "85",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 383,
+      "category": "89",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 4,
@@ -2561,7 +4043,13 @@
      "dob": "14.11.2004",
      "nation": "EGY",
      "category": "85",
-     "entry": 385
+     "entry": 385,
+     "pr": {
+      "total": 392,
+      "category": "88",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     },
     {
      "no": 5,
@@ -2570,7 +4058,13 @@
      "dob": "30.04.2001",
      "nation": "PRK",
      "category": "85",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 387,
+      "category": "88",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -2579,7 +4073,13 @@
      "dob": "22.06.2000",
      "nation": "IRI",
      "category": "85",
-     "entry": 375
+     "entry": 375,
+     "pr": {
+      "total": 384,
+      "category": "89",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -2588,7 +4088,13 @@
      "dob": "26.07.2000",
      "nation": "UZB",
      "category": "85",
-     "entry": 372
+     "entry": 372,
+     "pr": {
+      "total": 375,
+      "category": "89",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 8,
@@ -2597,7 +4103,13 @@
      "dob": "05.05.2003",
      "nation": "IRI",
      "category": "85",
-     "entry": 375
+     "entry": 375,
+     "pr": {
+      "total": 340,
+      "category": "79",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 9,
@@ -2606,7 +4118,13 @@
      "dob": "09.01.1999",
      "nation": "COL",
      "category": "85",
-     "entry": 390
+     "entry": 390,
+     "pr": {
+      "total": 397,
+      "category": "88",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 10,
@@ -2615,7 +4133,13 @@
      "dob": "13.08.2003",
      "nation": "CHN",
      "category": "85",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 350,
+      "category": "88",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 11,
@@ -2624,7 +4148,13 @@
      "dob": "19.03.2004",
      "nation": "KAZ",
      "category": "85",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 368,
+      "category": "81",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     }
    ]
   },
@@ -2642,7 +4172,13 @@
      "dob": "01.01.2009",
      "nation": "KEN",
      "category": "69",
-     "entry": 160
+     "entry": 160,
+     "pr": {
+      "total": 176,
+      "category": "63",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     },
     {
      "no": 2,
@@ -2651,7 +4187,13 @@
      "dob": "08.02.2004",
      "nation": "CHI",
      "category": "69",
-     "entry": 215
+     "entry": 215,
+     "pr": {
+      "total": 200,
+      "category": "69",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 3,
@@ -2660,7 +4202,13 @@
      "dob": "26.08.1993",
      "nation": "SVK",
      "category": "69",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 187,
+      "category": "63",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -2669,7 +4217,13 @@
      "dob": "28.10.2004",
      "nation": "WRT",
      "category": "69",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 210,
+      "category": "71",
+      "date": "2024-09-19",
+      "event": "2024 IWF World Junior Championships"
+     }
     },
     {
      "no": 5,
@@ -2678,7 +4232,13 @@
      "dob": "28.10.1995",
      "nation": "IRL",
      "category": "69",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 194,
+      "category": "63",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -2687,7 +4247,13 @@
      "dob": "14.08.2005",
      "nation": "NZL",
      "category": "69",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 201,
+      "category": "69",
+      "date": "2025-08-24",
+      "event": "Commonwealth Junior Championships"
+     }
     },
     {
      "no": 7,
@@ -2696,7 +4262,13 @@
      "dob": "03.12.2009",
      "nation": "FIJ",
      "category": "69",
-     "entry": 180
+     "entry": 180,
+     "pr": {
+      "total": 147,
+      "category": "64",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Youth Championships"
+     }
     },
     {
      "no": 8,
@@ -2705,7 +4277,13 @@
      "dob": "15.08.2000",
      "nation": "SGP",
      "category": "69",
-     "entry": 180
+     "entry": 180,
+     "pr": {
+      "total": 188,
+      "category": "69",
+      "date": "2025-08-24",
+      "event": "Commonwealth Championships"
+     }
     },
     {
      "no": 9,
@@ -2714,7 +4292,13 @@
      "dob": "10.03.2006",
      "nation": "MAR",
      "category": "69",
-     "entry": 200
+     "entry": 200,
+     "pr": {
+      "total": 196,
+      "category": "77",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     },
     {
      "no": 10,
@@ -2723,7 +4307,13 @@
      "dob": "26.08.2000",
      "nation": "IRL",
      "category": "69",
-     "entry": 206
+     "entry": 206,
+     "pr": {
+      "total": 206,
+      "category": "69",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -2741,7 +4331,13 @@
      "dob": "23.01.2008",
      "nation": "ALB",
      "category": "69",
-     "entry": 225
+     "entry": 225,
+     "pr": {
+      "total": 213,
+      "category": "64",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Youth Championships"
+     }
     },
     {
      "no": 2,
@@ -2750,7 +4346,13 @@
      "dob": "02.08.1998",
      "nation": "LTU",
      "category": "69",
-     "entry": 220
+     "entry": 220,
+     "pr": {
+      "total": 211,
+      "category": "71\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -2759,7 +4361,13 @@
      "dob": "24.09.1997",
      "nation": "ESP",
      "category": "69",
-     "entry": 228
+     "entry": 228,
+     "pr": {
+      "total": 220,
+      "category": "69",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 4,
@@ -2768,7 +4376,13 @@
      "dob": "09.12.2001",
      "nation": "JPN",
      "category": "69",
-     "entry": 225
+     "entry": 225,
+     "pr": {
+      "total": 219,
+      "category": "69",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 5,
@@ -2777,7 +4391,13 @@
      "dob": "05.01.1997",
      "nation": "NED",
      "category": "69",
-     "entry": 220
+     "entry": 220,
+     "pr": {
+      "total": 202,
+      "category": "69",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 6,
@@ -2786,7 +4406,13 @@
      "dob": "24.01.1999",
      "nation": "CAN",
      "category": "69",
-     "entry": 224
+     "entry": 224,
+     "pr": {
+      "total": 231,
+      "category": "71",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 7,
@@ -2795,7 +4421,13 @@
      "dob": "05.03.2006",
      "nation": "TKM",
      "category": "69",
-     "entry": 225
+     "entry": 225,
+     "pr": {
+      "total": 205,
+      "category": "64",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 8,
@@ -2804,7 +4436,13 @@
      "dob": "26.10.1997",
      "nation": "MEX",
      "category": "69",
-     "entry": 222
+     "entry": 222,
+     "pr": {
+      "total": 223,
+      "category": "63",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 9,
@@ -2813,7 +4451,13 @@
      "dob": "18.01.2007",
      "nation": "GBR",
      "category": "69",
-     "entry": 220
+     "entry": 220,
+     "pr": {
+      "total": 214,
+      "category": "69",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 10,
@@ -2822,7 +4466,13 @@
      "dob": "14.05.2005",
      "nation": "AUS",
      "category": "69",
-     "entry": 220
+     "entry": 220,
+     "pr": {
+      "total": 218,
+      "category": "69",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 11,
@@ -2831,7 +4481,13 @@
      "dob": "11.02.2003",
      "nation": "ESP",
      "category": "69",
-     "entry": 224
+     "entry": 224,
+     "pr": {
+      "total": 228,
+      "category": "69",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -2849,7 +4505,13 @@
      "dob": "23.02.1997",
      "nation": "TPE",
      "category": "69",
-     "entry": 236
+     "entry": 236,
+     "pr": {
+      "total": 246,
+      "category": "71",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 2,
@@ -2858,7 +4520,13 @@
      "dob": "17.07.2002",
      "nation": "MGL",
      "category": "69",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 206,
+      "category": "69",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 3,
@@ -2876,7 +4544,13 @@
      "dob": "19.08.1992",
      "nation": "GBR",
      "category": "69",
-     "entry": 231
+     "entry": 231,
+     "pr": {
+      "total": 234,
+      "category": "71",
+      "date": "2021-12-07",
+      "event": "2021 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -2885,7 +4559,13 @@
      "dob": "29.06.2006",
      "nation": "BRN",
      "category": "69",
-     "entry": 235
+     "entry": 235,
+     "pr": {
+      "total": 241,
+      "category": "69",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -2894,7 +4574,13 @@
      "dob": "17.11.2003",
      "nation": "JPN",
      "category": "69",
-     "entry": 231
+     "entry": 231,
+     "pr": {
+      "total": 230,
+      "category": "71",
+      "date": "2024-02-03",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 7,
@@ -2903,7 +4589,13 @@
      "dob": "25.02.2002",
      "nation": "ECU",
      "category": "69",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 245,
+      "category": "76",
+      "date": "2023-06-08",
+      "event": "IWF Grand Prix I"
+     }
     },
     {
      "no": 8,
@@ -2912,7 +4604,13 @@
      "dob": "22.04.2002",
      "nation": "BLR",
      "category": "69",
-     "entry": 233
+     "entry": 233,
+     "pr": {
+      "total": 220,
+      "category": "64\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 9,
@@ -2921,7 +4619,13 @@
      "dob": "02.09.1996",
      "nation": "PHI",
      "category": "69",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 236,
+      "category": "71",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 10,
@@ -2930,7 +4634,13 @@
      "dob": "04.05.2000",
      "nation": "COL",
      "category": "69",
-     "entry": 235
+     "entry": 235,
+     "pr": {
+      "total": 236,
+      "category": "63",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 11,
@@ -2939,7 +4649,13 @@
      "dob": "30.05.2005",
      "nation": "CAN",
      "category": "69",
-     "entry": 235
+     "entry": 235,
+     "pr": {
+      "total": 245,
+      "category": "71",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 12,
@@ -2948,7 +4664,13 @@
      "dob": "26.02.2006",
      "nation": "NZL",
      "category": "69",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 235,
+      "category": "71",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 13,
@@ -2957,7 +4679,13 @@
      "dob": "17.04.2004",
      "nation": "INA",
      "category": "69",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 228,
+      "category": "71",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 14,
@@ -2966,7 +4694,13 @@
      "dob": "23.09.1997",
      "nation": "ROU",
      "category": "69",
-     "entry": 232
+     "entry": 232,
+     "pr": {
+      "total": 220,
+      "category": "69",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -2984,7 +4718,13 @@
      "dob": "01.12.2007",
      "nation": "VEN",
      "category": "69",
-     "entry": 245
+     "entry": 245,
+     "pr": {
+      "total": 239,
+      "category": "69",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 2,
@@ -2993,7 +4733,13 @@
      "dob": "10.11.2002",
      "nation": "ITA",
      "category": "69",
-     "entry": 247
+     "entry": 247,
+     "pr": {
+      "total": 237,
+      "category": "77",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 3,
@@ -3002,7 +4748,13 @@
      "dob": "01.09.2004",
      "nation": "RUS",
      "category": "69",
-     "entry": 242
+     "entry": 242,
+     "pr": {
+      "total": 241,
+      "category": "71\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -3011,7 +4763,13 @@
      "dob": "15.03.2003",
      "nation": "PRK",
      "category": "69",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 264,
+      "category": "64",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -3020,7 +4778,13 @@
      "dob": "01.02.2001",
      "nation": "PRK",
      "category": "69",
-     "entry": 270
+     "entry": 270,
+     "pr": {
+      "total": 276,
+      "category": "71",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -3029,7 +4793,13 @@
      "dob": "01.10.2003",
      "nation": "EGY",
      "category": "69",
-     "entry": 245
+     "entry": 245,
+     "pr": {
+      "total": 227,
+      "category": "77",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     },
     {
      "no": 7,
@@ -3038,7 +4808,13 @@
      "dob": "11.12.2005",
      "nation": "IRI",
      "category": "69",
-     "entry": 247
+     "entry": 247,
+     "pr": {
+      "total": 217,
+      "category": "71",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 8,
@@ -3047,7 +4823,13 @@
      "dob": "21.12.1998",
      "nation": "DOM",
      "category": "69",
-     "entry": 242
+     "entry": 242,
+     "pr": {
+      "total": 245,
+      "category": "69",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 9,
@@ -3056,7 +4838,13 @@
      "dob": "13.05.2005",
      "nation": "POL",
      "category": "69",
-     "entry": 242
+     "entry": 242,
+     "pr": {
+      "total": 227,
+      "category": "69",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -3065,7 +4853,13 @@
      "dob": "20.02.2002",
      "nation": "COL",
      "category": "69",
-     "entry": 250
+     "entry": 250,
+     "pr": {
+      "total": 247,
+      "category": "69",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 11,
@@ -3074,7 +4868,13 @@
      "dob": "18.07.1995",
      "nation": "GER",
      "category": "69",
-     "entry": 242
+     "entry": 242,
+     "pr": {
+      "total": 231,
+      "category": "69",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 12,
@@ -3083,7 +4883,13 @@
      "dob": "17.08.2000",
      "nation": "BLR",
      "category": "69",
-     "entry": 245
+     "entry": 245,
+     "pr": {
+      "total": 246,
+      "category": "71",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 13,
@@ -3092,7 +4898,13 @@
      "dob": "08.05.2000",
      "nation": "TUR",
      "category": "69",
-     "entry": 243
+     "entry": 243,
+     "pr": {
+      "total": 228,
+      "category": "69",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -3110,7 +4922,13 @@
      "dob": "05.02.2004",
      "nation": "HUN",
      "category": "95",
-     "entry": 325
+     "entry": 325,
+     "pr": {
+      "total": 321,
+      "category": "94",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -3119,7 +4937,13 @@
      "dob": "24.09.2003",
      "nation": "MEX",
      "category": "95",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 350,
+      "category": "96",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 3,
@@ -3128,7 +4952,13 @@
      "dob": "12.09.1989",
      "nation": "GHA",
      "category": "95",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 337,
+      "category": "96",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 4,
@@ -3146,7 +4976,13 @@
      "dob": "16.11.2002",
      "nation": "NCA",
      "category": "95",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 338,
+      "category": "88",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 6,
@@ -3155,7 +4991,13 @@
      "dob": "16.04.1998",
      "nation": "LAT",
      "category": "95",
-     "entry": 350
+     "entry": 350,
+     "pr": {
+      "total": 356,
+      "category": "96",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -3164,7 +5006,13 @@
      "dob": "16.02.2003",
      "nation": "AUS",
      "category": "95",
-     "entry": 345
+     "entry": 345,
+     "pr": {
+      "total": 345,
+      "category": "94",
+      "date": "2026-04-27",
+      "event": "Universal Weightlifting Cup"
+     }
     },
     {
      "no": 8,
@@ -3173,7 +5021,13 @@
      "dob": "17.04.2010",
      "nation": "ESP",
      "category": "95",
-     "entry": 349
+     "entry": 349,
+     "pr": {
+      "total": 344,
+      "category": "88",
+      "date": "2026-07-05",
+      "event": "2026 IWF World Youth Championships"
+     }
     },
     {
      "no": 9,
@@ -3182,7 +5036,13 @@
      "dob": "01.10.2008",
      "nation": "NRU",
      "category": "95",
-     "entry": 310
+     "entry": 310,
+     "pr": {
+      "total": 286,
+      "category": "79",
+      "date": "2026-04-27",
+      "event": "Universal Weightlifting Cup"
+     }
     },
     {
      "no": 10,
@@ -3191,7 +5051,13 @@
      "dob": "14.07.1999",
      "nation": "LTU",
      "category": "95",
-     "entry": 345
+     "entry": 345,
+     "pr": {
+      "total": 328,
+      "category": "96",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 11,
@@ -3200,7 +5066,13 @@
      "dob": "05.09.1996",
      "nation": "JAM",
      "category": "95",
-     "entry": 285
+     "entry": 285,
+     "pr": {
+      "total": 280,
+      "category": "94",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 12,
@@ -3209,7 +5081,13 @@
      "dob": "23.04.1998",
      "nation": "TPE",
      "category": "95",
-     "entry": 346
+     "entry": 346,
+     "pr": {
+      "total": 342,
+      "category": "88",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     }
    ]
   },
@@ -3227,7 +5105,13 @@
      "dob": "22.06.1998",
      "nation": "CAN",
      "category": "95",
-     "entry": 360
+     "entry": 360,
+     "pr": {
+      "total": 362,
+      "category": "89",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 2,
@@ -3236,7 +5120,13 @@
      "dob": "17.11.2001",
      "nation": "MEX",
      "category": "95",
-     "entry": 355
+     "entry": 355,
+     "pr": {
+      "total": 361,
+      "category": "102",
+      "date": "2023-10-21",
+      "event": "Pan-American Games"
+     }
     },
     {
      "no": 3,
@@ -3245,7 +5135,13 @@
      "dob": "28.11.2002",
      "nation": "RUS",
      "category": "95",
-     "entry": 362
+     "entry": 362,
+     "pr": {
+      "total": 308,
+      "category": "89",
+      "date": "2021-09-24",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 4,
@@ -3254,7 +5150,13 @@
      "dob": "03.07.2000",
      "nation": "UAE",
      "category": "95",
-     "entry": 370
+     "entry": 370,
+     "pr": {
+      "total": 368,
+      "category": "109",
+      "date": "2024-02-03",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 5,
@@ -3263,7 +5165,13 @@
      "dob": "12.05.2003",
      "nation": "CAN",
      "category": "95",
-     "entry": 360
+     "entry": 360,
+     "pr": {
+      "total": 325,
+      "category": "89",
+      "date": "2023-11-15",
+      "event": "2023 IWF World Junior Championships"
+     }
     },
     {
      "no": 6,
@@ -3272,7 +5180,13 @@
      "dob": "16.06.2002",
      "nation": "KSA",
      "category": "95",
-     "entry": 360
+     "entry": 360,
+     "pr": {
+      "total": 352,
+      "category": "96",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -3281,7 +5195,13 @@
      "dob": "09.04.2005",
      "nation": "ALB",
      "category": "95",
-     "entry": 360
+     "entry": 360,
+     "pr": {
+      "total": 358,
+      "category": "96",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 8,
@@ -3290,7 +5210,13 @@
      "dob": "08.09.2000",
      "nation": "LAT",
      "category": "95",
-     "entry": 365
+     "entry": 365,
+     "pr": {
+      "total": 358,
+      "category": "89",
+      "date": "2024-02-12",
+      "event": "European Championships"
+     }
     },
     {
      "no": 9,
@@ -3299,7 +5225,13 @@
      "dob": "07.04.2003",
      "nation": "GEO",
      "category": "95",
-     "entry": 360
+     "entry": 360,
+     "pr": {
+      "total": 352,
+      "category": "89\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -3317,7 +5249,13 @@
      "dob": "23.07.1991",
      "nation": "KOS",
      "category": "95",
-     "entry": 370
+     "entry": 370,
+     "pr": {
+      "total": 403,
+      "category": "96",
+      "date": "2019-12-19",
+      "event": "6th Qatar International Cup"
+     }
     },
     {
      "no": 12,
@@ -3326,7 +5264,13 @@
      "dob": "22.09.1998",
      "nation": "COL",
      "category": "95",
-     "entry": 370
+     "entry": 370,
+     "pr": {
+      "total": 378,
+      "category": "109",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     }
    ]
   },
@@ -3344,7 +5288,13 @@
      "dob": "17.09.2001",
      "nation": "UZB",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 373,
+      "category": "94",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 2,
@@ -3353,7 +5303,13 @@
      "dob": "29.09.1997",
      "nation": "WRT",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 376,
+      "category": "102",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 3,
@@ -3362,7 +5318,13 @@
      "dob": "11.07.1996",
      "nation": "KOR",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 389,
+      "category": "96",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 4,
@@ -3371,7 +5333,13 @@
      "dob": "24.04.2004",
      "nation": "POL",
      "category": "95",
-     "entry": 375
+     "entry": 375,
+     "pr": {
+      "total": 326,
+      "category": "89",
+      "date": "2024-09-19",
+      "event": "2024 IWF World Junior Championships"
+     }
     },
     {
      "no": 5,
@@ -3380,7 +5348,13 @@
      "dob": "18.04.1999",
      "nation": "TKM",
      "category": "95",
-     "entry": 372
+     "entry": 372,
+     "pr": {
+      "total": 354,
+      "category": "94",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -3389,7 +5363,13 @@
      "dob": "19.07.2007",
      "nation": "IRI",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 366,
+      "category": "94",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 7,
@@ -3398,7 +5378,13 @@
      "dob": "14.01.1997",
      "nation": "ARM",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 377,
+      "category": "96",
+      "date": "2023-04-15",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -3407,7 +5393,13 @@
      "dob": "30.04.2004",
      "nation": "BRN",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 390,
+      "category": "94",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 9,
@@ -3416,7 +5408,13 @@
      "dob": "24.06.2004",
      "nation": "ECU",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 365,
+      "category": "94",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 10,
@@ -3425,7 +5423,13 @@
      "dob": "15.02.2004",
      "nation": "JPN",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 372,
+      "category": "96",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 11,
@@ -3434,7 +5438,13 @@
      "dob": "20.04.2002",
      "nation": "UKR",
      "category": "95",
-     "entry": 373
+     "entry": 373,
+     "pr": {
+      "total": 370,
+      "category": "94",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 12,
@@ -3443,7 +5453,13 @@
      "dob": "01.12.2001",
      "nation": "POL",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 318,
+      "category": "96",
+      "date": "2021-09-24",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 13,
@@ -3452,7 +5468,13 @@
      "dob": "15.12.2006",
      "nation": "VEN",
      "category": "95",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 373,
+      "category": "94",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     }
    ]
   },
@@ -3470,7 +5492,13 @@
      "dob": "08.10.1999",
      "nation": "VEN",
      "category": "95",
-     "entry": 390
+     "entry": 390,
+     "pr": {
+      "total": 394,
+      "category": "96",
+      "date": "2022-10-02",
+      "event": "XII South American Games"
+     }
     },
     {
      "no": 2,
@@ -3479,7 +5507,13 @@
      "dob": "07.01.2006",
      "nation": "GEO",
      "category": "95",
-     "entry": 383
+     "entry": 383,
+     "pr": {
+      "total": 367,
+      "category": "94",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 3,
@@ -3488,7 +5522,13 @@
      "dob": "02.12.1999",
      "nation": "BLR",
      "category": "95",
-     "entry": 387
+     "entry": 387,
+     "pr": {
+      "total": 343,
+      "category": "81",
+      "date": "2019-10-17",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 4,
@@ -3497,7 +5537,13 @@
      "dob": "05.12.2004",
      "nation": "BUL",
      "category": "95",
-     "entry": 390
+     "entry": 390,
+     "pr": {
+      "total": 417,
+      "category": "96\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -3506,7 +5552,13 @@
      "dob": "09.06.2002",
      "nation": "BIH",
      "category": "95",
-     "entry": 390
+     "entry": 390,
+     "pr": {
+      "total": 382,
+      "category": "102",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -3515,7 +5567,13 @@
      "dob": "04.06.1998",
      "nation": "QAT",
      "category": "95",
-     "entry": 385
+     "entry": 385,
+     "pr": {
+      "total": 404,
+      "category": "96",
+      "date": "2019-12-19",
+      "event": "6th Qatar International Cup"
+     }
     },
     {
      "no": 7,
@@ -3524,7 +5582,13 @@
      "dob": "25.07.2001",
      "nation": "KOR",
      "category": "95",
-     "entry": 385
+     "entry": 385,
+     "pr": {
+      "total": 368,
+      "category": "88",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 8,
@@ -3533,7 +5597,13 @@
      "dob": "05.09.1995",
      "nation": "FRA",
      "category": "95",
-     "entry": 385
+     "entry": 385,
+     "pr": {
+      "total": 378,
+      "category": "96",
+      "date": "2022-12-05",
+      "event": "2022 IWF World Championships"
+     }
     },
     {
      "no": 9,
@@ -3542,7 +5612,13 @@
      "dob": "09.10.2000",
      "nation": "KAZ",
      "category": "95",
-     "entry": 395
+     "entry": 395,
+     "pr": {
+      "total": 400,
+      "category": "102",
+      "date": "2023-05-05",
+      "event": "2023 Asian Championships"
+     }
     },
     {
      "no": 10,
@@ -3551,7 +5627,13 @@
      "dob": "26.11.2003",
      "nation": "IRI",
      "category": "95",
-     "entry": 400
+     "entry": 400,
+     "pr": {
+      "total": 390,
+      "category": "96",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 11,
@@ -3560,7 +5642,13 @@
      "dob": "10.05.2003",
      "nation": "CHN",
      "category": "95",
-     "entry": 395
+     "entry": 395,
+     "pr": {
+      "total": 385,
+      "category": "96",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     }
    ]
   },
@@ -3578,7 +5666,13 @@
      "dob": "29.10.1993",
      "nation": "KUW",
      "category": "77",
-     "entry": 120
+     "entry": 120,
+     "pr": {
+      "total": 150,
+      "category": "71",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 2,
@@ -3587,7 +5681,13 @@
      "dob": "12.09.1997",
      "nation": "DEN",
      "category": "77",
-     "entry": 225
+     "entry": 225,
+     "pr": {
+      "total": 216,
+      "category": "77",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 3,
@@ -3596,7 +5696,13 @@
      "dob": "21.04.2001",
      "nation": "CZE",
      "category": "77",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 191,
+      "category": "81\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -3605,7 +5711,13 @@
      "dob": "26.08.2006",
      "nation": "CAN",
      "category": "77",
-     "entry": 215
+     "entry": 215,
+     "pr": {
+      "total": 218,
+      "category": "76",
+      "date": "2025-04-30",
+      "event": "2025 IWF World Junior Championships"
+     }
     },
     {
      "no": 5,
@@ -3614,7 +5726,13 @@
      "dob": "30.07.1994",
      "nation": "IRL",
      "category": "77",
-     "entry": 190
+     "entry": 190,
+     "pr": {
+      "total": 186,
+      "category": "76\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 6,
@@ -3623,7 +5741,13 @@
      "dob": "29.09.2000",
      "nation": "CZE",
      "category": "77",
-     "entry": 225
+     "entry": 225,
+     "pr": {
+      "total": 211,
+      "category": "77",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 7,
@@ -3632,7 +5756,13 @@
      "dob": "06.05.1999",
      "nation": "DEN",
      "category": "77",
-     "entry": 211
+     "entry": 211,
+     "pr": {
+      "total": 200,
+      "category": "77",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -3641,7 +5771,13 @@
      "dob": "03.04.1999",
      "nation": "CRO",
      "category": "77",
-     "entry": 190
+     "entry": 190,
+     "pr": {
+      "total": 201,
+      "category": "76",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 9,
@@ -3677,7 +5813,13 @@
      "dob": "15.01.2006",
      "nation": "TKM",
      "category": "77",
-     "entry": 232
+     "entry": 232,
+     "pr": {
+      "total": 202,
+      "category": "64",
+      "date": "2024-12-19",
+      "event": "Asian Junior Championships"
+     }
     },
     {
      "no": 2,
@@ -3686,7 +5828,13 @@
      "dob": "08.08.2001",
      "nation": "ISL",
      "category": "77",
-     "entry": 226
+     "entry": 226,
+     "pr": {
+      "total": 213,
+      "category": "69",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -3695,7 +5843,13 @@
      "dob": "01.08.2009",
      "nation": "IRI",
      "category": "77",
-     "entry": 237
+     "entry": 237,
+     "pr": {
+      "total": 208,
+      "category": "77",
+      "date": "2025-10-26",
+      "event": "3rd Asian Youth Games"
+     }
     },
     {
      "no": 4,
@@ -3704,7 +5858,13 @@
      "dob": "30.01.2001",
      "nation": "NED",
      "category": "77",
-     "entry": 238
+     "entry": 238,
+     "pr": {
+      "total": 228,
+      "category": "81",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -3713,7 +5873,13 @@
      "dob": "16.05.1997",
      "nation": "POL",
      "category": "77",
-     "entry": 236
+     "entry": 236,
+     "pr": {
+      "total": 237,
+      "category": "81\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 6,
@@ -3722,7 +5888,13 @@
      "dob": "19.08.1992",
      "nation": "LTU",
      "category": "77",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 225,
+      "category": "81\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 7,
@@ -3731,7 +5903,13 @@
      "dob": "10.02.1998",
      "nation": "ISR",
      "category": "77",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 230,
+      "category": "76\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -3740,7 +5918,13 @@
      "dob": "04.01.2006",
      "nation": "ARM",
      "category": "77",
-     "entry": 235
+     "entry": 235,
+     "pr": {
+      "total": 220,
+      "category": "77",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 9,
@@ -3749,7 +5933,13 @@
      "dob": "02.08.2004",
      "nation": "GBR",
      "category": "77",
-     "entry": 231
+     "entry": 231,
+     "pr": {
+      "total": 229,
+      "category": "77",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 10,
@@ -3758,7 +5948,13 @@
      "dob": "08.03.2000",
      "nation": "IRL",
      "category": "77",
-     "entry": 228
+     "entry": 228,
+     "pr": {
+      "total": 217,
+      "category": "77",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     }
    ]
   },
@@ -3776,7 +5972,13 @@
      "dob": "11.02.2007",
      "nation": "KAZ",
      "category": "77",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 222,
+      "category": "76",
+      "date": "2024-05-22",
+      "event": "IWF World Youth Championships"
+     }
     },
     {
      "no": 2,
@@ -3785,7 +5987,13 @@
      "dob": "01.10.2002",
      "nation": "MEX",
      "category": "77",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 240,
+      "category": "86",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 3,
@@ -3794,7 +6002,13 @@
      "dob": "05.06.2006",
      "nation": "ARM",
      "category": "77",
-     "entry": 245
+     "entry": 245,
+     "pr": {
+      "total": 240,
+      "category": "77",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 4,
@@ -3803,7 +6017,13 @@
      "dob": "23.05.1993",
      "nation": "MEX",
      "category": "77",
-     "entry": 250
+     "entry": 250,
+     "pr": {
+      "total": 250,
+      "category": "76",
+      "date": "2019-07-26",
+      "event": "Pan American Games"
+     }
     },
     {
      "no": 5,
@@ -3812,7 +6032,13 @@
      "dob": "26.08.1995",
      "nation": "BLR",
      "category": "77",
-     "entry": 251
+     "entry": 251,
+     "pr": {
+      "total": 258,
+      "category": "75",
+      "date": "2016-08-05",
+      "event": "XXXI OLYMPIC GAMES"
+     }
     },
     {
      "no": 6,
@@ -3821,7 +6047,13 @@
      "dob": "25.02.2000",
      "nation": "KOR",
      "category": "77",
-     "entry": 251
+     "entry": 251,
+     "pr": {
+      "total": 255,
+      "category": "81",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 7,
@@ -3830,7 +6062,13 @@
      "dob": "02.10.1991",
      "nation": "RUS",
      "category": "77",
-     "entry": 246
+     "entry": 246,
+     "pr": {
+      "total": 253,
+      "category": "69",
+      "date": "2015-11-20",
+      "event": "2015 IWF WORLD CHAMPIONSHIPS"
+     }
     },
     {
      "no": 8,
@@ -3839,7 +6077,13 @@
      "dob": "22.03.1999",
      "nation": "DOM",
      "category": "77",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 224,
+      "category": "71",
+      "date": "2023-10-21",
+      "event": "Pan-American Games"
+     }
     },
     {
      "no": 9,
@@ -3848,7 +6092,13 @@
      "dob": "12.08.2006",
      "nation": "GEO",
      "category": "77",
-     "entry": 242
+     "entry": 242,
+     "pr": {
+      "total": 236,
+      "category": "77",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -3866,7 +6116,13 @@
      "dob": "08.07.2008",
      "nation": "RUS",
      "category": "77",
-     "entry": 253
+     "entry": 253,
+     "pr": {
+      "total": 244,
+      "category": "77",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -3875,7 +6131,13 @@
      "dob": "31.07.2001",
      "nation": "CHN",
      "category": "77",
-     "entry": 270
+     "entry": 270,
+     "pr": {
+      "total": 270,
+      "category": "86",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 3,
@@ -3884,7 +6146,13 @@
      "dob": "08.10.1991",
      "nation": "COL",
      "category": "77",
-     "entry": 255
+     "entry": 255,
+     "pr": {
+      "total": 257,
+      "category": "71",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 4,
@@ -3893,7 +6161,13 @@
      "dob": "23.08.1995",
      "nation": "USA",
      "category": "77",
-     "entry": 256
+     "entry": 256,
+     "pr": {
+      "total": 252,
+      "category": "81",
+      "date": "2023-09-04",
+      "event": "2023 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -3902,7 +6176,13 @@
      "dob": "01.01.1998",
      "nation": "EGY",
      "category": "77",
-     "entry": 265
+     "entry": 265,
+     "pr": {
+      "total": 268,
+      "category": "81",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 6,
@@ -3911,7 +6191,13 @@
      "dob": "25.02.2005",
      "nation": "COL",
      "category": "77",
-     "entry": 258
+     "entry": 258,
+     "pr": {
+      "total": 248,
+      "category": "77",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 7,
@@ -3920,7 +6206,13 @@
      "dob": "29.07.2002",
      "nation": "CHN",
      "category": "77",
-     "entry": 270
+     "entry": 270,
+     "pr": {
+      "total": 262,
+      "category": "71",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 8,
@@ -3929,7 +6221,13 @@
      "dob": "06.04.2006",
      "nation": "FIN",
      "category": "77",
-     "entry": 257
+     "entry": 257,
+     "pr": {
+      "total": 247,
+      "category": "77",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 9,
@@ -3938,7 +6236,13 @@
      "dob": "27.10.2000",
      "nation": "BRA",
      "category": "77",
-     "entry": 255
+     "entry": 255,
+     "pr": {
+      "total": 253,
+      "category": "81",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     }
    ]
   },
@@ -3956,7 +6260,13 @@
      "dob": "01.10.1997",
      "nation": "CZE",
      "category": "110",
-     "entry": 370
+     "entry": 370,
+     "pr": {
+      "total": 368,
+      "category": "+110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -3965,7 +6275,13 @@
      "dob": "21.07.2003",
      "nation": "CAN",
      "category": "110",
-     "entry": 368
+     "entry": 368,
+     "pr": {
+      "total": 347,
+      "category": "96",
+      "date": "2023-11-15",
+      "event": "2023 IWF World Junior Championships"
+     }
     },
     {
      "no": 3,
@@ -3974,7 +6290,13 @@
      "dob": "23.04.2003",
      "nation": "SWE",
      "category": "110",
-     "entry": 355
+     "entry": 355,
+     "pr": {
+      "total": 353,
+      "category": "110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -3983,7 +6305,13 @@
      "dob": "12.04.2005",
      "nation": "ISL",
      "category": "110",
-     "entry": 330
+     "entry": 330,
+     "pr": {
+      "total": 323,
+      "category": "110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -3992,7 +6320,13 @@
      "dob": "18.12.1997",
      "nation": "HKG",
      "category": "110",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 300,
+      "category": "110",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -4001,7 +6335,13 @@
      "dob": "16.06.1993",
      "nation": "CMR",
      "category": "110",
-     "entry": 345
+     "entry": 345,
+     "pr": {
+      "total": 371,
+      "category": "110",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     },
     {
      "no": 7,
@@ -4010,7 +6350,13 @@
      "dob": "13.10.2005",
      "nation": "LTU",
      "category": "110",
-     "entry": 355
+     "entry": 355,
+     "pr": {
+      "total": 350,
+      "category": "110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -4019,7 +6365,13 @@
      "dob": "06.06.1988",
      "nation": "ISR",
      "category": "110",
-     "entry": 371
+     "entry": 371,
+     "pr": {
+      "total": 371,
+      "category": "102",
+      "date": "2019-10-04",
+      "event": "12th Mediterranean Cup"
+     }
     },
     {
      "no": 9,
@@ -4028,7 +6380,13 @@
      "dob": "16.01.1993",
      "nation": "PER",
      "category": "110",
-     "entry": 340
+     "entry": 340,
+     "pr": {
+      "total": 370,
+      "category": "109",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 10,
@@ -4037,7 +6395,13 @@
      "dob": "01.08.1995",
      "nation": "GBR",
      "category": "110",
-     "entry": 370
+     "entry": 370,
+     "pr": {
+      "total": 374,
+      "category": "110",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 11,
@@ -4055,7 +6419,13 @@
      "dob": "10.10.1996",
      "nation": "KEN",
      "category": "110",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 254,
+      "category": "110",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     }
    ]
   },
@@ -4073,7 +6443,13 @@
      "dob": "01.05.2005",
      "nation": "RUS",
      "category": "86",
-     "entry": 242
+     "entry": 242,
+     "pr": {
+      "total": 235,
+      "category": "86",
+      "date": "2025-10-28",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 2,
@@ -4082,7 +6458,13 @@
      "dob": "04.01.1995",
      "nation": "CZE",
      "category": "86",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 217,
+      "category": "77",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -4091,7 +6473,13 @@
      "dob": "27.09.2007",
      "nation": "NZL",
      "category": "86",
-     "entry": 243
+     "entry": 243,
+     "pr": {
+      "total": 240,
+      "category": "86",
+      "date": "2026-04-27",
+      "event": "Universal Weightlifting Cup"
+     }
     },
     {
      "no": 4,
@@ -4100,7 +6488,13 @@
      "dob": "27.05.2000",
      "nation": "SVK",
      "category": "86",
-     "entry": 215
+     "entry": 215,
+     "pr": {
+      "total": 227,
+      "category": "86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -4109,7 +6503,13 @@
      "dob": "26.07.2000",
      "nation": "HUN",
      "category": "86",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 230,
+      "category": "+86",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -4118,7 +6518,13 @@
      "dob": "20.04.1992",
      "nation": "GBR",
      "category": "86",
-     "entry": 244
+     "entry": 244,
+     "pr": {
+      "total": 245,
+      "category": "86",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -4127,7 +6533,13 @@
      "dob": "10.08.2002",
      "nation": "VAN",
      "category": "86",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 212,
+      "category": "86",
+      "date": "2026-04-27",
+      "event": "Universal Weightlifting Cup"
+     }
     },
     {
      "no": 8,
@@ -4136,7 +6548,13 @@
      "dob": "07.05.1996",
      "nation": "TPE",
      "category": "86",
-     "entry": 235
+     "entry": 235,
+     "pr": {
+      "total": 246,
+      "category": "87",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 9,
@@ -4145,7 +6563,13 @@
      "dob": "15.01.2001",
      "nation": "POR",
      "category": "86",
-     "entry": 198
+     "entry": 198,
+     "pr": {
+      "total": 198,
+      "category": "86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -4154,7 +6578,13 @@
      "dob": "12.09.2004",
      "nation": "KEN",
      "category": "86",
-     "entry": 170
+     "entry": 170,
+     "pr": {
+      "total": 196,
+      "category": "77",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     },
     {
      "no": 11,
@@ -4163,7 +6593,13 @@
      "dob": "01.10.1990",
      "nation": "WRT",
      "category": "86",
-     "entry": 225
+     "entry": 225,
+     "pr": {
+      "total": 215,
+      "category": "86",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 12,
@@ -4172,7 +6608,13 @@
      "dob": "16.07.1998",
      "nation": "DEN",
      "category": "86",
-     "entry": 235
+     "entry": 235,
+     "pr": {
+      "total": 231,
+      "category": "87\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 13,
@@ -4181,7 +6623,13 @@
      "dob": "22.02.2007",
      "nation": "MGL",
      "category": "86",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 174,
+      "category": "76",
+      "date": "2022-07-15",
+      "event": "Asian Junior Championships"
+     }
     }
    ]
   },
@@ -4199,7 +6647,13 @@
      "dob": "19.04.1998",
      "nation": "FIJ",
      "category": "110",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 380,
+      "category": "109",
+      "date": "2023-12-04",
+      "event": "2023 IWF Grand Prix II"
+     }
     },
     {
      "no": 2,
@@ -4208,7 +6662,13 @@
      "dob": "20.08.2001",
      "nation": "CHN",
      "category": "110",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 420,
+      "category": "110",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 3,
@@ -4217,7 +6677,13 @@
      "dob": "28.02.2002",
      "nation": "IRI",
      "category": "110",
-     "entry": 397
+     "entry": 397,
+     "pr": {
+      "total": 391,
+      "category": "94",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 4,
@@ -4226,7 +6692,13 @@
      "dob": "10.06.2004",
      "nation": "JOR",
      "category": "110",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 368,
+      "category": "110",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 5,
@@ -4235,7 +6707,13 @@
      "dob": "21.08.1998",
      "nation": "KSA",
      "category": "110",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 387,
+      "category": "109",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -4244,7 +6722,13 @@
      "dob": "05.01.2004",
      "nation": "GEO",
      "category": "110",
-     "entry": 385
+     "entry": 385,
+     "pr": {
+      "total": 366,
+      "category": "109",
+      "date": "2024-10-26",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 7,
@@ -4253,7 +6737,13 @@
      "dob": "27.10.2006",
      "nation": "POL",
      "category": "110",
-     "entry": 390
+     "entry": 390,
+     "pr": {
+      "total": 372,
+      "category": "110",
+      "date": "2025-10-28",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 8,
@@ -4262,7 +6752,13 @@
      "dob": "18.06.1993",
      "nation": "JPN",
      "category": "110",
-     "entry": 381
+     "entry": 381,
+     "pr": {
+      "total": 395,
+      "category": "109",
+      "date": "2021-05-10",
+      "event": "2021 Open Championships"
+     }
     },
     {
      "no": 9,
@@ -4271,7 +6767,13 @@
      "dob": "02.05.2003",
      "nation": "SWE",
      "category": "110",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 379,
+      "category": "+110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -4280,7 +6782,13 @@
      "dob": "15.06.1998",
      "nation": "MEX",
      "category": "110",
-     "entry": 381
+     "entry": 381,
+     "pr": {
+      "total": 375,
+      "category": "+109",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 11,
@@ -4289,7 +6797,13 @@
      "dob": "05.07.1994",
      "nation": "TPE",
      "category": "110",
-     "entry": 396
+     "entry": 396,
+     "pr": {
+      "total": 393,
+      "category": "110",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     }
    ]
   },
@@ -4307,7 +6821,13 @@
      "dob": "11.06.2003",
      "nation": "ARM",
      "category": "110",
-     "entry": 420
+     "entry": 420,
+     "pr": {
+      "total": 415,
+      "category": "110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -4316,7 +6836,13 @@
      "dob": "14.12.2005",
      "nation": "IRI",
      "category": "110",
-     "entry": 420
+     "entry": 420,
+     "pr": {
+      "total": 415,
+      "category": "110",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 3,
@@ -4325,7 +6851,13 @@
      "dob": "01.03.2004",
      "nation": "TKM",
      "category": "110",
-     "entry": 410
+     "entry": 410,
+     "pr": {
+      "total": 396,
+      "category": "102",
+      "date": "2024-12-19",
+      "event": "Asian Junior Championships"
+     }
     },
     {
      "no": 4,
@@ -4334,7 +6866,13 @@
      "dob": "27.04.2001",
      "nation": "BUL",
      "category": "110",
-     "entry": 410
+     "entry": 410,
+     "pr": {
+      "total": 412,
+      "category": "110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -4343,7 +6881,13 @@
      "dob": "20.01.1997",
      "nation": "ROU",
      "category": "110",
-     "entry": 415
+     "entry": 415,
+     "pr": {
+      "total": 414,
+      "category": "110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 6,
@@ -4352,7 +6896,13 @@
      "dob": "01.12.2001",
      "nation": "USA",
      "category": "110",
-     "entry": 406
+     "entry": 406,
+     "pr": {
+      "total": 397,
+      "category": "110",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 7,
@@ -4361,7 +6911,13 @@
      "dob": "08.10.1999",
      "nation": "UZB",
      "category": "110",
-     "entry": 425
+     "entry": 425,
+     "pr": {
+      "total": 446,
+      "category": "+109",
+      "date": "2022-08-11",
+      "event": "5th Islamic Solidarity Games"
+     }
     },
     {
      "no": 8,
@@ -4370,7 +6926,13 @@
      "dob": "23.01.2000",
      "nation": "KAZ",
      "category": "110",
-     "entry": 406
+     "entry": 406,
+     "pr": {
+      "total": 400,
+      "category": "102",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 9,
@@ -4388,7 +6950,13 @@
      "dob": "04.03.2005",
      "nation": "EGY",
      "category": "110",
-     "entry": 405
+     "entry": 405,
+     "pr": {
+      "total": 374,
+      "category": "110",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     }
    ]
   },
@@ -4406,7 +6974,13 @@
      "dob": "01.07.2003",
      "nation": "FIN",
      "category": "+110",
-     "entry": 365
+     "entry": 365,
+     "pr": {
+      "total": 361,
+      "category": "+110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -4415,7 +6989,13 @@
      "dob": "03.03.2004",
      "nation": "MAR",
      "category": "+110",
-     "entry": 370
+     "entry": 370,
+     "pr": {
+      "total": 352,
+      "category": "+110",
+      "date": "2026-05-10",
+      "event": "African Championships"
+     }
     },
     {
      "no": 3,
@@ -4424,7 +7004,13 @@
      "dob": "05.02.2003",
      "nation": "IRL",
      "category": "+110",
-     "entry": 330
+     "entry": 330,
+     "pr": {
+      "total": 340,
+      "category": "+110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -4442,7 +7028,13 @@
      "dob": "12.04.2001",
      "nation": "LTU",
      "category": "+110",
-     "entry": 380
+     "entry": 380,
+     "pr": {
+      "total": 373,
+      "category": "+110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 6,
@@ -4451,7 +7043,13 @@
      "dob": "07.11.2002",
      "nation": "TGA",
      "category": "+110",
-     "entry": 320
+     "entry": 320,
+     "pr": {
+      "total": 312,
+      "category": "+110",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -4460,7 +7058,13 @@
      "dob": "14.07.2000",
      "nation": "MEX",
      "category": "+110",
-     "entry": 370
+     "entry": 370,
+     "pr": {
+      "total": 370,
+      "category": "110",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 8,
@@ -4478,7 +7082,13 @@
      "dob": "22.08.1995",
      "nation": "TPE",
      "category": "+110",
-     "entry": 360
+     "entry": 360,
+     "pr": {
+      "total": 385,
+      "category": "+110",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 10,
@@ -4487,7 +7097,13 @@
      "dob": "10.11.2004",
      "nation": "CHI",
      "category": "+110",
-     "entry": 375
+     "entry": 375,
+     "pr": {
+      "total": 376,
+      "category": "+110",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     }
    ]
   },
@@ -4505,7 +7121,13 @@
      "dob": "27.01.1998",
      "nation": "BEL",
      "category": "86",
-     "entry": 250
+     "entry": 250,
+     "pr": {
+      "total": 239,
+      "category": "+86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -4514,7 +7136,13 @@
      "dob": "26.11.1999",
      "nation": "KOR",
      "category": "86",
-     "entry": 251
+     "entry": 251,
+     "pr": {
+      "total": 245,
+      "category": "86",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 3,
@@ -4523,7 +7151,13 @@
      "dob": "05.12.2006",
      "nation": "GEO",
      "category": "86",
-     "entry": 247
+     "entry": 247,
+     "pr": {
+      "total": 242,
+      "category": "86",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 4,
@@ -4532,7 +7166,13 @@
      "dob": "30.07.2005",
      "nation": "MEX",
      "category": "86",
-     "entry": 251
+     "entry": 251,
+     "pr": {
+      "total": 232,
+      "category": "81",
+      "date": "2024-09-19",
+      "event": "2024 IWF World Junior Championships"
+     }
     },
     {
      "no": 5,
@@ -4541,7 +7181,13 @@
      "dob": "10.05.2005",
      "nation": "UZB",
      "category": "86",
-     "entry": 250
+     "entry": 250,
+     "pr": {
+      "total": 236,
+      "category": "87",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -4550,7 +7196,13 @@
      "dob": "16.12.2004",
      "nation": "GER",
      "category": "86",
-     "entry": 252
+     "entry": 252,
+     "pr": {
+      "total": 238,
+      "category": "77",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -4559,7 +7211,13 @@
      "dob": "02.03.2002",
      "nation": "JPN",
      "category": "86",
-     "entry": 252
+     "entry": 252,
+     "pr": {
+      "total": 236,
+      "category": "86",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 8,
@@ -4568,7 +7226,13 @@
      "dob": "08.09.2008",
      "nation": "FIN",
      "category": "86",
-     "entry": 247
+     "entry": 247,
+     "pr": {
+      "total": 226,
+      "category": "86",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 9,
@@ -4577,7 +7241,13 @@
      "dob": "21.08.2004",
      "nation": "USA",
      "category": "86",
-     "entry": 250
+     "entry": 250,
+     "pr": {
+      "total": 239,
+      "category": "86",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 10,
@@ -4586,7 +7256,13 @@
      "dob": "04.05.2006",
      "nation": "TUR",
      "category": "86",
-     "entry": 246
+     "entry": 246,
+     "pr": {
+      "total": 239,
+      "category": "86",
+      "date": "2025-10-28",
+      "event": "European Junior Championships"
+     }
     },
     {
      "no": 11,
@@ -4595,7 +7271,13 @@
      "dob": "07.06.2004",
      "nation": "GEO",
      "category": "86",
-     "entry": 247
+     "entry": 247,
+     "pr": {
+      "total": 237,
+      "category": "86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 12,
@@ -4604,7 +7286,13 @@
      "dob": "04.02.2003",
      "nation": "ECU",
      "category": "86",
-     "entry": 245
+     "entry": 245,
+     "pr": {
+      "total": 246,
+      "category": "86",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 13,
@@ -4613,7 +7301,13 @@
      "dob": "28.05.1991",
      "nation": "FRA",
      "category": "86",
-     "entry": 246
+     "entry": 246,
+     "pr": {
+      "total": 253,
+      "category": "76",
+      "date": "2023-04-15",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -4631,7 +7325,13 @@
      "dob": "02.10.1993",
      "nation": "GEO",
      "category": "+110",
-     "entry": 400
+     "entry": 400,
+     "pr": {
+      "total": 492,
+      "category": "+109",
+      "date": "2021-12-07",
+      "event": "2021 IWF World Championships"
+     }
     },
     {
      "no": 2,
@@ -4640,7 +7340,13 @@
      "dob": "04.12.2001",
      "nation": "KOR",
      "category": "+110",
-     "entry": 410
+     "entry": 410,
+     "pr": {
+      "total": 416,
+      "category": "+110",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 3,
@@ -4649,7 +7355,13 @@
      "dob": "11.07.1996",
      "nation": "NZL",
      "category": "+110",
-     "entry": 393
+     "entry": 393,
+     "pr": {
+      "total": 415,
+      "category": "+102",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 4,
@@ -4658,7 +7370,13 @@
      "dob": "19.03.1985",
      "nation": "CZE",
      "category": "+110",
-     "entry": 395
+     "entry": 395,
+     "pr": {
+      "total": 418,
+      "category": "+109",
+      "date": "2019-04-06",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -4667,7 +7385,13 @@
      "dob": "15.03.1995",
      "nation": "USA",
      "category": "+110",
-     "entry": 405
+     "entry": 405,
+     "pr": {
+      "total": 409,
+      "category": "+102",
+      "date": "2023-10-21",
+      "event": "Pan-American Games"
+     }
     },
     {
      "no": 6,
@@ -4676,7 +7400,13 @@
      "dob": "28.04.1999",
      "nation": "JPN",
      "category": "+110",
-     "entry": 395
+     "entry": 395,
+     "pr": {
+      "total": 274,
+      "category": "+94",
+      "date": "2016-11-08",
+      "event": "2016 ASIAN YOUTH CHAMPIONSHIPS"
+     }
     },
     {
      "no": 7,
@@ -4685,7 +7415,13 @@
      "dob": "06.11.2000",
      "nation": "UKR",
      "category": "+110",
-     "entry": 410
+     "entry": 410,
+     "pr": {
+      "total": 406,
+      "category": "+110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -4694,7 +7430,13 @@
      "dob": "20.03.2000",
      "nation": "TPE",
      "category": "+110",
-     "entry": 405
+     "entry": 405,
+     "pr": {
+      "total": 391,
+      "category": "+109",
+      "date": "2024-02-03",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 9,
@@ -4703,7 +7445,13 @@
      "dob": "22.02.2000",
      "nation": "UAE",
      "category": "+110",
-     "entry": 405
+     "entry": 405,
+     "pr": {
+      "total": 390,
+      "category": "+109",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 10,
@@ -4712,7 +7460,13 @@
      "dob": "06.09.1997",
      "nation": "IND",
      "category": "+110",
-     "entry": 395
+     "entry": 395,
+     "pr": {
+      "total": 388,
+      "category": "+110",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 11,
@@ -4721,7 +7475,13 @@
      "dob": "12.07.1995",
      "nation": "KOR",
      "category": "+110",
-     "entry": 410
+     "entry": 410,
+     "pr": {
+      "total": 421,
+      "category": "+109",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     }
    ]
   },
@@ -4739,7 +7499,13 @@
      "dob": "29.10.2001",
      "nation": "UZB",
      "category": "86",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 243,
+      "category": "81",
+      "date": "2024-02-03",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 2,
@@ -4748,7 +7514,13 @@
      "dob": "16.05.2004",
      "nation": "UKR",
      "category": "86",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 243,
+      "category": "77",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 3,
@@ -4757,7 +7529,13 @@
      "dob": "13.06.2002",
      "nation": "ARM",
      "category": "86",
-     "entry": 257
+     "entry": 257,
+     "pr": {
+      "total": 246,
+      "category": "87\t",
+      "date": "2025-04-13",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -4766,7 +7544,13 @@
      "dob": "05.10.2001",
      "nation": "CHN",
      "category": "86",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 279,
+      "category": "76",
+      "date": "2025-05-09",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 5,
@@ -4775,7 +7559,13 @@
      "dob": "06.02.1995",
      "nation": "KOR",
      "category": "86",
-     "entry": 257
+     "entry": 257,
+     "pr": {
+      "total": 256,
+      "category": "81",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 6,
@@ -4784,7 +7574,13 @@
      "dob": "26.08.2006",
      "nation": "ARM",
      "category": "86",
-     "entry": 261
+     "entry": 261,
+     "pr": {
+      "total": 253,
+      "category": "86",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 7,
@@ -4793,7 +7589,13 @@
      "dob": "04.06.1997",
      "nation": "DOM",
      "category": "86",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 271,
+      "category": "86",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 8,
@@ -4802,7 +7604,13 @@
      "dob": "06.03.1997",
      "nation": "BRN",
      "category": "86",
-     "entry": 265
+     "entry": 265,
+     "pr": {
+      "total": 265,
+      "category": "86",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 9,
@@ -4811,7 +7619,13 @@
      "dob": "23.04.2000",
      "nation": "COL",
      "category": "86",
-     "entry": 258
+     "entry": 258,
+     "pr": {
+      "total": 253,
+      "category": "86",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 10,
@@ -4820,7 +7634,13 @@
      "dob": "08.05.2006",
      "nation": "TKM",
      "category": "86",
-     "entry": 262
+     "entry": 262,
+     "pr": {
+      "total": 257,
+      "category": "86",
+      "date": "2026-05-02",
+      "event": "2026 IWF World Junior Championships"
+     }
     },
     {
      "no": 11,
@@ -4829,7 +7649,13 @@
      "dob": "11.02.2006",
      "nation": "JPN",
      "category": "86",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 246,
+      "category": "86",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 12,
@@ -4838,7 +7664,13 @@
      "dob": "07.07.2006",
      "nation": "USA",
      "category": "86",
-     "entry": 266
+     "entry": 266,
+     "pr": {
+      "total": 235,
+      "category": "76",
+      "date": "2024-06-19",
+      "event": "Pan-American Junior Championships"
+     }
     }
    ]
   },
@@ -4856,7 +7688,13 @@
      "dob": "30.01.2004",
      "nation": "DEN",
      "category": "+86",
-     "entry": 246
+     "entry": 246,
+     "pr": {
+      "total": 240,
+      "category": "+86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 2,
@@ -4865,7 +7703,13 @@
      "dob": "17.05.2004",
      "nation": "KEN",
      "category": "+86",
-     "entry": 170
+     "entry": 170,
+     "pr": {
+      "total": 193,
+      "category": "86",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 3,
@@ -4874,7 +7718,13 @@
      "dob": "11.02.2002",
      "nation": "CZE",
      "category": "+86",
-     "entry": 216
+     "entry": 216,
+     "pr": {
+      "total": 207,
+      "category": "+86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 4,
@@ -4883,7 +7733,13 @@
      "dob": "10.05.1997",
      "nation": "ISL",
      "category": "+86",
-     "entry": 229
+     "entry": 229,
+     "pr": {
+      "total": 194,
+      "category": "87",
+      "date": "2024-02-12",
+      "event": "European Championships"
+     }
     },
     {
      "no": 5,
@@ -4892,7 +7748,13 @@
      "dob": "18.01.2002",
      "nation": "SVK",
      "category": "+86",
-     "entry": 240
+     "entry": 240,
+     "pr": {
+      "total": 228,
+      "category": "+86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 6,
@@ -4901,7 +7763,13 @@
      "dob": "09.11.2000",
      "nation": "AUT",
      "category": "+86",
-     "entry": 241
+     "entry": 241,
+     "pr": {
+      "total": 238,
+      "category": "+87",
+      "date": "2023-04-15",
+      "event": "European Championships"
+     }
     },
     {
      "no": 7,
@@ -4919,7 +7787,13 @@
      "dob": "13.11.2008",
      "nation": "MGL",
      "category": "+86",
-     "entry": 222
+     "entry": 222,
+     "pr": {
+      "total": 200,
+      "category": "+86",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 9,
@@ -4928,7 +7802,13 @@
      "dob": "01.01.2005",
      "nation": "FIJ",
      "category": "+86",
-     "entry": 210
+     "entry": 210,
+     "pr": {
+      "total": 170,
+      "category": "87",
+      "date": "2023-11-20",
+      "event": "PACIFIC GAMES + OCEANIA CHAMPIONSHIPS"
+     }
     },
     {
      "no": 10,
@@ -4937,7 +7817,13 @@
      "dob": "22.05.2001",
      "nation": "ISL",
      "category": "+86",
-     "entry": 230
+     "entry": 230,
+     "pr": {
+      "total": 230,
+      "category": "+86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     }
    ]
   },
@@ -4955,7 +7841,13 @@
      "dob": "04.01.2006",
      "nation": "EGY",
      "category": "+86",
-     "entry": 265
+     "entry": 265,
+     "pr": {
+      "total": 250,
+      "category": "86",
+      "date": "2025-10-02",
+      "event": "2025 IWF World Championships"
+     }
     },
     {
      "no": 2,
@@ -4964,7 +7856,13 @@
      "dob": "28.08.2007",
      "nation": "CAN",
      "category": "+86",
-     "entry": 250
+     "entry": 250,
+     "pr": {
+      "total": 254,
+      "category": "+87",
+      "date": "2024-09-19",
+      "event": "2024 IWF World Junior Championships"
+     }
     },
     {
      "no": 3,
@@ -4973,7 +7871,13 @@
      "dob": "16.02.2004",
      "nation": "BRA",
      "category": "+86",
-     "entry": 261
+     "entry": 261,
+     "pr": {
+      "total": 265,
+      "category": "+86",
+      "date": "2025-07-12",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 4,
@@ -4991,7 +7895,13 @@
      "dob": "20.04.1995",
      "nation": "DOM",
      "category": "+86",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 269,
+      "category": "+86",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 6,
@@ -5000,7 +7910,13 @@
      "dob": "09.07.2006",
      "nation": "MAS",
      "category": "+86",
-     "entry": 250
+     "entry": 250,
+     "pr": {
+      "total": 253,
+      "category": "+86",
+      "date": "2026-07-23",
+      "event": "XXIII Commonwealth Games"
+     }
     },
     {
      "no": 7,
@@ -5009,7 +7925,13 @@
      "dob": "05.07.1998",
      "nation": "UKR",
      "category": "+86",
-     "entry": 261
+     "entry": 261,
+     "pr": {
+      "total": 256,
+      "category": "+86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 8,
@@ -5018,7 +7940,13 @@
      "dob": "01.05.2006",
      "nation": "TUR",
      "category": "+86",
-     "entry": 265
+     "entry": 265,
+     "pr": {
+      "total": 256,
+      "category": "+86",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 9,
@@ -5027,7 +7955,13 @@
      "dob": "07.09.1998",
      "nation": "MEX",
      "category": "+86",
-     "entry": 255
+     "entry": 255,
+     "pr": {
+      "total": 245,
+      "category": "+86",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 10,
@@ -5036,7 +7970,13 @@
      "dob": "23.05.2002",
      "nation": "MEX",
      "category": "+86",
-     "entry": 260
+     "entry": 260,
+     "pr": {
+      "total": 264,
+      "category": "+86",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     }
    ]
   },
@@ -5054,7 +7994,13 @@
      "dob": "01.06.1995",
      "nation": "USA",
      "category": "+110",
-     "entry": 418
+     "entry": 418,
+     "pr": {
+      "total": 390,
+      "category": "+109",
+      "date": "2023-06-08",
+      "event": "IWF Grand Prix I"
+     }
     },
     {
      "no": 2,
@@ -5063,7 +8009,13 @@
      "dob": "28.06.2002",
      "nation": "UZB",
      "category": "+110",
-     "entry": 425
+     "entry": 425,
+     "pr": {
+      "total": 396,
+      "category": "109",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 3,
@@ -5072,7 +8024,13 @@
      "dob": "01.05.1999",
      "nation": "ARM",
      "category": "+110",
-     "entry": 460
+     "entry": 460,
+     "pr": {
+      "total": 467,
+      "category": "+102",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 4,
@@ -5081,7 +8039,13 @@
      "dob": "16.05.1997",
      "nation": "COL",
      "category": "+110",
-     "entry": 420
+     "entry": 420,
+     "pr": {
+      "total": 419,
+      "category": "+110",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 5,
@@ -5090,7 +8054,13 @@
      "dob": "27.08.2003",
      "nation": "IRI",
      "category": "+110",
-     "entry": 455
+     "entry": 455,
+     "pr": {
+      "total": 456,
+      "category": "+109",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 6,
@@ -5099,7 +8069,13 @@
      "dob": "22.03.1999",
      "nation": "IRI",
      "category": "+110",
-     "entry": 455
+     "entry": 455,
+     "pr": {
+      "total": 459,
+      "category": "+109",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     },
     {
      "no": 7,
@@ -5108,7 +8084,13 @@
      "dob": "14.03.2002",
      "nation": "UKR",
      "category": "+110",
-     "entry": 425
+     "entry": 425,
+     "pr": {
+      "total": 374,
+      "category": "+109",
+      "date": "2022-05-02",
+      "event": "2022 IWF Junior World Championships"
+     }
     },
     {
      "no": 8,
@@ -5117,7 +8099,13 @@
      "dob": "19.06.2001",
      "nation": "NOR",
      "category": "+110",
-     "entry": 413
+     "entry": 413,
+     "pr": {
+      "total": 394,
+      "category": "+110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 9,
@@ -5126,7 +8114,13 @@
      "dob": "13.11.2001",
      "nation": "RUS",
      "category": "+110",
-     "entry": 430
+     "entry": 430,
+     "pr": {
+      "total": 425,
+      "category": "+110",
+      "date": "2026-04-19",
+      "event": "European Championships"
+     }
     },
     {
      "no": 10,
@@ -5135,7 +8129,13 @@
      "dob": "02.08.2004",
      "nation": "IRQ",
      "category": "+110",
-     "entry": 440
+     "entry": 440,
+     "pr": {
+      "total": 451,
+      "category": "+109",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     }
    ]
   },
@@ -5153,7 +8153,13 @@
      "dob": "12.03.2003",
      "nation": "KOR",
      "category": "+86",
-     "entry": 290
+     "entry": 290,
+     "pr": {
+      "total": 299,
+      "category": "+81",
+      "date": "2024-08-07",
+      "event": "XXXIII Olympic Games"
+     }
     },
     {
      "no": 2,
@@ -5162,7 +8168,13 @@
      "dob": "30.05.2003",
      "nation": "KOR",
      "category": "+86",
-     "entry": 275
+     "entry": 275,
+     "pr": {
+      "total": 253,
+      "category": "+87",
+      "date": "2022-05-02",
+      "event": "2022 IWF Junior World Championships"
+     }
     },
     {
      "no": 3,
@@ -5171,7 +8183,13 @@
      "dob": "10.05.2001",
      "nation": "KAZ",
      "category": "+86",
-     "entry": 270
+     "entry": 270,
+     "pr": {
+      "total": 274,
+      "category": "+87",
+      "date": "2023-05-05",
+      "event": "2023 Asian Championships"
+     }
     },
     {
      "no": 4,
@@ -5180,7 +8198,13 @@
      "dob": "29.09.1992",
      "nation": "VEN",
      "category": "+86",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 270,
+      "category": "+86",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 5,
@@ -5189,7 +8213,13 @@
      "dob": "03.09.2003",
      "nation": "QAT",
      "category": "+86",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 299,
+      "category": "+86",
+      "date": "2026-05-10",
+      "event": "Asian Championships"
+     }
     },
     {
      "no": 6,
@@ -5198,7 +8228,13 @@
      "dob": "19.06.2003",
      "nation": "TPE",
      "category": "+86",
-     "entry": 270
+     "entry": 270,
+     "pr": {
+      "total": 266,
+      "category": "+87",
+      "date": "2024-03-31",
+      "event": "IWF World Cup - Paris 2024. Qual. Event"
+     }
     },
     {
      "no": 7,
@@ -5207,7 +8243,13 @@
      "dob": "03.11.1990",
      "nation": "USA",
      "category": "+86",
-     "entry": 276
+     "entry": 276,
+     "pr": {
+      "total": 283,
+      "category": "+87",
+      "date": "2023-12-04",
+      "event": "2023 IWF Grand Prix II"
+     }
     },
     {
      "no": 8,
@@ -5216,7 +8258,13 @@
      "dob": "25.08.2004",
      "nation": "CUB",
      "category": "+86",
-     "entry": 280
+     "entry": 280,
+     "pr": {
+      "total": 280,
+      "category": "+86",
+      "date": "2026-05-05",
+      "event": "Pan-American Championships"
+     }
     },
     {
      "no": 9,
@@ -5225,7 +8273,13 @@
      "dob": "01.09.2004",
      "nation": "CHN",
      "category": "+86",
-     "entry": 315
+     "entry": 315,
+     "pr": {
+      "total": 324,
+      "category": "+87",
+      "date": "2024-12-06",
+      "event": "2024 IWF World Championships"
+     }
     }
    ]
   }

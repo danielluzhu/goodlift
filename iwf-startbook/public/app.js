@@ -27,7 +27,7 @@ const dayLabel = s => { const d = parseDate(s); return `${DOW[d.getUTCDay()]} ${
 const shortDate = s => { const d = parseDate(s); return `${d.getUTCDate()} ${MON[d.getUTCMonth()]}`; };
 
 let D, athletes = [], senior = {};
-const state = { sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "" };
+const state = { listSort: "lot", sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "" };
 
 fetch("data.json").then(r => r.json()).then(init);
 
@@ -43,7 +43,7 @@ function init(data) {
     for (const a of g.athletes) {
       const grp = g.parts.find(p => p.cat === a.category)?.grp || g.parts[0].grp;
       athletes.push({ ...a, sex: g.sex, group: grp, gid: gi, date: g.date, time: g.time,
-        age: 2026 - +a.dob.slice(6), when: g.sortKey, cat: parseInt(a.category) + (a.category.startsWith("+") ? 1000 : 0) });
+        age: 2026 - +a.dob.slice(6), when: g.sortKey, prTotal: a.pr?.total ?? -1, cat: parseInt(a.category) + (a.category.startsWith("+") ? 1000 : 0) });
     }
   });
 
@@ -76,7 +76,7 @@ function bind() {
   ["#q", "#fSex", "#fCat", "#fNat"].forEach(s => $(s).addEventListener("input", renderAthletes));
   document.querySelectorAll("#athTable th[data-sort]").forEach(th => th.onclick = () => {
     const k = th.dataset.sort;
-    state.sort = { key: k, asc: state.sort.key === k ? !state.sort.asc : k !== "entry" };
+    state.sort = { key: k, asc: state.sort.key === k ? !state.sort.asc : !["entry", "prTotal"].includes(k) };
     renderAthletes();
   });
   $("#nq").oninput = renderNations;
@@ -84,6 +84,12 @@ function bind() {
     state[id] = b.dataset.v; segOn(b); renderRecords();
   });
   document.addEventListener("click", e => {
+    const ls = e.target.closest("[data-listsort]");
+    if (ls) {
+      state.listSort = ls.dataset.listsort;
+      document.querySelectorAll(".session[open] .session-body").forEach(b => b.innerHTML = startList(D.groups[+b.parentElement.dataset.id]));
+      return;
+    }
     const n = e.target.closest("[data-nat]");
     if (n) { e.preventDefault(); state.nation = n.dataset.nat; location.hash = "#nations"; renderNations(); renderNationDetail(); }
   });
@@ -97,6 +103,13 @@ function route() {
   document.querySelectorAll(".tabs a").forEach(a => a.classList.toggle("on", a.dataset.tab === valid));
   if (valid === "nations") { renderNationDetail(); if (state.nation) $("#nationDetail").scrollIntoView({ block: "start" }); }
 }
+
+// Best total at any IWF event (OpenWeightlifting data); the category is the one it was lifted in
+const prCell = a => a.pr
+  ? `<span title="${esc(a.pr.event)}, ${esc(a.pr.date)}"><b>${a.pr.total}</b> <small class="prcat">${a.pr.category} kg · ${a.pr.date.slice(0, 4)}</small></span>`
+  : `<span class="std" title="No result found in the IWF results data">–</span>`;
+const LIST_SORTS = { lot: (a, b) => a.lot - b.lot, entry: (a, b) => b.entry - a.entry || a.lot - b.lot,
+  pr: (a, b) => (b.pr?.total ?? -1) - (a.pr?.total ?? -1) || a.lot - b.lot };
 
 const natTag = c => `<button class="nat" data-nat="${c}" title="${esc(natName(c))}">${c}</button>`;
 
@@ -129,7 +142,7 @@ function updateCalBox(count) {
 
 function startList(g) {
   const max = Math.max(...g.athletes.map(a => a.entry));
-  const rows = g.athletes.map(a => {
+  const rows = [...g.athletes].sort(LIST_SORTS[state.listSort]).map(a => {
     const wr = senior[g.sex + a.category]?.Total;
     const atWR = wr && a.entry >= wr.result;
     return `<tr class="${state.hlNat && a.nation === state.hlNat ? "hl" : ""}">
@@ -139,6 +152,7 @@ function startList(g) {
       ${g.parts.length > 1 ? `<td>${a.category} kg</td>` : ""}
       <td class="num">${2026 - +a.dob.slice(6)}</td>
       <td class="num"><span class="bar"><i style="width:${(a.entry / max * 100).toFixed(1)}%"></i></span><b>${a.entry}</b>${atWR ? `<span class="wrhint" title="Entry total at or above the senior world record (${wr.result} kg)">WR</span>` : ""}</td>
+      <td class="num">${prCell(a)}</td>
     </tr>`;
   }).join("");
   const recs = g.parts.map(p => {
@@ -150,8 +164,10 @@ function startList(g) {
   return `<div class="session-cal"><a class="btn" href="${esc(gcalLink(g))}" target="_blank" rel="noopener">📅 Add to Google Calendar</a>
       <span class="meta">Your time: ${esc(yourTime(g))}</span></div>
     <div class="rec-strip">${recs}</div>
+    <div class="list-sort">Sort by <div class="seg" role="group" aria-label="Sort start list">${[["lot", "Lot"], ["entry", "Entry total"], ["pr", "Historic PR"]]
+      .map(([k, l]) => `<button data-listsort="${k}" class="${state.listSort === k ? "on" : ""}">${l}</button>`).join("")}</div></div>
     <div class="table-scroll"><table class="data">
-      <thead><tr><th class="num">Lot</th><th>Athlete</th><th>Nation</th>${g.parts.length > 1 ? "<th>Cat.</th>" : ""}<th class="num">Age</th><th class="num">Entry total</th></tr></thead>
+      <thead><tr><th class="num">Lot</th><th>Athlete</th><th>Nation</th>${g.parts.length > 1 ? "<th>Cat.</th>" : ""}<th class="num">Age</th><th class="num">Entry total</th><th class="num">Historic PR</th></tr></thead>
       <tbody>${rows}</tbody></table></div>`;
 }
 
@@ -213,6 +229,7 @@ function renderAthletes() {
     <td>${shortDate(a.date)} · ${a.time}</td>
     <td class="num">${a.age}</td>
     <td class="num"><b>${a.entry}</b></td>
+    <td class="num">${prCell(a)}</td>
   </tr>`).join("");
 }
 
@@ -236,10 +253,10 @@ function renderNationDetail() {
   el.innerHTML = `<div class="detail-head"><h2>${esc(natName(c))} <small class="natname">${c}</small></h2>
       <button class="linkbtn" id="closeNat">Close</button></div>
     <div class="table-scroll"><table class="data">
-      <thead><tr><th>Session</th><th>Athlete</th><th>Category</th><th>Group</th><th class="num">Age</th><th class="num">Entry total</th></tr></thead>
+      <thead><tr><th>Session</th><th>Athlete</th><th>Category</th><th>Group</th><th class="num">Age</th><th class="num">Entry total</th><th class="num">Historic PR</th></tr></thead>
       <tbody>${team.map(a => `<tr><td>${dayLabel(a.date)} · ${a.time}</td><td class="name">${esc(a.name)}</td>
         <td>${a.sex === "Women" ? "W" : "M"} ${a.category} kg</td><td><span class="grp ${a.group}">${a.group}</span></td>
-        <td class="num">${a.age}</td><td class="num"><b>${a.entry}</b></td></tr>`).join("")}</tbody></table></div>`;
+        <td class="num">${a.age}</td><td class="num"><b>${a.entry}</b></td><td class="num">${prCell(a)}</td></tr>`).join("")}</tbody></table></div>`;
   $("#closeNat").onclick = () => { state.nation = ""; renderNations(); renderNationDetail(); };
   renderNations();
 }

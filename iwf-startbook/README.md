@@ -16,3 +16,7 @@ Run: `bun server.ts` (port 4321, override with `PORT`).
 Always-on hosting: `iwf-startbook.service` is installed as a systemd unit
 (`sudo cp iwf-startbook.service /etc/systemd/system/ && sudo systemctl enable --now iwf-startbook`).
 It restarts on crash and starts on boot. Logs: `journalctl -u iwf-startbook -f`.
+
+Historic PRs: best total at any IWF event plus the category it was lifted in, from
+[OpenWeightlifting](https://github.com/euanwm/OpenWeightlifting) `event_data/IWF`, matched by name.
+Refresh: `python3 tools/add_prs.py <OpenWeightlifting checkout> public/data.json` (re-run after `parse.py`).
