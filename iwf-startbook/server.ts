@@ -29,7 +29,7 @@ const fold = (line: string) => {
   return out.join("\r\n ");
 };
 
-// Filters: sex, a=1 (A groups), nation, day (dd.mm.yyyy), cat (e.g. 49 or +86, with sex), session (index into groups),
+// Filters: sex, a=1 (A groups), nation, day (dd.mm.yyyy), cat (e.g. 49 or +86, with sex), session (index into groups, or a comma list),
 // lots=1,2,3 (sessions with these athletes, e.g. favorites). Named athletes (nation or lots) go in the event titles.
 function calendarFilter(params: URLSearchParams) {
   const sex = params.get("sex"), nation = params.get("nation")?.toUpperCase(), aOnly = params.get("a") === "1";
@@ -38,7 +38,7 @@ function calendarFilter(params: URLSearchParams) {
   const cats = (g: Group) => [...g.label.matchAll(/(\+?\d+)kg/g)].map(m => m[1]);
   const named = (g: Group) => g.athletes.filter(a => a.nation === nation || lots?.has(a.lot));
   const keep = (g: Group, i: number) =>
-    (session == null || String(i) === session) &&
+    (session == null || session.split(",").includes(String(i))) &&
     (!sex || g.sex === sex) &&
     (!aOnly || / A\b/.test(g.label)) &&
     (!day || g.date === day) &&
@@ -49,7 +49,7 @@ function calendarFilter(params: URLSearchParams) {
   return { keep, named, name };
 }
 const fileName = (groups: Group[], params: URLSearchParams) => {
-  const s = params.get("session"), g = s != null ? groups[Number(s)] : null;
+  const s = params.get("session"), g = s != null && !s.includes(",") ? groups[Number(s)] : null;
   const base = g ? `${g.sex} ${g.label} ${g.date}` : calendarFilter(params).name.replace(/^IWF Worlds 2026/, "");
   return ("iwf-worlds-2026 " + base).toLowerCase().replace(/\+/g, "plus").replace(/[^a-z0-9.]+/g, "-").replace(/-+$/, "") + ".ics";
 };

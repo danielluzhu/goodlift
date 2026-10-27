@@ -43,6 +43,7 @@
       <select id="schedDay" aria-label="Day"><option value="">All days</option></select>
       <select id="schedCat" aria-label="Weight class"><option value="">All weight classes</option></select>
       <label class="check"><input type="checkbox" id="favOnly"> ★ My favorites only</label>
+      <label class="check"><input type="checkbox" id="watchOnly"> 🎯 Record Watch sessions only</label>
     </div>
     <details class="calbox" id="calbox">
       <summary>📅 Download these sessions / add them to Google Calendar</summary>
@@ -53,14 +54,14 @@
           <a class="btn" href="https://calendar.google.com/calendar/u/0/r/settings/export" target="_blank" rel="noopener">Open Google Calendar import page ↗</a>
         </div>
         <ol class="steps">
-          <li>Download the file using the button above. It follows the filters above it (women/men, A groups, nation, day, weight class, favorites). To grab just one day or one session, use the ⬇ buttons next to it instead.</li>
+          <li>Download the file using the button above. It follows the filters above it (women/men, A groups, nation, day, weight class, favorites, Record Watch). To grab just one day or one session, use the ⬇ buttons next to it instead.</li>
           <li>In Google Calendar, go to <b>Settings → Import &amp; export → Import</b>, pick the file, and choose which calendar it goes into. Tip: make a new calendar called "IWF Worlds" first so you can hide or delete them all at once.</li>
           <li>Each session becomes its own event with its start list in the description. Times are stored in UTC, so Google shows them in your own time zone (Ningbo is UTC+8).</li>
         </ol>
         <div id="calOneByOne"></div>
       </div>
     </details>
-    <p class="hint">Times shown here are Ningbo local time (China Standard Time, UTC+8). Tap a session to see its start list. Weigh-in is 3 hours before each session.</p>
+    <p class="hint">Times shown here are Ningbo local time (China Standard Time, UTC+8). Tap a session to see its start list. Weigh-in is 3 hours before each session. 🎯 marks athletes within 3% of a world record total (<a href="#watch">Record Watch</a>).</p>
     <div id="days"></div>
   </section>
 

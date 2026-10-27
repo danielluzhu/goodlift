@@ -216,7 +216,6 @@ dialog.auth input { display: block; width: 100%; margin-top: 4px; font: inherit;
 .watchbadge { display: inline-block; margin-left: 6px; padding: 0 5px; border-radius: 4px; font-size: 11px; font-weight: 800;
   text-decoration: none; white-space: nowrap; color: var(--gold); border: 1px solid var(--gold); }
 .watchbadge.at { background: var(--gold); color: var(--surface); }
-.watchcount { color: var(--gold); font-weight: 700; }
 .tier { font-weight: 700; white-space: nowrap; }
 table.watch tr.first td { border-top: 2px solid var(--line); }
 .gap { font-weight: 700; white-space: nowrap; }
@@ -254,3 +253,10 @@ td.zone { white-space: nowrap; }
 div.vendor { cursor: default; }
 .day h2 { flex-wrap: wrap; white-space: nowrap; }
 .day h2 .dayacts { white-space: normal; }
+
+/* Record Watch on the schedule */
+.watchline { display: flex; flex-wrap: wrap; gap: 2px 10px; margin-top: 4px; font-size: 13px; color: var(--ink-2); }
+.watchline .wl { white-space: nowrap; }
+.watchline .wl b { color: var(--gold); }
+.watchline .wl.at b { background: var(--gold); color: var(--surface); padding: 0 4px; border-radius: 3px; }
+tr.watchrow td { background: color-mix(in srgb, var(--gold) 9%, transparent); }

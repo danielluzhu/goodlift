@@ -28,7 +28,7 @@ const shortDate = s => { const d = parseDate(s); return `${d.getUTCDate()} ${MON
 
 let D, athletes = [], byLot = {}, senior = {};
 const state = { openAth: new Set(), user: null, favs: new Set(), authMode: "login", listSort: "lot", sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "",
-  day: "", cat: "", favOnly: false, dayGcal: "", watchAge: "all", favSort: { key: "when", asc: true } };
+  day: "", cat: "", favOnly: false, watchOnly: false, dayGcal: "", watchAge: "all", favSort: { key: "when", asc: true } };
 
 Promise.all([fetch("data.json").then(r => r.json()), api("GET", "me").catch(() => ({ user: null, favorites: [] }))])
   .then(([data, me]) => { setMe(me); init(data); });
@@ -92,6 +92,7 @@ function bind() {
   $("#schedNation").onchange = e => { state.hlNat = e.target.value; renderSchedule(true); };
   $("#schedDay").onchange = e => { state.day = e.target.value; renderSchedule(true); };
   $("#schedCat").onchange = e => { state.cat = e.target.value; renderSchedule(true); };
+  $("#watchOnly").onchange = e => { state.watchOnly = e.target.checked; renderSchedule(true); };
   $("#favOnly").onchange = e => {
     if (e.target.checked && !state.user) { e.target.checked = false; return openAuth("login", "Sign in to pick favorite athletes, then filter the schedule to their sessions."); }
     state.favOnly = e.target.checked; renderSchedule(true);
@@ -346,9 +347,10 @@ function updateCalBox(gs) {
   if (state.hlNat) p.nation = state.hlNat;
   if (state.day) p.day = state.day;
   if (state.favOnly) p.lots = [...state.favs].join(",");
+  if (state.watchOnly) p.session = gs.map(g => g.id).join(",");
   $("#calDownload").href = calURL(p);
   $("#calDownload").classList.toggle("disabled", !count);
-  const parts = [state.sex !== "all" && !catSex ? state.sex.toLowerCase() + "'s" : "", cat ? `${catSex.toLowerCase()}'s ${cat} kg` : "", state.aOnly ? "A-group" : ""].filter(Boolean).join(" ");
+  const parts = [state.sex !== "all" && !catSex ? state.sex.toLowerCase() + "'s" : "", cat ? `${catSex.toLowerCase()}'s ${cat} kg` : "", state.aOnly ? "A-group" : "", state.watchOnly ? "Record Watch" : ""].filter(Boolean).join(" ");
   const named = [state.hlNat && `${esc(natName(state.hlNat))} athletes`, state.favOnly && "your favorites"].filter(Boolean).join(" or ");
   $("#calOneByOne").innerHTML = oneByOne(gs, g => g.athletes.filter(a => a.nation === state.hlNat || (state.favOnly && state.favs.has(a.lot))));
   $("#calSummary").innerHTML = `<b>${[count, parts].filter(Boolean).join(" ")} session${count === 1 ? "" : "s"}</b>${state.day ? ` on ${dayLabel(state.day)}` : ""}${named ? ` with ${named} (their names go in the event titles)` : ""} will be added.`;
@@ -357,7 +359,7 @@ function updateCalBox(gs) {
 function startList(g) {
   const max = Math.max(...g.athletes.map(a => a.entry));
   const rows = [...g.athletes].sort(LIST_SORTS[state.listSort]).map(a => {
-    return `<tr class="${state.hlNat && a.nation === state.hlNat ? "hl" : ""}">
+    return `<tr class="${state.hlNat && a.nation === state.hlNat ? "hl" : ""} ${byLot[a.lot].watch ? "watchrow" : ""}">
       <td class="num">${a.lot}</td>
       <td class="name">${starBtn(a)}${esc(a.name)}${watchBadge(byLot[a.lot])}</td>
       <td>${natTag(a.nation)}<span class="natname">${esc(natName(a.nation))}</span></td>
@@ -389,7 +391,7 @@ function renderSchedule(keepOpen) {
   const [catSex, cat] = state.cat ? state.cat.split("|") : [];
   const gs = D.groups.filter(g => (state.sex === "all" || g.sex === state.sex) && (!state.aOnly || g.parts.some(p => p.grp === "A")) &&
     (!state.day || g.date === state.day) && (!cat || (g.sex === catSex && g.parts.some(p => p.cat === cat))) &&
-    (!state.favOnly || g.athletes.some(a => state.favs.has(a.lot))));
+    (!state.favOnly || g.athletes.some(a => state.favs.has(a.lot))) && (!state.watchOnly || watchers(g).length));
   updateCalBox(state.hlNat ? gs.filter(g => g.athletes.some(a => a.nation === state.hlNat)) : gs);
   const days = {};
   for (const g of gs) (days[g.date] ||= []).push(g);
@@ -406,8 +408,8 @@ function renderSchedule(keepOpen) {
         <summary>
           <div class="time">${g.time}<small>weigh-in ${wi}</small></div>
           <div><div class="title"><span class="sex ${g.sex}">${g.sex}</span>${cats}</div>
-            <div class="meta">Top entry: ${esc(top.name)} (${top.nation}) · ${top.entry} kg</div></div>
-          <div class="count">${g.athletes.length} athletes<br><span class="favcount">${(n => n ? `★ ${n}` : "")(g.athletes.filter(a => state.favs.has(a.lot)).length)}</span>${(n => n ? `<br><span class="watchcount" title="Athletes on the Record Watch list">🎯 ${n}</span>` : "")(g.athletes.filter(a => byLot[a.lot].watch).length)}${hits ? `<br><span class="flagged">${hits} × ${state.hlNat}</span>` : ""}</div>
+            <div class="meta">Top entry: ${esc(top.name)} (${top.nation}) · ${top.entry} kg</div>${watchLine(g)}</div>
+          <div class="count">${g.athletes.length} athletes<br><span class="favcount">${(n => n ? `★ ${n}` : "")(g.athletes.filter(a => state.favs.has(a.lot)).length)}</span>${hits ? `<br><span class="flagged">${hits} × ${state.hlNat}</span>` : ""}</div>
         </summary>
         <div class="session-body">${isOpen ? startList(g) : ""}</div>
       </details>`;
@@ -513,6 +515,18 @@ function watchBadge(a) {
   if (!a?.watch) return "";
   const h = a.watch[0]; // senior first, then junior, then youth
   return `<a class="watchbadge ${h.tier}" href="#watch" title="Record Watch: ${esc(a.watch.map(x => watchWhy(x)).join("; "))}">🎯 ${h.age === "Senior" ? "WR" : h.age === "Junior" ? "JWR" : "YWR"}</a>`;
+}
+// Schedule: Record Watch athletes in a session, closest to a record first, and a one-line summary for the session card
+const bestHit = a => a.watch.reduce((m, h) => h.pct < m.pct ? h : m);
+const watchers = g => g.athletes.map(a => byLot[a.lot]).filter(a => a.watch).sort((x, y) => bestHit(x).pct - bestHit(y).pct);
+const SHORT = { Senior: "WR", Junior: "JWR", Youth: "YWR" };
+function watchLine(g) {
+  const ws = watchers(g);
+  if (!ws.length) return "";
+  return `<div class="watchline" title="Record Watch: entry total or historic PR within 3% of a world record total">🎯 ${ws.map(a => {
+    const h = bestHit(a);
+    return `<span class="wl ${h.tier}" title="${esc(a.name)}: ${esc(watchWhy(h))}">${esc(a.name)} <small>${a.nation}</small> <b>${SHORT[h.age]} ${h.gap <= 0 ? `+${-h.gap}` : `−${h.gap}`}</b></span>`;
+  }).join("")}</div>`;
 }
 function renderWatch() {
   const rows = athletes.flatMap(a => (a.watch || []).filter(h => state.watchAge === "all" || h.age === state.watchAge).map(h => ({ a, h })))
