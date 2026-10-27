@@ -587,7 +587,7 @@ async function renderTickets() {
     ${t.hotels?.length ? `${biH("Where to stay", "住宿")}<div class="ticket-grid">${t.hotels.map(h => `<div class="rcard"><h4>${esc(h.name)}${zh(h.nameZh)}</h4>
         <p>${esc(h.address)}${zh(h.addressZh)}</p>
         <ul class="hdetails">${h.details.map((d, i) => `<li>${esc(d)}${zh(h.detailsZh?.[i])}</li>`).join("")}</ul>
-        <p><b>Maps 地图:</b> ${h.maps.map(link).join(" · ")}</p></div>`).join("")}</div>
+        <p><b>Maps 地图:</b> ${h.maps.map(link).join(" · ")}</p>${h.book?.length ? `<p><b>Book 预订:</b> ${h.book.map(link).join(" · ")}</p>` : ""}</div>`).join("")}</div>
       <p class="hint">${esc(t.hotelsNote)}${zh(t.hotelsNoteZh)}</p>` : ""}
     ${biH("Sources", "信息来源")}<ul class="srcs">${t.sources.map(s => `<li>${link(s)}</li>`).join("")}</ul>
     <p class="hint">Last checked ${esc(t.checked)}.</p>`;

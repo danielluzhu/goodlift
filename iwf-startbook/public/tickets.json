@@ -182,6 +182,12 @@
         "高德评分4.7，镇海区酒店榜第2名",
         "2025年10月1日开业",
         "健身室"
+      ],
+      "book": [
+        {
+          "name": "Trip.com 携程",
+          "url": "https://www.trip.com/hotels/ningbo-hotel-detail-131970935/nanyuan-wanghai-hotel/"
+        }
       ]
     },
     {
@@ -210,12 +216,18 @@
         "高德评分4.7，江北区酒店榜第13名",
         "2026年5月1日开业",
         "洗衣服务"
+      ],
+      "book": [
+        {
+          "name": "Trip.com 携程 (search 搜索)",
+          "url": "https://www.trip.com/hotels/list?city=375&keyword=%E9%A6%96%E6%97%85%E5%8D%97%E8%8B%91%E8%A7%82%E6%BE%9C%E9%85%92%E5%BA%97"
+        }
       ]
     }
   ],
-  "hotelsNote": "Hotel options, not confirmed as the official team hotels. Details are from Amap listings (Oct 2026); English names are translations. Book through Amap, Trip.com/Ctrip or the hotel directly, and check the drive to the venue on the map links.",
+  "hotelsNote": "Hotel options, not confirmed as the official team hotels. Details are from Amap listings (Oct 2026); English names are translations. Book through Trip.com, Amap or the hotel directly. The Guanlan opened in May 2026 and has no Trip.com page we could confirm, so its link is a Trip.com search (don't confuse it with the unrelated Guanlan Hotel in Meishan), and check the drive to the venue on the map links.",
   "statusZh": "门票于2026年9月20日13:18起在大麦网（总代）、猫眼、票星球、久事体育APP四个票务平台正式售票。",
   "vendorNoteZh": "链接来自主办方票务海报上的二维码。四个平台均为中文界面；在中国境外购票，请先确认平台是否支持护照和境外手机号。",
   "seatingNoteZh": "根据主办方票区图。票区以实际为准，票价信息请持续关注宁波奥体中心公众号。",
-  "hotelsNoteZh": "以下为住宿选择，并非官方确认的运动队酒店。信息来自高德地图（2026年10月），英文名称为翻译。可通过高德、携程或直接联系酒店预订，并用地图链接查看前往赛场的车程。"
+  "hotelsNoteZh": "以下为住宿选择，并非官方确认的运动队酒店。信息来自高德地图（2026年10月），英文名称为翻译。可通过携程、高德或直接联系酒店预订。观澜酒店于2026年5月开业，暂未找到其携程页面，因此链接为携程搜索（注意不要与梅山的另一家观澜酒店混淆），并用地图链接查看前往赛场的车程。"
 }
