@@ -37,3 +37,11 @@ API: `GET /api/me`, `POST /api/signup|login|logout`, `PUT|DELETE /api/favorites/
 
 Tickets tab: reads `public/tickets.json` (vendors, prices, seating zones, venue, hotels, sources; English with `*Zh` Chinese fields). Vendors are `{ "name", "url", "note" }`
 and update `checked`; no restart needed. Only add channels named by the organisers or the IWF.
+
+Results tab: `results.ts` polls the English Wikipedia page for each category ("2026 World Weightlifting Championships –
+Women's 49 kg", etc.) every 5 minutes from `server.ts` (one API request for all 16), parses the Results table (attempts,
+no lifts, lift ranks, totals, record markers, "Did not start" notes), matches each lifter to a start book lot by nation
+and name (falling back to name only, since Wikipedia uses IOC codes like BHR where the start book has BRN) and writes
+`public/results.json` (git-ignored). Run once by hand with `bun results.ts`. The page reloads it every 2 minutes and shows
+events in progress, final results with podiums and records, a medal table (total medals, then snatch/C&J medals) and upcoming events.
+Wikipedia is volunteer-edited, so results lag the arena and aren't official.

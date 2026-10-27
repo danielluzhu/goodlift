@@ -28,7 +28,7 @@ const shortDate = s => { const d = parseDate(s); return `${d.getUTCDate()} ${MON
 
 let D, athletes = [], byLot = {}, senior = {};
 const state = { openAth: new Set(), user: null, favs: new Set(), authMode: "login", listSort: "lot", sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "",
-  day: "", cat: "", favOnly: false, watchOnly: false, dayGcal: "", watchAge: "all", favSort: { key: "when", asc: true } };
+  day: "", cat: "", favOnly: false, watchOnly: false, dayGcal: "", watchAge: "all", favSort: { key: "when", asc: true }, resSex: "all" };
 
 Promise.all([fetch("data.json").then(r => r.json()), api("GET", "me").catch(() => ({ user: null, favorites: [] }))])
   .then(([data, me]) => { setMe(me); init(data); });
@@ -79,7 +79,8 @@ function init(data) {
 
   bind();
   renderAccount(); renderFavorites();
-  renderSchedule(); renderAthletes(); renderNations(); renderRecords(); renderWatch(); renderTickets();
+  renderSchedule(); renderAthletes(); renderNations(); renderRecords(); renderWatch(); renderTickets(); loadResults();
+  setInterval(loadResults, RESULTS_POLL_MS);
   route();
 }
 
@@ -101,6 +102,7 @@ function bind() {
   document.querySelectorAll("#athTable th[data-sort]").forEach(th => th.onclick = () => { state.sort = nextSort(state.sort, th.dataset.sort); renderAthletes(); });
   $("#nq").oninput = renderNations;
   bindAuth();
+  $("#resSex").querySelectorAll("button").forEach(b => b.onclick = () => { state.resSex = b.dataset.v; segOn(b); renderResults(); });
   $("#watchAge").querySelectorAll("button").forEach(b => b.onclick = () => { state.watchAge = b.dataset.v; segOn(b); renderWatch(); });
   for (const id of ["recSex", "recAge"]) $("#" + id).querySelectorAll("button").forEach(b => b.onclick = () => {
     state[id] = b.dataset.v; segOn(b); renderRecords();
@@ -146,7 +148,7 @@ const segOn = b => { b.parentElement.querySelectorAll("button").forEach(x => x.c
 
 function route() {
   const tab = (location.hash.slice(1) || "schedule");
-  const valid = ["schedule", "athletes", "nations", "records", "watch", "favorites", "tickets"].includes(tab) ? tab : "schedule";
+  const valid = ["schedule", "results", "athletes", "nations", "records", "watch", "favorites", "tickets"].includes(tab) ? tab : "schedule";
   document.querySelectorAll("main > section").forEach(s => s.hidden = s.id !== "view-" + valid);
   document.querySelectorAll(".tabs a").forEach(a => a.classList.toggle("on", a.dataset.tab === valid));
   if (valid === "nations") { renderNationDetail(); if (state.nation) $("#nationDetail").scrollIntoView({ block: "start" }); }
@@ -591,4 +593,106 @@ async function renderTickets() {
       <p class="hint">${esc(t.hotelsNote)}${zh(t.hotelsNoteZh)}</p>` : ""}
     ${biH("Sources", "信息来源")}<ul class="srcs">${t.sources.map(s => `<li>${link(s)}</li>`).join("")}</ul>
     <p class="hint">Last checked ${esc(t.checked)}.</p>`;
+}
+
+// Results: results.json is rebuilt by the server from each category's Wikipedia page (results.ts) every few minutes
+const RESULTS_POLL_MS = 2 * 60e3;
+let R = null;
+async function loadResults() {
+  const r = await fetch("results.json", { cache: "no-cache" }).then(x => x.ok ? x.json() : null).catch(() => null);
+  if (!r || (R && r.updated === R.updated && r.checked === R.checked)) return;
+  const first = !R;
+  R = r;
+  renderResults(!first);
+}
+// Sessions for a category, and the time its A group (the last one) finishes, to order events
+const catSessions = e => D.groups.filter(g => g.sex === e.sex && g.parts.some(p => p.cat === e.cat))
+  .map(g => ({ g, grp: g.parts.find(p => p.cat === e.cat).grp })).sort((x, y) => x.g.sortKey - y.g.sortKey);
+const bestOf = lifts => lifts.reduce((m, a) => a?.good && a.kg > m ? a.kg : m, 0) || null;
+const MEDAL_ICON = ["", "🥇", "🥈", "🥉"];
+const recTags = list => [...new Set(list)].map(t => `<span class="rectag ${/WR/.test(t) ? "wr" : ""}" title="Record: ${esc(t)}">${esc(t)}</span>`).join("");
+const liftCell = a => a == null ? `<td class="att none">–</td>` : `<td class="att ${a.good ? "" : "miss"}">${a.good ? a.kg : `<s>${a.kg}</s>`}</td>`;
+const rankCell = n => `<td class="num rk">${n ? (n <= 3 ? `<span class="medal m${n}">${n}</span>` : n) : ""}</td>`;
+const resName = r => r.lot && byLot[r.lot] ? `${starBtn(byLot[r.lot])}${esc(byLot[r.lot].name)}${watchBadge(byLot[r.lot])}` : esc(r.name);
+function resultTable(e) {
+  const rows = [...e.rows].sort((a, b) => (a.rank ?? 1e3) - (b.rank ?? 1e3) || (b.total ?? 0) - (a.total ?? 0));
+  return `<div class="table-scroll"><table class="data results">
+    <thead><tr><th class="num">Rank</th><th>Athlete</th><th>Nation</th><th>Grp</th>
+      <th class="att" colspan="3">Snatch</th><th class="num">Best</th><th class="num" title="Snatch rank">Rk</th>
+      <th class="att" colspan="3">Clean &amp; Jerk</th><th class="num">Best</th><th class="num" title="Clean &amp; jerk rank">Rk</th>
+      <th class="num">Total</th><th class="num" title="Total minus declared entry total">vs entry</th></tr></thead>
+    <tbody>${rows.map(r => {
+      const a = r.lot && byLot[r.lot], sn = bestOf(r.sn), cj = bestOf(r.cj);
+      const diff = a && r.total != null ? r.total - a.entry : null;
+      return `<tr class="${a && state.favs.has(a.lot) ? "favrow" : ""} ${r.rank && r.rank <= 3 ? "podium" : ""}">
+        <td class="num rk">${r.rank ? (r.rank <= 3 ? MEDAL_ICON[r.rank] : r.rank) : "–"}</td>
+        <td class="name">${resName(r)}</td><td>${natTag(a ? a.nation : r.nation)}</td><td>${esc(r.group)}</td>
+        ${r.note ? `<td colspan="12" class="meta">${esc(r.note)}</td>` : `${r.sn.map(liftCell).join("") || "<td></td><td></td><td></td>"}
+        <td class="num"><b>${sn ?? "–"}</b>${recTags(r.records.sn)}</td>${rankCell(r.snRank)}
+        ${r.cj.map(liftCell).join("") || "<td></td><td></td><td></td>"}
+        <td class="num"><b>${cj ?? "–"}</b>${recTags(r.records.cj)}</td>${rankCell(r.cjRank)}
+        <td class="num total"><b>${r.total ?? (r.out ? `<span class="meta" title="No successful lift in one of the two lifts">no total</span>` : "–")}</b>${recTags(r.records.total)}</td>
+        <td class="num ${diff > 0 ? "up" : diff < 0 ? "down" : ""}">${diff == null ? "" : (diff > 0 ? "+" : "") + diff}</td>`}
+      </tr>`;
+    }).join("")}</tbody></table></div>`;
+}
+function resultCard(e, open) {
+  const ss = catSessions(e), last = ss[ss.length - 1]?.g;
+  const podium = [1, 2, 3].map(n => e.rows.find(r => r.rank === n && r.total != null)).filter(Boolean);
+  const nameOf = r => r.lot && byLot[r.lot] ? byLot[r.lot].name : r.name;
+  const recs = e.rows.flatMap(r => [...r.records.sn.map(t => [t, "snatch", r]), ...r.records.cj.map(t => [t, "C&J", r]), ...r.records.total.map(t => [t, "total", r])])
+    .filter(([t]) => /WR/.test(t));
+  const status = { final: `<span class="rstatus final">Final</span>`, partial: `<span class="rstatus live">In progress</span>`,
+    upcoming: `<span class="rstatus">Upcoming</span>` }[e.status];
+  const when = ss.map(s => `${s.grp} ${s.g.time}`).join(" · ");
+  return `<details class="session rescard" data-res="${e.sex}|${e.cat}" ${open ? "open" : ""}>
+    <summary>
+      <div class="time">${last ? shortDate(last.date) : ""}<small>${last ? DOW[parseDate(last.date).getUTCDay()] : ""}</small></div>
+      <div><div class="title"><span class="sex ${e.sex}">${e.sex}</span>${e.cat} kg ${status}</div>
+        ${podium.length ? `<div class="podline">${podium.map(r => `<span>${MEDAL_ICON[r.rank]} ${esc(nameOf(r))} <b>${r.nation}</b> ${r.total}</span>`).join("")}</div>`
+          : `<div class="meta">${e.status === "upcoming" ? `Groups ${when} (Ningbo time)` : "Results coming in…"}</div>`}
+        ${recs.length ? `<div class="watchline">${recs.map(([t, l, r]) => `<span class="wl at">🎯 <b>${esc(t)}</b> ${l}: ${esc(nameOf(r))}</span>`).join("")}</div>` : ""}</div>
+      <div class="count">${e.rows.length ? `${e.rows.length} lifters` : ""}${(n => n ? `<br><span class="favcount">★ ${n}</span>` : "")(e.rows.filter(r => state.favs.has(r.lot)).length)}</div>
+    </summary>
+    <div class="session-body">${e.rows.length ? resultTable(e) : `<p class="meta pad">Not started. <a href="#schedule">See the schedule</a> for start lists.</p>`}
+      <p class="meta pad">Source: <a href="${esc(e.url)}" target="_blank" rel="noopener">Wikipedia, ${esc(e.title.replace(/^.* – /, ""))} ↗</a>${e.revised ? `, edited ${esc(new Date(e.revised).toLocaleString([], { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }))}` : ""}.
+        Lifts struck through were no lifts.</p></div>
+  </details>`;
+}
+// Medals: IWF awards medals for snatch, clean & jerk and total; the table ranks nations on total medals first
+function medalTable(evs) {
+  const t = {};
+  for (const e of evs.filter(e => e.status === "final")) for (const r of e.rows) {
+    const n = (r.lot && byLot[r.lot]?.nation) || r.nation;
+    const row = t[n] ||= { total: [0, 0, 0], small: [0, 0, 0] };
+    if (r.rank >= 1 && r.rank <= 3 && r.total != null) row.total[r.rank - 1]++;
+    for (const k of [r.snRank, r.cjRank]) if (k >= 1 && k <= 3) row.small[k - 1]++;
+  }
+  const cmp = (a, b) => a[0] - b[0] || a[1] - b[1] || a[2] - b[2];
+  const list = Object.entries(t).filter(([, v]) => v.total.some(Boolean) || v.small.some(Boolean))
+    .sort(([na, a], [nb, b]) => cmp(b.total, a.total) || cmp(b.small, a.small) || na.localeCompare(nb));
+  if (!list.length) return "";
+  const cells = m => m.map((n, i) => `<td class="num">${n ? `<span class="medal m${i + 1}">${n}</span>` : ""}</td>`).join("");
+  return `<details class="calbox medalbox" open><summary>🏅 Medal table</summary><div class="table-scroll"><table class="data">
+    <thead><tr><th rowspan="2">Nation</th><th class="mgrp" colspan="3">Total</th><th class="mgrp" colspan="3" title="Medals for the snatch and the clean &amp; jerk">Snatch, C&amp;J</th></tr>
+      <tr>${[...MEDAL_ICON.slice(1), ...MEDAL_ICON.slice(1)].map(m => `<th class="num">${m}</th>`).join("")}</tr></thead>
+    <tbody>${list.map(([n, v]) => `<tr><td>${natTag(n)}<span class="natname">${esc(natName(n))}</span></td>${cells(v.total)}${cells(v.small)}</tr>`).join("")}</tbody>
+  </table></div></details>`;
+}
+function renderResults(keepOpen) {
+  const el = $("#resultsView");
+  if (!R) { el.innerHTML = `<p class="hint">Results couldn't be loaded. They come from Wikipedia and will appear once the first event finishes.</p>`; return; }
+  const open = keepOpen ? new Set([...el.querySelectorAll(".rescard[open]")].map(d => d.dataset.res)) : null;
+  const end = e => catSessions(e).at(-1)?.g.sortKey ?? 0;
+  const evs = R.events.filter(e => state.resSex === "all" || e.sex === state.resSex).sort((a, b) => end(a) - end(b));
+  const live = evs.filter(e => e.status === "partial"), done = evs.filter(e => e.status === "final").reverse(), next = evs.filter(e => e.status === "upcoming");
+  const isOpen = (e, i) => open ? open.has(`${e.sex}|${e.cat}`) : e.status === "partial" || (e.status === "final" && i === 0);
+  const fmt = s => new Date(s).toLocaleString([], { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+  el.innerHTML = `<p class="hint">${R.events.filter(e => e.status === "final").length} of ${R.events.length} events final.
+      Results come from each category's Wikipedia page, which volunteers fill in during and after each session, so they can lag the arena by a while
+      and aren't official: the IWF's own results are on iwf.sport. Checked ${esc(fmt(R.checked))} (your time); this page refreshes itself.</p>
+    ${medalTable(R.events)}
+    ${live.length ? `<h2>In progress</h2><div class="sessions">${live.map(e => resultCard(e, isOpen(e))).join("")}</div>` : ""}
+    ${done.length ? `<h2>Results</h2><div class="sessions">${done.map((e, i) => resultCard(e, isOpen(e, i))).join("")}</div>` : ""}
+    ${next.length ? `<h2>Coming up</h2><div class="sessions">${next.map(e => resultCard(e, false)).join("")}</div>` : ""}`;
 }

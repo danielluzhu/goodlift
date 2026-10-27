@@ -20,6 +20,7 @@
 <nav class="tabs" aria-label="Sections">
   <div class="wrap tabs-inner">
     <a href="#schedule" data-tab="schedule">Schedule</a>
+    <a href="#results" data-tab="results">🏆 Results</a>
     <a href="#athletes" data-tab="athletes">Athletes</a>
     <a href="#nations" data-tab="nations">Nations</a>
     <a href="#records" data-tab="records">World Records</a>
@@ -63,6 +64,15 @@
     </details>
     <p class="hint">Times shown here are Ningbo local time (China Standard Time, UTC+8). Tap a session to see its start list. Weigh-in is 3 hours before each session. 🎯 marks athletes within 3% of a world record total (<a href="#watch">Record Watch</a>).</p>
     <div id="days"></div>
+  </section>
+
+  <section id="view-results" hidden>
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Filter by sex" id="resSex">
+        <button data-v="all" class="on">All</button><button data-v="Women">Women</button><button data-v="Men">Men</button>
+      </div>
+    </div>
+    <div id="resultsView"><p class="hint">Loading results…</p></div>
   </section>
 
   <section id="view-athletes" hidden>

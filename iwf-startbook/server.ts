@@ -1,5 +1,6 @@
 // Static server for the start book site: bun server.ts
 import { handleApi } from "./auth";
+import { refreshResults } from "./results";
 const root = new URL("./public/", import.meta.url).pathname;
 const port = Number(process.env.PORT ?? 4321);
 
@@ -92,6 +93,14 @@ function buildCalendar(groups: Group[], params: URLSearchParams) {
 // Athletes are identified by their start book lot number (unique across the competition)
 const validLots = new Set<number>((await Bun.file(root + "data.json").json()).groups.flatMap((g: Group) => g.athletes.map(a => a.lot)));
 
+// Results: poll Wikipedia every 5 minutes (one API request for all 16 categories)
+const RESULTS_EVERY_MIN = 5;
+const pollResults = () => refreshResults()
+  .then(r => r.changed && console.log(`Results updated: ${r.final} final, ${r.partial} in progress`))
+  .catch(e => console.error("Results refresh failed:", e.message));
+pollResults();
+setInterval(pollResults, RESULTS_EVERY_MIN * 60e3);
+
 Bun.serve({
   port,
   async fetch(req) {
@@ -112,7 +121,8 @@ Bun.serve({
     if (path.endsWith("/")) path += "index.html";
     if (path.includes("..")) return new Response("Bad request", { status: 400 });
     const file = Bun.file(root + path.slice(1));
-    return (await file.exists()) ? new Response(file) : new Response("Not found", { status: 404 });
+    if (!(await file.exists())) return new Response("Not found", { status: 404 });
+    return path === "/results.json" ? new Response(file, { headers: { "Cache-Control": "no-cache" } }) : new Response(file);
   },
 });
 console.log(`Start book running on http://localhost:${port}`);

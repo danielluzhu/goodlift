@@ -265,3 +265,25 @@ tr.watchrow td { background: color-mix(in srgb, var(--gold) 9%, transparent); }
 #view-tickets h4 .zh { font-weight: 600; }
 .hdetails { margin: 6px 0; padding-left: 18px; font-size: 14px; }
 .hdetails li { margin-bottom: 4px; }
+
+/* Results */
+.rstatus { display: inline-block; margin-left: 8px; padding: 1px 7px; border-radius: 9px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; border: 1px solid var(--line); color: var(--ink-2); vertical-align: 1px; }
+.rstatus.final { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.rstatus.live { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.podline { display: flex; flex-wrap: wrap; gap: 2px 14px; margin-top: 4px; font-size: 14px; }
+.podline span { white-space: nowrap; }
+.podline b { font-weight: 650; color: var(--ink-2); font-size: 12px; }
+table.results td.att, table.results th.att { text-align: center; padding-left: 4px; padding-right: 4px; color: var(--ink-2); }
+table.results td.att.miss { color: var(--accent); }
+table.results td.rk { color: var(--ink-2); }
+table.results td.total b { font-size: 15px; }
+table.results td.up { color: #2f8a4c; } table.results td.down { color: var(--ink-2); }
+table.results tr.favrow td { background: var(--hl); }
+.rectag { display: inline-block; margin-left: 4px; padding: 0 4px; border-radius: 3px; font-size: 10px; font-weight: 800; border: 1px solid var(--line); color: var(--ink-2); vertical-align: 1px; }
+.rectag.wr { background: var(--gold); border-color: var(--gold); color: var(--surface); }
+.meta.pad { padding: 8px 14px 0; margin: 0; }
+.medalbox .table-scroll { padding: 0 14px 12px; }
+.medalbox table { width: auto; }
+.medalbox th.mgrp { text-align: center; }
+.medalbox td.num { text-align: center; }
+.medalbox .natname { margin-left: 6px; }
