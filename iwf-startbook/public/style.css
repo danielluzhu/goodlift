@@ -260,3 +260,8 @@ div.vendor { cursor: default; }
 .watchline .wl b { color: var(--gold); }
 .watchline .wl.at b { background: var(--gold); color: var(--surface); padding: 0 4px; border-radius: 3px; }
 tr.watchrow td { background: color-mix(in srgb, var(--gold) 9%, transparent); }
+#view-tickets .zh { display: block; color: var(--ink-2); font-size: .92em; font-weight: 400; margin-top: 2px; }
+#view-tickets .zhh { color: var(--ink-2); font-weight: 600; margin-left: 6px; }
+#view-tickets h4 .zh { font-weight: 600; }
+.hdetails { margin: 6px 0; padding-left: 18px; font-size: 14px; }
+.hdetails li { margin-bottom: 4px; }

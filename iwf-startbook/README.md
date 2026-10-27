@@ -35,5 +35,5 @@ Accounts & favorites: `auth.ts` adds username/password accounts (argon2 hashes, 
 and per-user favorite athletes (keyed by lot number). Data lives in `data/app.sqlite` (git-ignored; back it up).
 API: `GET /api/me`, `POST /api/signup|login|logout`, `PUT|DELETE /api/favorites/<lot>`.
 
-Tickets tab: reads `public/tickets.json` (vendors, prices, seating zones, venue, sources). Vendors are `{ "name", "url", "note" }`
+Tickets tab: reads `public/tickets.json` (vendors, prices, seating zones, venue, hotels, sources; English with `*Zh` Chinese fields). Vendors are `{ "name", "url", "note" }`
 and update `checked`; no restart needed. Only add channels named by the organisers or the IWF.

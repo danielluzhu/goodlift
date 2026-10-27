@@ -2,22 +2,107 @@
   "checked": "26 Oct 2026",
   "status": "On sale since 20 Sep 2026, 13:18 (Beijing time), on four official platforms. Damai is the general agent.",
   "vendors": [
-    { "name": "Damai 大麦", "url": "https://piao.cn/m/2o9T8eb", "note": "General ticket agent (总代). Website and app." },
-    { "name": "Maoyan 猫眼", "url": "", "note": "WeChat mini-program only: open WeChat, search 猫眼, then search 世界举重锦标赛." },
-    { "name": "Piaoxingqiu 票星球", "url": "https://m.piaoxingqiu.com?lssId=c10c96339b25d572", "note": "Website and app." },
-    { "name": "Jiushi Sports 久事体育", "url": "https://jsapp-oss.jussyun.com/packageTicket/?showId=6aa798d4cd01f000015bdc8f&channel=JUZHONG2026", "note": "Jiushi Sports app (久事体育APP)." }
+    {
+      "name": "Damai 大麦",
+      "url": "https://piao.cn/m/2o9T8eb",
+      "note": "General ticket agent (总代). Website and app.",
+      "noteZh": "总代理，网站和APP。"
+    },
+    {
+      "name": "Maoyan 猫眼",
+      "url": "",
+      "note": "WeChat mini-program only: open WeChat, search 猫眼, then search 世界举重锦标赛.",
+      "noteZh": "仅限微信小程序：打开微信搜索“猫眼”，再搜索“世界举重锦标赛”。"
+    },
+    {
+      "name": "Piaoxingqiu 票星球",
+      "url": "https://m.piaoxingqiu.com?lssId=c10c96339b25d572",
+      "note": "Website and app.",
+      "noteZh": "网站和APP。"
+    },
+    {
+      "name": "Jiushi Sports 久事体育",
+      "url": "https://jsapp-oss.jussyun.com/packageTicket/?showId=6aa798d4cd01f000015bdc8f&channel=JUZHONG2026",
+      "note": "Jiushi Sports app (久事体育APP).",
+      "noteZh": "久事体育APP。"
+    }
   ],
   "vendorNote": "Links are decoded from the QR codes on the organisers' ticket graphic. All four platforms are in Chinese; if you are buying from outside China, check that the platform accepts your passport and phone number before counting on it.",
   "prices": [
-    { "days": "Weekdays: 27–30 Oct, 2–6 Nov", "dates": ["27.10.2026", "28.10.2026", "29.10.2026", "30.10.2026", "02.11.2026", "03.11.2026", "04.11.2026", "05.11.2026", "06.11.2026"],
-      "tiers": [["Pair package (2 × Supreme) 双人套票", 198], ["Supreme 至尊票", 128], ["Tier A (A档)", 68]] },
-    { "days": "Weekends: 31 Oct, 1 Nov, 7–8 Nov", "dates": ["31.10.2026", "01.11.2026", "07.11.2026", "08.11.2026"],
-      "tiers": [["Pair package (2 × Supreme) 双人套票", 398], ["Supreme 至尊票", 258], ["Tier A (A档)", 168], ["Tier B (B档)", 98]] }
+    {
+      "days": "Weekdays: 27–30 Oct, 2–6 Nov",
+      "dates": [
+        "27.10.2026",
+        "28.10.2026",
+        "29.10.2026",
+        "30.10.2026",
+        "02.11.2026",
+        "03.11.2026",
+        "04.11.2026",
+        "05.11.2026",
+        "06.11.2026"
+      ],
+      "tiers": [
+        [
+          "Pair package (2 × Supreme) 双人套票",
+          198
+        ],
+        [
+          "Supreme 至尊票",
+          128
+        ],
+        [
+          "Tier A (A档)",
+          68
+        ]
+      ],
+      "daysZh": "工作日场次：10月27–30日、11月2–6日"
+    },
+    {
+      "days": "Weekends: 31 Oct, 1 Nov, 7–8 Nov",
+      "dates": [
+        "31.10.2026",
+        "01.11.2026",
+        "07.11.2026",
+        "08.11.2026"
+      ],
+      "tiers": [
+        [
+          "Pair package (2 × Supreme) 双人套票",
+          398
+        ],
+        [
+          "Supreme 至尊票",
+          258
+        ],
+        [
+          "Tier A (A档)",
+          168
+        ],
+        [
+          "Tier B (B档)",
+          98
+        ]
+      ],
+      "daysZh": "周末场次：10月31日、11月1日、11月7–8日"
+    }
   ],
   "seating": [
-    ["Supreme (至尊)", "Sections 205, 206, 210, 214, 215 and parts of 209 and 211, the ones nearest the competition platform"],
-    ["Tier A (A档)", "Sections 207, 213 and the rest of 209 and 211; on weekdays also 208 and 212"],
-    ["Tier B (B档, weekends only)", "Sections 208 and 212"]
+    [
+      "Supreme (至尊)",
+      "Sections 205, 206, 210, 214, 215 and parts of 209 and 211, the ones nearest the competition platform",
+      "205、206、210、214、215区及209、211区部分座位，最靠近比赛台"
+    ],
+    [
+      "Tier A (A档)",
+      "Sections 207, 213 and the rest of 209 and 211; on weekdays also 208 and 212",
+      "207、213区及209、211区其余座位；工作日另含208、212区"
+    ],
+    [
+      "Tier B (B档, weekends only)",
+      "Sections 208 and 212",
+      "208、212区"
+    ]
   ],
   "seatingNote": "From the organisers' seating plan. Zones may change; the organisers point to the Ningbo Olympic Sports Center WeChat account (宁波奥体中心公众号) for updates.",
   "venue": {
@@ -29,17 +114,108 @@
     "capacity": "10,000 seats (China Daily)",
     "metro": "Olympic Sports Center station 奥体中心站, Metro Line 4 (Beihuan West Road × Kaiyuan Road). Not to be confused with Sports Center station on Lines 3 and 7, which is elsewhere in the city.",
     "maps": [
-      { "name": "Amap 高德地图", "url": "https://uri.amap.com/search?keyword=%E5%AE%81%E6%B3%A2%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83&city=%E5%AE%81%E6%B3%A2" },
-      { "name": "Baidu Maps 百度地图", "url": "https://map.baidu.com/search/%E5%AE%81%E6%B3%A2%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83" },
-      { "name": "Google Maps", "url": "https://www.google.com/maps/search/?api=1&query=29.93342%2C121.48594" }
+      {
+        "name": "Amap 高德地图",
+        "url": "https://uri.amap.com/search?keyword=%E5%AE%81%E6%B3%A2%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83&city=%E5%AE%81%E6%B3%A2"
+      },
+      {
+        "name": "Baidu Maps 百度地图",
+        "url": "https://map.baidu.com/search/%E5%AE%81%E6%B3%A2%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83"
+      },
+      {
+        "name": "Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=29.93342%2C121.48594"
+      }
     ],
-    "mapsNote": "Google Maps doesn't work in mainland China without a VPN; Amap and Baidu do."
+    "mapsNote": "Google Maps doesn't work in mainland China without a VPN; Amap and Baidu do.",
+    "metroZh": "地铁4号线奥体中心站。注意不要与3号线、7号线的体育中心站混淆，两者不在同一地点。",
+    "openedZh": "2019年开业",
+    "capacityZh": "约10,000个座位（中国日报）",
+    "mapsNoteZh": "谷歌地图在中国大陆需VPN才能使用；高德地图和百度地图可直接使用。"
   },
   "sources": [
-    { "name": "Ticket links, prices and seating plan (organiser graphics, posted 18 Sep 2026 by @squat_jerk_journalist)", "url": "https://www.instagram.com/p/Dda9iyLiSNL/" },
-    { "name": "Venue address, opening and metro: Chinese Wikipedia, 宁波奥体中心", "url": "https://zh.wikipedia.org/wiki/%E5%AE%81%E6%B3%A2%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83" },
-    { "name": "Metro station: Olympic Sports Center station (Ningbo Rail Transit)", "url": "https://en.wikipedia.org/wiki/Olympic_Sports_Center_station_(Ningbo_Rail_Transit)" },
-    { "name": "Venue and capacity: China Daily Ningbo, 29 Apr 2024", "url": "https://ningbo.chinadaily.com.cn/2024-04/29/c_983693.htm" },
-    { "name": "IWF website: news and announcements", "url": "https://iwf.sport/" }
-  ]
+    {
+      "name": "Ticket links, prices and seating plan (organiser graphics, posted 18 Sep 2026 by @squat_jerk_journalist)",
+      "url": "https://www.instagram.com/p/Dda9iyLiSNL/"
+    },
+    {
+      "name": "Venue address, opening and metro: Chinese Wikipedia, 宁波奥体中心",
+      "url": "https://zh.wikipedia.org/wiki/%E5%AE%81%E6%B3%A2%E5%A5%A5%E4%BD%93%E4%B8%AD%E5%BF%83"
+    },
+    {
+      "name": "Metro station: Olympic Sports Center station (Ningbo Rail Transit)",
+      "url": "https://en.wikipedia.org/wiki/Olympic_Sports_Center_station_(Ningbo_Rail_Transit)"
+    },
+    {
+      "name": "Venue and capacity: China Daily Ningbo, 29 Apr 2024",
+      "url": "https://ningbo.chinadaily.com.cn/2024-04/29/c_983693.htm"
+    },
+    {
+      "name": "IWF website: news and announcements",
+      "url": "https://iwf.sport/"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Nanyuan Wanghai Hotel",
+      "nameZh": "南苑望海酒店",
+      "address": "1 Zhenhai Avenue (middle section), Luotuo Subdistrict, Zhenhai District",
+      "addressZh": "镇海区骆驼街道镇海大道中段1号",
+      "details": [
+        "Luxury class",
+        "Rated 4.7 on Amap, #2 hotel in Zhenhai District",
+        "Opened 1 Oct 2025",
+        "Gym"
+      ],
+      "maps": [
+        {
+          "name": "Amap 高德地图",
+          "url": "https://uri.amap.com/search?keyword=%E5%8D%97%E8%8B%91%E6%9C%9B%E6%B5%B7%E9%85%92%E5%BA%97&city=%E5%AE%81%E6%B3%A2"
+        },
+        {
+          "name": "Baidu Maps 百度地图",
+          "url": "https://map.baidu.com/search/%E5%8D%97%E8%8B%91%E6%9C%9B%E6%B5%B7%E9%85%92%E5%BA%97"
+        }
+      ],
+      "detailsZh": [
+        "豪华型",
+        "高德评分4.7，镇海区酒店榜第2名",
+        "2025年10月1日开业",
+        "健身室"
+      ]
+    },
+    {
+      "name": "BTG Nanyuan Guanlan Hotel",
+      "nameZh": "首旅南苑观澜酒店",
+      "address": "369 Cishui West Street, Jiangbei District",
+      "addressZh": "江北区慈水西街369号",
+      "details": [
+        "Luxury class",
+        "Rated 4.7 on Amap, #13 hotel in Jiangbei District",
+        "Opened 1 May 2026",
+        "Laundry service"
+      ],
+      "maps": [
+        {
+          "name": "Amap 高德地图",
+          "url": "https://uri.amap.com/search?keyword=%E9%A6%96%E6%97%85%E5%8D%97%E8%8B%91%E8%A7%82%E6%BE%9C%E9%85%92%E5%BA%97&city=%E5%AE%81%E6%B3%A2"
+        },
+        {
+          "name": "Baidu Maps 百度地图",
+          "url": "https://map.baidu.com/search/%E9%A6%96%E6%97%85%E5%8D%97%E8%8B%91%E8%A7%82%E6%BE%9C%E9%85%92%E5%BA%97"
+        }
+      ],
+      "detailsZh": [
+        "豪华型",
+        "高德评分4.7，江北区酒店榜第13名",
+        "2026年5月1日开业",
+        "洗衣服务"
+      ]
+    }
+  ],
+  "hotelsNote": "Hotel options, not confirmed as the official team hotels. Details are from Amap listings (Oct 2026); English names are translations. Book through Amap, Trip.com/Ctrip or the hotel directly, and check the drive to the venue on the map links.",
+  "statusZh": "门票于2026年9月20日13:18起在大麦网（总代）、猫眼、票星球、久事体育APP四个票务平台正式售票。",
+  "vendorNoteZh": "链接来自主办方票务海报上的二维码。四个平台均为中文界面；在中国境外购票，请先确认平台是否支持护照和境外手机号。",
+  "seatingNoteZh": "根据主办方票区图。票区以实际为准，票价信息请持续关注宁波奥体中心公众号。",
+  "hotelsNoteZh": "以下为住宿选择，并非官方确认的运动队酒店。信息来自高德地图（2026年10月），英文名称为翻译。可通过高德、携程或直接联系酒店预订，并用地图链接查看前往赛场的车程。"
 }
