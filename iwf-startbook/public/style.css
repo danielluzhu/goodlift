@@ -202,7 +202,11 @@ dialog.auth input { display: block; width: 100%; margin-top: 4px; font: inherit;
 .cgrid li .pt { flex: 0 0 30px; }
 
 /* Downloads */
-.daydl { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--ink-2); text-decoration: none; }
+.dayacts { margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px 14px; justify-content: flex-end; }
+.daydl { font: inherit; font-size: 13px; font-weight: 600; color: var(--ink-2); text-decoration: none; background: none; border: 0; padding: 0; cursor: pointer; }
+.daydl[aria-expanded="true"] { color: var(--accent); }
+.daygcal { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin: 0 0 10px; }
+.daygcal > p { margin: 0; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
 .daydl:hover { color: var(--accent); }
 .btn.disabled { opacity: .5; pointer-events: none; }
 .fav-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; margin-bottom: 8px; }
@@ -248,3 +252,5 @@ table.watch tr.first td { border-top: 2px solid var(--line); }
 .prices td { padding: 6px 4px; }
 td.zone { white-space: nowrap; }
 div.vendor { cursor: default; }
+.day h2 { flex-wrap: wrap; white-space: nowrap; }
+.day h2 .dayacts { white-space: normal; }

@@ -28,7 +28,7 @@ const shortDate = s => { const d = parseDate(s); return `${d.getUTCDate()} ${MON
 
 let D, athletes = [], byLot = {}, senior = {};
 const state = { openAth: new Set(), user: null, favs: new Set(), authMode: "login", listSort: "lot", sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "",
-  day: "", cat: "", favOnly: false, watchAge: "all", favSort: { key: "when", asc: true } };
+  day: "", cat: "", favOnly: false, dayGcal: "", watchAge: "all", favSort: { key: "when", asc: true } };
 
 Promise.all([fetch("data.json").then(r => r.json()), api("GET", "me").catch(() => ({ user: null, favorites: [] }))])
   .then(([data, me]) => { setMe(me); init(data); });
@@ -111,6 +111,8 @@ function bind() {
       state.openAth.has(lot) ? state.openAth.delete(lot) : state.openAth.add(lot);
       renderAthletes(); return;
     }
+    const dg = e.target.closest("[data-daygcal]");
+    if (dg) { state.dayGcal = state.dayGcal === dg.dataset.daygcal ? "" : dg.dataset.daygcal; renderSchedule(true); return; }
     const gc = e.target.closest("[data-gcal]");
     if (gc) { markGcal(gc.dataset.gcal); return; }
     if (e.target.closest("[data-gcal-reset]")) { gcalOpened.clear(); saveGcal(); renderSchedule(true); renderFavorites(); return; }
@@ -296,6 +298,15 @@ function gcalLink(g, names = []) {
     dates: `${gcalStamp(start)}/${gcalStamp(end)}`, details, location: "Ningbo, China" });
   return `https://calendar.google.com/calendar/render?${q}`;
 }
+// A whole competition day as one event: first session start to last session end, every session in the description
+function gcalDayLink(d) {
+  const gs = D.groups.filter(g => g.date === d);
+  const start = sessionUTC(gs[0]), end = new Date(sessionUTC(gs.at(-1)).getTime() + SESSION_HOURS * 3600e3);
+  const details = [`All sessions, local time (UTC+8):`, ...gs.map(g => `${g.time} · ${g.sex} ${g.label} (weigh-in ${g.weighin})`)].join("\n");
+  const q = new URLSearchParams({ action: "TEMPLATE", text: `IWF Worlds Day ${dayKeys().indexOf(d) + 1} · ${gs.map(g => `${g.sex[0]} ${g.label}`).join(" / ")}`,
+    dates: `${gcalStamp(start)}/${gcalStamp(end)}`, details, location: "Ningbo, China" });
+  return `https://calendar.google.com/calendar/render?${q}`;
+}
 const yourTime = g => sessionUTC(g).toLocaleString([], { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZoneName: "short" });
 
 // No-download option: one Google Calendar link per session. Browsers block opening many tabs from one click,
@@ -304,10 +315,10 @@ const GCAL_KEY = "gcalOpened";
 const gcalOpened = new Set((() => { try { return JSON.parse(localStorage.getItem(GCAL_KEY)) || []; } catch { return []; } })());
 const saveGcal = () => { try { localStorage.setItem(GCAL_KEY, JSON.stringify([...gcalOpened])); } catch {} };
 const gcalId = g => `${g.date} ${g.time} ${g.label}`;
-function oneByOne(gs, named) {
+function oneByOne(gs, named, title = "Or skip the download: add them one by one") {
   if (!gs.length) return "";
   const done = gs.filter(g => gcalOpened.has(gcalId(g))).length;
-  return `<div class="onebyone"><h3>Or skip the download: add them one by one</h3>
+  return `<div class="onebyone"><h3>${title}</h3>
     <p class="hint">Each button opens Google Calendar with that session filled in (start list included). Click <b>Save</b> there, come back, and do the next one.
       <span class="gcal-progress">${done} of ${gs.length} opened</span>${done ? ` · <button class="linkbtn" data-gcal-reset>Clear ticks</button>` : ""}</p>
     <ol class="gcal-list">${gs.map(g => {
@@ -402,7 +413,13 @@ function renderSchedule(keepOpen) {
       </details>`;
     }).join("");
     return `<div class="day"><h2>Day ${n} <small>${dayLabel(d)}</small>
-      <a class="daydl" href="${calURL({ day: d })}" title="Calendar file with every session on ${dayLabel(d)}">⬇ Download day (.ics)</a></h2><div class="sessions">${items}</div></div>`;
+      <span class="dayacts"><button class="daydl" data-daygcal="${d}" aria-expanded="${state.dayGcal === d}">📅 Add day to Google Calendar</button>
+      <a class="daydl" href="${calURL({ day: d })}" title="Calendar file with every session on ${dayLabel(d)}">⬇ Download day (.ics)</a></span></h2>
+      ${state.dayGcal === d ? `<div class="daygcal">
+        <p><a class="btn" href="${esc(gcalDayLink(d))}" target="_blank" rel="noopener">📅 Whole day as one event ↗</a>
+          <span class="meta">${dayLabel(d)}, first session to last, with every session's time in the description.</span></p>
+        ${oneByOne(D.groups.filter(g => g.date === d), () => [], "Or add each session as its own event")}</div>` : ""}
+      <div class="sessions">${items}</div></div>`;
   }).join("") || `<p class="hint">No sessions match.</p>`;
   document.querySelectorAll(".session").forEach(el => el.addEventListener("toggle", () => {
     const body = el.querySelector(".session-body");
