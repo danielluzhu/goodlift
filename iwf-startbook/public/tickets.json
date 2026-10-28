@@ -1,33 +1,37 @@
 {
-  "checked": "26 Oct 2026",
+  "checked": "28 Oct 2026",
   "status": "On sale since 20 Sep 2026, 13:18 (Beijing time), on four official platforms. Damai is the general agent.",
   "vendors": [
     {
       "name": "Damai 大麦",
       "url": "https://piao.cn/m/2o9T8eb",
       "note": "General ticket agent (总代). Website and app.",
-      "noteZh": "总代理，网站和APP。"
+      "noteZh": "总代理，网站和APP。",
+      "qr": "qr/damai.jpg"
     },
     {
       "name": "Maoyan 猫眼",
       "url": "",
-      "note": "WeChat mini-program only: open WeChat, search 猫眼, then search 世界举重锦标赛.",
-      "noteZh": "仅限微信小程序：打开微信搜索“猫眼”，再搜索“世界举重锦标赛”。"
+      "note": "WeChat mini-program only: scan the code with WeChat, or open WeChat, search 猫眼, then search 世界举重锦标赛.",
+      "noteZh": "仅限微信小程序：用微信扫码，或打开微信搜索“猫眼”，再搜索“世界举重锦标赛”。",
+      "qr": "qr/maoyan.jpg"
     },
     {
       "name": "Piaoxingqiu 票星球",
       "url": "https://m.piaoxingqiu.com?lssId=c10c96339b25d572",
       "note": "Website and app.",
-      "noteZh": "网站和APP。"
+      "noteZh": "网站和APP。",
+      "qr": "qr/piaoxingqiu.jpg"
     },
     {
       "name": "Jiushi Sports 久事体育",
-      "url": "https://jsapp-oss.jussyun.com/packageTicket/?showId=6aa798d4cd01f000015bdc8f&channel=JUZHONG2026",
-      "note": "Jiushi Sports app (久事体育APP).",
-      "noteZh": "久事体育APP。"
+      "url": "",
+      "note": "Jiushi Sports app only. Install the app and scan this code with the app's own scanner; the link inside the code doesn't open in a browser.",
+      "noteZh": "仅限久事体育APP：安装APP后用APP内的扫一扫扫描此二维码，浏览器无法直接打开。",
+      "qr": "qr/jiushi.jpg"
     }
   ],
-  "vendorNote": "Links are decoded from the QR codes on the organisers' ticket graphic. All four platforms are in Chinese; if you are buying from outside China, check that the platform accepts your passport and phone number before counting on it.",
+  "vendorNote": "QR codes are the organisers' own, cropped from their ticket graphic; on a phone, tap the seller to open the link instead. All four platforms are in Chinese; if you are buying from outside China, check that the platform accepts your passport and phone number before counting on it.",
   "prices": [
     {
       "days": "Weekdays: 27–30 Oct, 2–6 Nov",
@@ -227,7 +231,7 @@
   ],
   "hotelsNote": "Hotel options, not confirmed as the official team hotels. Details are from Amap listings (Oct 2026); English names are translations. Book through Trip.com, Amap or the hotel directly. The Guanlan opened in May 2026 and has no Trip.com page we could confirm, so its link is a Trip.com search (don't confuse it with the unrelated Guanlan Hotel in Meishan), and check the drive to the venue on the map links.",
   "statusZh": "门票于2026年9月20日13:18起在大麦网（总代）、猫眼、票星球、久事体育APP四个票务平台正式售票。",
-  "vendorNoteZh": "链接来自主办方票务海报上的二维码。四个平台均为中文界面；在中国境外购票，请先确认平台是否支持护照和境外手机号。",
+  "vendorNoteZh": "二维码来自主办方票务海报；手机上可直接点击平台名称打开链接。四个平台均为中文界面；在中国境外购票，请先确认平台是否支持护照和境外手机号。",
   "seatingNoteZh": "根据主办方票区图。票区以实际为准，票价信息请持续关注宁波奥体中心公众号。",
   "hotelsNoteZh": "以下为住宿选择，并非官方确认的运动队酒店。信息来自高德地图（2026年10月），英文名称为翻译。可通过携程、高德或直接联系酒店预订。观澜酒店于2026年5月开业，暂未找到其携程页面，因此链接为携程搜索（注意不要与梅山的另一家观澜酒店混淆），并用地图链接查看前往赛场的车程。"
 }

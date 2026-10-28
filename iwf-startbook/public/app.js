@@ -567,9 +567,10 @@ async function renderTickets() {
   const sessions = dates => D.groups.filter(g => dates.includes(g.date)).length;
   el.innerHTML = `<h2>Tickets <span class="zhh">门票</span></h2>
     <p class="lede">${esc(t.status)}${zh(t.statusZh)}</p>
-    ${t.vendors.length ? `<div class="vendors">${t.vendors.map(x => x.url
-      ? `<a class="vendor" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.name)} ↗</b><span>${esc(x.note)}${zh(x.noteZh)}</span><small>${esc(new URL(x.url).hostname)}</small></a>`
-      : `<div class="vendor"><b>${esc(x.name)}</b><span>${esc(x.note)}${zh(x.noteZh)}</span></div>`).join("")}</div>
+    ${t.vendors.length ? `<div class="vendors">${t.vendors.map(x => `<div class="vendor">${x.url
+      ? `<a href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.name)} ↗</b></a>` : `<b>${esc(x.name)}</b>`}
+      <span>${esc(x.note)}${zh(x.noteZh)}</span>${x.url ? `<small>${esc(new URL(x.url).hostname)}</small>` : ""}
+      ${x.qr ? `<img class="qr" src="${esc(x.qr)}" alt="${esc(x.name)} QR code" loading="lazy">` : ""}</div>`).join("")}</div>
       <p class="hint">${esc(t.vendorNote)} Only buy through these official channels: resale and look-alike ticket sites are common for big events.${zh(t.vendorNoteZh)}</p>`
       : `<div class="empty"><p><b>Ticket sellers not confirmed yet.</b></p></div>`}
     ${t.prices ? `${biH("Prices per session, in yuan", "每场票价（元）")}<div class="ticket-grid">${t.prices.map(p => `<div class="rcard"><h4>${esc(p.days)}${zh(p.daysZh)}</h4>
