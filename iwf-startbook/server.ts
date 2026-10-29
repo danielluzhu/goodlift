@@ -101,6 +101,20 @@ const pollResults = () => refreshResults()
 pollResults();
 setInterval(pollResults, RESULTS_EVERY_MIN * 60e3);
 
+// Text files go out gzipped (data.json is ~800 KB raw, ~10x smaller compressed), cached in memory until the file changes.
+// Every static file revalidates by ETag, so a fresh deploy or results update is picked up without a stale copy in between.
+const TEXT = /\.(html|js|css|json|svg|txt)$/;
+const gzCache = new Map<string, { etag: string; body: Uint8Array }>();
+async function serveStatic(req: Request, path: string, file: ReturnType<typeof Bun.file>) {
+  const etag = `"${file.lastModified.toString(36)}-${file.size.toString(36)}"`;
+  const headers: Record<string, string> = { "Cache-Control": "no-cache", ETag: etag, "Content-Type": file.type };
+  if (req.headers.get("If-None-Match") === etag) return new Response(null, { status: 304, headers });
+  if (!TEXT.test(path) || !/\bgzip\b/.test(req.headers.get("Accept-Encoding") ?? "")) return new Response(file, { headers });
+  let hit = gzCache.get(path);
+  if (hit?.etag !== etag) gzCache.set(path, hit = { etag, body: Bun.gzipSync(new Uint8Array(await file.arrayBuffer())) });
+  return new Response(hit.body, { headers: { ...headers, "Content-Encoding": "gzip", Vary: "Accept-Encoding" } });
+}
+
 Bun.serve({
   port,
   async fetch(req) {
@@ -122,7 +136,7 @@ Bun.serve({
     if (path.includes("..")) return new Response("Bad request", { status: 400 });
     const file = Bun.file(root + path.slice(1));
     if (!(await file.exists())) return new Response("Not found", { status: 404 });
-    return path === "/results.json" ? new Response(file, { headers: { "Cache-Control": "no-cache" } }) : new Response(file);
+    return serveStatic(req, path, file);
   },
 });
 console.log(`Start book running on http://localhost:${port}`);

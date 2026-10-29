@@ -30,8 +30,19 @@ let D, athletes = [], byLot = {}, senior = {};
 const state = { openAth: new Set(), user: null, favs: new Set(), authMode: "login", listSort: "lot", sex: "all", aOnly: false, hlNat: "", sort: { key: "when", asc: true }, recSex: "Women", recAge: "Senior", nation: "",
   day: "", cat: "", favOnly: false, watchOnly: false, dayGcal: "", watchAge: "all", favSort: { key: "when", asc: true }, resSex: "all" };
 
-Promise.all([fetch("data.json").then(r => r.json()), api("GET", "me").catch(() => ({ user: null, favorites: [] }))])
-  .then(([data, me]) => { setMe(me); init(data); });
+// data.json is ~800 KB; show a loading note until it's in, and a retry if it never arrives
+function boot() {
+  $("#loading").innerHTML = "<p>Loading the start book…</p>";
+  Promise.all([fetch("data.json").then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }),
+    api("GET", "me").catch(() => ({ user: null, favorites: [] }))])
+    .then(([data, me]) => { setMe(me); init(data); $("#loading").remove(); })
+    .catch(e => {
+      console.error("Start book failed to load:", e);
+      $("#loading").innerHTML = `<p>Couldn't load the start book (${esc(e.message)}).</p><button class="btn" id="retry">Try again</button>`;
+      $("#retry").onclick = boot;
+    });
+}
+boot();
 
 async function api(method, path, body) {
   const r = await fetch("api/" + path, { method, headers: body || method !== "GET" ? { "Content-Type": "application/json" } : {},
@@ -79,7 +90,8 @@ function init(data) {
 
   bind();
   renderAccount(); renderFavorites();
-  renderSchedule(); renderAthletes(); renderNations(); renderRecords(); renderWatch(); renderTickets(); loadResults();
+  for (const r of [renderSchedule, renderAthletes, renderNations, renderRecords, renderWatch, renderTickets, loadResults])
+    try { r(); } catch (e) { console.error(r.name + " failed:", e); }
   setInterval(loadResults, RESULTS_POLL_MS);
   route();
 }
