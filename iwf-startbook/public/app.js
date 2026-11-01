@@ -224,11 +224,13 @@ function syncFavs() {
     b.classList.toggle("on", on); b.textContent = on ? "★" : "☆"; b.setAttribute("aria-pressed", on);
     b.title = `${on ? "Remove from" : "Add to"} favorites`;
   });
-  document.querySelectorAll(".session").forEach(el => {
+  // Schedule sessions only; Results cards are .session too but have no data-id (they're re-rendered below)
+  document.querySelectorAll(".session[data-id]").forEach(el => {
     const n = D.groups[+el.dataset.id].athletes.filter(a => state.favs.has(a.lot)).length;
     el.querySelector(".favcount").textContent = n ? `★ ${n}` : "";
   });
   if (state.favOnly) renderSchedule(true);
+  if (R) renderResults(true);
   renderFavorites();
 }
 
