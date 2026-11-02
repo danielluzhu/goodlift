@@ -88,6 +88,12 @@ input[type=search] { flex: 1 1 220px; }
 .count { color: var(--ink-2); font-size: 13px; text-align: right; }
 .flagged { color: var(--ink); font-weight: 650; }
 .session-body { padding: 4px 0 10px; }
+.pastfold { margin-bottom: 26px; }
+.day .pastfold { margin-bottom: 0; }
+.pastfold > summary { cursor: pointer; padding: 10px 14px; border: 1px dashed var(--line); border-radius: 10px; color: var(--ink-2); font-size: 14px; font-weight: 600; }
+.pastfold > summary:hover { border-color: var(--accent); color: var(--ink); }
+.pastfold[open] > summary { margin-bottom: 12px; }
+.pastfold .session { opacity: .8; }
 .rec-strip { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 8px 14px 4px; font-size: 13px; color: var(--ink-2); }
 .rec-strip b { color: var(--ink); }
 

@@ -93,6 +93,9 @@ function init(data) {
   for (const r of [renderSchedule, renderAthletes, renderNations, renderRecords, renderWatch, renderTickets, loadResults])
     try { r(); } catch (e) { console.error(r.name + " failed:", e); }
   setInterval(loadResults, RESULTS_POLL_MS);
+  // Re-render the schedule when another session finishes, so it folds away without a reload
+  let nEnded = D.groups.filter(ended).length;
+  setInterval(() => { const n = D.groups.filter(ended).length; if (n !== nEnded) { nEnded = n; renderSchedule(true); } }, 60e3);
   route();
 }
 
@@ -402,8 +405,13 @@ function startList(g) {
       <tbody>${rows}</tbody></table></div>`;
 }
 
+// Finished sessions fold away: whole days into one block at the top, and earlier sessions today into a row of their own
+const ended = g => sessionUTC(g).getTime() + SESSION_HOURS * 3600e3 < Date.now();
+const fold = (key, isOpen, label, body) => `<details class="pastfold" data-fold="${key}" ${isOpen ? "open" : ""}><summary>✓ ${label}</summary>${body}</details>`;
+const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
 function renderSchedule(keepOpen) {
   const open = keepOpen ? new Set([...document.querySelectorAll(".session[open]")].map(d => d.dataset.id)) : new Set();
+  const openFolds = new Set([...document.querySelectorAll(".pastfold[open]")].map(d => d.dataset.fold));
   const [catSex, cat] = state.cat ? state.cat.split("|") : [];
   const gs = D.groups.filter(g => (state.sex === "all" || g.sex === state.sex) && (!state.aOnly || g.parts.some(p => p.grp === "A")) &&
     (!state.day || g.date === state.day) && (!cat || (g.sex === catSex && g.parts.some(p => p.cat === cat))) &&
@@ -412,7 +420,8 @@ function renderSchedule(keepOpen) {
   const days = {};
   for (const g of gs) (days[g.date] ||= []).push(g);
   const allDays = dayKeys();
-  $("#days").innerHTML = allDays.filter(d => days[d]).map(d => {
+  const folding = !state.day;
+  const dayHtml = d => {
     const n = allDays.indexOf(d) + 1;
     const items = days[d].map(g => {
       const hits = state.hlNat ? g.athletes.filter(a => a.nation === state.hlNat).length : 0;
@@ -420,7 +429,7 @@ function renderSchedule(keepOpen) {
       const wi = g.weighin;
       const cats = g.parts.map(p => `${p.cat} kg <span class="grp ${p.grp}">${p.grp}</span>`).join(" &nbsp;");
       const top = g.athletes.reduce((m, a) => a.entry > m.entry ? a : m);
-      return `<details class="session" data-id="${g.id}" ${isOpen ? "open" : ""}>
+      return { g, isOpen, html: `<details class="session" data-id="${g.id}" ${isOpen ? "open" : ""}>
         <summary>
           <div class="time">${g.time}<small>weigh-in ${wi}</small></div>
           <div><div class="title"><span class="sex ${g.sex}">${g.sex}</span>${cats}</div>
@@ -428,8 +437,11 @@ function renderSchedule(keepOpen) {
           <div class="count">${g.athletes.length} athletes<br><span class="favcount">${(n => n ? `★ ${n}` : "")(g.athletes.filter(a => state.favs.has(a.lot)).length)}</span>${hits ? `<br><span class="flagged">${hits} × ${state.hlNat}</span>` : ""}</div>
         </summary>
         <div class="session-body">${isOpen ? startList(g) : ""}</div>
-      </details>`;
-    }).join("");
+      </details>` };
+    });
+    const done = folding && !items.every(i => ended(i.g)) ? items.filter(i => ended(i.g)) : [];
+    const sessions = (done.length ? fold(d, openFolds.has(d) || done.some(i => i.isOpen), `${plural(done.length, "finished session")}`,
+      `<div class="sessions">${done.map(i => i.html).join("")}</div>`) : "") + items.filter(i => !done.includes(i)).map(i => i.html).join("");
     return `<div class="day"><h2>Day ${n} <small>${dayLabel(d)}</small>
       <span class="dayacts"><button class="daydl" data-daygcal="${d}" aria-expanded="${state.dayGcal === d}">📅 Add day to Google Calendar</button>
       <a class="daydl" href="${calURL({ day: d })}" title="Calendar file with every session on ${dayLabel(d)}">⬇ Download day (.ics)</a></span></h2>
@@ -437,8 +449,16 @@ function renderSchedule(keepOpen) {
         <p><a class="btn" href="${esc(gcalDayLink(d))}" target="_blank" rel="noopener">📅 Whole day as one event ↗</a>
           <span class="meta">${dayLabel(d)}, first session to last, with every session's time in the description.</span></p>
         ${oneByOne(D.groups.filter(g => g.date === d), () => [], "Or add each session as its own event")}</div>` : ""}
-      <div class="sessions">${items}</div></div>`;
-  }).join("") || `<p class="hint">No sessions match.</p>`;
+      <div class="sessions">${sessions}</div></div>`;
+  };
+  const shown = allDays.filter(d => days[d]);
+  const past = folding ? shown.filter(d => days[d].every(ended)) : [];
+  const pastOpen = openFolds.has("past") || past.some(d => days[d].some(g => open.has(String(g.id)) || (state.hlNat && g.athletes.some(a => a.nation === state.hlNat))));
+  const dayNo = d => allDays.indexOf(d) + 1;
+  $("#days").innerHTML = (past.length ? fold("past", pastOpen,
+      `${past.length === 1 ? `Day ${dayNo(past[0])}` : `Days ${dayNo(past[0])}–${dayNo(past.at(-1))}`} finished · ${plural(past.reduce((n, d) => n + days[d].length, 0), "session")}`,
+      past.map(dayHtml).join("")) : "") +
+    shown.filter(d => !past.includes(d)).map(dayHtml).join("") || `<p class="hint">No sessions match.</p>`;
   document.querySelectorAll(".session").forEach(el => el.addEventListener("toggle", () => {
     const body = el.querySelector(".session-body");
     if (el.open && !body.innerHTML.trim()) body.innerHTML = startList(D.groups[+el.dataset.id]);
