@@ -1,0 +1,991 @@
+Athlete,Gender,Weight Class,Lift Type,Attempt No.,Attempt Weight (kg),Successful,Rank,Lot No.,Date of Birth,NOC Code,Group
+ZHAO Jinhong,Women,45kg,Snatch,1,80,TRUE,1,154,26 MAY 2001,CHN,A
+ZHAO Jinhong,Women,45kg,Snatch,2,88,TRUE,1,154,26 MAY 2001,CHN,A
+ZHAO Jinhong,Women,45kg,Snatch,3,90,TRUE,1,154,26 MAY 2001,CHN,A
+HONG Zi Yu,Women,45kg,Snatch,1,70,TRUE,2,146,13 JUL 2002,TPE,A
+HONG Zi Yu,Women,45kg,Snatch,2,70,TRUE,2,146,13 JUL 2002,TPE,A
+HONG Zi Yu,Women,45kg,Snatch,3,73,TRUE,2,146,13 JUL 2002,TPE,A
+PHAM Dinh Thi,Women,45kg,Snatch,1,68,TRUE,3,68,5 OCT 2001,VIE,A
+PHAM Dinh Thi,Women,45kg,Snatch,2,71,FALSE,3,68,5 OCT 2001,VIE,A
+PHAM Dinh Thi,Women,45kg,Snatch,3,71,FALSE,3,68,5 OCT 2001,VIE,A
+NGUYEN Thi Thu Trang,Women,45kg,Snatch,1,65,TRUE,4,138,3 JUN 2003,VIE,A
+NGUYEN Thi Thu Trang,Women,45kg,Snatch,2,69,FALSE,4,138,3 JUN 2003,VIE,A
+NGUYEN Thi Thu Trang,Women,45kg,Snatch,3,69,FALSE,4,138,3 JUN 2003,VIE,A
+BATNASAN Tungalag,Women,45kg,Snatch,1,62,TRUE,5,133,7 JUL 1999,MGL,A
+BATNASAN Tungalag,Women,45kg,Snatch,2,67,FALSE,5,133,7 JUL 1999,MGL,A
+BATNASAN Tungalag,Women,45kg,Snatch,3,67,FALSE,5,133,7 JUL 1999,MGL,A
+BRISTY Mst,Women,45kg,Snatch,1,55,TRUE,6,36,2 OCT 2006,BAN,A
+BRISTY Mst,Women,45kg,Snatch,2,60,TRUE,6,36,2 OCT 2006,BAN,A
+BRISTY Mst,Women,45kg,Snatch,3,63,FALSE,6,36,2 OCT 2006,BAN,A
+ZHAO Jinhong,Women,45kg,Clean & Jerk,1,100,TRUE,1,154,26 MAY 2001,CHN,A
+ZHAO Jinhong,Women,45kg,Clean & Jerk,2,111,FALSE,1,154,26 MAY 2001,CHN,A
+ZHAO Jinhong,Women,45kg,Clean & Jerk,3,111,FALSE,1,154,26 MAY 2001,CHN,A
+HONG Zi Yu,Women,45kg,Clean & Jerk,1,85,TRUE,2,146,13 JUL 2002,TPE,A
+HONG Zi Yu,Women,45kg,Clean & Jerk,2,88,TRUE,2,146,13 JUL 2002,TPE,A
+HONG Zi Yu,Women,45kg,Clean & Jerk,3,98,FALSE,2,146,13 JUL 2002,TPE,A
+PHAM Dinh Thi,Women,45kg,Clean & Jerk,1,85,TRUE,3,68,5 OCT 2001,VIE,A
+PHAM Dinh Thi,Women,45kg,Clean & Jerk,2,90,FALSE,3,68,5 OCT 2001,VIE,A
+PHAM Dinh Thi,Women,45kg,Clean & Jerk,3,90,FALSE,3,68,5 OCT 2001,VIE,A
+BRISTY Mst,Women,45kg,Clean & Jerk,1,70,TRUE,4,36,2 OCT 2006,BAN,A
+BRISTY Mst,Women,45kg,Clean & Jerk,2,75,TRUE,4,36,2 OCT 2006,BAN,A
+BRISTY Mst,Women,45kg,Clean & Jerk,3,77,TRUE,4,36,2 OCT 2006,BAN,A
+BATNASAN Tungalag,Women,45kg,Clean & Jerk,1,75,TRUE,5,133,7 JUL 1999,MGL,A
+BATNASAN Tungalag,Women,45kg,Clean & Jerk,2,81,FALSE,5,133,7 JUL 1999,MGL,A
+BATNASAN Tungalag,Women,45kg,Clean & Jerk,3,83,FALSE,5,133,7 JUL 1999,MGL,A
+NGUYEN Thi Thu Trang,Women,45kg,Clean & Jerk,1,65,TRUE,6,138,3 JUN 2003,VIE,A
+NGUYEN Thi Thu Trang,Women,45kg,Clean & Jerk,2,,,6,138,3 JUN 2003,VIE,A
+NGUYEN Thi Thu Trang,Women,45kg,Clean & Jerk,3,,,6,138,3 JUN 2003,VIE,A
+SUKCHAROEN Thanyathon,Women,49kg,Snatch,1,88,TRUE,1,4,21 APR 1997,THA,A
+SUKCHAROEN Thanyathon,Women,49kg,Snatch,2,88,TRUE,1,4,21 APR 1997,THA,A
+SUKCHAROEN Thanyathon,Women,49kg,Snatch,3,91,TRUE,1,4,21 APR 1997,THA,A
+RAMOS Rosegie,Women,49kg,Snatch,1,85,TRUE,2,137,15 DEC 2003,PHI,A
+RAMOS Rosegie,Women,49kg,Snatch,2,88,TRUE,2,137,15 DEC 2003,PHI,A
+RAMOS Rosegie,Women,49kg,Snatch,3,90,TRUE,2,137,15 DEC 2003,PHI,A
+XIANG Linxiang,Women,49kg,Snatch,1,86,TRUE,3,88,14 MAR 2004,CHN,A
+XIANG Linxiang,Women,49kg,Snatch,2,86,TRUE,3,88,14 MAR 2004,CHN,A
+XIANG Linxiang,Women,49kg,Snatch,3,88,FALSE,3,88,14 MAR 2004,CHN,A
+LIN Cheng Jing,Women,49kg,Snatch,1,80,TRUE,4,20,20 JAN 2000,TPE,A
+LIN Cheng Jing,Women,49kg,Snatch,2,82,TRUE,4,20,20 JAN 2000,TPE,A
+LIN Cheng Jing,Women,49kg,Snatch,3,85,TRUE,4,20,20 JAN 2000,TPE,A
+FANG Wan-Ling,Women,49kg,Snatch,1,75,TRUE,5,136,1 DEC 1999,TPE,A
+FANG Wan-Ling,Women,49kg,Snatch,2,75,TRUE,5,136,1 DEC 1999,TPE,A
+FANG Wan-Ling,Women,49kg,Snatch,3,81,FALSE,5,136,1 DEC 1999,TPE,A
+SUKCHAROEN Thanyathon,Women,49kg,Clean & Jerk,1,108,TRUE,1,4,21 APR 1997,THA,A
+SUKCHAROEN Thanyathon,Women,49kg,Clean & Jerk,2,109,TRUE,1,4,21 APR 1997,THA,A
+SUKCHAROEN Thanyathon,Women,49kg,Clean & Jerk,3,111,FALSE,1,4,21 APR 1997,THA,A
+RAMOS Rosegie,Women,49kg,Clean & Jerk,1,103,TRUE,2,137,15 DEC 2003,PHI,A
+RAMOS Rosegie,Women,49kg,Clean & Jerk,2,107,TRUE,2,137,15 DEC 2003,PHI,A
+RAMOS Rosegie,Women,49kg,Clean & Jerk,3,110,FALSE,2,137,15 DEC 2003,PHI,A
+XIANG Linxiang,Women,49kg,Clean & Jerk,1,103,TRUE,3,88,14 MAR 2004,CHN,A
+XIANG Linxiang,Women,49kg,Clean & Jerk,2,108,FALSE,3,88,14 MAR 2004,CHN,A
+XIANG Linxiang,Women,49kg,Clean & Jerk,3,108,FALSE,3,88,14 MAR 2004,CHN,A
+LIN Cheng Jing,Women,49kg,Clean & Jerk,1,100,TRUE,4,20,20 JAN 2000,TPE,A
+LIN Cheng Jing,Women,49kg,Clean & Jerk,2,104,FALSE,4,20,20 JAN 2000,TPE,A
+LIN Cheng Jing,Women,49kg,Clean & Jerk,3,104,FALSE,4,20,20 JAN 2000,TPE,A
+FANG Wan-Ling,Women,49kg,Clean & Jerk,1,95,TRUE,5,136,1 DEC 1999,TPE,A
+FANG Wan-Ling,Women,49kg,Clean & Jerk,2,102,FALSE,5,136,1 DEC 1999,TPE,A
+FANG Wan-Ling,Women,49kg,Clean & Jerk,3,102,FALSE,5,136,1 DEC 1999,TPE,A
+ZHANG Haiqin,Women,55kg,Snatch,1,90,TRUE,1,134,6 JAN 2005,CHN,A
+ZHANG Haiqin,Women,55kg,Snatch,2,95,TRUE,1,134,6 JAN 2005,CHN,A
+ZHANG Haiqin,Women,55kg,Snatch,3,99,TRUE,1,134,6 JAN 2005,CHN,A
+CHEN Guan Ling,Women,55kg,Snatch,1,83,TRUE,2,163,29 JAN 2005,TPE,A
+CHEN Guan Ling,Women,55kg,Snatch,2,83,TRUE,2,163,29 JAN 2005,TPE,A
+CHEN Guan Ling,Women,55kg,Snatch,3,83,TRUE,2,163,29 JAN 2005,TPE,A
+KLARISA Juliana,Women,55kg,Snatch,1,78,TRUE,3,18,29 JUL 2002,INA,A
+KLARISA Juliana,Women,55kg,Snatch,2,80,TRUE,3,18,29 JUL 2002,INA,A
+KLARISA Juliana,Women,55kg,Snatch,3,82,TRUE,3,18,29 JUL 2002,INA,A
+HU Chia Chi,Women,55kg,Snatch,1,80,TRUE,4,74,27 SEP 2002,TPE,A
+HU Chia Chi,Women,55kg,Snatch,2,80,TRUE,4,74,27 SEP 2002,TPE,A
+HU Chia Chi,Women,55kg,Snatch,3,80,TRUE,4,74,27 SEP 2002,TPE,A
+KIM Gayoung,Women,55kg,Snatch,1,77,TRUE,5,152,11 MAR 2002,KOR,A
+KIM Gayoung,Women,55kg,Snatch,2,77,TRUE,5,152,11 MAR 2002,KOR,A
+KIM Gayoung,Women,55kg,Snatch,3,80,FALSE,5,152,11 MAR 2002,KOR,A
+WEE Rachel,Women,55kg,Snatch,1,68,TRUE,6,63,16 MAR 1995,SGP,A
+WEE Rachel,Women,55kg,Snatch,2,71,TRUE,6,63,16 MAR 1995,SGP,A
+WEE Rachel,Women,55kg,Snatch,3,73,FALSE,6,63,16 MAR 1995,SGP,A
+CHUA Jiin Linn,Women,55kg,Snatch,1,65,TRUE,7,105,29 DEC 1998,SGP,A
+CHUA Jiin Linn,Women,55kg,Snatch,2,69,TRUE,7,105,29 DEC 1998,SGP,A
+CHUA Jiin Linn,Women,55kg,Snatch,3,72,FALSE,7,105,29 DEC 1998,SGP,A
+ALHASHMI Zahra,Women,55kg,Snatch,1,47,TRUE,8,101,26 FEB 1994,UAE,A
+ALHASHMI Zahra,Women,55kg,Snatch,2,47,TRUE,8,101,26 FEB 1994,UAE,A
+ALHASHMI Zahra,Women,55kg,Snatch,3,53,FALSE,8,101,26 FEB 1994,UAE,A
+NINGGAN Basilia Bamerop,Women,55kg,Snatch,1,77,FALSE,,149,6 MAY 2003,INA,A
+NINGGAN Basilia Bamerop,Women,55kg,Snatch,2,77,FALSE,,149,6 MAY 2003,INA,A
+NINGGAN Basilia Bamerop,Women,55kg,Snatch,3,79,FALSE,,149,6 MAY 2003,INA,A
+ZHANG Haiqin,Women,55kg,Clean & Jerk,1,115,TRUE,1,134,6 JAN 2005,CHN,A
+ZHANG Haiqin,Women,55kg,Clean & Jerk,2,121,TRUE,1,134,6 JAN 2005,CHN,A
+ZHANG Haiqin,Women,55kg,Clean & Jerk,3,126,TRUE,1,134,6 JAN 2005,CHN,A
+CHEN Guan Ling,Women,55kg,Clean & Jerk,1,105,TRUE,2,163,29 JAN 2005,TPE,A
+CHEN Guan Ling,Women,55kg,Clean & Jerk,2,108,TRUE,2,163,29 JAN 2005,TPE,A
+CHEN Guan Ling,Women,55kg,Clean & Jerk,3,111,TRUE,2,163,29 JAN 2005,TPE,A
+HU Chia Chi,Women,55kg,Clean & Jerk,1,103,TRUE,3,74,27 SEP 2002,TPE,A
+HU Chia Chi,Women,55kg,Clean & Jerk,2,107,TRUE,3,74,27 SEP 2002,TPE,A
+HU Chia Chi,Women,55kg,Clean & Jerk,3,110,TRUE,3,74,27 SEP 2002,TPE,A
+KLARISA Juliana,Women,55kg,Clean & Jerk,1,100,TRUE,4,18,29 JUL 2002,INA,A
+KLARISA Juliana,Women,55kg,Clean & Jerk,2,104,TRUE,4,18,29 JUL 2002,INA,A
+KLARISA Juliana,Women,55kg,Clean & Jerk,3,107,TRUE,4,18,29 JUL 2002,INA,A
+KIM Gayoung,Women,55kg,Clean & Jerk,1,100,TRUE,5,152,11 MAR 2002,KOR,A
+KIM Gayoung,Women,55kg,Clean & Jerk,2,100,TRUE,5,152,11 MAR 2002,KOR,A
+KIM Gayoung,Women,55kg,Clean & Jerk,3,106,FALSE,5,152,11 MAR 2002,KOR,A
+NINGGAN Basilia Bamerop,Women,55kg,Clean & Jerk,1,97,TRUE,6,149,6 MAY 2003,INA,A
+NINGGAN Basilia Bamerop,Women,55kg,Clean & Jerk,2,97,TRUE,6,149,6 MAY 2003,INA,A
+NINGGAN Basilia Bamerop,Women,55kg,Clean & Jerk,3,97,TRUE,6,149,6 MAY 2003,INA,A
+WEE Rachel,Women,55kg,Clean & Jerk,1,86,TRUE,7,63,16 MAR 1995,SGP,A
+WEE Rachel,Women,55kg,Clean & Jerk,2,86,TRUE,7,63,16 MAR 1995,SGP,A
+WEE Rachel,Women,55kg,Clean & Jerk,3,90,FALSE,7,63,16 MAR 1995,SGP,A
+CHUA Jiin Linn,Women,55kg,Clean & Jerk,1,85,TRUE,8,105,29 DEC 1998,SGP,A
+CHUA Jiin Linn,Women,55kg,Clean & Jerk,2,90,FALSE,8,105,29 DEC 1998,SGP,A
+CHUA Jiin Linn,Women,55kg,Clean & Jerk,3,90,FALSE,8,105,29 DEC 1998,SGP,A
+ALHASHMI Zahra,Women,55kg,Clean & Jerk,1,62,TRUE,9,101,26 FEB 1994,UAE,A
+ALHASHMI Zahra,Women,55kg,Clean & Jerk,2,66,FALSE,9,101,26 FEB 1994,UAE,A
+ALHASHMI Zahra,Women,55kg,Clean & Jerk,3,67,FALSE,9,101,26 FEB 1994,UAE,A
+KIM Il Gyong,Women,59kg,Snatch,1,98,TRUE,1,164,27 JUL 2003,PRK,A
+KIM Il Gyong,Women,59kg,Snatch,2,101,TRUE,1,164,27 JUL 2003,PRK,A
+KIM Il Gyong,Women,59kg,Snatch,3,103,TRUE,1,164,27 JUL 2003,PRK,A
+YODSARN Suratwadee,Women,59kg,Snatch,1,94,TRUE,2,103,15 JUL 2003,THA,A
+YODSARN Suratwadee,Women,59kg,Snatch,2,97,TRUE,2,103,15 JUL 2003,THA,A
+YODSARN Suratwadee,Women,59kg,Snatch,3,99,TRUE,2,103,15 JUL 2003,THA,A
+QUANG Thi Tam,Women,59kg,Snatch,1,95,TRUE,3,69,25 MAR 2003,VIE,A
+QUANG Thi Tam,Women,59kg,Snatch,2,98,TRUE,3,69,25 MAR 2003,VIE,A
+QUANG Thi Tam,Women,59kg,Snatch,3,100,FALSE,3,69,25 MAR 2003,VIE,A
+ABDULLAEVA Nigora,Women,59kg,Snatch,1,93,TRUE,4,89,13 MAY 2004,UZB,A
+ABDULLAEVA Nigora,Women,59kg,Snatch,2,96,TRUE,4,89,13 MAY 2004,UZB,A
+ABDULLAEVA Nigora,Women,59kg,Snatch,3,99,FALSE,4,89,13 MAY 2004,UZB,A
+KUO Hsing-Chun,Women,59kg,Snatch,1,95,TRUE,5,90,26 NOV 1993,TPE,A
+KUO Hsing-Chun,Women,59kg,Snatch,2,98,FALSE,5,90,26 NOV 1993,TPE,A
+KUO Hsing-Chun,Women,59kg,Snatch,3,98,FALSE,5,90,26 NOV 1993,TPE,A
+HENG Nicole,Women,59kg,Snatch,1,70,TRUE,6,72,16 JAN 1995,SGP,A
+HENG Nicole,Women,59kg,Snatch,2,72,TRUE,6,72,16 JAN 1995,SGP,A
+HENG Nicole,Women,59kg,Snatch,3,75,TRUE,6,72,16 JAN 1995,SGP,A
+ALMADANI Mai,Women,59kg,Snatch,1,70,TRUE,7,93,26 JUL 2001,UAE,A
+ALMADANI Mai,Women,59kg,Snatch,2,73,FALSE,7,93,26 JUL 2001,UAE,A
+ALMADANI Mai,Women,59kg,Snatch,3,73,FALSE,7,93,26 JUL 2001,UAE,A
+BETEYOB Natasya,Women,59kg,Snatch,1,93,FALSE,,96,10 SEP 2000,INA,A
+BETEYOB Natasya,Women,59kg,Snatch,2,94,FALSE,,96,10 SEP 2000,INA,A
+BETEYOB Natasya,Women,59kg,Snatch,3,94,FALSE,,96,10 SEP 2000,INA,A
+KIM Il Gyong,Women,59kg,Clean & Jerk,1,127,TRUE,1,164,27 JUL 2003,PRK,A
+KIM Il Gyong,Women,59kg,Clean & Jerk,2,132,TRUE,1,164,27 JUL 2003,PRK,A
+KIM Il Gyong,Women,59kg,Clean & Jerk,3,142,FALSE,1,164,27 JUL 2003,PRK,A
+YODSARN Suratwadee,Women,59kg,Clean & Jerk,1,123,TRUE,2,103,15 JUL 2003,THA,A
+YODSARN Suratwadee,Women,59kg,Clean & Jerk,2,123,TRUE,2,103,15 JUL 2003,THA,A
+YODSARN Suratwadee,Women,59kg,Clean & Jerk,3,126,TRUE,2,103,15 JUL 2003,THA,A
+KUO Hsing-Chun,Women,59kg,Clean & Jerk,1,120,TRUE,3,90,26 NOV 1993,TPE,A
+KUO Hsing-Chun,Women,59kg,Clean & Jerk,2,125,TRUE,3,90,26 NOV 1993,TPE,A
+KUO Hsing-Chun,Women,59kg,Clean & Jerk,3,125,TRUE,3,90,26 NOV 1993,TPE,A
+QUANG Thi Tam,Women,59kg,Clean & Jerk,1,113,TRUE,4,69,25 MAR 2003,VIE,A
+QUANG Thi Tam,Women,59kg,Clean & Jerk,2,121,TRUE,4,69,25 MAR 2003,VIE,A
+QUANG Thi Tam,Women,59kg,Clean & Jerk,3,124,FALSE,4,69,25 MAR 2003,VIE,A
+ABDULLAEVA Nigora,Women,59kg,Clean & Jerk,1,112,TRUE,5,89,13 MAY 2004,UZB,A
+ABDULLAEVA Nigora,Women,59kg,Clean & Jerk,2,116,TRUE,5,89,13 MAY 2004,UZB,A
+ABDULLAEVA Nigora,Women,59kg,Clean & Jerk,3,121,FALSE,5,89,13 MAY 2004,UZB,A
+BETEYOB Natasya,Women,59kg,Clean & Jerk,1,115,TRUE,6,96,10 SEP 2000,INA,A
+BETEYOB Natasya,Women,59kg,Clean & Jerk,2,122,FALSE,6,96,10 SEP 2000,INA,A
+BETEYOB Natasya,Women,59kg,Clean & Jerk,3,122,FALSE,6,96,10 SEP 2000,INA,A
+HENG Nicole,Women,59kg,Clean & Jerk,1,87,TRUE,7,72,16 JAN 1995,SGP,A
+HENG Nicole,Women,59kg,Clean & Jerk,2,90,TRUE,7,72,16 JAN 1995,SGP,A
+HENG Nicole,Women,59kg,Clean & Jerk,3,93,FALSE,7,72,16 JAN 1995,SGP,A
+ALMADANI Mai,Women,59kg,Clean & Jerk,1,88,TRUE,8,93,26 JUL 2001,UAE,A
+ALMADANI Mai,Women,59kg,Clean & Jerk,2,91,FALSE,8,93,26 JUL 2001,UAE,A
+ALMADANI Mai,Women,59kg,Clean & Jerk,3,92,FALSE,8,93,26 JUL 2001,UAE,A
+LI Shuang,Women,64kg,Snatch,1,105,TRUE,1,9,26 DEC 2004,CHN,A
+LI Shuang,Women,64kg,Snatch,2,109,FALSE,1,9,26 DEC 2004,CHN,A
+LI Shuang,Women,64kg,Snatch,3,109,FALSE,1,9,26 DEC 2004,CHN,A
+ANDO Elreen Ann,Women,64kg,Snatch,1,98,TRUE,2,34,1 NOV 1998,PHI,A
+ANDO Elreen Ann,Women,64kg,Snatch,2,102,TRUE,2,34,1 NOV 1998,PHI,A
+ANDO Elreen Ann,Women,64kg,Snatch,3,105,FALSE,2,34,1 NOV 1998,PHI,A
+MUN Minhee,Women,64kg,Snatch,1,90,TRUE,3,151,7 JUL 1995,KOR,A
+MUN Minhee,Women,64kg,Snatch,2,93,TRUE,3,151,7 JUL 1995,KOR,A
+MUN Minhee,Women,64kg,Snatch,3,94,TRUE,3,151,7 JUL 1995,KOR,A
+AN Sisung,Women,64kg,Snatch,1,88,TRUE,4,51,26 DEC 1997,KOR,A
+AN Sisung,Women,64kg,Snatch,2,91,TRUE,4,51,26 DEC 1997,KOR,A
+AN Sisung,Women,64kg,Snatch,3,94,FALSE,4,51,26 DEC 1997,KOR,A
+DEVI Seram Nirupama,Women,64kg,Snatch,1,85,TRUE,5,6,5 OCT 2000,IND,A
+DEVI Seram Nirupama,Women,64kg,Snatch,2,88,TRUE,5,6,5 OCT 2000,IND,A
+DEVI Seram Nirupama,Women,64kg,Snatch,3,91,TRUE,5,6,5 OCT 2000,IND,A
+RADZI Nur Syazwani,Women,64kg,Snatch,1,75,TRUE,6,30,10 AUG 2003,MAS,A
+RADZI Nur Syazwani,Women,64kg,Snatch,2,80,TRUE,6,30,10 AUG 2003,MAS,A
+RADZI Nur Syazwani,Women,64kg,Snatch,3,85,TRUE,6,30,10 AUG 2003,MAS,A
+APRILIA Nadita,Women,64kg,Snatch,1,80,TRUE,7,167,7 APR 2004,INA,A
+APRILIA Nadita,Women,64kg,Snatch,2,83,TRUE,7,167,7 APR 2004,INA,A
+APRILIA Nadita,Women,64kg,Snatch,3,85,TRUE,7,167,7 APR 2004,INA,A
+TIAN Xin-Jie,Women,64kg,Snatch,1,84,TRUE,8,42,28 JUN 2004,TPE,A
+TIAN Xin-Jie,Women,64kg,Snatch,2,84,TRUE,8,42,28 JUN 2004,TPE,A
+TIAN Xin-Jie,Women,64kg,Snatch,3,86,FALSE,8,42,28 JUN 2004,TPE,A
+KHATANZORIG Buyannemekh,Women,64kg,Snatch,1,70,TRUE,9,39,9 NOV 2004,MGL,A
+KHATANZORIG Buyannemekh,Women,64kg,Snatch,2,75,TRUE,9,39,9 NOV 2004,MGL,A
+KHATANZORIG Buyannemekh,Women,64kg,Snatch,3,77,TRUE,9,39,9 NOV 2004,MGL,A
+CHENG Ching To,Women,64kg,Snatch,1,63,TRUE,10,12,9 JUL 1990,HKG,A
+CHENG Ching To,Women,64kg,Snatch,2,64,TRUE,10,12,9 JUL 1990,HKG,A
+CHENG Ching To,Women,64kg,Snatch,3,66,TRUE,10,12,9 JUL 1990,HKG,A
+RAMADANI Tsabitha Alfiah,Women,64kg,Snatch,1,90,FALSE,,43,23 DEC 2000,INA,A
+RAMADANI Tsabitha Alfiah,Women,64kg,Snatch,2,,,,43,23 DEC 2000,INA,A
+RAMADANI Tsabitha Alfiah,Women,64kg,Snatch,3,,,,43,23 DEC 2000,INA,A
+LI Shuang,Women,64kg,Clean & Jerk,1,130,TRUE,1,9,26 DEC 2004,CHN,A
+LI Shuang,Women,64kg,Clean & Jerk,2,134,TRUE,1,9,26 DEC 2004,CHN,A
+LI Shuang,Women,64kg,Clean & Jerk,3,139,FALSE,1,9,26 DEC 2004,CHN,A
+ANDO Elreen Ann,Women,64kg,Clean & Jerk,1,130,TRUE,2,34,1 NOV 1998,PHI,A
+ANDO Elreen Ann,Women,64kg,Clean & Jerk,2,134,FALSE,2,34,1 NOV 1998,PHI,A
+ANDO Elreen Ann,Women,64kg,Clean & Jerk,3,135,FALSE,2,34,1 NOV 1998,PHI,A
+MUN Minhee,Women,64kg,Clean & Jerk,1,116,TRUE,3,151,7 JUL 1995,KOR,A
+MUN Minhee,Women,64kg,Clean & Jerk,2,117,TRUE,3,151,7 JUL 1995,KOR,A
+MUN Minhee,Women,64kg,Clean & Jerk,3,120,TRUE,3,151,7 JUL 1995,KOR,A
+DEVI Seram Nirupama,Women,64kg,Clean & Jerk,1,115,TRUE,4,6,5 OCT 2000,IND,A
+DEVI Seram Nirupama,Women,64kg,Clean & Jerk,2,120,FALSE,4,6,5 OCT 2000,IND,A
+DEVI Seram Nirupama,Women,64kg,Clean & Jerk,3,125,FALSE,4,6,5 OCT 2000,IND,A
+APRILIA Nadita,Women,64kg,Clean & Jerk,1,106,TRUE,5,167,7 APR 2004,INA,A
+APRILIA Nadita,Women,64kg,Clean & Jerk,2,110,TRUE,5,167,7 APR 2004,INA,A
+APRILIA Nadita,Women,64kg,Clean & Jerk,3,115,TRUE,5,167,7 APR 2004,INA,A
+AN Sisung,Women,64kg,Clean & Jerk,1,110,TRUE,6,51,26 DEC 1997,KOR,A
+AN Sisung,Women,64kg,Clean & Jerk,2,113,TRUE,6,51,26 DEC 1997,KOR,A
+AN Sisung,Women,64kg,Clean & Jerk,3,114,TRUE,6,51,26 DEC 1997,KOR,A
+TIAN Xin-Jie,Women,64kg,Clean & Jerk,1,108,TRUE,7,42,28 JUN 2004,TPE,A
+TIAN Xin-Jie,Women,64kg,Clean & Jerk,2,112,TRUE,7,42,28 JUN 2004,TPE,A
+TIAN Xin-Jie,Women,64kg,Clean & Jerk,3,117,FALSE,7,42,28 JUN 2004,TPE,A
+RADZI Nur Syazwani,Women,64kg,Clean & Jerk,1,95,TRUE,8,30,10 AUG 2003,MAS,A
+RADZI Nur Syazwani,Women,64kg,Clean & Jerk,2,100,TRUE,8,30,10 AUG 2003,MAS,A
+RADZI Nur Syazwani,Women,64kg,Clean & Jerk,3,106,TRUE,8,30,10 AUG 2003,MAS,A
+CHENG Ching To,Women,64kg,Clean & Jerk,1,80,TRUE,9,12,9 JUL 1990,HKG,A
+CHENG Ching To,Women,64kg,Clean & Jerk,2,83,TRUE,9,12,9 JUL 1990,HKG,A
+CHENG Ching To,Women,64kg,Clean & Jerk,3,87,TRUE,9,12,9 JUL 1990,HKG,A
+KHATANZORIG Buyannemekh,Women,64kg,Clean & Jerk,1,83,TRUE,10,39,9 NOV 2004,MGL,A
+KHATANZORIG Buyannemekh,Women,64kg,Clean & Jerk,2,87,FALSE,10,39,9 NOV 2004,MGL,A
+KHATANZORIG Buyannemekh,Women,64kg,Clean & Jerk,3,87,FALSE,10,39,9 NOV 2004,MGL,A
+RAMADANI Tsabitha Alfiah,Women,64kg,Clean & Jerk,1,,,,43,23 DEC 2000,INA,A
+RAMADANI Tsabitha Alfiah,Women,64kg,Clean & Jerk,2,,,,43,23 DEC 2000,INA,A
+RAMADANI Tsabitha Alfiah,Women,64kg,Clean & Jerk,3,,,,43,23 DEC 2000,INA,A
+YANG Qiuxia,Women,71kg,Snatch,1,115,TRUE,1,110,29 JUL 2002,CHN,A
+YANG Qiuxia,Women,71kg,Snatch,2,120,TRUE,1,110,29 JUL 2002,CHN,A
+YANG Qiuxia,Women,71kg,Snatch,3,122,TRUE,1,110,29 JUL 2002,CHN,A
+SONG Kuk Hyang,Women,71kg,Snatch,1,115,TRUE,2,97,1 FEB 2001,PRK,A
+SONG Kuk Hyang,Women,71kg,Snatch,2,115,TRUE,2,97,1 FEB 2001,PRK,A
+SONG Kuk Hyang,Women,71kg,Snatch,3,121,TRUE,2,97,1 FEB 2001,PRK,A
+MACROHON Kristel,Women,71kg,Snatch,1,100,TRUE,3,81,3 SEP 1996,PHI,A
+MACROHON Kristel,Women,71kg,Snatch,2,102,TRUE,3,81,3 SEP 1996,PHI,A
+MACROHON Kristel,Women,71kg,Snatch,3,105,TRUE,3,81,3 SEP 1996,PHI,A
+PHAM Thi Hong Thanh,Women,71kg,Snatch,1,96,TRUE,4,66,8 MAY 1999,VIE,A
+PHAM Thi Hong Thanh,Women,71kg,Snatch,2,96,TRUE,4,66,8 MAY 1999,VIE,A
+PHAM Thi Hong Thanh,Women,71kg,Snatch,3,101,TRUE,4,66,8 MAY 1999,VIE,A
+NURLYBEKOVA Aray,Women,71kg,Snatch,1,95,TRUE,5,166,8 AUG 2000,KAZ,A
+NURLYBEKOVA Aray,Women,71kg,Snatch,2,100,TRUE,5,166,8 AUG 2000,KAZ,A
+NURLYBEKOVA Aray,Women,71kg,Snatch,3,101,TRUE,5,166,8 AUG 2000,KAZ,A
+AFRIZA Indah,Women,71kg,Snatch,1,92,TRUE,6,153,7 APR 2004,INA,A
+AFRIZA Indah,Women,71kg,Snatch,2,96,TRUE,6,153,7 APR 2004,INA,A
+AFRIZA Indah,Women,71kg,Snatch,3,98,TRUE,6,153,7 APR 2004,INA,A
+AKTAR Mabia,Women,71kg,Snatch,1,85,TRUE,7,55,7 OCT 1999,BAN,A
+AKTAR Mabia,Women,71kg,Snatch,2,89,TRUE,7,55,7 OCT 1999,BAN,A
+AKTAR Mabia,Women,71kg,Snatch,3,90,FALSE,7,55,7 OCT 1999,BAN,A
+SIM Rachelle,Women,71kg,Snatch,1,80,TRUE,8,40,15 AUG 2000,SGP,A
+SIM Rachelle,Women,71kg,Snatch,2,85,TRUE,8,40,15 AUG 2000,SGP,A
+SIM Rachelle,Women,71kg,Snatch,3,90,FALSE,8,40,15 AUG 2000,SGP,A
+SONG Kuk Hyang,Women,71kg,Clean & Jerk,1,145,TRUE,1,97,1 FEB 2001,PRK,A
+SONG Kuk Hyang,Women,71kg,Clean & Jerk,2,155,TRUE,1,97,1 FEB 2001,PRK,A
+SONG Kuk Hyang,Women,71kg,Clean & Jerk,3,,,1,97,1 FEB 2001,PRK,A
+YANG Qiuxia,Women,71kg,Clean & Jerk,1,135,TRUE,2,110,29 JUL 2002,CHN,A
+YANG Qiuxia,Women,71kg,Clean & Jerk,2,140,TRUE,2,110,29 JUL 2002,CHN,A
+YANG Qiuxia,Women,71kg,Clean & Jerk,3,145,FALSE,2,110,29 JUL 2002,CHN,A
+MACROHON Kristel,Women,71kg,Clean & Jerk,1,127,TRUE,3,81,3 SEP 1996,PHI,A
+MACROHON Kristel,Women,71kg,Clean & Jerk,2,127,TRUE,3,81,3 SEP 1996,PHI,A
+MACROHON Kristel,Women,71kg,Clean & Jerk,3,131,TRUE,3,81,3 SEP 1996,PHI,A
+AFRIZA Indah,Women,71kg,Clean & Jerk,1,122,TRUE,4,153,7 APR 2004,INA,A
+AFRIZA Indah,Women,71kg,Clean & Jerk,2,127,TRUE,4,153,7 APR 2004,INA,A
+AFRIZA Indah,Women,71kg,Clean & Jerk,3,130,TRUE,4,153,7 APR 2004,INA,A
+PHAM Thi Hong Thanh,Women,71kg,Clean & Jerk,1,120,TRUE,5,66,8 MAY 1999,VIE,A
+PHAM Thi Hong Thanh,Women,71kg,Clean & Jerk,2,125,TRUE,5,66,8 MAY 1999,VIE,A
+PHAM Thi Hong Thanh,Women,71kg,Clean & Jerk,3,128,FALSE,5,66,8 MAY 1999,VIE,A
+NURLYBEKOVA Aray,Women,71kg,Clean & Jerk,1,117,TRUE,6,166,8 AUG 2000,KAZ,A
+NURLYBEKOVA Aray,Women,71kg,Clean & Jerk,2,124,TRUE,6,166,8 AUG 2000,KAZ,A
+NURLYBEKOVA Aray,Women,71kg,Clean & Jerk,3,132,FALSE,6,166,8 AUG 2000,KAZ,A
+AKTAR Mabia,Women,71kg,Clean & Jerk,1,110,TRUE,7,55,7 OCT 1999,BAN,A
+AKTAR Mabia,Women,71kg,Clean & Jerk,2,115,TRUE,7,55,7 OCT 1999,BAN,A
+AKTAR Mabia,Women,71kg,Clean & Jerk,3,115,TRUE,7,55,7 OCT 1999,BAN,A
+SIM Rachelle,Women,71kg,Clean & Jerk,1,100,TRUE,8,40,15 AUG 2000,SGP,A
+SIM Rachelle,Women,71kg,Clean & Jerk,2,100,TRUE,8,40,15 AUG 2000,SGP,A
+SIM Rachelle,Women,71kg,Clean & Jerk,3,105,FALSE,8,40,15 AUG 2000,SGP,A
+LIAO Guifang,Women,76kg,Snatch,1,110,TRUE,1,126,5 OCT 2001,CHN,A
+LIAO Guifang,Women,76kg,Snatch,2,122,TRUE,1,126,5 OCT 2001,CHN,A
+LIAO Guifang,Women,76kg,Snatch,3,125,TRUE,1,126,5 OCT 2001,CHN,A
+CHEN Wen-Huei,Women,76kg,Snatch,1,100,TRUE,2,135,23 FEB 1997,TPE,A
+CHEN Wen-Huei,Women,76kg,Snatch,2,105,TRUE,2,135,23 FEB 1997,TPE,A
+CHEN Wen-Huei,Women,76kg,Snatch,3,109,TRUE,2,135,23 FEB 1997,TPE,A
+KIM Suhyeon,Women,76kg,Snatch,1,100,TRUE,3,75,6 FEB 1995,KOR,A
+KIM Suhyeon,Women,76kg,Snatch,2,105,FALSE,3,75,6 FEB 1995,KOR,A
+KIM Suhyeon,Women,76kg,Snatch,3,106,FALSE,3,75,6 FEB 1995,KOR,A
+MELNICHENKO Tatiana,Women,76kg,Snatch,1,100,TRUE,4,127,25 JAN 1999,KGZ,A
+MELNICHENKO Tatiana,Women,76kg,Snatch,2,104,FALSE,4,127,25 JAN 1999,KGZ,A
+MELNICHENKO Tatiana,Women,76kg,Snatch,3,104,FALSE,4,127,25 JAN 1999,KGZ,A
+KIM Hyemin,Women,76kg,Snatch,1,93,TRUE,5,16,13 SEP 2002,KOR,A
+KIM Hyemin,Women,76kg,Snatch,2,97,TRUE,5,16,13 SEP 2002,KOR,A
+KIM Hyemin,Women,76kg,Snatch,3,101,FALSE,5,16,13 SEP 2002,KOR,A
+ZHUMAGALI Ayanat,Women,76kg,Snatch,1,92,TRUE,6,124,11 FEB 2007,KAZ,A
+ZHUMAGALI Ayanat,Women,76kg,Snatch,2,95,TRUE,6,124,11 FEB 2007,KAZ,A
+ZHUMAGALI Ayanat,Women,76kg,Snatch,3,98,FALSE,6,124,11 FEB 2007,KAZ,A
+LIAO Guifang,Women,76kg,Clean & Jerk,1,140,TRUE,1,126,5 OCT 2001,CHN,A
+LIAO Guifang,Women,76kg,Clean & Jerk,2,154,TRUE,1,126,5 OCT 2001,CHN,A
+LIAO Guifang,Women,76kg,Clean & Jerk,3,157,FALSE,1,126,5 OCT 2001,CHN,A
+KIM Suhyeon,Women,76kg,Clean & Jerk,1,130,TRUE,2,75,6 FEB 1995,KOR,A
+KIM Suhyeon,Women,76kg,Clean & Jerk,2,134,TRUE,2,75,6 FEB 1995,KOR,A
+KIM Suhyeon,Women,76kg,Clean & Jerk,3,134,TRUE,2,75,6 FEB 1995,KOR,A
+CHEN Wen-Huei,Women,76kg,Clean & Jerk,1,133,TRUE,3,135,23 FEB 1997,TPE,A
+CHEN Wen-Huei,Women,76kg,Clean & Jerk,2,133,TRUE,3,135,23 FEB 1997,TPE,A
+CHEN Wen-Huei,Women,76kg,Clean & Jerk,3,133,TRUE,3,135,23 FEB 1997,TPE,A
+MELNICHENKO Tatiana,Women,76kg,Clean & Jerk,1,126,TRUE,4,127,25 JAN 1999,KGZ,A
+MELNICHENKO Tatiana,Women,76kg,Clean & Jerk,2,131,FALSE,4,127,25 JAN 1999,KGZ,A
+MELNICHENKO Tatiana,Women,76kg,Clean & Jerk,3,131,FALSE,4,127,25 JAN 1999,KGZ,A
+ZHUMAGALI Ayanat,Women,76kg,Clean & Jerk,1,120,TRUE,5,124,11 FEB 2007,KAZ,A
+ZHUMAGALI Ayanat,Women,76kg,Clean & Jerk,2,125,TRUE,5,124,11 FEB 2007,KAZ,A
+ZHUMAGALI Ayanat,Women,76kg,Clean & Jerk,3,131,FALSE,5,124,11 FEB 2007,KAZ,A
+KIM Hyemin,Women,76kg,Clean & Jerk,1,120,TRUE,6,16,13 SEP 2002,KOR,A
+KIM Hyemin,Women,76kg,Clean & Jerk,2,125,FALSE,6,16,13 SEP 2002,KOR,A
+KIM Hyemin,Women,76kg,Clean & Jerk,3,125,FALSE,6,16,13 SEP 2002,KOR,A
+WU Yan,Women,81kg,Snatch,1,111,TRUE,1,130,20 OCT 2001,CHN,A
+WU Yan,Women,81kg,Snatch,2,116,TRUE,1,130,20 OCT 2001,CHN,A
+WU Yan,Women,81kg,Snatch,3,118,FALSE,1,130,20 OCT 2001,CHN,A
+KIM Iseul,Women,81kg,Snatch,1,101,TRUE,2,148,25 FEB 2000,KOR,A
+KIM Iseul,Women,81kg,Snatch,2,105,TRUE,2,148,25 FEB 2000,KOR,A
+KIM Iseul,Women,81kg,Snatch,3,110,FALSE,2,148,25 FEB 2000,KOR,A
+ADASHBAEVA Rigina,Women,81kg,Snatch,1,96,TRUE,3,26,29 OCT 2001,UZB,A
+ADASHBAEVA Rigina,Women,81kg,Snatch,2,100,TRUE,3,26,29 OCT 2001,UZB,A
+ADASHBAEVA Rigina,Women,81kg,Snatch,3,104,TRUE,3,26,29 OCT 2001,UZB,A
+FAYZULLAEVA Madina,Women,81kg,Snatch,1,95,TRUE,4,76,29 JAN 2006,UZB,A
+FAYZULLAEVA Madina,Women,81kg,Snatch,2,99,FALSE,4,76,29 JAN 2006,UZB,A
+FAYZULLAEVA Madina,Women,81kg,Snatch,3,99,FALSE,4,76,29 JAN 2006,UZB,A
+NOVIKOVA Viktoriya,Women,81kg,Snatch,1,83,TRUE,5,29,13 JUL 2004,KAZ,A
+NOVIKOVA Viktoriya,Women,81kg,Snatch,2,87,FALSE,5,29,13 JUL 2004,KAZ,A
+NOVIKOVA Viktoriya,Women,81kg,Snatch,3,87,FALSE,5,29,13 JUL 2004,KAZ,A
+WU Yan,Women,81kg,Clean & Jerk,1,136,TRUE,1,130,20 OCT 2001,CHN,A
+WU Yan,Women,81kg,Clean & Jerk,2,142,TRUE,1,130,20 OCT 2001,CHN,A
+WU Yan,Women,81kg,Clean & Jerk,3,147,TRUE,1,130,20 OCT 2001,CHN,A
+KIM Iseul,Women,81kg,Clean & Jerk,1,125,TRUE,2,148,25 FEB 2000,KOR,A
+KIM Iseul,Women,81kg,Clean & Jerk,2,130,TRUE,2,148,25 FEB 2000,KOR,A
+KIM Iseul,Women,81kg,Clean & Jerk,3,135,FALSE,2,148,25 FEB 2000,KOR,A
+FAYZULLAEVA Madina,Women,81kg,Clean & Jerk,1,116,TRUE,3,76,29 JAN 2006,UZB,A
+FAYZULLAEVA Madina,Women,81kg,Clean & Jerk,2,121,TRUE,3,76,29 JAN 2006,UZB,A
+FAYZULLAEVA Madina,Women,81kg,Clean & Jerk,3,126,FALSE,3,76,29 JAN 2006,UZB,A
+ADASHBAEVA Rigina,Women,81kg,Clean & Jerk,1,115,TRUE,4,26,29 OCT 2001,UZB,A
+ADASHBAEVA Rigina,Women,81kg,Clean & Jerk,2,120,TRUE,4,26,29 OCT 2001,UZB,A
+ADASHBAEVA Rigina,Women,81kg,Clean & Jerk,3,,,4,26,29 OCT 2001,UZB,A
+NOVIKOVA Viktoriya,Women,81kg,Clean & Jerk,1,108,TRUE,5,29,13 JUL 2004,KAZ,A
+NOVIKOVA Viktoriya,Women,81kg,Clean & Jerk,2,112,FALSE,5,29,13 JUL 2004,KAZ,A
+NOVIKOVA Viktoriya,Women,81kg,Clean & Jerk,3,114,FALSE,5,29,13 JUL 2004,KAZ,A
+TIAN Dongping,Women,87kg,Snatch,1,115,TRUE,1,37,8 JAN 2002,CHN,A
+TIAN Dongping,Women,87kg,Snatch,2,118,TRUE,1,37,8 JAN 2002,CHN,A
+TIAN Dongping,Women,87kg,Snatch,3,120,FALSE,1,37,8 JAN 2002,CHN,A
+JIANG Yujia,Women,87kg,Snatch,1,108,TRUE,2,67,25 NOV 2000,CHN,A
+JIANG Yujia,Women,87kg,Snatch,2,113,TRUE,2,67,25 NOV 2000,CHN,A
+JIANG Yujia,Women,87kg,Snatch,3,116,FALSE,2,67,25 NOV 2000,CHN,A
+JABBOROVA Tursunoy,Women,87kg,Snatch,1,104,TRUE,3,54,4 MAR 2002,UZB,A
+JABBOROVA Tursunoy,Women,87kg,Snatch,2,108,TRUE,3,54,4 MAR 2002,UZB,A
+JABBOROVA Tursunoy,Women,87kg,Snatch,3,110,FALSE,3,54,4 MAR 2002,UZB,A
+LO Ying-Yuan,Women,87kg,Snatch,1,108,TRUE,4,144,7 MAY 1996,TPE,A
+LO Ying-Yuan,Women,87kg,Snatch,2,108,TRUE,4,144,7 MAY 1996,TPE,A
+LO Ying-Yuan,Women,87kg,Snatch,3,113,FALSE,4,144,7 MAY 1996,TPE,A
+RUSTAMOVA Anamjan,Women,87kg,Snatch,1,104,TRUE,5,32,8 MAY 2006,TKM,A
+RUSTAMOVA Anamjan,Women,87kg,Snatch,2,107,FALSE,5,32,8 MAY 2006,TKM,A
+RUSTAMOVA Anamjan,Women,87kg,Snatch,3,107,FALSE,5,32,8 MAY 2006,TKM,A
+JANG Hyeonju,Women,87kg,Snatch,1,103,TRUE,6,53,26 NOV 1999,KOR,A
+JANG Hyeonju,Women,87kg,Snatch,2,107,FALSE,6,53,26 NOV 1999,KOR,A
+JANG Hyeonju,Women,87kg,Snatch,3,107,FALSE,6,53,26 NOV 1999,KOR,A
+SUVONOVA Nigora,Women,87kg,Snatch,1,101,TRUE,7,17,10 MAY 2005,UZB,A
+SUVONOVA Nigora,Women,87kg,Snatch,2,101,TRUE,7,17,10 MAY 2005,UZB,A
+SUVONOVA Nigora,Women,87kg,Snatch,3,101,TRUE,7,17,10 MAY 2005,UZB,A
+YUN Haje,Women,87kg,Snatch,1,100,TRUE,8,107,7 OCT 1999,KOR,A
+YUN Haje,Women,87kg,Snatch,2,103,FALSE,8,107,7 OCT 1999,KOR,A
+YUN Haje,Women,87kg,Snatch,3,105,FALSE,8,107,7 OCT 1999,KOR,A
+ALZAQRATI Zainab,Women,87kg,Snatch,1,80,TRUE,9,119,15 AUG 1998,KSA,A
+ALZAQRATI Zainab,Women,87kg,Snatch,2,85,TRUE,9,119,15 AUG 1998,KSA,A
+ALZAQRATI Zainab,Women,87kg,Snatch,3,90,TRUE,9,119,15 AUG 1998,KSA,A
+BAIMANAP Akerke,Women,87kg,Snatch,1,85,TRUE,10,41,10 APR 2004,KAZ,A
+BAIMANAP Akerke,Women,87kg,Snatch,2,90,FALSE,10,41,10 APR 2004,KAZ,A
+BAIMANAP Akerke,Women,87kg,Snatch,3,90,FALSE,10,41,10 APR 2004,KAZ,A
+TIAN Dongping,Women,87kg,Clean & Jerk,1,141,TRUE,1,37,8 JAN 2002,CHN,A
+TIAN Dongping,Women,87kg,Clean & Jerk,2,148,FALSE,1,37,8 JAN 2002,CHN,A
+TIAN Dongping,Women,87kg,Clean & Jerk,3,148,FALSE,1,37,8 JAN 2002,CHN,A
+JIANG Yujia,Women,87kg,Clean & Jerk,1,140,TRUE,2,67,25 NOV 2000,CHN,A
+JIANG Yujia,Women,87kg,Clean & Jerk,2,140,TRUE,2,67,25 NOV 2000,CHN,A
+JIANG Yujia,Women,87kg,Clean & Jerk,3,147,FALSE,2,67,25 NOV 2000,CHN,A
+RUSTAMOVA Anamjan,Women,87kg,Clean & Jerk,1,134,TRUE,3,32,8 MAY 2006,TKM,A
+RUSTAMOVA Anamjan,Women,87kg,Clean & Jerk,2,138,TRUE,3,32,8 MAY 2006,TKM,A
+RUSTAMOVA Anamjan,Women,87kg,Clean & Jerk,3,143,FALSE,3,32,8 MAY 2006,TKM,A
+LO Ying-Yuan,Women,87kg,Clean & Jerk,1,133,TRUE,4,144,7 MAY 1996,TPE,A
+LO Ying-Yuan,Women,87kg,Clean & Jerk,2,136,TRUE,4,144,7 MAY 1996,TPE,A
+LO Ying-Yuan,Women,87kg,Clean & Jerk,3,138,TRUE,4,144,7 MAY 1996,TPE,A
+SUVONOVA Nigora,Women,87kg,Clean & Jerk,1,125,TRUE,5,17,10 MAY 2005,UZB,A
+SUVONOVA Nigora,Women,87kg,Clean & Jerk,2,131,TRUE,5,17,10 MAY 2005,UZB,A
+SUVONOVA Nigora,Women,87kg,Clean & Jerk,3,135,TRUE,5,17,10 MAY 2005,UZB,A
+JANG Hyeonju,Women,87kg,Clean & Jerk,1,130,TRUE,6,53,26 NOV 1999,KOR,A
+JANG Hyeonju,Women,87kg,Clean & Jerk,2,135,TRUE,6,53,26 NOV 1999,KOR,A
+JANG Hyeonju,Women,87kg,Clean & Jerk,3,135,TRUE,6,53,26 NOV 1999,KOR,A
+YUN Haje,Women,87kg,Clean & Jerk,1,133,TRUE,7,107,7 OCT 1999,KOR,A
+YUN Haje,Women,87kg,Clean & Jerk,2,137,FALSE,7,107,7 OCT 1999,KOR,A
+YUN Haje,Women,87kg,Clean & Jerk,3,139,FALSE,7,107,7 OCT 1999,KOR,A
+JABBOROVA Tursunoy,Women,87kg,Clean & Jerk,1,121,TRUE,8,54,4 MAR 2002,UZB,A
+JABBOROVA Tursunoy,Women,87kg,Clean & Jerk,2,126,FALSE,8,54,4 MAR 2002,UZB,A
+JABBOROVA Tursunoy,Women,87kg,Clean & Jerk,3,,,8,54,4 MAR 2002,UZB,A
+ALZAQRATI Zainab,Women,87kg,Clean & Jerk,1,107,TRUE,9,119,15 AUG 1998,KSA,A
+ALZAQRATI Zainab,Women,87kg,Clean & Jerk,2,112,FALSE,9,119,15 AUG 1998,KSA,A
+ALZAQRATI Zainab,Women,87kg,Clean & Jerk,3,112,FALSE,9,119,15 AUG 1998,KSA,A
+BAIMANAP Akerke,Women,87kg,Clean & Jerk,1,105,TRUE,10,41,10 APR 2004,KAZ,A
+BAIMANAP Akerke,Women,87kg,Clean & Jerk,2,105,TRUE,10,41,10 APR 2004,KAZ,A
+BAIMANAP Akerke,Women,87kg,Clean & Jerk,3,110,FALSE,10,41,10 APR 2004,KAZ,A
+LI Yan,Women,87kg,Clean & Jerk,1,135,TRUE,1,86,1 SEP 2004,CHN,A
+LI Yan,Women,87kg,Clean & Jerk,2,140,TRUE,1,86,1 SEP 2004,CHN,A
+LI Yan,Women,87kg,Clean & Jerk,3,145,FALSE,1,86,1 SEP 2004,CHN,A
+PARK Hyejeong,Women,87kg,Clean & Jerk,1,120,TRUE,2,92,12 MAR 2003,KOR,A
+PARK Hyejeong,Women,87kg,Clean & Jerk,2,125,TRUE,2,92,12 MAR 2003,KOR,A
+PARK Hyejeong,Women,87kg,Clean & Jerk,3,125,TRUE,2,92,12 MAR 2003,KOR,A
+SON Younghee,Women,87kg,Clean & Jerk,1,115,TRUE,3,3,24 APR 1993,KOR,A
+SON Younghee,Women,87kg,Clean & Jerk,2,120,TRUE,3,3,24 APR 1993,KOR,A
+SON Younghee,Women,87kg,Clean & Jerk,3,121,TRUE,3,3,24 APR 1993,KOR,A
+KOVALCHUK Lyubov,Women,87kg,Clean & Jerk,1,105,TRUE,4,145,10 MAY 2001,KAZ,A
+KOVALCHUK Lyubov,Women,87kg,Clean & Jerk,2,111,TRUE,4,145,10 MAY 2001,KAZ,A
+KOVALCHUK Lyubov,Women,87kg,Clean & Jerk,3,116,FALSE,4,145,10 MAY 2001,KAZ,A
+WANG Ling Chen,Women,87kg,Clean & Jerk,1,110,TRUE,5,142,19 JUN 2003,TPE,A
+WANG Ling Chen,Women,87kg,Clean & Jerk,2,116,FALSE,5,142,19 JUN 2003,TPE,A
+WANG Ling Chen,Women,87kg,Clean & Jerk,3,119,FALSE,5,142,19 JUN 2003,TPE,A
+LI Yan,Women,87kg,Clean & Jerk,1,162,TRUE,1,86,1 SEP 2004,CHN,A
+LI Yan,Women,87kg,Clean & Jerk,2,170,TRUE,1,86,1 SEP 2004,CHN,A
+LI Yan,Women,87kg,Clean & Jerk,3,,,1,86,1 SEP 2004,CHN,A
+SON Younghee,Women,87kg,Clean & Jerk,1,150,TRUE,2,3,24 APR 1993,KOR,A
+SON Younghee,Women,87kg,Clean & Jerk,2,156,TRUE,2,3,24 APR 1993,KOR,A
+SON Younghee,Women,87kg,Clean & Jerk,3,161,TRUE,2,3,24 APR 1993,KOR,A
+PARK Hyejeong,Women,87kg,Clean & Jerk,1,155,TRUE,3,92,12 MAR 2003,KOR,A
+PARK Hyejeong,Women,87kg,Clean & Jerk,2,160,TRUE,3,92,12 MAR 2003,KOR,A
+PARK Hyejeong,Women,87kg,Clean & Jerk,3,163,FALSE,3,92,12 MAR 2003,KOR,A
+KOVALCHUK Lyubov,Women,87kg,Clean & Jerk,1,138,TRUE,4,145,10 MAY 2001,KAZ,A
+KOVALCHUK Lyubov,Women,87kg,Clean & Jerk,2,145,TRUE,4,145,10 MAY 2001,KAZ,A
+KOVALCHUK Lyubov,Women,87kg,Clean & Jerk,3,151,FALSE,4,145,10 MAY 2001,KAZ,A
+WANG Ling Chen,Women,87kg,Clean & Jerk,1,142,TRUE,5,142,19 JUN 2003,TPE,A
+WANG Ling Chen,Women,87kg,Clean & Jerk,2,150,FALSE,5,142,19 JUN 2003,TPE,A
+WANG Ling Chen,Women,87kg,Clean & Jerk,3,150,FALSE,5,142,19 JUN 2003,TPE,A
+LAI Gia Thanh,Men,55kg,Snatch,1,115,TRUE,1,129,3 MAY 1998,VIE,A
+LAI Gia Thanh,Men,55kg,Snatch,2,118,TRUE,1,129,3 MAY 1998,VIE,A
+LAI Gia Thanh,Men,55kg,Snatch,3,120,TRUE,1,129,3 MAY 1998,VIE,A
+WANG Weidong,Men,55kg,Snatch,1,115,TRUE,2,62,11 FEB 2004,CHN,A
+WANG Weidong,Men,55kg,Snatch,2,115,TRUE,2,62,11 FEB 2004,CHN,A
+WANG Weidong,Men,55kg,Snatch,3,119,TRUE,2,62,11 FEB 2004,CHN,A
+AL SALEEM Mansour,Men,55kg,Snatch,1,114,TRUE,3,111,16 MAR 1988,KSA,A
+AL SALEEM Mansour,Men,55kg,Snatch,2,117,TRUE,3,111,16 MAR 1988,KSA,A
+AL SALEEM Mansour,Men,55kg,Snatch,3,120,FALSE,3,111,16 MAR 1988,KSA,A
+AGAD Fernando Jr,Men,55kg,Snatch,1,113,TRUE,4,49,8 AUG 2002,PHI,A
+AGAD Fernando Jr,Men,55kg,Snatch,2,113,TRUE,4,49,8 AUG 2002,PHI,A
+AGAD Fernando Jr,Men,55kg,Snatch,3,117,FALSE,4,49,8 AUG 2002,PHI,A
+MOHAMAD Rahimi Bin Sulaiman,Men,55kg,Snatch,1,103,TRUE,5,113,4 FEB 2003,MAS,A
+MOHAMAD Rahimi Bin Sulaiman,Men,55kg,Snatch,2,106,TRUE,5,113,4 FEB 2003,MAS,A
+MOHAMAD Rahimi Bin Sulaiman,Men,55kg,Snatch,3,108,FALSE,5,113,4 FEB 2003,MAS,A
+TANG Chun-Yen,Men,55kg,Snatch,1,86,TRUE,6,115,14 OCT 2005,TPE,A
+TANG Chun-Yen,Men,55kg,Snatch,2,90,TRUE,6,115,14 OCT 2005,TPE,A
+TANG Chun-Yen,Men,55kg,Snatch,3,95,FALSE,6,115,14 OCT 2005,TPE,A
+WANG Weidong,Men,55kg,Clean & Jerk,1,142,TRUE,1,62,11 FEB 2004,CHN,A
+WANG Weidong,Men,55kg,Clean & Jerk,2,146,TRUE,1,62,11 FEB 2004,CHN,A
+WANG Weidong,Men,55kg,Clean & Jerk,3,146,TRUE,1,62,11 FEB 2004,CHN,A
+AGAD Fernando Jr,Men,55kg,Clean & Jerk,1,141,TRUE,2,49,8 AUG 2002,PHI,A
+AGAD Fernando Jr,Men,55kg,Clean & Jerk,2,141,TRUE,2,49,8 AUG 2002,PHI,A
+AGAD Fernando Jr,Men,55kg,Clean & Jerk,3,145,FALSE,2,49,8 AUG 2002,PHI,A
+LAI Gia Thanh,Men,55kg,Clean & Jerk,1,140,TRUE,3,129,3 MAY 1998,VIE,A
+LAI Gia Thanh,Men,55kg,Clean & Jerk,2,140,TRUE,3,129,3 MAY 1998,VIE,A
+LAI Gia Thanh,Men,55kg,Clean & Jerk,3,144,FALSE,3,129,3 MAY 1998,VIE,A
+AL SALEEM Mansour,Men,55kg,Clean & Jerk,1,137,TRUE,4,111,16 MAR 1988,KSA,A
+AL SALEEM Mansour,Men,55kg,Clean & Jerk,2,143,FALSE,4,111,16 MAR 1988,KSA,A
+AL SALEEM Mansour,Men,55kg,Clean & Jerk,3,143,FALSE,4,111,16 MAR 1988,KSA,A
+MOHAMAD Rahimi Bin Sulaiman,Men,55kg,Clean & Jerk,1,125,TRUE,5,113,4 FEB 2003,MAS,A
+MOHAMAD Rahimi Bin Sulaiman,Men,55kg,Clean & Jerk,2,130,TRUE,5,113,4 FEB 2003,MAS,A
+MOHAMAD Rahimi Bin Sulaiman,Men,55kg,Clean & Jerk,3,132,FALSE,5,113,4 FEB 2003,MAS,A
+TANG Chun-Yen,Men,55kg,Clean & Jerk,1,118,TRUE,6,115,14 OCT 2005,TPE,A
+TANG Chun-Yen,Men,55kg,Clean & Jerk,2,121,FALSE,6,115,14 OCT 2005,TPE,A
+TANG Chun-Yen,Men,55kg,Clean & Jerk,3,121,FALSE,6,115,14 OCT 2005,TPE,A
+WANG Hao,Men,61kg,Snatch,1,137,TRUE,1,132,16 AUG 1998,CHN,A
+WANG Hao,Men,61kg,Snatch,2,140,TRUE,1,132,16 AUG 1998,CHN,A
+WANG Hao,Men,61kg,Snatch,3,142,TRUE,1,132,16 AUG 1998,CHN,A
+PAK Myong Jin,Men,61kg,Snatch,1,131,TRUE,2,45,2 APR 2003,PRK,A
+PAK Myong Jin,Men,61kg,Snatch,2,136,TRUE,2,45,2 APR 2003,PRK,A
+PAK Myong Jin,Men,61kg,Snatch,3,139,FALSE,2,45,2 APR 2003,PRK,A
+WANG Min,Men,61kg,Snatch,1,128,TRUE,3,24,28 SEP 2003,CHN,A
+WANG Min,Men,61kg,Snatch,2,131,TRUE,3,24,28 SEP 2003,CHN,A
+WANG Min,Men,61kg,Snatch,3,134,TRUE,3,24,28 SEP 2003,CHN,A
+MOHAMAD ANIQ Bin Kasdan,Men,61kg,Snatch,1,125,TRUE,4,91,16 JUN 2002,MAS,A
+MOHAMAD ANIQ Bin Kasdan,Men,61kg,Snatch,2,128,TRUE,4,91,16 JUN 2002,MAS,A
+MOHAMAD ANIQ Bin Kasdan,Men,61kg,Snatch,3,132,TRUE,4,91,16 JUN 2002,MAS,A
+ALJASIM Aqeel,Men,61kg,Snatch,1,113,TRUE,5,170,22 SEP 2004,KSA,A
+ALJASIM Aqeel,Men,61kg,Snatch,2,118,TRUE,5,170,22 SEP 2004,KSA,A
+ALJASIM Aqeel,Men,61kg,Snatch,3,121,TRUE,5,170,22 SEP 2004,KSA,A
+ASYRANI Syahmi,Men,61kg,Snatch,1,90,TRUE,6,65,12 NOV 1999,SGP,A
+ASYRANI Syahmi,Men,61kg,Snatch,2,93,TRUE,6,65,12 NOV 1999,SGP,A
+ASYRANI Syahmi,Men,61kg,Snatch,3,93,TRUE,6,65,12 NOV 1999,SGP,A
+NGUYEN Tran Anh Tuan,Men,61kg,Snatch,1,127,FALSE,,56,22 FEB 1998,VIE,A
+NGUYEN Tran Anh Tuan,Men,61kg,Snatch,2,127,FALSE,,56,22 FEB 1998,VIE,A
+NGUYEN Tran Anh Tuan,Men,61kg,Snatch,3,129,FALSE,,56,22 FEB 1998,VIE,A
+PAK Myong Jin,Men,61kg,Clean & Jerk,1,167,TRUE,1,45,2 APR 2003,PRK,A
+PAK Myong Jin,Men,61kg,Clean & Jerk,2,167,TRUE,1,45,2 APR 2003,PRK,A
+PAK Myong Jin,Men,61kg,Clean & Jerk,3,170,TRUE,1,45,2 APR 2003,PRK,A
+WANG Hao,Men,61kg,Clean & Jerk,1,163,TRUE,2,132,16 AUG 1998,CHN,A
+WANG Hao,Men,61kg,Clean & Jerk,2,167,FALSE,2,132,16 AUG 1998,CHN,A
+WANG Hao,Men,61kg,Clean & Jerk,3,168,FALSE,2,132,16 AUG 1998,CHN,A
+WANG Min,Men,61kg,Clean & Jerk,1,155,TRUE,3,24,28 SEP 2003,CHN,A
+WANG Min,Men,61kg,Clean & Jerk,2,160,TRUE,3,24,28 SEP 2003,CHN,A
+WANG Min,Men,61kg,Clean & Jerk,3,162,FALSE,3,24,28 SEP 2003,CHN,A
+NGUYEN Tran Anh Tuan,Men,61kg,Clean & Jerk,1,150,TRUE,4,56,22 FEB 1998,VIE,A
+NGUYEN Tran Anh Tuan,Men,61kg,Clean & Jerk,2,160,FALSE,4,56,22 FEB 1998,VIE,A
+NGUYEN Tran Anh Tuan,Men,61kg,Clean & Jerk,3,161,FALSE,4,56,22 FEB 1998,VIE,A
+ALJASIM Aqeel,Men,61kg,Clean & Jerk,1,137,TRUE,5,170,22 SEP 2004,KSA,A
+ALJASIM Aqeel,Men,61kg,Clean & Jerk,2,142,TRUE,5,170,22 SEP 2004,KSA,A
+ALJASIM Aqeel,Men,61kg,Clean & Jerk,3,150,FALSE,5,170,22 SEP 2004,KSA,A
+ASYRANI Syahmi,Men,61kg,Clean & Jerk,1,115,TRUE,6,65,12 NOV 1999,SGP,A
+ASYRANI Syahmi,Men,61kg,Clean & Jerk,2,120,TRUE,6,65,12 NOV 1999,SGP,A
+ASYRANI Syahmi,Men,61kg,Clean & Jerk,3,122,FALSE,6,65,12 NOV 1999,SGP,A
+MOHAMAD ANIQ Bin Kasdan,Men,61kg,Clean & Jerk,1,163,FALSE,,91,16 JUN 2002,MAS,A
+MOHAMAD ANIQ Bin Kasdan,Men,61kg,Clean & Jerk,2,163,FALSE,,91,16 JUN 2002,MAS,A
+MOHAMAD ANIQ Bin Kasdan,Men,61kg,Clean & Jerk,3,163,FALSE,,91,16 JUN 2002,MAS,A
+ZHENG Xinhao,Men,67kg,Snatch,1,140,TRUE,1,7,15 DEC 2000,CHN,A
+ZHENG Xinhao,Men,67kg,Snatch,2,145,TRUE,1,7,15 DEC 2000,CHN,A
+ZHENG Xinhao,Men,67kg,Snatch,3,147,TRUE,1,7,15 DEC 2000,CHN,A
+TRAN Minh Tri,Men,67kg,Snatch,1,136,TRUE,2,118,13 OCT 2004,VIE,A
+TRAN Minh Tri,Men,67kg,Snatch,2,141,TRUE,2,118,13 OCT 2004,VIE,A
+TRAN Minh Tri,Men,67kg,Snatch,3,146,TRUE,2,118,13 OCT 2004,VIE,A
+MATRASULOV Khusinboy,Men,67kg,Snatch,1,135,TRUE,3,139,1 SEP 2004,UZB,A
+MATRASULOV Khusinboy,Men,67kg,Snatch,2,140,TRUE,3,139,1 SEP 2004,UZB,A
+MATRASULOV Khusinboy,Men,67kg,Snatch,3,143,FALSE,3,139,1 SEP 2004,UZB,A
+BAE Moonsu,Men,67kg,Snatch,1,132,TRUE,4,73,7 MAR 1999,KOR,A
+BAE Moonsu,Men,67kg,Snatch,2,137,FALSE,4,73,7 MAR 1999,KOR,A
+BAE Moonsu,Men,67kg,Snatch,3,138,FALSE,4,73,7 MAR 1999,KOR,A
+IRAWAN Eko Yuli,Men,67kg,Snatch,1,125,TRUE,5,1,24 JUL 1989,INA,B
+IRAWAN Eko Yuli,Men,67kg,Snatch,2,131,TRUE,5,1,24 JUL 1989,INA,B
+IRAWAN Eko Yuli,Men,67kg,Snatch,3,131,TRUE,5,1,24 JUL 1989,INA,B
+KAO Chan Hung,Men,67kg,Snatch,1,131,TRUE,6,44,3 OCT 1993,TPE,A
+KAO Chan Hung,Men,67kg,Snatch,2,135,FALSE,6,44,3 OCT 1993,TPE,A
+KAO Chan Hung,Men,67kg,Snatch,3,135,FALSE,6,44,3 OCT 1993,TPE,A
+CHUYEV Sergey,Men,67kg,Snatch,1,125,TRUE,7,80,14 JUN 2004,KAZ,A
+CHUYEV Sergey,Men,67kg,Snatch,2,129,TRUE,7,80,14 JUN 2004,KAZ,A
+CHUYEV Sergey,Men,67kg,Snatch,3,132,FALSE,7,80,14 JUN 2004,KAZ,A
+ALSALEEM Seraj,Men,67kg,Snatch,1,127,TRUE,8,21,10 FEB 1996,KSA,A
+ALSALEEM Seraj,Men,67kg,Snatch,2,131,FALSE,8,21,10 FEB 1996,KSA,A
+ALSALEEM Seraj,Men,67kg,Snatch,3,131,FALSE,8,21,10 FEB 1996,KSA,A
+NADVORNYY Viktor,Men,67kg,Snatch,1,120,TRUE,9,128,5 NOV 2001,KAZ,B
+NADVORNYY Viktor,Men,67kg,Snatch,2,125,TRUE,9,128,5 NOV 2001,KAZ,B
+NADVORNYY Viktor,Men,67kg,Snatch,3,130,FALSE,9,128,5 NOV 2001,KAZ,B
+AL BUSAIDI Elyas Tamim Shuwadied,Men,67kg,Snatch,1,121,TRUE,10,59,10 DEC 1998,OMA,B
+AL BUSAIDI Elyas Tamim Shuwadied,Men,67kg,Snatch,2,121,TRUE,10,59,10 DEC 1998,OMA,B
+AL BUSAIDI Elyas Tamim Shuwadied,Men,67kg,Snatch,3,126,FALSE,10,59,10 DEC 1998,OMA,B
+HU Jyun-Siang,Men,67kg,Snatch,1,115,TRUE,11,123,2 NOV 1999,TPE,B
+HU Jyun-Siang,Men,67kg,Snatch,2,120,TRUE,11,123,2 NOV 1999,TPE,B
+HU Jyun-Siang,Men,67kg,Snatch,3,123,FALSE,11,123,2 NOV 1999,TPE,B
+MURATBEK UULU Ishimbek,Men,67kg,Snatch,1,120,TRUE,12,27,10 DEC 2001,KGZ,A
+MURATBEK UULU Ishimbek,Men,67kg,Snatch,2,125,FALSE,12,27,10 DEC 2001,KGZ,A
+MURATBEK UULU Ishimbek,Men,67kg,Snatch,3,125,FALSE,12,27,10 DEC 2001,KGZ,A
+BILLAH Baki,Men,67kg,Snatch,1,105,TRUE,13,147,3 SEP 1994,BAN,B
+BILLAH Baki,Men,67kg,Snatch,2,110,FALSE,13,147,3 SEP 1994,BAN,B
+BILLAH Baki,Men,67kg,Snatch,3,110,FALSE,13,147,3 SEP 1994,BAN,B
+HAN Myeongmok,Men,67kg,Snatch,1,,,,83,1 FEB 1991,KOR,B
+HAN Myeongmok,Men,67kg,Snatch,2,,,,83,1 FEB 1991,KOR,B
+HAN Myeongmok,Men,67kg,Snatch,3,,,,83,1 FEB 1991,KOR,B
+MUHAMAD Aznil Bin Bidin,Men,67kg,Snatch,1,128,FALSE,,156,4 JUN 1994,MAS,A
+MUHAMAD Aznil Bin Bidin,Men,67kg,Snatch,2,130,FALSE,,156,4 JUN 1994,MAS,A
+MUHAMAD Aznil Bin Bidin,Men,67kg,Snatch,3,130,FALSE,,156,4 JUN 1994,MAS,A
+BAE Moonsu,Men,67kg,Clean & Jerk,1,170,TRUE,1,73,7 MAR 1999,KOR,A
+BAE Moonsu,Men,67kg,Clean & Jerk,2,174,TRUE,1,73,7 MAR 1999,KOR,A
+BAE Moonsu,Men,67kg,Clean & Jerk,3,174,TRUE,1,73,7 MAR 1999,KOR,A
+TRAN Minh Tri,Men,67kg,Clean & Jerk,1,168,TRUE,2,118,13 OCT 2004,VIE,A
+TRAN Minh Tri,Men,67kg,Clean & Jerk,2,172,TRUE,2,118,13 OCT 2004,VIE,A
+TRAN Minh Tri,Men,67kg,Clean & Jerk,3,172,TRUE,2,118,13 OCT 2004,VIE,A
+ZHENG Xinhao,Men,67kg,Clean & Jerk,1,170,TRUE,3,7,15 DEC 2000,CHN,A
+ZHENG Xinhao,Men,67kg,Clean & Jerk,2,170,TRUE,3,7,15 DEC 2000,CHN,A
+ZHENG Xinhao,Men,67kg,Clean & Jerk,3,173,FALSE,3,7,15 DEC 2000,CHN,A
+MURATBEK UULU Ishimbek,Men,67kg,Clean & Jerk,1,166,TRUE,4,27,10 DEC 2001,KGZ,A
+MURATBEK UULU Ishimbek,Men,67kg,Clean & Jerk,2,167,TRUE,4,27,10 DEC 2001,KGZ,A
+MURATBEK UULU Ishimbek,Men,67kg,Clean & Jerk,3,173,FALSE,4,27,10 DEC 2001,KGZ,A
+IRAWAN Eko Yuli,Men,67kg,Clean & Jerk,1,160,TRUE,5,1,24 JUL 1989,INA,B
+IRAWAN Eko Yuli,Men,67kg,Clean & Jerk,2,165,TRUE,5,1,24 JUL 1989,INA,B
+IRAWAN Eko Yuli,Men,67kg,Clean & Jerk,3,169,FALSE,5,1,24 JUL 1989,INA,B
+MATRASULOV Khusinboy,Men,67kg,Clean & Jerk,1,158,TRUE,6,139,1 SEP 2004,UZB,A
+MATRASULOV Khusinboy,Men,67kg,Clean & Jerk,2,165,TRUE,6,139,1 SEP 2004,UZB,A
+MATRASULOV Khusinboy,Men,67kg,Clean & Jerk,3,168,FALSE,6,139,1 SEP 2004,UZB,A
+HU Jyun-Siang,Men,67kg,Clean & Jerk,1,160,TRUE,7,123,2 NOV 1999,TPE,B
+HU Jyun-Siang,Men,67kg,Clean & Jerk,2,165,FALSE,7,123,2 NOV 1999,TPE,B
+HU Jyun-Siang,Men,67kg,Clean & Jerk,3,165,FALSE,7,123,2 NOV 1999,TPE,B
+KAO Chan Hung,Men,67kg,Clean & Jerk,1,160,TRUE,8,44,3 OCT 1993,TPE,A
+KAO Chan Hung,Men,67kg,Clean & Jerk,2,166,FALSE,8,44,3 OCT 1993,TPE,A
+KAO Chan Hung,Men,67kg,Clean & Jerk,3,167,FALSE,8,44,3 OCT 1993,TPE,A
+MUHAMAD Aznil Bin Bidin,Men,67kg,Clean & Jerk,1,160,TRUE,9,156,4 JUN 1994,MAS,A
+MUHAMAD Aznil Bin Bidin,Men,67kg,Clean & Jerk,2,168,FALSE,9,156,4 JUN 1994,MAS,A
+MUHAMAD Aznil Bin Bidin,Men,67kg,Clean & Jerk,3,171,FALSE,9,156,4 JUN 1994,MAS,A
+CHUYEV Sergey,Men,67kg,Clean & Jerk,1,152,TRUE,10,80,14 JUN 2004,KAZ,A
+CHUYEV Sergey,Men,67kg,Clean & Jerk,2,157,TRUE,10,80,14 JUN 2004,KAZ,A
+CHUYEV Sergey,Men,67kg,Clean & Jerk,3,161,FALSE,10,80,14 JUN 2004,KAZ,A
+ALSALEEM Seraj,Men,67kg,Clean & Jerk,1,156,TRUE,11,21,10 FEB 1996,KSA,A
+ALSALEEM Seraj,Men,67kg,Clean & Jerk,2,162,FALSE,11,21,10 FEB 1996,KSA,A
+ALSALEEM Seraj,Men,67kg,Clean & Jerk,3,,,11,21,10 FEB 1996,KSA,A
+AL BUSAIDI Elyas Tamim Shuwadied,Men,67kg,Clean & Jerk,1,150,TRUE,12,59,10 DEC 1998,OMA,B
+AL BUSAIDI Elyas Tamim Shuwadied,Men,67kg,Clean & Jerk,2,150,TRUE,12,59,10 DEC 1998,OMA,B
+AL BUSAIDI Elyas Tamim Shuwadied,Men,67kg,Clean & Jerk,3,150,TRUE,12,59,10 DEC 1998,OMA,B
+NADVORNYY Viktor,Men,67kg,Clean & Jerk,1,140,TRUE,13,128,5 NOV 2001,KAZ,B
+NADVORNYY Viktor,Men,67kg,Clean & Jerk,2,145,TRUE,13,128,5 NOV 2001,KAZ,B
+NADVORNYY Viktor,Men,67kg,Clean & Jerk,3,150,FALSE,13,128,5 NOV 2001,KAZ,B
+BILLAH Baki,Men,67kg,Clean & Jerk,1,135,TRUE,14,147,3 SEP 1994,BAN,B
+BILLAH Baki,Men,67kg,Clean & Jerk,2,140,TRUE,14,147,3 SEP 1994,BAN,B
+BILLAH Baki,Men,67kg,Clean & Jerk,3,140,TRUE,14,147,3 SEP 1994,BAN,B
+HAN Myeongmok,Men,67kg,Clean & Jerk,1,,,,83,1 FEB 1991,KOR,B
+HAN Myeongmok,Men,67kg,Clean & Jerk,2,,,,83,1 FEB 1991,KOR,B
+HAN Myeongmok,Men,67kg,Clean & Jerk,3,,,,83,1 FEB 1991,KOR,B
+ABDULLAH Rahmat Erwin,Men,73kg,Snatch,1,150,TRUE,1,52,13 OCT 2000,INA,A
+ABDULLAH Rahmat Erwin,Men,73kg,Snatch,2,155,TRUE,1,52,13 OCT 2000,INA,A
+ABDULLAH Rahmat Erwin,Men,73kg,Snatch,3,,,1,52,13 OCT 2000,INA,A
+RASHIDOV Bunyad,Men,73kg,Snatch,1,147,TRUE,2,79,5 MAR 2000,TKM,A
+RASHIDOV Bunyad,Men,73kg,Snatch,2,150,TRUE,2,79,5 MAR 2000,TKM,A
+RASHIDOV Bunyad,Men,73kg,Snatch,3,153,FALSE,2,79,5 MAR 2000,TKM,A
+REYIMOV Bektimur,Men,73kg,Snatch,1,145,TRUE,3,84,12 APR 2002,TKM,A
+REYIMOV Bektimur,Men,73kg,Snatch,2,148,TRUE,3,84,12 APR 2002,TKM,A
+REYIMOV Bektimur,Men,73kg,Snatch,3,151,FALSE,3,84,12 APR 2002,TKM,A
+CHUANG Sheng-Min,Men,73kg,Snatch,1,143,TRUE,4,157,10 JUL 1998,TPE,A
+CHUANG Sheng-Min,Men,73kg,Snatch,2,143,TRUE,4,157,10 JUL 1998,TPE,A
+CHUANG Sheng-Min,Men,73kg,Snatch,3,147,TRUE,4,157,10 JUL 1998,TPE,A
+KHREBTOV Petr,Men,73kg,Snatch,1,141,TRUE,5,121,30 SEP 2003,KAZ,A
+KHREBTOV Petr,Men,73kg,Snatch,2,146,TRUE,5,121,30 SEP 2003,KAZ,A
+KHREBTOV Petr,Men,73kg,Snatch,3,149,FALSE,5,121,30 SEP 2003,KAZ,A
+WU Haifeng,Men,73kg,Snatch,1,140,TRUE,6,60,12 APR 1999,CHN,A
+WU Haifeng,Men,73kg,Snatch,2,145,TRUE,6,60,12 APR 1999,CHN,A
+WU Haifeng,Men,73kg,Snatch,3,145,TRUE,6,60,12 APR 1999,CHN,A
+ALIMJANOV Abdulaziz,Men,73kg,Snatch,1,140,TRUE,7,77,2 JUN 2004,UZB,A
+ALIMJANOV Abdulaziz,Men,73kg,Snatch,2,144,TRUE,7,77,2 JUN 2004,UZB,A
+ALIMJANOV Abdulaziz,Men,73kg,Snatch,3,149,FALSE,7,77,2 JUN 2004,UZB,A
+CHIANG Tsung-Han,Men,73kg,Snatch,1,143,TRUE,8,46,27 JUL 1996,TPE,A
+CHIANG Tsung-Han,Men,73kg,Snatch,2,143,TRUE,8,46,27 JUL 1996,TPE,A
+CHIANG Tsung-Han,Men,73kg,Snatch,3,146,FALSE,8,46,27 JUL 1996,TPE,A
+MUHAMMAD Erry Hidayat,Men,73kg,Snatch,1,135,TRUE,9,114,24 NOV 1999,MAS,A
+MUHAMMAD Erry Hidayat,Men,73kg,Snatch,2,140,TRUE,9,114,24 NOV 1999,MAS,A
+MUHAMMAD Erry Hidayat,Men,73kg,Snatch,3,144,FALSE,9,114,24 NOV 1999,MAS,A
+ARDARAYA,Men,73kg,Snatch,1,130,TRUE,10,19,29 JUN 2003,INA,A
+ARDARAYA,Men,73kg,Snatch,2,135,FALSE,10,19,29 JUN 2003,INA,A
+ARDARAYA,Men,73kg,Snatch,3,135,FALSE,10,19,29 JUN 2003,INA,A
+ABDULLAH Rahmat Erwin,Men,73kg,Clean & Jerk,1,190,TRUE,1,52,13 OCT 2000,INA,A
+ABDULLAH Rahmat Erwin,Men,73kg,Clean & Jerk,2,200,TRUE,1,52,13 OCT 2000,INA,A
+ABDULLAH Rahmat Erwin,Men,73kg,Clean & Jerk,3,205,TRUE,1,52,13 OCT 2000,INA,A
+WU Haifeng,Men,73kg,Clean & Jerk,1,180,TRUE,2,60,12 APR 1999,CHN,A
+WU Haifeng,Men,73kg,Clean & Jerk,2,184,TRUE,2,60,12 APR 1999,CHN,A
+WU Haifeng,Men,73kg,Clean & Jerk,3,189,TRUE,2,60,12 APR 1999,CHN,A
+KHREBTOV Petr,Men,73kg,Clean & Jerk,1,176,TRUE,3,121,30 SEP 2003,KAZ,A
+KHREBTOV Petr,Men,73kg,Clean & Jerk,2,182,TRUE,3,121,30 SEP 2003,KAZ,A
+KHREBTOV Petr,Men,73kg,Clean & Jerk,3,187,TRUE,3,121,30 SEP 2003,KAZ,A
+ALIMJANOV Abdulaziz,Men,73kg,Clean & Jerk,1,180,TRUE,4,77,2 JUN 2004,UZB,A
+ALIMJANOV Abdulaziz,Men,73kg,Clean & Jerk,2,183,TRUE,4,77,2 JUN 2004,UZB,A
+ALIMJANOV Abdulaziz,Men,73kg,Clean & Jerk,3,186,FALSE,4,77,2 JUN 2004,UZB,A
+ARDARAYA,Men,73kg,Clean & Jerk,1,171,TRUE,5,19,29 JUN 2003,INA,A
+ARDARAYA,Men,73kg,Clean & Jerk,2,175,TRUE,5,19,29 JUN 2003,INA,A
+ARDARAYA,Men,73kg,Clean & Jerk,3,181,FALSE,5,19,29 JUN 2003,INA,A
+CHUANG Sheng-Min,Men,73kg,Clean & Jerk,1,174,TRUE,6,157,10 JUL 1998,TPE,A
+CHUANG Sheng-Min,Men,73kg,Clean & Jerk,2,180,FALSE,6,157,10 JUL 1998,TPE,A
+CHUANG Sheng-Min,Men,73kg,Clean & Jerk,3,181,FALSE,6,157,10 JUL 1998,TPE,A
+REYIMOV Bektimur,Men,73kg,Clean & Jerk,1,172,TRUE,7,84,12 APR 2002,TKM,A
+REYIMOV Bektimur,Men,73kg,Clean & Jerk,2,176,FALSE,7,84,12 APR 2002,TKM,A
+REYIMOV Bektimur,Men,73kg,Clean & Jerk,3,176,FALSE,7,84,12 APR 2002,TKM,A
+MUHAMMAD Erry Hidayat,Men,73kg,Clean & Jerk,1,165,TRUE,8,114,24 NOV 1999,MAS,A
+MUHAMMAD Erry Hidayat,Men,73kg,Clean & Jerk,2,170,TRUE,8,114,24 NOV 1999,MAS,A
+MUHAMMAD Erry Hidayat,Men,73kg,Clean & Jerk,3,174,FALSE,8,114,24 NOV 1999,MAS,A
+RASHIDOV Bunyad,Men,73kg,Clean & Jerk,1,165,TRUE,9,79,5 MAR 2000,TKM,A
+RASHIDOV Bunyad,Men,73kg,Clean & Jerk,2,170,FALSE,9,79,5 MAR 2000,TKM,A
+RASHIDOV Bunyad,Men,73kg,Clean & Jerk,3,172,FALSE,9,79,5 MAR 2000,TKM,A
+CHIANG Tsung-Han,Men,73kg,Clean & Jerk,1,175,FALSE,,46,27 JUL 1996,TPE,A
+CHIANG Tsung-Han,Men,73kg,Clean & Jerk,2,175,FALSE,,46,27 JUL 1996,TPE,A
+CHIANG Tsung-Han,Men,73kg,Clean & Jerk,3,179,FALSE,,46,27 JUL 1996,TPE,A
+LUO Chongyang,Men,81kg,Snatch,1,160,TRUE,1,5,25 APR 1998,CHN,A
+LUO Chongyang,Men,81kg,Snatch,2,162,TRUE,1,5,25 APR 1998,CHN,A
+LUO Chongyang,Men,81kg,Snatch,3,166,FALSE,1,5,25 APR 1998,CHN,A
+JUNIANSYAH Rizki,Men,81kg,Snatch,1,150,TRUE,2,102,17 JUN 2003,INA,A
+JUNIANSYAH Rizki,Men,81kg,Snatch,2,156,TRUE,2,102,17 JUN 2003,INA,A
+JUNIANSYAH Rizki,Men,81kg,Snatch,3,161,TRUE,2,102,17 JUN 2003,INA,A
+SON Hyeonho,Men,81kg,Snatch,1,150,TRUE,3,98,21 JUN 2000,KOR,A
+SON Hyeonho,Men,81kg,Snatch,2,154,TRUE,3,98,21 JUN 2000,KOR,A
+SON Hyeonho,Men,81kg,Snatch,3,157,TRUE,3,98,21 JUN 2000,KOR,A
+MUHAMMAD Hafizuddin Bin Roslin,Men,81kg,Snatch,1,150,TRUE,4,11,10 DEC 2004,MAS,A
+MUHAMMAD Hafizuddin Bin Roslin,Men,81kg,Snatch,2,153,TRUE,4,11,10 DEC 2004,MAS,A
+MUHAMMAD Hafizuddin Bin Roslin,Men,81kg,Snatch,3,155,TRUE,4,11,10 DEC 2004,MAS,A
+TORAYEV Gaygysyz,Men,81kg,Snatch,1,145,TRUE,5,2,11 APR 2003,TKM,A
+TORAYEV Gaygysyz,Men,81kg,Snatch,2,149,TRUE,5,2,11 APR 2003,TKM,A
+TORAYEV Gaygysyz,Men,81kg,Snatch,3,152,TRUE,5,2,11 APR 2003,TKM,A
+ABDUSHUKUROV Khayitboy,Men,81kg,Snatch,1,145,TRUE,6,159,21 JAN 2005,UZB,A
+ABDUSHUKUROV Khayitboy,Men,81kg,Snatch,2,150,TRUE,6,159,21 JAN 2005,UZB,A
+ABDUSHUKUROV Khayitboy,Men,81kg,Snatch,3,151,TRUE,6,159,21 JAN 2005,UZB,A
+AL HUMAYD Mahmoud,Men,81kg,Snatch,1,143,TRUE,7,143,5 SEP 1993,KSA,A
+AL HUMAYD Mahmoud,Men,81kg,Snatch,2,147,TRUE,7,143,5 SEP 1993,KSA,A
+AL HUMAYD Mahmoud,Men,81kg,Snatch,3,147,TRUE,7,143,5 SEP 1993,KSA,A
+RAKHYMBERDI Alibek,Men,81kg,Snatch,1,145,TRUE,8,78,26 SEP 2004,KAZ,A
+RAKHYMBERDI Alibek,Men,81kg,Snatch,2,150,FALSE,8,78,26 SEP 2004,KAZ,A
+RAKHYMBERDI Alibek,Men,81kg,Snatch,3,151,FALSE,8,78,26 SEP 2004,KAZ,A
+LOH Yuan Yee,Men,81kg,Snatch,1,131,TRUE,9,104,22 OCT 1998,SGP,A
+LOH Yuan Yee,Men,81kg,Snatch,2,136,TRUE,9,104,22 OCT 1998,SGP,A
+LOH Yuan Yee,Men,81kg,Snatch,3,141,TRUE,9,104,22 OCT 1998,SGP,A
+KOH Keith,Men,81kg,Snatch,1,120,TRUE,10,71,23 JUN 1996,SGP,A
+KOH Keith,Men,81kg,Snatch,2,125,FALSE,10,71,23 JUN 1996,SGP,A
+KOH Keith,Men,81kg,Snatch,3,126,FALSE,10,71,23 JUN 1996,SGP,A
+HUANG Pin-Hsun,Men,81kg,Snatch,1,145,FALSE,,25,23 APR 1998,TPE,A
+HUANG Pin-Hsun,Men,81kg,Snatch,2,145,FALSE,,25,23 APR 1998,TPE,A
+HUANG Pin-Hsun,Men,81kg,Snatch,3,145,FALSE,,25,23 APR 1998,TPE,A
+ALBLOOSHI Issa,Men,81kg,Snatch,1,,,,33,27 JUN 2001,UAE,A
+ALBLOOSHI Issa,Men,81kg,Snatch,2,,,,33,27 JUN 2001,UAE,A
+ALBLOOSHI Issa,Men,81kg,Snatch,3,,,,33,27 JUN 2001,UAE,A
+SON Hyeonho,Men,81kg,Clean & Jerk,1,200,TRUE,1,98,21 JUN 2000,KOR,A
+SON Hyeonho,Men,81kg,Clean & Jerk,2,206,FALSE,1,98,21 JUN 2000,KOR,A
+SON Hyeonho,Men,81kg,Clean & Jerk,3,206,FALSE,1,98,21 JUN 2000,KOR,A
+LUO Chongyang,Men,81kg,Clean & Jerk,1,195,TRUE,2,5,25 APR 1998,CHN,A
+LUO Chongyang,Men,81kg,Clean & Jerk,2,200,TRUE,2,5,25 APR 1998,CHN,A
+LUO Chongyang,Men,81kg,Clean & Jerk,3,202,FALSE,2,5,25 APR 1998,CHN,A
+JUNIANSYAH Rizki,Men,81kg,Clean & Jerk,1,190,TRUE,3,102,17 JUN 2003,INA,A
+JUNIANSYAH Rizki,Men,81kg,Clean & Jerk,2,197,TRUE,3,102,17 JUN 2003,INA,A
+JUNIANSYAH Rizki,Men,81kg,Clean & Jerk,3,202,FALSE,3,102,17 JUN 2003,INA,A
+ABDUSHUKUROV Khayitboy,Men,81kg,Clean & Jerk,1,180,TRUE,4,159,21 JAN 2005,UZB,A
+ABDUSHUKUROV Khayitboy,Men,81kg,Clean & Jerk,2,185,TRUE,4,159,21 JAN 2005,UZB,A
+ABDUSHUKUROV Khayitboy,Men,81kg,Clean & Jerk,3,191,TRUE,4,159,21 JAN 2005,UZB,A
+TORAYEV Gaygysyz,Men,81kg,Clean & Jerk,1,188,TRUE,5,2,11 APR 2003,TKM,A
+TORAYEV Gaygysyz,Men,81kg,Clean & Jerk,2,193,FALSE,5,2,11 APR 2003,TKM,A
+TORAYEV Gaygysyz,Men,81kg,Clean & Jerk,3,193,FALSE,5,2,11 APR 2003,TKM,A
+HUANG Pin-Hsun,Men,81kg,Clean & Jerk,1,175,TRUE,6,25,23 APR 1998,TPE,A
+HUANG Pin-Hsun,Men,81kg,Clean & Jerk,2,182,TRUE,6,25,23 APR 1998,TPE,A
+HUANG Pin-Hsun,Men,81kg,Clean & Jerk,3,186,TRUE,6,25,23 APR 1998,TPE,A
+RAKHYMBERDI Alibek,Men,81kg,Clean & Jerk,1,184,TRUE,7,78,26 SEP 2004,KAZ,A
+RAKHYMBERDI Alibek,Men,81kg,Clean & Jerk,2,184,TRUE,7,78,26 SEP 2004,KAZ,A
+RAKHYMBERDI Alibek,Men,81kg,Clean & Jerk,3,192,FALSE,7,78,26 SEP 2004,KAZ,A
+AL HUMAYD Mahmoud,Men,81kg,Clean & Jerk,1,179,TRUE,8,143,5 SEP 1993,KSA,A
+AL HUMAYD Mahmoud,Men,81kg,Clean & Jerk,2,182,FALSE,8,143,5 SEP 1993,KSA,A
+AL HUMAYD Mahmoud,Men,81kg,Clean & Jerk,3,183,FALSE,8,143,5 SEP 1993,KSA,A
+MUHAMMAD Hafizuddin Bin Roslin,Men,81kg,Clean & Jerk,1,175,TRUE,9,11,10 DEC 2004,MAS,A
+MUHAMMAD Hafizuddin Bin Roslin,Men,81kg,Clean & Jerk,2,183,FALSE,9,11,10 DEC 2004,MAS,A
+MUHAMMAD Hafizuddin Bin Roslin,Men,81kg,Clean & Jerk,3,183,FALSE,9,11,10 DEC 2004,MAS,A
+LOH Yuan Yee,Men,81kg,Clean & Jerk,1,160,TRUE,10,104,22 OCT 1998,SGP,A
+LOH Yuan Yee,Men,81kg,Clean & Jerk,2,170,TRUE,10,104,22 OCT 1998,SGP,A
+LOH Yuan Yee,Men,81kg,Clean & Jerk,3,175,FALSE,10,104,22 OCT 1998,SGP,A
+KOH Keith,Men,81kg,Clean & Jerk,1,140,TRUE,11,71,23 JUN 1996,SGP,A
+KOH Keith,Men,81kg,Clean & Jerk,2,145,TRUE,11,71,23 JUN 1996,SGP,A
+KOH Keith,Men,81kg,Clean & Jerk,3,150,FALSE,11,71,23 JUN 1996,SGP,A
+ALBLOOSHI Issa,Men,81kg,Clean & Jerk,1,,,,33,27 JUN 2001,UAE,A
+ALBLOOSHI Issa,Men,81kg,Clean & Jerk,2,,,,33,27 JUN 2001,UAE,A
+ALBLOOSHI Issa,Men,81kg,Clean & Jerk,3,,,,33,27 JUN 2001,UAE,A
+LI Dayin,Men,89kg,Snatch,1,170,TRUE,1,161,12 FEB 1998,CHN,A
+LI Dayin,Men,89kg,Snatch,2,176,TRUE,1,161,12 FEB 1998,CHN,A
+LI Dayin,Men,89kg,Snatch,3,,,1,161,12 FEB 1998,CHN,A
+RO Kwang Ryol,Men,89kg,Snatch,1,160,TRUE,2,61,30 APR 2001,PRK,A
+RO Kwang Ryol,Men,89kg,Snatch,2,165,TRUE,2,61,30 APR 2001,PRK,A
+RO Kwang Ryol,Men,89kg,Snatch,3,168,TRUE,2,61,30 APR 2001,PRK,A
+SHERER Yegor,Men,89kg,Snatch,1,150,TRUE,3,47,17 JUL 2003,KAZ,A
+SHERER Yegor,Men,89kg,Snatch,2,160,TRUE,3,47,17 JUL 2003,KAZ,A
+SHERER Yegor,Men,89kg,Snatch,3,165,TRUE,3,47,17 JUL 2003,KAZ,A
+YU Dongju,Men,89kg,Snatch,1,157,TRUE,4,158,19 AUG 1993,KOR,A
+YU Dongju,Men,89kg,Snatch,2,161,TRUE,4,158,19 AUG 1993,KOR,A
+YU Dongju,Men,89kg,Snatch,3,164,TRUE,4,158,19 AUG 1993,KOR,A
+PAN Yunhua,Men,89kg,Snatch,1,160,TRUE,5,141,23 NOV 2005,CHN,A
+PAN Yunhua,Men,89kg,Snatch,2,163,TRUE,5,141,23 NOV 2005,CHN,A
+PAN Yunhua,Men,89kg,Snatch,3,167,FALSE,5,141,23 NOV 2005,CHN,A
+BEKTAY Assylzhan,Men,89kg,Snatch,1,157,TRUE,6,160,10 FEB 2000,KAZ,A
+BEKTAY Assylzhan,Men,89kg,Snatch,2,162,FALSE,6,160,10 FEB 2000,KAZ,A
+BEKTAY Assylzhan,Men,89kg,Snatch,3,162,FALSE,6,160,10 FEB 2000,KAZ,A
+LIM Kang Yin,Men,89kg,Snatch,1,130,TRUE,7,58,29 NOV 1996,SGP,A
+LIM Kang Yin,Men,89kg,Snatch,2,130,TRUE,7,58,29 NOV 1996,SGP,A
+LIM Kang Yin,Men,89kg,Snatch,3,136,TRUE,7,58,29 NOV 1996,SGP,A
+AL-KHANJARI Amur Salim Ramadhan,Men,89kg,Snatch,1,157,FALSE,,48,16 OCT 2000,OMA,A
+AL-KHANJARI Amur Salim Ramadhan,Men,89kg,Snatch,2,157,FALSE,,48,16 OCT 2000,OMA,A
+AL-KHANJARI Amur Salim Ramadhan,Men,89kg,Snatch,3,157,FALSE,,48,16 OCT 2000,OMA,A
+PRANTO Md Shakayet Hossain,Men,89kg,Snatch,1,115,FALSE,,95,7 JUN 1997,BAN,A
+PRANTO Md Shakayet Hossain,Men,89kg,Snatch,2,115,FALSE,,95,7 JUN 1997,BAN,A
+PRANTO Md Shakayet Hossain,Men,89kg,Snatch,3,115,FALSE,,95,7 JUN 1997,BAN,A
+RO Kwang Ryol,Men,89kg,Clean & Jerk,1,210,TRUE,1,61,30 APR 2001,PRK,A
+RO Kwang Ryol,Men,89kg,Clean & Jerk,2,212,TRUE,1,61,30 APR 2001,PRK,A
+RO Kwang Ryol,Men,89kg,Clean & Jerk,3,219,FALSE,1,61,30 APR 2001,PRK,A
+PAN Yunhua,Men,89kg,Clean & Jerk,1,202,TRUE,2,141,23 NOV 2005,CHN,A
+PAN Yunhua,Men,89kg,Clean & Jerk,2,209,TRUE,2,141,23 NOV 2005,CHN,A
+PAN Yunhua,Men,89kg,Clean & Jerk,3,213,FALSE,2,141,23 NOV 2005,CHN,A
+LI Dayin,Men,89kg,Clean & Jerk,1,203,TRUE,3,161,12 FEB 1998,CHN,A
+LI Dayin,Men,89kg,Clean & Jerk,2,210,FALSE,3,161,12 FEB 1998,CHN,A
+LI Dayin,Men,89kg,Clean & Jerk,3,210,FALSE,3,161,12 FEB 1998,CHN,A
+AL-KHANJARI Amur Salim Ramadhan,Men,89kg,Clean & Jerk,1,191,TRUE,4,48,16 OCT 2000,OMA,A
+AL-KHANJARI Amur Salim Ramadhan,Men,89kg,Clean & Jerk,2,202,FALSE,4,48,16 OCT 2000,OMA,A
+AL-KHANJARI Amur Salim Ramadhan,Men,89kg,Clean & Jerk,3,203,FALSE,4,48,16 OCT 2000,OMA,A
+SHERER Yegor,Men,89kg,Clean & Jerk,1,170,TRUE,5,47,17 JUL 2003,KAZ,A
+SHERER Yegor,Men,89kg,Clean & Jerk,2,180,TRUE,5,47,17 JUL 2003,KAZ,A
+SHERER Yegor,Men,89kg,Clean & Jerk,3,185,FALSE,5,47,17 JUL 2003,KAZ,A
+LIM Kang Yin,Men,89kg,Clean & Jerk,1,160,TRUE,6,58,29 NOV 1996,SGP,A
+LIM Kang Yin,Men,89kg,Clean & Jerk,2,170,TRUE,6,58,29 NOV 1996,SGP,A
+LIM Kang Yin,Men,89kg,Clean & Jerk,3,175,TRUE,6,58,29 NOV 1996,SGP,A
+PRANTO Md Shakayet Hossain,Men,89kg,Clean & Jerk,1,140,TRUE,7,95,7 JUN 1997,BAN,A
+PRANTO Md Shakayet Hossain,Men,89kg,Clean & Jerk,2,140,TRUE,7,95,7 JUN 1997,BAN,A
+PRANTO Md Shakayet Hossain,Men,89kg,Clean & Jerk,3,145,TRUE,7,95,7 JUN 1997,BAN,A
+YU Dongju,Men,89kg,Clean & Jerk,1,200,FALSE,,158,19 AUG 1993,KOR,A
+YU Dongju,Men,89kg,Clean & Jerk,2,203,FALSE,,158,19 AUG 1993,KOR,A
+YU Dongju,Men,89kg,Clean & Jerk,3,203,FALSE,,158,19 AUG 1993,KOR,A
+BEKTAY Assylzhan,Men,89kg,Clean & Jerk,1,180,FALSE,,160,10 FEB 2000,KAZ,A
+BEKTAY Assylzhan,Men,89kg,Clean & Jerk,2,180,FALSE,,160,10 FEB 2000,KAZ,A
+BEKTAY Assylzhan,Men,89kg,Clean & Jerk,3,180,FALSE,,160,10 FEB 2000,KAZ,A
+MOEINI SEDEH Alireza,Men,96kg,Snatch,1,172,TRUE,1,14,28 FEB 2002,IRI,A
+MOEINI SEDEH Alireza,Men,96kg,Snatch,2,177,TRUE,1,14,28 FEB 2002,IRI,A
+MOEINI SEDEH Alireza,Men,96kg,Snatch,3,180,TRUE,1,14,28 FEB 2002,IRI,A
+ALIPOUR Ali,Men,96kg,Snatch,1,169,TRUE,2,140,26 NOV 2003,IRI,A
+ALIPOUR Ali,Men,96kg,Snatch,2,174,TRUE,2,140,26 NOV 2003,IRI,A
+ALIPOUR Ali,Men,96kg,Snatch,3,176,FALSE,2,140,26 NOV 2003,IRI,A
+QIAN Feixiang,Men,96kg,Snatch,1,168,TRUE,3,28,10 MAY 2003,CHN,A
+QIAN Feixiang,Men,96kg,Snatch,2,173,TRUE,3,28,10 MAY 2003,CHN,A
+QIAN Feixiang,Men,96kg,Snatch,3,176,FALSE,3,28,10 MAY 2003,CHN,A
+STAROVERKIN Kirill,Men,96kg,Snatch,1,155,TRUE,4,23,17 MAR 1998,KAZ,A
+STAROVERKIN Kirill,Men,96kg,Snatch,2,165,TRUE,4,23,17 MAR 1998,KAZ,A
+STAROVERKIN Kirill,Men,96kg,Snatch,3,171,TRUE,4,23,17 MAR 1998,KAZ,A
+SUMPRADIT Sarat,Men,96kg,Snatch,1,170,TRUE,5,117,17 APR 1994,THA,A
+SUMPRADIT Sarat,Men,96kg,Snatch,2,175,FALSE,5,117,17 APR 1994,THA,A
+SUMPRADIT Sarat,Men,96kg,Snatch,3,175,FALSE,5,117,17 APR 1994,THA,A
+WON Jongbeom,Men,96kg,Snatch,1,165,TRUE,6,120,11 JUL 1996,KOR,A
+WON Jongbeom,Men,96kg,Snatch,2,170,TRUE,6,120,11 JUL 1996,KOR,A
+WON Jongbeom,Men,96kg,Snatch,3,175,FALSE,6,120,11 JUL 1996,KOR,A
+HSIEN Meng-En,Men,96kg,Snatch,1,155,TRUE,7,50,31 MAY 2001,TPE,A
+HSIEN Meng-En,Men,96kg,Snatch,2,160,TRUE,7,50,31 MAY 2001,TPE,A
+HSIEN Meng-En,Men,96kg,Snatch,3,165,FALSE,7,50,31 MAY 2001,TPE,A
+ANNABERDIYEV Rustem,Men,96kg,Snatch,1,147,TRUE,8,112,18 APR 1999,TKM,A
+ANNABERDIYEV Rustem,Men,96kg,Snatch,2,152,TRUE,8,112,18 APR 1999,TKM,A
+ANNABERDIYEV Rustem,Men,96kg,Snatch,3,155,FALSE,8,112,18 APR 1999,TKM,A
+SINGH Dilbag,Men,96kg,Snatch,1,147,TRUE,9,8,13 OCT 2004,IND,A
+SINGH Dilbag,Men,96kg,Snatch,2,152,FALSE,9,8,13 OCT 2004,IND,A
+SINGH Dilbag,Men,96kg,Snatch,3,152,FALSE,9,8,13 OCT 2004,IND,A
+TUNG Matthew Jia Yuan,Men,96kg,Snatch,1,133,TRUE,10,109,14 JAN 2000,HKG,A
+TUNG Matthew Jia Yuan,Men,96kg,Snatch,2,138,TRUE,10,109,14 JAN 2000,HKG,A
+TUNG Matthew Jia Yuan,Men,96kg,Snatch,3,138,TRUE,10,109,14 JAN 2000,HKG,A
+OON Yuen Tzern,Men,96kg,Snatch,1,128,TRUE,11,15,12 MAY 1997,SGP,A
+OON Yuen Tzern,Men,96kg,Snatch,2,130,TRUE,11,15,12 MAY 1997,SGP,A
+OON Yuen Tzern,Men,96kg,Snatch,3,130,TRUE,11,15,12 MAY 1997,SGP,A
+PETROVICH Sergey,Men,96kg,Snatch,1,155,FALSE,,125,6 MAR 2001,KAZ,A
+PETROVICH Sergey,Men,96kg,Snatch,2,155,FALSE,,125,6 MAR 2001,KAZ,A
+PETROVICH Sergey,Men,96kg,Snatch,3,,,,125,6 MAR 2001,KAZ,A
+ALIPOUR Ali,Men,96kg,Clean & Jerk,1,210,TRUE,1,140,26 NOV 2003,IRI,A
+ALIPOUR Ali,Men,96kg,Clean & Jerk,2,216,TRUE,1,140,26 NOV 2003,IRI,A
+ALIPOUR Ali,Men,96kg,Clean & Jerk,3,,,1,140,26 NOV 2003,IRI,A
+WON Jongbeom,Men,96kg,Clean & Jerk,1,205,TRUE,2,120,11 JUL 1996,KOR,A
+WON Jongbeom,Men,96kg,Clean & Jerk,2,211,TRUE,2,120,11 JUL 1996,KOR,A
+WON Jongbeom,Men,96kg,Clean & Jerk,3,215,TRUE,2,120,11 JUL 1996,KOR,A
+QIAN Feixiang,Men,96kg,Clean & Jerk,1,201,TRUE,3,28,10 MAY 2003,CHN,A
+QIAN Feixiang,Men,96kg,Clean & Jerk,2,206,TRUE,3,28,10 MAY 2003,CHN,A
+QIAN Feixiang,Men,96kg,Clean & Jerk,3,207,TRUE,3,28,10 MAY 2003,CHN,A
+SUMPRADIT Sarat,Men,96kg,Clean & Jerk,1,202,TRUE,4,117,17 APR 1994,THA,A
+SUMPRADIT Sarat,Men,96kg,Clean & Jerk,2,206,TRUE,4,117,17 APR 1994,THA,A
+SUMPRADIT Sarat,Men,96kg,Clean & Jerk,3,208,FALSE,4,117,17 APR 1994,THA,A
+MOEINI SEDEH Alireza,Men,96kg,Clean & Jerk,1,196,TRUE,5,14,28 FEB 2002,IRI,A
+MOEINI SEDEH Alireza,Men,96kg,Clean & Jerk,2,203,TRUE,5,14,28 FEB 2002,IRI,A
+MOEINI SEDEH Alireza,Men,96kg,Clean & Jerk,3,206,FALSE,5,14,28 FEB 2002,IRI,A
+HSIEN Meng-En,Men,96kg,Clean & Jerk,1,195,TRUE,6,50,31 MAY 2001,TPE,A
+HSIEN Meng-En,Men,96kg,Clean & Jerk,2,195,TRUE,6,50,31 MAY 2001,TPE,A
+HSIEN Meng-En,Men,96kg,Clean & Jerk,3,200,FALSE,6,50,31 MAY 2001,TPE,A
+STAROVERKIN Kirill,Men,96kg,Clean & Jerk,1,185,TRUE,7,23,17 MAR 1998,KAZ,A
+STAROVERKIN Kirill,Men,96kg,Clean & Jerk,2,192,TRUE,7,23,17 MAR 1998,KAZ,A
+STAROVERKIN Kirill,Men,96kg,Clean & Jerk,3,197,FALSE,7,23,17 MAR 1998,KAZ,A
+SINGH Dilbag,Men,96kg,Clean & Jerk,1,182,TRUE,8,8,13 OCT 2004,IND,A
+SINGH Dilbag,Men,96kg,Clean & Jerk,2,187,TRUE,8,8,13 OCT 2004,IND,A
+SINGH Dilbag,Men,96kg,Clean & Jerk,3,192,TRUE,8,8,13 OCT 2004,IND,A
+ANNABERDIYEV Rustem,Men,96kg,Clean & Jerk,1,185,TRUE,9,112,18 APR 1999,TKM,A
+ANNABERDIYEV Rustem,Men,96kg,Clean & Jerk,2,190,TRUE,9,112,18 APR 1999,TKM,A
+ANNABERDIYEV Rustem,Men,96kg,Clean & Jerk,3,194,FALSE,9,112,18 APR 1999,TKM,A
+OON Yuen Tzern,Men,96kg,Clean & Jerk,1,152,TRUE,10,15,12 MAY 1997,SGP,A
+OON Yuen Tzern,Men,96kg,Clean & Jerk,2,152,TRUE,10,15,12 MAY 1997,SGP,A
+OON Yuen Tzern,Men,96kg,Clean & Jerk,3,160,FALSE,10,15,12 MAY 1997,SGP,A
+TUNG Matthew Jia Yuan,Men,96kg,Clean & Jerk,1,150,TRUE,11,109,14 JAN 2000,HKG,A
+TUNG Matthew Jia Yuan,Men,96kg,Clean & Jerk,2,158,FALSE,11,109,14 JAN 2000,HKG,A
+TUNG Matthew Jia Yuan,Men,96kg,Clean & Jerk,3,158,FALSE,11,109,14 JAN 2000,HKG,A
+PETROVICH Sergey,Men,96kg,Clean & Jerk,1,,,,125,6 MAR 2001,KAZ,A
+PETROVICH Sergey,Men,96kg,Clean & Jerk,2,,,,125,6 MAR 2001,KAZ,A
+PETROVICH Sergey,Men,96kg,Clean & Jerk,3,,,,125,6 MAR 2001,KAZ,A
+HASANBAYEV Davranbek,Men,102kg,Snatch,1,177,TRUE,1,100,24 DEC 2000,TKM,A
+HASANBAYEV Davranbek,Men,102kg,Snatch,2,182,TRUE,1,100,24 DEC 2000,TKM,A
+HASANBAYEV Davranbek,Men,102kg,Snatch,3,182,TRUE,1,100,24 DEC 2000,TKM,A
+LIU Huanhua,Men,102kg,Snatch,1,171,TRUE,2,31,20 AUG 2001,CHN,A
+LIU Huanhua,Men,102kg,Snatch,2,180,TRUE,2,31,20 AUG 2001,CHN,A
+LIU Huanhua,Men,102kg,Snatch,3,183,FALSE,2,31,20 AUG 2001,CHN,A
+ANTROPOV Artyom,Men,102kg,Snatch,1,165,TRUE,3,99,23 JAN 2000,KAZ,A
+ANTROPOV Artyom,Men,102kg,Snatch,2,165,TRUE,3,99,23 JAN 2000,KAZ,A
+ANTROPOV Artyom,Men,102kg,Snatch,3,170,FALSE,3,99,23 JAN 2000,KAZ,A
+AL GHAFEER Ezzeddin,Men,102kg,Snatch,1,153,TRUE,4,87,3 JUL 2000,UAE,A
+AL GHAFEER Ezzeddin,Men,102kg,Snatch,2,155,TRUE,4,87,3 JUL 2000,UAE,A
+AL GHAFEER Ezzeddin,Men,102kg,Snatch,3,160,FALSE,4,87,3 JUL 2000,UAE,A
+ALOTHMAN Ali,Men,102kg,Snatch,1,145,TRUE,5,94,16 JUN 2002,KSA,A
+ALOTHMAN Ali,Men,102kg,Snatch,2,150,TRUE,5,94,16 JUN 2002,KSA,A
+ALOTHMAN Ali,Men,102kg,Snatch,3,153,TRUE,5,94,16 JUN 2002,KSA,A
+MATYAKUBOV Shahzadbek,Men,102kg,Snatch,1,180,FALSE,,10,1 MAR 2004,TKM,A
+MATYAKUBOV Shahzadbek,Men,102kg,Snatch,2,182,FALSE,,10,1 MAR 2004,TKM,A
+MATYAKUBOV Shahzadbek,Men,102kg,Snatch,3,,,,10,1 MAR 2004,TKM,A
+CHEN Pojen,Men,102kg,Snatch,1,166,FALSE,,35,11 MAY 1998,TPE,A
+CHEN Pojen,Men,102kg,Snatch,2,166,FALSE,,35,11 MAY 1998,TPE,A
+CHEN Pojen,Men,102kg,Snatch,3,166,FALSE,,35,11 MAY 1998,TPE,A
+LIU Huanhua,Men,102kg,Clean & Jerk,1,220,TRUE,1,31,20 AUG 2001,CHN,A
+LIU Huanhua,Men,102kg,Clean & Jerk,2,230,TRUE,1,31,20 AUG 2001,CHN,A
+LIU Huanhua,Men,102kg,Clean & Jerk,3,234,FALSE,1,31,20 AUG 2001,CHN,A
+ANTROPOV Artyom,Men,102kg,Clean & Jerk,1,221,TRUE,2,99,23 JAN 2000,KAZ,A
+ANTROPOV Artyom,Men,102kg,Clean & Jerk,2,233,FALSE,2,99,23 JAN 2000,KAZ,A
+ANTROPOV Artyom,Men,102kg,Clean & Jerk,3,233,FALSE,2,99,23 JAN 2000,KAZ,A
+HASANBAYEV Davranbek,Men,102kg,Clean & Jerk,1,185,TRUE,3,100,24 DEC 2000,TKM,A
+HASANBAYEV Davranbek,Men,102kg,Clean & Jerk,2,195,TRUE,3,100,24 DEC 2000,TKM,A
+HASANBAYEV Davranbek,Men,102kg,Clean & Jerk,3,200,FALSE,3,100,24 DEC 2000,TKM,A
+ALOTHMAN Ali,Men,102kg,Clean & Jerk,1,187,TRUE,4,94,16 JUN 2002,KSA,A
+ALOTHMAN Ali,Men,102kg,Clean & Jerk,2,196,FALSE,4,94,16 JUN 2002,KSA,A
+ALOTHMAN Ali,Men,102kg,Clean & Jerk,3,196,FALSE,4,94,16 JUN 2002,KSA,A
+AL GHAFEER Ezzeddin,Men,102kg,Clean & Jerk,1,186,TRUE,5,87,3 JUL 2000,UAE,A
+AL GHAFEER Ezzeddin,Men,102kg,Clean & Jerk,2,196,FALSE,5,87,3 JUL 2000,UAE,A
+AL GHAFEER Ezzeddin,Men,102kg,Clean & Jerk,3,198,FALSE,5,87,3 JUL 2000,UAE,A
+MATYAKUBOV Shahzadbek,Men,102kg,Clean & Jerk,1,180,FALSE,,10,1 MAR 2004,TKM,A
+MATYAKUBOV Shahzadbek,Men,102kg,Clean & Jerk,2,180,FALSE,,10,1 MAR 2004,TKM,A
+MATYAKUBOV Shahzadbek,Men,102kg,Clean & Jerk,3,180,FALSE,,10,1 MAR 2004,TKM,A
+CHEN Pojen,Men,102kg,Clean & Jerk,1,,,,35,11 MAY 1998,TPE,A
+CHEN Pojen,Men,102kg,Clean & Jerk,2,,,,35,11 MAY 1998,TPE,A
+CHEN Pojen,Men,102kg,Clean & Jerk,3,,,,35,11 MAY 1998,TPE,A
+DJURAEV Akbar,Men,109kg,Snatch,1,180,TRUE,1,168,8 OCT 1999,UZB,A
+DJURAEV Akbar,Men,109kg,Snatch,2,183,TRUE,1,168,8 OCT 1999,UZB,A
+DJURAEV Akbar,Men,109kg,Snatch,3,189,FALSE,1,168,8 OCT 1999,UZB,A
+AMRIDDINOV Sharofiddin,Men,109kg,Snatch,1,173,TRUE,2,38,28 JUN 2002,UZB,A
+AMRIDDINOV Sharofiddin,Men,109kg,Snatch,2,177,TRUE,2,38,28 JUN 2002,UZB,A
+AMRIDDINOV Sharofiddin,Men,109kg,Snatch,3,181,TRUE,2,38,28 JUN 2002,UZB,A
+JANG Yeonhak,Men,109kg,Snatch,1,174,TRUE,3,150,14 FEB 1997,KOR,A
+JANG Yeonhak,Men,109kg,Snatch,2,178,TRUE,3,150,14 FEB 1997,KOR,A
+JANG Yeonhak,Men,109kg,Snatch,3,182,FALSE,3,150,14 FEB 1997,KOR,A
+ALKHAZAL Ali,Men,109kg,Snatch,1,169,TRUE,4,165,21 AUG 1998,KSA,A
+ALKHAZAL Ali,Men,109kg,Snatch,2,175,TRUE,4,165,21 AUG 1998,KSA,A
+ALKHAZAL Ali,Men,109kg,Snatch,3,175,TRUE,4,165,21 AUG 1998,KSA,A
+DONG Bing Cheng,Men,109kg,Snatch,1,163,TRUE,5,64,20 MAR 2000,TPE,A
+DONG Bing Cheng,Men,109kg,Snatch,2,168,TRUE,5,64,20 MAR 2000,TPE,A
+DONG Bing Cheng,Men,109kg,Snatch,3,171,FALSE,5,64,20 MAR 2000,TPE,A
+HAMADA Mohammed K H,Men,109kg,Snatch,1,161,TRUE,6,131,14 MAR 2002,PLE,A
+HAMADA Mohammed K H,Men,109kg,Snatch,2,161,TRUE,6,131,14 MAR 2002,PLE,A
+HAMADA Mohammed K H,Men,109kg,Snatch,3,166,TRUE,6,131,14 MAR 2002,PLE,A
+SEO Huiyeop,Men,109kg,Snatch,1,160,TRUE,7,82,29 FEB 1992,KOR,A
+SEO Huiyeop,Men,109kg,Snatch,2,160,TRUE,7,82,29 FEB 1992,KOR,A
+SEO Huiyeop,Men,109kg,Snatch,3,170,FALSE,7,82,29 FEB 1992,KOR,A
+ALSALLAJ Asem Mousa Husam,Men,109kg,Snatch,1,155,TRUE,8,22,10 JUN 2004,JOR,A
+ALSALLAJ Asem Mousa Husam,Men,109kg,Snatch,2,161,FALSE,8,22,10 JUN 2004,JOR,A
+ALSALLAJ Asem Mousa Husam,Men,109kg,Snatch,3,162,FALSE,8,22,10 JUN 2004,JOR,A
+DJURAEV Akbar,Men,109kg,Clean & Jerk,1,217,TRUE,1,168,8 OCT 1999,UZB,A
+DJURAEV Akbar,Men,109kg,Clean & Jerk,2,223,TRUE,1,168,8 OCT 1999,UZB,A
+DJURAEV Akbar,Men,109kg,Clean & Jerk,3,,,1,168,8 OCT 1999,UZB,A
+AMRIDDINOV Sharofiddin,Men,109kg,Clean & Jerk,1,205,TRUE,2,38,28 JUN 2002,UZB,A
+AMRIDDINOV Sharofiddin,Men,109kg,Clean & Jerk,2,211,TRUE,2,38,28 JUN 2002,UZB,A
+AMRIDDINOV Sharofiddin,Men,109kg,Clean & Jerk,3,214,TRUE,2,38,28 JUN 2002,UZB,A
+ALKHAZAL Ali,Men,109kg,Clean & Jerk,1,206,TRUE,3,165,21 AUG 1998,KSA,A
+ALKHAZAL Ali,Men,109kg,Clean & Jerk,2,212,TRUE,3,165,21 AUG 1998,KSA,A
+ALKHAZAL Ali,Men,109kg,Clean & Jerk,3,216,FALSE,3,165,21 AUG 1998,KSA,A
+JANG Yeonhak,Men,109kg,Clean & Jerk,1,209,TRUE,4,150,14 FEB 1997,KOR,A
+JANG Yeonhak,Men,109kg,Clean & Jerk,2,212,TRUE,4,150,14 FEB 1997,KOR,A
+JANG Yeonhak,Men,109kg,Clean & Jerk,3,218,FALSE,4,150,14 FEB 1997,KOR,A
+SEO Huiyeop,Men,109kg,Clean & Jerk,1,210,TRUE,5,82,29 FEB 1992,KOR,A
+SEO Huiyeop,Men,109kg,Clean & Jerk,2,215,FALSE,5,82,29 FEB 1992,KOR,A
+SEO Huiyeop,Men,109kg,Clean & Jerk,3,215,FALSE,5,82,29 FEB 1992,KOR,A
+DONG Bing Cheng,Men,109kg,Clean & Jerk,1,200,TRUE,6,64,20 MAR 2000,TPE,A
+DONG Bing Cheng,Men,109kg,Clean & Jerk,2,200,TRUE,6,64,20 MAR 2000,TPE,A
+DONG Bing Cheng,Men,109kg,Clean & Jerk,3,207,FALSE,6,64,20 MAR 2000,TPE,A
+ALSALLAJ Asem Mousa Husam,Men,109kg,Clean & Jerk,1,190,TRUE,7,22,10 JUN 2004,JOR,A
+ALSALLAJ Asem Mousa Husam,Men,109kg,Clean & Jerk,2,197,FALSE,7,22,10 JUN 2004,JOR,A
+ALSALLAJ Asem Mousa Husam,Men,109kg,Clean & Jerk,3,197,FALSE,7,22,10 JUN 2004,JOR,A
+HAMADA Mohammed K H,Men,109kg,Clean & Jerk,1,185,TRUE,8,131,14 MAR 2002,PLE,A
+HAMADA Mohammed K H,Men,109kg,Clean & Jerk,2,195,FALSE,8,131,14 MAR 2002,PLE,A
+HAMADA Mohammed K H,Men,109kg,Clean & Jerk,3,195,FALSE,8,131,14 MAR 2002,PLE,A
+HWANG Wooman,Men,109kg,Clean & Jerk,1,186,TRUE,1,162,12 JUL 1995,KOR,A
+HWANG Wooman,Men,109kg,Clean & Jerk,2,192,TRUE,1,162,12 JUL 1995,KOR,A
+HWANG Wooman,Men,109kg,Clean & Jerk,3,196,TRUE,1,162,12 JUL 1995,KOR,A
+SHARIFIKELARIJANI Ayat,Men,109kg,Clean & Jerk,1,185,TRUE,2,155,5 DEC 2000,IRI,A
+SHARIFIKELARIJANI Ayat,Men,109kg,Clean & Jerk,2,191,TRUE,2,155,5 DEC 2000,IRI,A
+SHARIFIKELARIJANI Ayat,Men,109kg,Clean & Jerk,3,195,TRUE,2,155,5 DEC 2000,IRI,A
+ABDULLAEV Amir,Men,109kg,Clean & Jerk,1,175,TRUE,3,13,9 JUL 2004,UZB,A
+ABDULLAEV Amir,Men,109kg,Clean & Jerk,2,178,TRUE,3,13,9 JUL 2004,UZB,A
+ABDULLAEV Amir,Men,109kg,Clean & Jerk,3,182,TRUE,3,13,9 JUL 2004,UZB,A
+ALNAJJAR M Moayad,Men,109kg,Clean & Jerk,1,168,TRUE,4,57,22 FEB 2000,UAE,A
+ALNAJJAR M Moayad,Men,109kg,Clean & Jerk,2,177,TRUE,4,57,22 FEB 2000,UAE,A
+ALNAJJAR M Moayad,Men,109kg,Clean & Jerk,3,181,FALSE,4,57,22 FEB 2000,UAE,A
+LEE Yangjae,Men,109kg,Clean & Jerk,1,176,TRUE,5,122,21 JUN 1995,KOR,A
+LEE Yangjae,Men,109kg,Clean & Jerk,2,176,TRUE,5,122,21 JUN 1995,KOR,A
+LEE Yangjae,Men,109kg,Clean & Jerk,3,176,TRUE,5,122,21 JUN 1995,KOR,A
+GHAFUROV Akbarzhon,Men,109kg,Clean & Jerk,1,116,TRUE,6,108,17 AUG 2001,TJK,A
+GHAFUROV Akbarzhon,Men,109kg,Clean & Jerk,2,121,TRUE,6,108,17 AUG 2001,TJK,A
+GHAFUROV Akbarzhon,Men,109kg,Clean & Jerk,3,126,FALSE,6,108,17 AUG 2001,TJK,A
+SHARIFIKELARIJANI Ayat,Men,109kg,Clean & Jerk,1,227,TRUE,1,155,5 DEC 2000,IRI,A
+SHARIFIKELARIJANI Ayat,Men,109kg,Clean & Jerk,2,235,FALSE,1,155,5 DEC 2000,IRI,A
+SHARIFIKELARIJANI Ayat,Men,109kg,Clean & Jerk,3,,,1,155,5 DEC 2000,IRI,A
+HWANG Wooman,Men,109kg,Clean & Jerk,1,225,TRUE,2,162,12 JUL 1995,KOR,A
+HWANG Wooman,Men,109kg,Clean & Jerk,2,230,FALSE,2,162,12 JUL 1995,KOR,A
+HWANG Wooman,Men,109kg,Clean & Jerk,3,230,FALSE,2,162,12 JUL 1995,KOR,A
+LEE Yangjae,Men,109kg,Clean & Jerk,1,220,TRUE,3,122,21 JUN 1995,KOR,A
+LEE Yangjae,Men,109kg,Clean & Jerk,2,220,TRUE,3,122,21 JUN 1995,KOR,A
+LEE Yangjae,Men,109kg,Clean & Jerk,3,230,FALSE,3,122,21 JUN 1995,KOR,A
+ALNAJJAR M Moayad,Men,109kg,Clean & Jerk,1,213,TRUE,4,57,22 FEB 2000,UAE,A
+ALNAJJAR M Moayad,Men,109kg,Clean & Jerk,2,220,FALSE,4,57,22 FEB 2000,UAE,A
+ALNAJJAR M Moayad,Men,109kg,Clean & Jerk,3,220,FALSE,4,57,22 FEB 2000,UAE,A
+ABDULLAEV Amir,Men,109kg,Clean & Jerk,1,205,TRUE,5,13,9 JUL 2004,UZB,A
+ABDULLAEV Amir,Men,109kg,Clean & Jerk,2,213,TRUE,5,13,9 JUL 2004,UZB,A
+ABDULLAEV Amir,Men,109kg,Clean & Jerk,3,,,5,13,9 JUL 2004,UZB,A
+GHAFUROV Akbarzhon,Men,109kg,Clean & Jerk,1,145,TRUE,6,108,17 AUG 2001,TJK,A
+GHAFUROV Akbarzhon,Men,109kg,Clean & Jerk,2,148,TRUE,6,108,17 AUG 2001,TJK,A
+GHAFUROV Akbarzhon,Men,109kg,Clean & Jerk,3,150,FALSE,6,108,17 AUG 2001,TJK,A

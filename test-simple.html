@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test App</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            background: #000; 
+            color: #fff; 
+        }
+        .test { 
+            padding: 20px; 
+            border: 1px solid #333; 
+            margin: 10px 0; 
+            border-radius: 8px; 
+        }
+        .success { border-color: #4CAF50; background: #1B5E20; }
+        .error { border-color: #f44336; background: #B71C1C; }
+    </style>
+</head>
+<body>
+    <h1>GoodLifting App Test</h1>
+    
+    <div class="test">
+        <h3>Test 1: Basic HTML Loading</h3>
+        <p>✅ HTML is loading correctly</p>
+    </div>
+    
+    <div class="test">
+        <h3>Test 2: JavaScript Loading</h3>
+        <p id="js-test">⏳ Testing JavaScript...</p>
+    </div>
+    
+    <div class="test">
+        <h3>Test 3: Data Service</h3>
+        <p id="data-test">⏳ Testing data service...</p>
+    </div>
+    
+    <div class="test">
+        <h3>Test 4: React App</h3>
+        <p id="react-test">⏳ Testing React app...</p>
+    </div>
+    
+    <script>
+        // Test 2: JavaScript
+        document.getElementById('js-test').innerHTML = '✅ JavaScript is working';
+        
+        // Test 3: Data Service
+        try {
+            // This will test if the data service can be imported
+            import('/src/services/dataService.js').then(module => {
+                document.getElementById('data-test').innerHTML = '✅ Data service loaded successfully';
+            }).catch(err => {
+                document.getElementById('data-test').innerHTML = '❌ Data service failed: ' + err.message;
+            });
+        } catch (err) {
+            document.getElementById('data-test').innerHTML = '❌ Data service error: ' + err.message;
+        }
+        
+        // Test 4: React App
+        setTimeout(() => {
+            const root = document.getElementById('root');
+            if (root && root.children.length > 0) {
+                document.getElementById('react-test').innerHTML = '✅ React app is rendering';
+            } else {
+                document.getElementById('react-test').innerHTML = '❌ React app not rendering';
+            }
+        }, 2000);
+    </script>
+    
+    <div style="margin-top: 20px;">
+        <a href="http://localhost:5173/" style="color: #4CAF50;">← Back to Main App</a>
+    </div>
+</body>
+</html>
+
+
+
